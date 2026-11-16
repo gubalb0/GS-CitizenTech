@@ -1,0 +1,41 @@
+texto,categoria
+"Boa tarde, queria ver um horário com a médica da equipe para esta semana.",agendamento_consulta
+"Preciso de atendimento com ortopedista, como solicito pelo posto?",agendamento_consulta
+"Quero marcar retorno com a nutricionista da unidade.",agendamento_consulta
+"Meu pai precisa de consulta urgente de rotina para avaliar o diabetes, tem vaga?",agendamento_consulta
+"Gostaria de agendar uma consulta de puericultura para meu bebê de 3 meses.",agendamento_consulta
+"Minha filha precisa tomar a vacina da meningite, vocês aplicam?",vacinacao
+"Onde posso tomar a dose de reforço contra a gripe?",vacinacao
+"Quero conferir se minha carteira de vacinação está em dia.",vacinacao
+"A campanha de vacina contra a poliomielite vai até quando?",vacinacao
+"Vocês têm a vacina da hepatite B para adultos?",vacinacao
+"Acabou o remédio de colesterol da minha mãe na farmácia popular da unidade.",medicamentos
+"Como consigo pegar o inalador para meu filho asmático?",medicamentos
+"A receita médica do meu marido está vencida, onde troco para pegar os comprimidos?",medicamentos
+"Estão faltando analgésicos na farmácia do posto há dias.",medicamentos
+"Preciso retirar a pílula do mês, quais os dias de entrega?",medicamentos
+"Já faz um mês e não chegou o resultado do meu hemograma.",exames_resultados
+"Quero marcar um raio-x de tórax solicitado pela doutora.",exames_resultados
+"Onde retiro o laudo da ultrassom obstétrica?",exames_resultados
+"Preciso do resultado do exame de fezes do meu neto.",exames_resultados
+"O encaminhamento para a ressonância magnética nunca foi liberado.",exames_resultados
+"Minha vó não anda mais e precisa que alguém da equipe vá até a casa dela.",visita_domiciliar
+"Quero receber a visita do agente de saúde para atualizar os dados da casa.",visita_domiciliar
+"Pedimos acompanhamento em domicílio para uma paciente com sequelas de AVC.",visita_domiciliar
+"Estou acamado após cirurgia e preciso de troca de curativo aqui em casa.",visita_domiciliar
+"A agente de saúde da nossa rua mudou e ninguém mais visita as famílias.",visita_domiciliar
+"Os funcionários da recepção foram muito rudes comigo hoje.",reclamacao_atendimento
+"Estou há horas aguardando e nenhum profissional chamou meu nome.",reclamacao_atendimento
+"A UBS não abriu hoje e não colocaram nenhum aviso na porta.",reclamacao_atendimento
+"Quero reclamar da superlotação da sala de espera.",reclamacao_atendimento
+"O médico só olhou para o computador e não me examinou.",reclamacao_atendimento
+"Qual o telefone da unidade para falar com a recepção?",informacoes_gerais
+"Preciso saber se o posto abre na hora do almoço.",informacoes_gerais
+"O que é necessário para fazer o cadastro de uma criança na UBS?",informacoes_gerais
+"Posso levar um acompanhante nas consultas?",informacoes_gerais
+"Qual posto atende o bairro Vila Nova?",informacoes_gerais
+"Minha mãe está passando mal, com dor forte no peito e suor frio.",sintomas_urgentes
+"Meu filho bateu a cabeça, vomitou e está sonolento demais.",sintomas_urgentes
+"Estou grávida e com sangramento e cólicas fortes agora.",sintomas_urgentes
+"Um senhor aqui na rua está desacordado e quase sem respirar.",sintomas_urgentes
+"Criança de um ano com febre de 40 graus e não acorda direito.",sintomas_urgentes

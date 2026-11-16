@@ -1,0 +1,886 @@
+{
+  "congelamento_ok": true,
+  "resultados": [
+    {
+      "nome": "teste1",
+      "n": 80,
+      "classes": [
+        "agendamento_consulta",
+        "exames_resultados",
+        "informacoes_gerais",
+        "medicamentos",
+        "reclamacao_atendimento",
+        "sintomas_urgentes",
+        "vacinacao",
+        "visita_domiciliar"
+      ],
+      "acuracia_ia": 0.875,
+      "matriz_confusao": [
+        [
+          8,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          7,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "por_classe": {
+        "agendamento_consulta": {
+          "precisao": 0.889,
+          "recall": 0.8,
+          "f1": 0.842,
+          "n": 10
+        },
+        "exames_resultados": {
+          "precisao": 0.889,
+          "recall": 0.8,
+          "f1": 0.842,
+          "n": 10
+        },
+        "informacoes_gerais": {
+          "precisao": 0.875,
+          "recall": 0.7,
+          "f1": 0.778,
+          "n": 10
+        },
+        "medicamentos": {
+          "precisao": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "n": 10
+        },
+        "reclamacao_atendimento": {
+          "precisao": 0.818,
+          "recall": 0.9,
+          "f1": 0.857,
+          "n": 10
+        },
+        "sintomas_urgentes": {
+          "precisao": 0.909,
+          "recall": 1.0,
+          "f1": 0.952,
+          "n": 10
+        },
+        "vacinacao": {
+          "precisao": 0.909,
+          "recall": 1.0,
+          "f1": 0.952,
+          "n": 10
+        },
+        "visita_domiciliar": {
+          "precisao": 0.909,
+          "recall": 1.0,
+          "f1": 0.952,
+          "n": 10
+        }
+      },
+      "pares_confundidos": [
+        [
+          "informacoes_gerais",
+          "reclamacao_atendimento",
+          2
+        ],
+        [
+          "agendamento_consulta",
+          "informacoes_gerais",
+          1
+        ],
+        [
+          "agendamento_consulta",
+          "sintomas_urgentes",
+          1
+        ],
+        [
+          "medicamentos",
+          "vacinacao",
+          1
+        ],
+        [
+          "medicamentos",
+          "visita_domiciliar",
+          1
+        ],
+        [
+          "exames_resultados",
+          "agendamento_consulta",
+          1
+        ],
+        [
+          "exames_resultados",
+          "medicamentos",
+          1
+        ],
+        [
+          "reclamacao_atendimento",
+          "medicamentos",
+          1
+        ],
+        [
+          "informacoes_gerais",
+          "exames_resultados",
+          1
+        ]
+      ],
+      "automaticos": 57,
+      "erros_automaticos": 6,
+      "taxa_erro_automatico": 0.1053,
+      "revisao_humana": 23,
+      "revisao_humana_ja_corretos": 19,
+      "erros_automaticos_detalhe": [
+        {
+          "texto": "Como posso agendar um horário com a ginecologista do posto?",
+          "esperado": "agendamento_consulta",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.6
+        },
+        {
+          "texto": "O antibiótico prescrito não está disponível na unidade.",
+          "esperado": "medicamentos",
+          "obtido": "vacinacao",
+          "confianca": 0.51
+        },
+        {
+          "texto": "Preciso marcar uma ultrassonografia pedida pelo médico.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.93
+        },
+        {
+          "texto": "Como faço para buscar o laudo da mamografia?",
+          "esperado": "exames_resultados",
+          "obtido": "medicamentos",
+          "confianca": 0.51
+        },
+        {
+          "texto": "Vocês atendem sem agendamento ou tenho que ir cedo?",
+          "esperado": "informacoes_gerais",
+          "obtido": "reclamacao_atendimento",
+          "confianca": 0.45
+        },
+        {
+          "texto": "A unidade tem atendimento de fisioterapia?",
+          "esperado": "informacoes_gerais",
+          "obtido": "reclamacao_atendimento",
+          "confianca": 0.77
+        }
+      ],
+      "urgencias": 10,
+      "urgencias_com_alta_e_humano": 10,
+      "urgencias_NAO_protegidas": [],
+      "nao_urgentes_marcados_alta": 1,
+      "faixas_confianca": {
+        "[0,0.3)": {
+          "n": 3,
+          "acuracia": 0.33
+        },
+        "[0.3,0.45)": {
+          "n": 10,
+          "acuracia": 0.9
+        },
+        "[0.45,0.6)": {
+          "n": 11,
+          "acuracia": 0.64
+        },
+        "[0.6,0.8)": {
+          "n": 14,
+          "acuracia": 0.86
+        },
+        "[0.8,1.01)": {
+          "n": 42,
+          "acuracia": 0.98
+        }
+      }
+    },
+    {
+      "nome": "teste2",
+      "n": 40,
+      "classes": [
+        "agendamento_consulta",
+        "exames_resultados",
+        "informacoes_gerais",
+        "medicamentos",
+        "reclamacao_atendimento",
+        "sintomas_urgentes",
+        "vacinacao",
+        "visita_domiciliar"
+      ],
+      "acuracia_ia": 0.825,
+      "matriz_confusao": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4
+        ]
+      ],
+      "por_classe": {
+        "agendamento_consulta": {
+          "precisao": 0.625,
+          "recall": 1.0,
+          "f1": 0.769,
+          "n": 5
+        },
+        "exames_resultados": {
+          "precisao": 1.0,
+          "recall": 0.8,
+          "f1": 0.889,
+          "n": 5
+        },
+        "informacoes_gerais": {
+          "precisao": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "n": 5
+        },
+        "medicamentos": {
+          "precisao": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "n": 5
+        },
+        "reclamacao_atendimento": {
+          "precisao": 1.0,
+          "recall": 0.8,
+          "f1": 0.889,
+          "n": 5
+        },
+        "sintomas_urgentes": {
+          "precisao": 0.667,
+          "recall": 0.8,
+          "f1": 0.727,
+          "n": 5
+        },
+        "vacinacao": {
+          "precisao": 0.833,
+          "recall": 1.0,
+          "f1": 0.909,
+          "n": 5
+        },
+        "visita_domiciliar": {
+          "precisao": 1.0,
+          "recall": 0.8,
+          "f1": 0.889,
+          "n": 5
+        }
+      },
+      "pares_confundidos": [
+        [
+          "medicamentos",
+          "agendamento_consulta",
+          1
+        ],
+        [
+          "exames_resultados",
+          "agendamento_consulta",
+          1
+        ],
+        [
+          "visita_domiciliar",
+          "sintomas_urgentes",
+          1
+        ],
+        [
+          "reclamacao_atendimento",
+          "agendamento_consulta",
+          1
+        ],
+        [
+          "informacoes_gerais",
+          "medicamentos",
+          1
+        ],
+        [
+          "informacoes_gerais",
+          "sintomas_urgentes",
+          1
+        ],
+        [
+          "sintomas_urgentes",
+          "vacinacao",
+          1
+        ]
+      ],
+      "automaticos": 27,
+      "erros_automaticos": 3,
+      "taxa_erro_automatico": 0.1111,
+      "revisao_humana": 13,
+      "revisao_humana_ja_corretos": 9,
+      "erros_automaticos_detalhe": [
+        {
+          "texto": "Como consigo pegar o inalador para meu filho asmático?",
+          "esperado": "medicamentos",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.62
+        },
+        {
+          "texto": "O médico só olhou para o computador e não me examinou.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.52
+        },
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "vacinacao",
+          "confianca": 0.67
+        }
+      ],
+      "urgencias": 5,
+      "urgencias_com_alta_e_humano": 4,
+      "urgencias_NAO_protegidas": [
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "obtido": "vacinacao",
+          "confianca": 0.67,
+          "status": "encaminhado"
+        }
+      ],
+      "nao_urgentes_marcados_alta": 2,
+      "faixas_confianca": {
+        "[0,0.3)": {
+          "n": 1,
+          "acuracia": 1.0
+        },
+        "[0.3,0.45)": {
+          "n": 9,
+          "acuracia": 0.56
+        },
+        "[0.45,0.6)": {
+          "n": 6,
+          "acuracia": 0.83
+        },
+        "[0.6,0.8)": {
+          "n": 6,
+          "acuracia": 0.67
+        },
+        "[0.8,1.01)": {
+          "n": 18,
+          "acuracia": 1.0
+        }
+      }
+    },
+    {
+      "nome": "combinado",
+      "n": 120,
+      "classes": [
+        "agendamento_consulta",
+        "exames_resultados",
+        "informacoes_gerais",
+        "medicamentos",
+        "reclamacao_atendimento",
+        "sintomas_urgentes",
+        "vacinacao",
+        "visita_domiciliar"
+      ],
+      "acuracia_ia": 0.8583,
+      "matriz_confusao": [
+        [
+          13,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          12,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          10,
+          1,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          14
+        ]
+      ],
+      "por_classe": {
+        "agendamento_consulta": {
+          "precisao": 0.765,
+          "recall": 0.867,
+          "f1": 0.812,
+          "n": 15
+        },
+        "exames_resultados": {
+          "precisao": 0.923,
+          "recall": 0.8,
+          "f1": 0.857,
+          "n": 15
+        },
+        "informacoes_gerais": {
+          "precisao": 0.909,
+          "recall": 0.667,
+          "f1": 0.769,
+          "n": 15
+        },
+        "medicamentos": {
+          "precisao": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "n": 15
+        },
+        "reclamacao_atendimento": {
+          "precisao": 0.867,
+          "recall": 0.867,
+          "f1": 0.867,
+          "n": 15
+        },
+        "sintomas_urgentes": {
+          "precisao": 0.824,
+          "recall": 0.933,
+          "f1": 0.875,
+          "n": 15
+        },
+        "vacinacao": {
+          "precisao": 0.882,
+          "recall": 1.0,
+          "f1": 0.938,
+          "n": 15
+        },
+        "visita_domiciliar": {
+          "precisao": 0.933,
+          "recall": 0.933,
+          "f1": 0.933,
+          "n": 15
+        }
+      },
+      "pares_confundidos": [
+        [
+          "exames_resultados",
+          "agendamento_consulta",
+          2
+        ],
+        [
+          "informacoes_gerais",
+          "reclamacao_atendimento",
+          2
+        ],
+        [
+          "agendamento_consulta",
+          "informacoes_gerais",
+          1
+        ],
+        [
+          "agendamento_consulta",
+          "sintomas_urgentes",
+          1
+        ],
+        [
+          "medicamentos",
+          "vacinacao",
+          1
+        ],
+        [
+          "medicamentos",
+          "visita_domiciliar",
+          1
+        ],
+        [
+          "exames_resultados",
+          "medicamentos",
+          1
+        ],
+        [
+          "reclamacao_atendimento",
+          "medicamentos",
+          1
+        ],
+        [
+          "informacoes_gerais",
+          "exames_resultados",
+          1
+        ],
+        [
+          "medicamentos",
+          "agendamento_consulta",
+          1
+        ],
+        [
+          "visita_domiciliar",
+          "sintomas_urgentes",
+          1
+        ],
+        [
+          "reclamacao_atendimento",
+          "agendamento_consulta",
+          1
+        ],
+        [
+          "informacoes_gerais",
+          "medicamentos",
+          1
+        ],
+        [
+          "informacoes_gerais",
+          "sintomas_urgentes",
+          1
+        ],
+        [
+          "sintomas_urgentes",
+          "vacinacao",
+          1
+        ]
+      ],
+      "automaticos": 84,
+      "erros_automaticos": 9,
+      "taxa_erro_automatico": 0.1071,
+      "revisao_humana": 36,
+      "revisao_humana_ja_corretos": 28,
+      "erros_automaticos_detalhe": [
+        {
+          "texto": "Como posso agendar um horário com a ginecologista do posto?",
+          "esperado": "agendamento_consulta",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.6
+        },
+        {
+          "texto": "O antibiótico prescrito não está disponível na unidade.",
+          "esperado": "medicamentos",
+          "obtido": "vacinacao",
+          "confianca": 0.51
+        },
+        {
+          "texto": "Preciso marcar uma ultrassonografia pedida pelo médico.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.93
+        },
+        {
+          "texto": "Como faço para buscar o laudo da mamografia?",
+          "esperado": "exames_resultados",
+          "obtido": "medicamentos",
+          "confianca": 0.51
+        },
+        {
+          "texto": "Vocês atendem sem agendamento ou tenho que ir cedo?",
+          "esperado": "informacoes_gerais",
+          "obtido": "reclamacao_atendimento",
+          "confianca": 0.45
+        },
+        {
+          "texto": "A unidade tem atendimento de fisioterapia?",
+          "esperado": "informacoes_gerais",
+          "obtido": "reclamacao_atendimento",
+          "confianca": 0.77
+        },
+        {
+          "texto": "Como consigo pegar o inalador para meu filho asmático?",
+          "esperado": "medicamentos",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.62
+        },
+        {
+          "texto": "O médico só olhou para o computador e não me examinou.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.52
+        },
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "vacinacao",
+          "confianca": 0.67
+        }
+      ],
+      "urgencias": 15,
+      "urgencias_com_alta_e_humano": 14,
+      "urgencias_NAO_protegidas": [
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "obtido": "vacinacao",
+          "confianca": 0.67,
+          "status": "encaminhado"
+        }
+      ],
+      "nao_urgentes_marcados_alta": 3,
+      "faixas_confianca": {
+        "[0,0.3)": {
+          "n": 4,
+          "acuracia": 0.5
+        },
+        "[0.3,0.45)": {
+          "n": 19,
+          "acuracia": 0.74
+        },
+        "[0.45,0.6)": {
+          "n": 17,
+          "acuracia": 0.71
+        },
+        "[0.6,0.8)": {
+          "n": 20,
+          "acuracia": 0.8
+        },
+        "[0.8,1.01)": {
+          "n": 60,
+          "acuracia": 0.98
+        }
+      }
+    }
+  ],
+  "sondagem_qualitativa": [
+    {
+      "texto": "meu pai nao esta respirando",
+      "categoria": "sintomas_urgentes",
+      "confianca": 0.84,
+      "prioridade": "alta",
+      "status": "revisao_humana"
+    },
+    {
+      "texto": "acho que minha mae esta tendo um infarto",
+      "categoria": "visita_domiciliar",
+      "confianca": 0.51,
+      "prioridade": "normal",
+      "status": "encaminhado"
+    },
+    {
+      "texto": "suspeita de avc, braco dormente",
+      "categoria": "sintomas_urgentes",
+      "confianca": 0.67,
+      "prioridade": "alta",
+      "status": "revisao_humana"
+    },
+    {
+      "texto": "crianca engoliu um produto de limpeza",
+      "categoria": "sintomas_urgentes",
+      "confianca": 0.72,
+      "prioridade": "alta",
+      "status": "revisao_humana"
+    },
+    {
+      "texto": "tentativa de suicidio de um familiar",
+      "categoria": "visita_domiciliar",
+      "confianca": 0.57,
+      "prioridade": "normal",
+      "status": "encaminhado"
+    },
+    {
+      "texto": "nao tenho dor no peito, so quero marcar consulta",
+      "categoria": "agendamento_consulta",
+      "confianca": 0.93,
+      "prioridade": "alta",
+      "status": "revisao_humana"
+    },
+    {
+      "texto": "estou me sentindo muito mal e sozinho, sem esperanca",
+      "categoria": "sintomas_urgentes",
+      "confianca": 0.4,
+      "prioridade": "alta",
+      "status": "revisao_humana"
+    },
+    {
+      "texto": "gestante sem sentir o bebe mexer desde ontem",
+      "categoria": "sintomas_urgentes",
+      "confianca": 0.58,
+      "prioridade": "alta",
+      "status": "revisao_humana"
+    }
+  ]
+}

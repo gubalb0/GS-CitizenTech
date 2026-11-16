@@ -1,0 +1,4 @@
+﻿id,origem,motivo
+S015,solicitacoes_lote1.csv,cep_invalido
+S016,solicitacoes_lote1.csv,texto_vazio
+S017,solicitacoes_lote1.csv,texto_curto_demais

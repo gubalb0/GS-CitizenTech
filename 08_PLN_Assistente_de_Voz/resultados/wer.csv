@@ -1,0 +1,41 @@
+modelo,arquivo,wer,segundos,referencia,hipotese
+base,voz1_audio1.ogg,0.8,1.09,"Comprei um celular pela internet e me arrependi, posso devolver?",Compreço o LARP pela internet e me repie em de pós-devouver.
+base,voz1_audio2.ogg,0.375,1.1,Qual o prazo de garantia de um eletrodoméstico?,Qual o prazo de garantia de um elétro do mestre?
+base,voz1_audio3.ogg,0.455,0.92,"Comprei um alimento estragado no mercado, qual o prazo para reclamar?","Compriu a lignite estragada no mercado, qual o prazo pra reclamar?"
+base,voz1_audio4.ogg,0.5,0.92,"Meu produto novo veio com defeito, o que a loja deve fazer?","Eu produto não ouvi o que o defeito, o que a loja deve fazer."
+base,voz1_audio5.ogg,0.167,0.94,"A loja não consertou meu produto no prazo, quais são minhas opções?",A loja não consertou a produtura no prazo. Quais são minhas opções?
+base,voz1_audio6.ogg,0.4,1.08,"Fui cobrado duas vezes na fatura, tenho direito a algo?","E cobrado duas vezes na fatura, ter direita algo."
+base,voz1_audio7.ogg,0.538,1.06,"A propaganda prometia uma coisa e o produto é outra, isso é permitido?","A propaganda prometiu uma coisa produtéia, outro que se é permitido."
+base,voz2_audio1.ogg,0.0,0.95,Onde posso registrar uma reclamação contra uma empresa de graça?,onde posso registrar uma reclamação contra uma empresa de graça.
+base,voz2_audio2.ogg,0.182,0.95,"Meu nome foi negativado sem eu dever nada, o que fazer?",O nome foi negativado sem eu ver nada. O que fazer?
+base,voz2_audio3.ogg,0.333,0.95,Qual a diferença entre garantia legal e garantia contratual?,Qual a diferença entre garantia e garantia do contrato?
+base,voz2_audio4.ogg,0.364,1.04,"Minha geladeira quebrou e é essencial, preciso esperar os trinta dias?",A minha geladeira quebrou e essencial preciso esperar 30 dias.
+base,voz2_audio5.ogg,0.1,0.93,Quais documentos eu preciso guardar para reclamar de uma compra?,Quais os documentos eu preciso guardar para reclamar de uma compra?
+base,voz2_audio6.ogg,0.0,0.89,Posso processar uma empresa sem advogado?,Posso processar uma empresa sem advogado?
+base,voz2_audio7.ogg,0.1,0.93,"Não tenho dinheiro para advogado, onde consigo ajuda jurídica gratuita?",Não tenho dinheiro para divulgador onde consigo ajuda jurídica gratuita.
+base,voz3_audio1.ogg,0.083,0.99,O arrependimento de sete dias vale para compra feita na loja física?,"O rependimento de sete dias vale para compra, feita na loja física."
+base,voz3_audio2.ogg,0.667,1.11,A devolução do dinheiro na desistência inclui o frete?,São do dinheiro na distensa em Cruio Fletes.
+base,voz3_audio3.ogg,0.167,0.86,O que é vício do produto?,O que é vicio do produto?
+base,voz3_audio4.ogg,0.062,0.99,"A empresa cobrou uma taxa que eu não reconheço na conta de telefone, o que faço?",A empresa cobrou a taxa que eu não reconheço na conta de telefone. O que faço?
+base,voz3_audio5.ogg,0.714,0.89,Qual lei protege o consumidor no Brasil?,Qual é a mesma protegem ao consumidor no Brasil?
+base,voz3_audio6.ogg,0.667,0.94,O Procon pode punir a empresa?,O... o... o... o qual pode punir a empresa?
+small,voz1_audio1.ogg,0.3,2.57,"Comprei um celular pela internet e me arrependi, posso devolver?",Comprei o celular pela internet me arrependi e posso devolver?
+small,voz1_audio2.ogg,0.125,2.55,Qual o prazo de garantia de um eletrodoméstico?,Qual o prazo de garantia de um eletroedromédico?
+small,voz1_audio3.ogg,0.455,2.83,"Comprei um alimento estragado no mercado, qual o prazo para reclamar?","Copriu a limite estragada no mercado, qual o prazo pra reclamar?"
+small,voz1_audio4.ogg,0.333,2.68,"Meu produto novo veio com defeito, o que a loja deve fazer?","Meu produto não é o veículo defeito, o que a loja deve fazer."
+small,voz1_audio5.ogg,0.083,2.57,"A loja não consertou meu produto no prazo, quais são minhas opções?",A loja não consertou a produto no prazo. Quais são minhas opções?
+small,voz1_audio6.ogg,0.3,2.58,"Fui cobrado duas vezes na fatura, tenho direito a algo?",Recobrado duas vezes na fatura. Ter direito a algo.
+small,voz1_audio7.ogg,0.077,2.83,"A propaganda prometia uma coisa e o produto é outra, isso é permitido?",A propaganda prometiu uma coisa e o produto é outra. Isso é permitido.
+small,voz2_audio1.ogg,0.0,2.61,Onde posso registrar uma reclamação contra uma empresa de graça?,onde posso registrar uma reclamação contra uma empresa de graça.
+small,voz2_audio2.ogg,0.364,2.68,"Meu nome foi negativado sem eu dever nada, o que fazer?",O nome foi denegativado sem eu. Devo ver nada. O que fazer?
+small,voz2_audio3.ogg,0.222,2.58,Qual a diferença entre garantia legal e garantia contratual?,Qual a diferença entre garantir legal e garantia do contratual?
+small,voz2_audio4.ogg,0.273,2.94,"Minha geladeira quebrou e é essencial, preciso esperar os trinta dias?","A minha geladeira quebrou e é essencial, preciso esperar 30 dias."
+small,voz2_audio5.ogg,0.1,2.86,Quais documentos eu preciso guardar para reclamar de uma compra?,Quais os documentos eu preciso guardar para reclamar de uma compra?
+small,voz2_audio6.ogg,0.0,2.42,Posso processar uma empresa sem advogado?,Posso processar uma empresa sem advogado?
+small,voz2_audio7.ogg,0.0,2.79,"Não tenho dinheiro para advogado, onde consigo ajuda jurídica gratuita?",Não tenho dinheiro para advogado. Onde consigo ajuda jurídica gratuita?
+small,voz3_audio1.ogg,0.0,2.94,O arrependimento de sete dias vale para compra feita na loja física?,O arrependimento de sete dias vale para compra feita na loja física.
+small,voz3_audio2.ogg,0.333,2.58,A devolução do dinheiro na desistência inclui o frete?,São do dinheiro na distância inclui o frete.
+small,voz3_audio3.ogg,0.0,2.65,O que é vício do produto?,O que é vício do produto?
+small,voz3_audio4.ogg,0.062,3.11,"A empresa cobrou uma taxa que eu não reconheço na conta de telefone, o que faço?",A empresa cobrou a taxa que eu não reconheço na conta de telefone. O que faço?
+small,voz3_audio5.ogg,0.429,2.51,Qual lei protege o consumidor no Brasil?,Qual é a lei protege ao consumidor no Brasil?
+small,voz3_audio6.ogg,0.333,2.71,O Procon pode punir a empresa?,O Pro-Con pode punir a empresa?

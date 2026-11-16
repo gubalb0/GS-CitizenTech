@@ -1,0 +1,792 @@
+{
+  "ia": {
+    "n_teste": 80,
+    "ml_tfidf_logreg": {
+      "acuracia": 0.875,
+      "acertos": 70,
+      "acuracia_nos_encaminhados_automaticamente": 0.896,
+      "taxa_enviada_revisao_humana": 0.162,
+      "relatorio_por_classe": {
+        "agendamento_consulta": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8,
+          "f1-score": 0.8421052631578947,
+          "support": 10.0
+        },
+        "exames_resultados": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8,
+          "f1-score": 0.8421052631578947,
+          "support": 10.0
+        },
+        "informacoes_gerais": {
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1-score": 0.7777777777777778,
+          "support": 10.0
+        },
+        "medicamentos": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 10.0
+        },
+        "reclamacao_atendimento": {
+          "precision": 0.8181818181818182,
+          "recall": 0.9,
+          "f1-score": 0.8571428571428571,
+          "support": 10.0
+        },
+        "sintomas_urgentes": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "vacinacao": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "visita_domiciliar": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "accuracy": 0.875,
+        "macro avg": {
+          "precision": 0.8747790404040403,
+          "recall": 0.875,
+          "f1-score": 0.8720342522974102,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.8747790404040405,
+          "recall": 0.875,
+          "f1-score": 0.8720342522974102,
+          "support": 80.0
+        }
+      },
+      "erros": [
+        {
+          "texto": "Como posso agendar um horário com a ginecologista do posto?",
+          "esperado": "agendamento_consulta",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.6
+        },
+        {
+          "texto": "Preciso de um horário com o clínico, estou com a pressão descontrolada há semanas.",
+          "esperado": "agendamento_consulta",
+          "obtido": "sintomas_urgentes",
+          "confianca": 0.54
+        },
+        {
+          "texto": "O antibiótico prescrito não está disponível na unidade.",
+          "esperado": "medicamentos",
+          "obtido": "vacinacao",
+          "confianca": 0.51
+        },
+        {
+          "texto": "Onde pego os comprimidos da minha mãe hipertensa?",
+          "esperado": "medicamentos",
+          "obtido": "visita_domiciliar",
+          "confianca": 0.42
+        },
+        {
+          "texto": "Preciso marcar uma ultrassonografia pedida pelo médico.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.93
+        },
+        {
+          "texto": "Como faço para buscar o laudo da mamografia?",
+          "esperado": "exames_resultados",
+          "obtido": "medicamentos",
+          "confianca": 0.51
+        },
+        {
+          "texto": "Reclamação: o banheiro da unidade está sujo e interditado.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "medicamentos",
+          "confianca": 0.3
+        },
+        {
+          "texto": "Vocês atendem sem agendamento ou tenho que ir cedo?",
+          "esperado": "informacoes_gerais",
+          "obtido": "reclamacao_atendimento",
+          "confianca": 0.45
+        },
+        {
+          "texto": "A unidade tem atendimento de fisioterapia?",
+          "esperado": "informacoes_gerais",
+          "obtido": "reclamacao_atendimento",
+          "confianca": 0.77
+        },
+        {
+          "texto": "Onde fica a unidade de saúde mais próxima do meu CEP?",
+          "esperado": "informacoes_gerais",
+          "obtido": "exames_resultados",
+          "confianca": 0.19
+        }
+      ]
+    },
+    "baseline_palavras_chave": {
+      "acuracia": 0.588,
+      "acertos": 47,
+      "acuracia_nos_encaminhados_automaticamente": null,
+      "taxa_enviada_revisao_humana": 1.0,
+      "relatorio_por_classe": {
+        "agendamento_consulta": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1-score": 0.7272727272727273,
+          "support": 10.0
+        },
+        "exames_resultados": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1-score": 0.8235294117647058,
+          "support": 10.0
+        },
+        "indefinida": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "informacoes_gerais": {
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1-score": 0.2857142857142857,
+          "support": 10.0
+        },
+        "medicamentos": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 10.0
+        },
+        "reclamacao_atendimento": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1-score": 0.5714285714285714,
+          "support": 10.0
+        },
+        "sintomas_urgentes": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 10.0
+        },
+        "vacinacao": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "visita_domiciliar": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 10.0
+        },
+        "accuracy": 0.5875,
+        "macro avg": {
+          "precision": 0.7962962962962963,
+          "recall": 0.5222222222222221,
+          "f1-score": 0.6135533426555099,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.8958333333333333,
+          "recall": 0.5875,
+          "f1-score": 0.6902475104874485,
+          "support": 80.0
+        }
+      },
+      "erros": [
+        {
+          "texto": "Preciso de um horário com o clínico, estou com a pressão descontrolada há semanas.",
+          "esperado": "agendamento_consulta",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Como faço para ser atendido pelo pediatra na unidade?",
+          "esperado": "agendamento_consulta",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Quando haverá campanha contra o sarampo na nossa região?",
+          "esperado": "vacinacao",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Preciso pegar minha medicação de pressão, como funciona a retirada?",
+          "esperado": "medicamentos",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.2
+        },
+        {
+          "texto": "O antibiótico prescrito não está disponível na unidade.",
+          "esperado": "medicamentos",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Falta anticoncepcional na distribuição do posto.",
+          "esperado": "medicamentos",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Onde pego os comprimidos da minha mãe hipertensa?",
+          "esperado": "medicamentos",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Preciso marcar uma ultrassonografia pedida pelo médico.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.2
+        },
+        {
+          "texto": "O pedido de tomografia está parado há meses.",
+          "esperado": "exames_resultados",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Quero agendar o exame preventivo de colo do útero.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Solicito curativo domiciliar para meu marido que fez cirurgia.",
+          "esperado": "visita_domiciliar",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Quero cadastrar minha casa na estratégia de saúde da família.",
+          "esperado": "visita_domiciliar",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Quero que um agente venha atualizar o cadastro da minha família.",
+          "esperado": "visita_domiciliar",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Idosa que mora sozinha precisa de acompanhamento domiciliar.",
+          "esperado": "visita_domiciliar",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Esperei a manhã inteira e não fui atendido, isso é um absurdo.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "A unidade fechou no meio do expediente sem avisar ninguém.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Não havia nenhum médico no posto hoje, perdi o dia de trabalho.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "O profissional me atendeu apressado e sem me ouvir.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "O posto está sempre lotado e sem cadeiras para idosos.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Cheguei às 6h e fui dispensado porque as fichas acabaram.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Preciso de informações sobre quais documentos levar na primeira consulta.",
+          "esperado": "informacoes_gerais",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Como faço para tirar meu cartão do SUS?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Qual é a UBS responsável pelo meu endereço?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Vocês atendem sem agendamento ou tenho que ir cedo?",
+          "esperado": "informacoes_gerais",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.2
+        },
+        {
+          "texto": "A unidade tem atendimento de fisioterapia?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Onde fica a unidade de saúde mais próxima do meu CEP?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Preciso saber quais serviços de saúde bucal são oferecidos.",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Posso ser atendido na UBS sendo de outro bairro?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Minha filha de dois meses está com febre e respira com dificuldade.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Criança engasgada e ficando roxa, preciso de ajuda.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Idoso caiu e está com dor intensa e inchaço na perna.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Estou com febre muito alta, vômitos e confusão mental.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Tive um corte profundo e não para de sangrar.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        }
+      ]
+    },
+    "seguranca_urgencia_clinica": {
+      "urgentes_no_teste": 10,
+      "urgentes_com_alta_e_revisao_humana": 10,
+      "nao_urgentes_marcados_alta": 1,
+      "nao_urgentes_no_teste": 70,
+      "urgentes_NAO_protegidos": []
+    }
+  },
+  "ia_teste_cego": {
+    "n_teste": 40,
+    "ml_tfidf_logreg": {
+      "acuracia": 0.825,
+      "acertos": 33,
+      "acuracia_nos_encaminhados_automaticamente": 0.9,
+      "taxa_enviada_revisao_humana": 0.25,
+      "relatorio_por_classe": {
+        "agendamento_consulta": {
+          "precision": 0.625,
+          "recall": 1.0,
+          "f1-score": 0.7692307692307693,
+          "support": 5.0
+        },
+        "exames_resultados": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "informacoes_gerais": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 5.0
+        },
+        "medicamentos": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "reclamacao_atendimento": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "sintomas_urgentes": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1-score": 0.7272727272727273,
+          "support": 5.0
+        },
+        "vacinacao": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 5.0
+        },
+        "visita_domiciliar": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "accuracy": 0.825,
+        "macro avg": {
+          "precision": 0.865625,
+          "recall": 0.8250000000000001,
+          "f1-score": 0.8277826340326341,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.865625,
+          "recall": 0.825,
+          "f1-score": 0.8277826340326341,
+          "support": 40.0
+        }
+      },
+      "erros": [
+        {
+          "texto": "Como consigo pegar o inalador para meu filho asmático?",
+          "esperado": "medicamentos",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.62
+        },
+        {
+          "texto": "Quero marcar um raio-x de tórax solicitado pela doutora.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.4
+        },
+        {
+          "texto": "Pedimos acompanhamento em domicílio para uma paciente com sequelas de AVC.",
+          "esperado": "visita_domiciliar",
+          "obtido": "sintomas_urgentes",
+          "confianca": 0.43
+        },
+        {
+          "texto": "O médico só olhou para o computador e não me examinou.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.52
+        },
+        {
+          "texto": "Preciso saber se o posto abre na hora do almoço.",
+          "esperado": "informacoes_gerais",
+          "obtido": "medicamentos",
+          "confianca": 0.37
+        },
+        {
+          "texto": "O que é necessário para fazer o cadastro de uma criança na UBS?",
+          "esperado": "informacoes_gerais",
+          "obtido": "sintomas_urgentes",
+          "confianca": 0.35
+        },
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "vacinacao",
+          "confianca": 0.67
+        }
+      ]
+    },
+    "baseline_palavras_chave": {
+      "acuracia": 0.5,
+      "acertos": 20,
+      "acuracia_nos_encaminhados_automaticamente": null,
+      "taxa_enviada_revisao_humana": 1.0,
+      "relatorio_por_classe": {
+        "agendamento_consulta": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1-score": 0.6,
+          "support": 5.0
+        },
+        "exames_resultados": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "indefinida": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "informacoes_gerais": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "medicamentos": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 5.0
+        },
+        "reclamacao_atendimento": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "sintomas_urgentes": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1-score": 0.3333333333333333,
+          "support": 5.0
+        },
+        "vacinacao": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 5.0
+        },
+        "visita_domiciliar": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.6222222222222222,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.4956790123456789,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.7,
+          "recall": 0.5,
+          "f1-score": 0.5576388888888889,
+          "support": 40.0
+        }
+      },
+      "erros": [
+        {
+          "texto": "Boa tarde, queria ver um horário com a médica da equipe para esta semana.",
+          "esperado": "agendamento_consulta",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Preciso de atendimento com ortopedista, como solicito pelo posto?",
+          "esperado": "agendamento_consulta",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Como consigo pegar o inalador para meu filho asmático?",
+          "esperado": "medicamentos",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Preciso retirar a pílula do mês, quais os dias de entrega?",
+          "esperado": "medicamentos",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Quero marcar um raio-x de tórax solicitado pela doutora.",
+          "esperado": "exames_resultados",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Minha vó não anda mais e precisa que alguém da equipe vá até a casa dela.",
+          "esperado": "visita_domiciliar",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Os funcionários da recepção foram muito rudes comigo hoje.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "informacoes_gerais",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Estou há horas aguardando e nenhum profissional chamou meu nome.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "A UBS não abriu hoje e não colocaram nenhum aviso na porta.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Quero reclamar da superlotação da sala de espera.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "O médico só olhou para o computador e não me examinou.",
+          "esperado": "reclamacao_atendimento",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Qual o telefone da unidade para falar com a recepção?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Preciso saber se o posto abre na hora do almoço.",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "O que é necessário para fazer o cadastro de uma criança na UBS?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Posso levar um acompanhante nas consultas?",
+          "esperado": "informacoes_gerais",
+          "obtido": "agendamento_consulta",
+          "confianca": 0.2
+        },
+        {
+          "texto": "Qual posto atende o bairro Vila Nova?",
+          "esperado": "informacoes_gerais",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Minha mãe está passando mal, com dor forte no peito e suor frio.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Um senhor aqui na rua está desacordado e quase sem respirar.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        },
+        {
+          "texto": "Criança de um ano com febre de 40 graus e não acorda direito.",
+          "esperado": "sintomas_urgentes",
+          "obtido": "indefinida",
+          "confianca": 0.0
+        }
+      ]
+    },
+    "seguranca_urgencia_clinica": {
+      "urgentes_no_teste": 5,
+      "urgentes_com_alta_e_revisao_humana": 4,
+      "nao_urgentes_marcados_alta": 2,
+      "nao_urgentes_no_teste": 35,
+      "urgentes_NAO_protegidos": [
+        {
+          "texto": "Meu filho bateu a cabeça, vomitou e está sonolento demais.",
+          "categoria_obtida": "vacinacao"
+        }
+      ]
+    }
+  },
+  "execucao_normal": {
+    "esperado": {
+      "registros_lidos": 25,
+      "processados": 21,
+      "rejeitados_invalidos": 3,
+      "duplicados_ignorados": 1,
+      "arquivos_com_falha": 2,
+      "erros_processamento": 0
+    },
+    "obtido": {
+      "registros_lidos": 25,
+      "processados": 21,
+      "rejeitados_invalidos": 3,
+      "duplicados_ignorados": 1,
+      "arquivos_com_falha": 2,
+      "erros_processamento": 0
+    },
+    "confere": true,
+    "resumo": {
+      "run_id": "20261110211122",
+      "registros_lidos": 25,
+      "processados": 21,
+      "rejeitados_invalidos": 3,
+      "duplicados_ignorados": 1,
+      "erros_processamento": 0,
+      "arquivos_com_falha": 2,
+      "encaminhados_automaticamente": 17,
+      "enviados_revisao_humana": 4,
+      "prioridade_alta": 4,
+      "taxa_automacao_sobre_validos": 0.81,
+      "consultas_cep_http": 8,
+      "falhas_http_cep": 0,
+      "cep_indisponivel": 4,
+      "tempo_segundos": 16.34
+    }
+  },
+  "idempotencia_segunda_execucao": {
+    "processados": 0,
+    "duplicados_ignorados": 22,
+    "confere": true
+  },
+  "falha_api_cep_fora_do_ar": {
+    "processados": 21,
+    "erros_processamento": 0,
+    "falhas_http_cep": 6,
+    "consultas_cep_http": 6,
+    "cep_indisponivel_nos_resultados": 20,
+    "lote_completo_apesar_da_falha": true
+  }
+}

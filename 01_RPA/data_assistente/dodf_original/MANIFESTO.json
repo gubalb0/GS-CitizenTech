@@ -1,0 +1,26 @@
+{
+  "dataset": "gvic-unb/dodf-saude-qa",
+  "pagina": "https://huggingface.co/datasets/gvic-unb/dodf-saude-qa",
+  "revisao_hf": "ef52e3fec5b642a41ffa872c4560a44fe662995d",
+  "licenca": "CC BY 4.0 (declarada no cartao do dataset; exige atribuicao)",
+  "citacao_do_cartao": "Freire, A. S. M. et al. Evaluating Location-Aware RAG Approaches for Question Answering over Public Health-Related Content in Brazilian Official Gazettes. BRACIS 2026 (to appear, Springer).",
+  "acessado_em": "2026-11-13",
+  "arquivos": [
+    {
+      "arquivo": "corpus-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gvic-unb/dodf-saude-qa/resolve/main/corpus/corpus-00000-of-00001.parquet",
+      "bytes": 7523363,
+      "sha256": "94104e5145663eeb182d5e5216c9fe4d4e0a6f1bf79c62f3efaa6229503c79c9",
+      "sha256_confere_com_lfs_oid_do_hf": true
+    },
+    {
+      "arquivo": "validation-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gvic-unb/dodf-saude-qa/resolve/main/qa/validation-00000-of-00001.parquet",
+      "bytes": 1579818,
+      "sha256": "f40aff3ae9864f943fb206d2ece53fabe8c4a15f70b128004c39fe497c7349b6",
+      "sha256_confere_com_lfs_oid_do_hf": true
+    }
+  ],
+  "nao_baixado": "qa/test-00000-of-00001.parquet (350 perguntas de teste): reservado para avaliacao final",
+  "observacao": "Os arquivos originais nao foram modificados (marcados como somente leitura). data/validation-*.parquet e qa/validation-*.parquet tem o mesmo hash no HF."
+}

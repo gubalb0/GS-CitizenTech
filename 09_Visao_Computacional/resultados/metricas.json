@@ -1,0 +1,26 @@
+{
+  "acuracia": 0.9967,
+  "precisao": 1.0,
+  "recall": 0.9933,
+  "f1": 0.9967,
+  "matriz_confusao": [
+    [
+      150,
+      0
+    ],
+    [
+      1,
+      149
+    ]
+  ],
+  "classes": [
+    "Negative",
+    "Positive"
+  ],
+  "n_teste": 300,
+  "latencia": {
+    "latencia_ms": 53.19,
+    "fps": 18.8,
+    "n": 100
+  }
+}

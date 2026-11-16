@@ -1,0 +1,37 @@
+{
+  "descricao": "30 perguntas do tema Direitos do Consumidor para avaliar o LLM. 20 normais, 5 de continuacao (dependem da pergunta anterior na mesma conversa) e 5 fora do escopo (devem gerar recusa adequada). 'palavras_chave' = termos que uma resposta correta deve conter (acerto se contiver a maioria).",
+  "perguntas": [
+    {"id": 1, "tipo": "normal", "pergunta": "Comprei um celular pela internet e me arrependi. Posso devolver?", "palavras_chave": ["7 dias", "arrependimento", "internet"], "espera_recusa": false},
+    {"id": 2, "tipo": "normal", "pergunta": "Qual o prazo de garantia legal de um eletrodoméstico?", "palavras_chave": ["90 dias", "durável", "garantia legal"], "espera_recusa": false},
+    {"id": 3, "tipo": "normal", "pergunta": "Comprei um alimento estragado no mercado, qual o prazo para reclamar?", "palavras_chave": ["30 dias", "não durável"], "espera_recusa": false},
+    {"id": 4, "tipo": "normal", "pergunta": "Meu produto novo veio com defeito. O que a loja deve fazer?", "palavras_chave": ["30 dias", "conserto", "troca", "devolução"], "espera_recusa": false},
+    {"id": 5, "tipo": "normal", "pergunta": "A loja não consertou meu produto no prazo. Quais são minhas opções?", "palavras_chave": ["troca", "dinheiro", "abatimento"], "espera_recusa": false},
+    {"id": 6, "tipo": "normal", "pergunta": "Fui cobrado duas vezes na fatura. Tenho direito a algo?", "palavras_chave": ["dobro", "devolução", "cobrança indevida"], "espera_recusa": false},
+    {"id": 7, "tipo": "normal", "pergunta": "A propaganda prometia uma coisa e o produto é outra. Isso é permitido?", "palavras_chave": ["enganosa", "proibida", "obriga"], "espera_recusa": false},
+    {"id": 8, "tipo": "normal", "pergunta": "Onde posso registrar uma reclamação contra uma empresa de forma gratuita?", "palavras_chave": ["consumidor.gov.br", "Procon"], "espera_recusa": false},
+    {"id": 9, "tipo": "normal", "pergunta": "Meu nome foi negativado sem eu dever nada. O que fazer?", "palavras_chave": ["indevida", "avisado", "danos morais"], "espera_recusa": false},
+    {"id": 10, "tipo": "normal", "pergunta": "Qual a diferença entre garantia legal e garantia contratual?", "palavras_chave": ["legal", "contratual", "soma"], "espera_recusa": false},
+    {"id": 11, "tipo": "normal", "pergunta": "Minha geladeira quebrou e é essencial. Preciso esperar os 30 dias?", "palavras_chave": ["essencial", "imediata"], "espera_recusa": false},
+    {"id": 12, "tipo": "normal", "pergunta": "Quais documentos eu preciso guardar para reclamar de uma compra?", "palavras_chave": ["nota fiscal", "protocolo", "comprovante"], "espera_recusa": false},
+    {"id": 13, "tipo": "normal", "pergunta": "Posso processar uma empresa sem advogado?", "palavras_chave": ["juizado", "20 salários", "pequenas causas"], "espera_recusa": false},
+    {"id": 14, "tipo": "normal", "pergunta": "Não tenho dinheiro para advogado. Onde consigo ajuda jurídica gratuita?", "palavras_chave": ["Defensoria"], "espera_recusa": false},
+    {"id": 15, "tipo": "normal", "pergunta": "O arrependimento de 7 dias vale para compra feita na loja física?", "palavras_chave": ["não", "fora do estabelecimento", "internet"], "espera_recusa": false},
+    {"id": 16, "tipo": "normal", "pergunta": "A devolução do dinheiro na desistência inclui o frete?", "palavras_chave": ["frete", "integral"], "espera_recusa": false},
+    {"id": 17, "tipo": "normal", "pergunta": "O que é vício do produto?", "palavras_chave": ["defeito", "impróprio", "valor"], "espera_recusa": false},
+    {"id": 18, "tipo": "normal", "pergunta": "A empresa cobrou uma taxa que eu não reconheço na conta de telefone. O que faço?", "palavras_chave": ["contestar", "protocolo", "Procon"], "espera_recusa": false},
+    {"id": 19, "tipo": "normal", "pergunta": "Qual lei protege o consumidor no Brasil?", "palavras_chave": ["Código de Defesa do Consumidor", "8.078"], "espera_recusa": false},
+    {"id": 20, "tipo": "normal", "pergunta": "O Procon pode punir a empresa?", "palavras_chave": ["Procon", "sanções", "mediar"], "espera_recusa": false},
+
+    {"id": 21, "tipo": "continuacao", "contexto_anterior": {"pergunta": "Comprei um celular pela internet e me arrependi. Posso devolver?"}, "pergunta": "E onde eu faço isso?", "palavras_chave": ["loja", "consumidor", "procon"], "espera_recusa": false},
+    {"id": 22, "tipo": "continuacao", "contexto_anterior": {"pergunta": "Meu produto novo veio com defeito. O que a loja deve fazer?"}, "pergunta": "E se ela não resolver?", "palavras_chave": ["troca", "dinheiro", "Procon"], "espera_recusa": false},
+    {"id": 23, "tipo": "continuacao", "contexto_anterior": {"pergunta": "Onde posso registrar uma reclamação gratuita?"}, "pergunta": "E se mesmo assim não resolverem?", "palavras_chave": ["Procon", "juizado", "justiça"], "espera_recusa": false},
+    {"id": 24, "tipo": "continuacao", "contexto_anterior": {"pergunta": "Qual o prazo de garantia legal de um eletrodoméstico?"}, "pergunta": "E de um alimento?", "palavras_chave": ["30 dias", "não durável"], "espera_recusa": false},
+    {"id": 25, "tipo": "continuacao", "contexto_anterior": {"pergunta": "Fui cobrado duas vezes na fatura. Tenho direito a algo?"}, "pergunta": "E como peço esse valor de volta?", "palavras_chave": ["empresa", "Procon", "protocolo"], "espera_recusa": false},
+
+    {"id": 26, "tipo": "fora_escopo", "pergunta": "Estou com dor no peito, o que devo tomar?", "palavras_chave": [], "espera_recusa": true},
+    {"id": 27, "tipo": "fora_escopo", "pergunta": "Me dá uma receita de bolo de chocolate.", "palavras_chave": [], "espera_recusa": true},
+    {"id": 28, "tipo": "fora_escopo", "pergunta": "Em quem eu devo votar na próxima eleição?", "palavras_chave": [], "espera_recusa": true},
+    {"id": 29, "tipo": "fora_escopo", "pergunta": "Escreve um código em Python para ordenar uma lista.", "palavras_chave": [], "espera_recusa": true},
+    {"id": 30, "tipo": "fora_escopo", "pergunta": "Qual a previsão do tempo para amanhã?", "palavras_chave": [], "espera_recusa": true}
+  ]
+}

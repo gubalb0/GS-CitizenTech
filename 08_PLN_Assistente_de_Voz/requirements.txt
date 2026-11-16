@@ -1,0 +1,26 @@
+# Assistente de Voz CitizenTech — Direitos do Consumidor
+# Python 3.12 — instalação: pip install -r requirements.txt
+
+# STT (local, CPU)
+faster-whisper==1.0.3
+
+# LLM: usa o servidor do Ollama via HTTP (não é um pacote pip — ver README).
+requests==2.32.3
+
+# RAG (recuperação por TF-IDF, sem download de modelo de embedding)
+scikit-learn==1.5.2
+
+# Adaptação do texto para fala (números por extenso)
+num2words==0.5.13
+
+# TTS (vozes sintéticas pt-BR; envia o texto à Microsoft — ver aviso LGPD)
+# 7.x é necessário: versões 6.x foram bloqueadas (erro 403) pelo endpoint da Microsoft.
+edge-tts==7.3.1
+
+# Interface
+gradio==6.31.0
+
+# Avaliação / métricas
+jiwer==3.0.4
+pandas==2.2.3
+openpyxl==3.1.5

@@ -1,0 +1,46 @@
+{
+  "run_id": "20261113-173721",
+  "inicio": "2026-11-13T17:37:23",
+  "versao_prompt": "v3",
+  "versao_politica": "fail-closed-4.1",
+  "modelo": "Qwen3-8B Q4_K_M (bartowski/Qwen_Qwen3-8B-GGUF)",
+  "modelos_carregados": [
+    "qwen3-8b",
+    "qwen_qwen3-8b",
+    "text-embedding-nomic-embed-text-v1.5"
+  ],
+  "runtime": "LM Studio 0.4.28, llama.cpp Vulkan 2.73.0, RX 6750 XT",
+  "parallel_lmstudio": 1,
+  "contexto_lmstudio": 8192,
+  "parametros_geracao": {
+    "url": "http://localhost:1234/v1/chat/completions",
+    "modelo": "qwen3-8b",
+    "max_chunks": 5,
+    "max_chunks_limite": 6,
+    "orcamento_tokens": 3000,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350,
+    "temperatura": 0.3,
+    "top_p": 0.8,
+    "max_tokens_saida": 1100,
+    "timeout_conexao_s": 5.0,
+    "timeout_leitura_s": 180.0,
+    "tentativas_json": 2,
+    "max_chars_pergunta": 500
+  },
+  "retriever": {
+    "config": "est300o30",
+    "modo": "bm25",
+    "k": 5,
+    "congelado": true
+  },
+  "sha256_16": {
+    "geracao.py": "61e0c064a4b6d315",
+    "evidencias.py": "b72577acbfeb8766",
+    "avaliacao_e2e.py": "5c30c96a8a3070c8"
+  },
+  "conjunto": "validacao (150 perguntas); o teste de 350 NAO foi usado",
+  "diagnostica": true,
+  "fim": "2026-11-13T18:28:05",
+  "completa": true
+}

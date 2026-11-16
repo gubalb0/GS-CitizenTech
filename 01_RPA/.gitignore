@@ -1,0 +1,25 @@
+# Credenciais e ambiente (nunca versionar)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.venv/
+venv/
+
+# Gerados em execucao (reproduziveis com `python main.py`)
+logs/
+saida/
+data/estado.db
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Validacao independente: o conjunto e reservado e fica FORA do repositorio de desenvolvimento
+validacao_independente/conjunto/
+*.sav
+
+# NOTA: data/modelo/classificador.joblib E VERSIONADO DE PROPOSITO (modelo congelado, hash em docs/modelo_congelado.json)
+
+# Copias de seguranca locais da correcao documental (nao versionar)
+_backup_docs_pre_correcao_*/

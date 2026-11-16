@@ -1,0 +1,22 @@
+[
+  {
+    "epoca": 1,
+    "perda": 0.2939,
+    "acc_val": 0.9867
+  },
+  {
+    "epoca": 2,
+    "perda": 0.1047,
+    "acc_val": 0.9933
+  },
+  {
+    "epoca": 3,
+    "perda": 0.0769,
+    "acc_val": 0.99
+  },
+  {
+    "epoca": 4,
+    "perda": 0.0688,
+    "acc_val": 0.9933
+  }
+]

@@ -1,0 +1,641 @@
+texto,categoria
+"preciso de visita do agente comunitario de saude na UBS Sao Jose. Por favor, me orientem.",visita_domiciliar
+"gostaria de informar que qual a ubs de referencia do meu endereco na ubs sao jose. por favor, me orientem.",informacoes_gerais
+Solicito providencias. como faco para receber meu medicamento de uso diario no posto da vila. Aguardo retorno.,medicamentos
+Solicito providencias. familiar com mobilidade reduzida precisa ser atenido na residencia na unidade basica perto da escola. Aguardo retorno.,visita_domiciliar
+Preciso de ajuda: nao consigo agendar atendimento medico pelo telefone na unidade do meu bairro. Moro perto daqui.,agendamento_consulta
+"Pessoal, crianca com crise convulsiva na unidade basica perto da escola.",sintomas_urgentes
+"pedido medio de exame de colesterol, como marco na UBS Sao Jose.",exames_resultados
+Preciso de ajuda: a vacina do mu filho esta atrasada e quero tomar na UBS Jardim Esperanca.,vacinacao
+"Gostaria de informar que preciso de orientacao sobre documentos para abrir ficha na UBS central. Por favor, me orientem.",informacoes_gerais
+"Pessoal, unidade sem profissional medico hoje na UBS Jardim Esperanca. Ja tentei outras vezes.",reclamacao_atendimento
+"Pessoal, dispensacao de medicamentos, qual o horario da farmacia na unidade do meu bairro. Aguardo retorno.",medicamentos
+Preciso de auda: quero cadastrar minha familia na equipe de saude da familia na unidade do meu bairro. Aguardo retorno.,visita_domiciliar
+Gostaria de informar que quero cadastrar minha familia na equipe de saude da familia na unidade do meu bairro. Aguardo retorno.,visita_domiciliar
+Preciso de ajuda: familiar com mobilidade reduzida precisa ser atendido na residencia na unidade do conjunto habitacional. Obrigado.,visita_domiciliar
+Bom dia. quero denunciar mau atendimento na UBS Sao Jos. Aguardo retorno.,reclamacao_atendimento
+"preciso de ajuda: como faco o cartao sus no posto da vila. por favor, me orientem.",informacoes_gerais
+Solicito providencias. porta fechada em horario de funcionamento no post da zona leste. Ja tentei outras vezes.,reclamacao_atendimento
+Solicito providencias. faltou vacina na unidade e preciso da dose de reforco no posto da zona leste. Moro perto daqui.,vacinacao
+Bom dia. tem dose da vacina contra covid hoje na UBS Jardm Esperanca. Ja tentei outras vezes.,vacinacao
+Bom dia. solicito visita domiciliar da equipe para paciente acamado na UBS central. Moro perto daqui.,visita_domiciliar
+Preciso de ajuda: preciso marcar para minha esposa ver o obstetra na UBS central. Moro perto daqui.,agendamento_consulta
+bom dia. qual o horario de funcionamento da unidade na unidade do meu bairro. aguardo retorno.,informacoes_gerais
+como faco o cartao SUS no posto da vila. Aguardo retorno.,informacoes_gerais
+"pessoal, unidade sem profissional medico hoje na unidade basica perto da escola. ja tentei outras vezes.",reclamacao_atendimento
+solicito liberacao de exame especializado no posto perto do mercado. Ja tetei outras vezes.,exames_resultados
+"Pessoal, preciso da equipe de saude da familia para visita no posto de saud do bairro.",visita_domiciliar
+Gostaria de informar que crianca com crise convulsiva na unidade do meu bairro. Ja tentei outras vezes.,sintomas_urgentes
+falta de organizacao e de respeito no posto na UBS Jardim Esperanca.,reclamacao_atendimento
+gostaria de informar que preciso agendar consulta com o medico da familia no posto da zona leste. aguardo retorno.,agendamento_consulta
+"pessoal, pedido medico de exame de colesterol, como marco no posto de saude do bairro. aguardo retorno.",exames_resultados
+"Bom dia. quero cadastrar minha familia na equipe de saude da familia na unidade do meu bairro. Por favor, me orientem.",visita_domiciliar
+"Solicitoprovidencias. pedido de encaminhamento para exame de imagem no posto da vila. Por favor, me orientem.",exames_resultados
+Gostaria de informar que quero saber o resltado do meu exame de sangue na UBS Sao Jose.,exames_resultados
+quero denunciar mau atendimento na UBS Sao Jose.,reclamacao_atendimento
+solicito providencias. preciso agendar exame de ultrassom na ubs sao jose.,exames_resultados
+Gostaria de informar que quando sai o parecer do exame de imagem na UBS Jardim Esperanca. Moro perto daqui.,exames_resultados
+"Pessoal, reclamo da falta de respeito de um funcionario no posto perto do mercado. Ja tentei outas vezes.",reclamacao_atendimento
+"Bom dia. quero saber se tem dipirona e amoxicilina para retirar no posto da zona leste. Por favor, me orientem.",medicamentos
+pedido de encaminhamento para exame de imagem na unidade do meu bairro.,exames_resultados
+Gostaria de informar que preciso da receita renovada para buscar o tratamento do mes no poto perto do mercado. Aguardo retorno.,medicamentos
+Solicito providencias. quero denunciar mau atendimento no posto perto do mercado. Obrigado.,reclamacao_atendimento
+"preciso de ajuda: crianca com convulsao e febre agora no posto da vila. por favor, me orientem.",sintomas_urgentes
+Gostaria de informar que desejo consulta com medico clinico na unidade do meu bairro. Obrigado.,agendamento_consulta
+Solicito providencias. solicito marcacao de atendimento na unidade do meu bairro. Auardo retorno.,agendamento_consulta
+bom dia. meu bebe esta com febre alta e muito prostrado na ubs jardim esperanca. ja tentei outras vezes.,sintomas_urgentes
+"dispensacao de medicamentos, qual o horario da farmacia na UBS central. Moro perto daqui.",medicamentos
+Bom dia. a enfermeira pode aplicar o reforco do meu filho no posto perto do mercado. Obrigado.,vacinacao
+Gostaria de informar que pessoa com fala enrolada e fraqueza de um lado do corpo na unidade basica perto da escola.,sintomas_urgentes
+Preciso de ajuda: preciso atualizar a caderneta de vacinacao das criancas na UBS Jardim Esperanca.,vacinacao
+o agente de saude nao passa na nossa casa ha meses na UBS Sao Jose.,visita_domiciliar
+Preciso de ajuda: existe disponibilidade de agenda para o doutor no posto da vila.,agendamento_consulta
+"pessoal, e preciso agendar antes ou posso ir direto no posto da vila. moro perto daqui.",informacoes_gerais
+Bom dia. a unidade esta sem medico ha dias na UBS Sao Jose.,reclamacao_atendimento
+"como faco o cartao SUS na UBS Sao Jose Por favor, me orientem.",informacoes_gerais
+Preciso de ajuda: gostaria que o agente comunitario passe aqui na unidade basica perto da escola.,visita_domiciliar
+Preciso de ajuda: marcacao de cosulta odontologica no posto da zona leste. Ja tentei outras vezes.,agendamento_consulta
+Gostaria de informar que faltam medicamentos de uso continuo no posto na UBS Sao Jose.,medicamentos
+Solicito providencias. preciso levar o pedido para a regulacao na UBS Jardim Esperanca. Ja tenti outras vezes.,exames_resultados
+faltam medicamentos de uso continuo no posto a UBS central. Ja tentei outras vezes.,medicamentos
+Bom dia. preciso da equipe de saude da familia para visita na unidade basica perto da escola. Ja tentei outras vezes.,visita_domiciliar
+Preciso e ajuda: preciso agendar consulta com o medico da familia na UBS central. Obrigado.,agendamento_consulta
+quero marcar uma consulta com clinico geral na UBS Jardim Esperanca. Ja tentei outras vezes.,agendamento_consulta
+"Pessoal, preciso da equipe de saude da familia para visita na unidade do conjunto habitacional. Por favor, me orientem.",visita_domiciliar
+quando fica pronto o resultado do preventivo na unidade basica perto da escola.,exames_resultados
+"pessoal, preciso consultar com a equipe de saude da familia no posto perto do mercado. ja tentei outras vezes.",agendamento_consulta
+"pessoal, o remedio que tomo todo mes nao chegou na unidade do conjunto habitacional. aguardo retorno.",medicamentos
+Bom dia. tem muita demora e desorganizacao no atendimento na UBS central. Ja tentei outras vezes.,reclamacao_atendimento
+"Pessoal, como faco para receber meu medicamento de uso diario na UBS Jardim Esperanca. Moro prto daqui.",medicamentos
+Solicito providencias. comopego o laudo do raio x na unidade do conjunto habitacional. Moro perto daqui.,exames_resultados
+quando sai o parecer do exame de imagem na bs jardim esperanca. aguardo retorno.,exames_resultados
+gostaria de informar que que dias o posto funciona na ubs central.,informacoes_gerais
+Bom dia. o remedio que tomo todo mes nao chegou no posto perto do mercado. Ja tentei outras vezes.,medicamentos
+gostaria de informar que preciso da receita renovada para buscar o tratamento do mes na unidade basica perto da escola. ja tentei outras vezes.,medicamentos
+"Pessoal, estou com dor forte no peito e falta de ar na UBS Sao Jose. Obrigado.",sintomas_urgentes
+Gostaria de informar que aplicam vacina de rotina para adultos na unidade basica perto da escola. Moro perto daqui.,vacinacao
+preciso de ajuda: desejo consulta com medico clinico na ubs sao jose. moro perto daqui.,agendamento_consulta
+gostaria de informa que homem inconsciente no chao no posto da zona leste. aguardo retorno.,sintomas_urgentes
+Solicito providencias. familiar com mobilidade reduzida precisa ser atendido na residencia na unidade do meu bairro. Moro perto daqui.,visita_domiciliar
+Gostaria de informar que o posto atende aos sabados na unidade basica perto da escola.,informacoes_gerais
+Preciso de ajuda: tem vacina contra febre amarela no posto no posto de saude do bairro. Aguardo retorno.,vacinacao
+faltam medicamentos de uso continuo no posto na unidade basica perto da escola. Moro perto daqui.,medicamentos
+Bom dia. o remedio que tomo todo me nao chegou na unidade basica perto da escola. Obrigado.,medicamentos
+Preciso de ajuda: falta de organizacao e de respeito no posto na unidade basica perto da escola. oro perto daqui.,reclamacao_atendimento
+"Pessoal, solicito liberacao de exame especializado no posto da zona leste.",exames_resultados
+"Pessoal, marcacao de consulta odontologica na unidade do conjunto habitacional. Obrigado.",agendamento_consulta
+como faco para receber meu medicamento de uso diario na ubs central. aguardo retorno.,medicamentos
+ate quando posso tomar a vacina da gripe no posto da zona leste. Aguardo retorno.,vacinacao
+"Pessoal, fui destratado pelo funcionario na unidade do conjunto habitacional.",reclamacao_atendimento
+Gostaria de informar que queria uma data para ser examinado pelo medico na UBS Jardim Esperanca. Ja tentei outras vezes.,agendamento_consulta
+solicito providencias. preciso da equipe de saude da familia para visita na unidade do conjunto habitacional. ja tentei outras vezes.,visita_domiciliar
+Gostaria de informar que como faco para marcar consulta de rotina na UBS Sao Jose. Ja tentei outras vezes.,agendamento_consulta
+"pessoal, esperei cinco horas e ninguem me atendeu na ubs sao jose. por favor, me orientem.",reclamacao_atendimento
+"Gostaria de informar que falta captopril e metformina na distribuicao no posto da zona leste. Por favor, me orientem.",medicamentos
+meu cartao de imunizacao esta incompleto na unidade do meu bairro. Aguardo retorno.,vacinacao
+Preciso de ajuda: como faco para marcar consulta de rotina no posto da vila. Moro perto daqui.,agendamento_consulta
+Bom dia. o remedio que tomo todo mes nao chegou no posto de saude do bairro. Moro perto daqui.,medicamentos
+Bom dia. meu cartao de imunizacao esta incompleto no posto perto do mercado. Obrigado.,vacinacao
+Gostaria de informar que preciso retirar meu remedio de pressao alta no posto de saude do bairro. Obrigado.,medicamentos
+Bom dia. tem muita demora e desorganizacao no atendimento na UBS Jardim Esperanca. Aguardo retorno.,reclamacao_atendimento
+"quando comeca a campanha de vacinacao dos idosos na UBS Jardim Esperanca. Por favor, me orientem.",vacinacao
+"Pessoal, solicto marcacao de atendimento no posto da vila. Aguardo retorno.",agendamento_consulta
+bom dia. quero denunciar mau atendimento na unidade basica perto da escola. aguardo retorno.,reclamacao_atendimento
+Preciso de ajuda: familiar com mobilidade reduzida precisa ser atendido na residencia na unidade basica perto da escola. Moro perto daqui.,visita_domiciliar
+meu cartao de imunizacao esta incompleto na UBS Sao Jose. Moro perto daqui.,vacinacao
+Solicito providencias. unidade sem profissional medico hoje na unidade basica perto da escola. Aguardo retorno.,reclamacao_atendimento
+Solicito providencias. que dias o posto funciona na unidade basica perto da escola. Moro perto daqui.,informacoes_gerais
+"Pessoal, unidade sem profissional medico hoje na BS Sao Jose.",reclamacao_atendimento
+Preciso de ajuda: recem nascido com febre e respirando com esforco na unidade do conjunto habitacional. Obrigado.,sintomas_urgentes
+"Pessoal, a espera passou de quatro horas no posto da vila. Aguardo retorno.",reclamacao_atendimento
+"Pessoal, crianca com convulsao e febre agora no posto perto do mercado. Moro perto daqui.",sintomas_urgentes
+hemorragia que nao estanca na unidade do conjunto habitacional.,sintomas_urgentes
+Solicito providencias. a espera passou de quatro horas na unidade basica perto da escola. Aguardo retorno.,reclamacao_atendimento
+Bom dia. que dias o posto funciona no posto da zona leste. Ja tentei outras vezes.,informacoes_gerais
+"Pessoal, preciso de orentacao sobre documentos para abrir ficha no posto da vila. Aguardo retorno.",informacoes_gerais
+hemorragia que nao estnca na UBS central. Aguardo retorno.,sintomas_urgentes
+solicito providencias. meu exame demorou e o resultado nao saiu no posto da vila. obrigado.,exames_resultados
+solicito providencias. quais documentos preciso levar para ser atendido na unidade do conjunto habitacional. ja tentei outras vezes.,informacoes_gerais
+Gostaria de informar que nao consigo agendar atendimento medico pelo telefone na unidade do conjunto habitacional. Ja tentei outras vezes.,agendamento_consulta
+Gostaria de informar que a farmacia da unidade esta sem insulina na UBS central.,medicamentos
+Gostaria de informar que meu bebe esta com febre alta e muito prostrado na unidade do meu bairro. Ja tentei outras vezes.,sintomas_urgentes
+"Solicito providencias. preciso atualizar a caderneta de vacinacao das criancas no posto perto do mercado. Por favor, me orientem.",vacinacao
+"Preciso de ajuda: falta de organizacao e de respeito no posto no posto da zona este. Por favor, me orientem.",reclamacao_atendimento
+esperei cinco horas e ninguem me atendeu no posto perto do mercdo. Obrigado.,reclamacao_atendimento
+Preciso de ajuda: a enfermeira pode aplicar o reforco do meu filho no posto perto do mercado.,vacinacao
+Bom dia. pedido de encaminhamento para exame de imagem na unidade basica perto da escola. Ja tentei outras vezes.,exames_resultados
+Solicito providencias. tem vacina contra febre amarela no posto na unidade do meu bairro.,vacinacao
+Preciso de ajuda: esperei cinco horas e ninguem me atendeu na unidade do meu bairro. Aguardo retorno.,reclamacao_atendimento
+Bom dia. o remedio que tomo todo mes nao chegou no posto perto do mercado. Moro perto daqui.,medicamentos
+bom dia. preciso consultar com a equipe de saude da familia no posto de saude do bairro. moro perto daqui.,agendamento_consulta
+Bom dia. ha estoque do remedio para epilepsia na UBS central. Aguardo retorno.,medicamentos
+"Pessoal, a unidade esta sem medico ha dias no posto da zona leste. Ja tentei outras vezes.",reclamacao_atendimento
+"Pessoal, troca de curativo na residencia do paciente na unidade do meu bairro.",visita_domiciliar
+qual o numero para contato da UBS no posto de saude do bairro. Obrigado.,informacoes_gerais
+Bom dia. como cadastrar um recem nascido no sistema do posto no posto da vila.,informacoes_gerais
+"Solicito providencias. tem muita demora e desorganizacao no atendimento na UBS central. Por favor, me orientem.",reclamacao_atendimento
+"meu bebe esta com febre alta e muito prostrado na UBS central. Por favor, me orientem.",sintomas_urgentes
+"pessoal, preciso agendar consulta com o medico da familia na unidade do meu bairro. moro perto daqui.",agendamento_consulta
+a equipe poderia ir ate a casa de um paciente restrito ao leito no posto da zona leste. Aguardo retorno.,visita_domiciliar
+quando sai o parecer do exame de imagem no posto de saude do bairro. aguardo retorno.,exames_resultados
+preciso de ajuda: estou com sangramento intenso e tontura na unidae do meu bairro.,sintomas_urgentes
+"Preciso de ajuda: pedido medico de exame de colesterol, como marco no posto de saude do bairro. Por favor, me orientem.",exames_resultados
+Solicito providencias. paciente com dor toracica intensa e sudorese no posto perto do mercado.,sintomas_urgentes
+"pessoal, a coleta do laboratorio sera em qual dia na ubs jardim esperanca. por favor, me orientem.",exames_resultados
+"Pessoal, quais documentos preciso levar para ser atendido no posto de saude do bairro. Moro perto daqui.",informacoes_gerais
+familiar com mobilidade reduzida precisa ser atendido na residencia no posto perto do mercado. Ja tentei outras vezes.,visita_domiciliar
+"Gostaria de informar que tem muita demora e desorganizacao no atendimento no posto de saude do bairro. Por favor, me orientem.",reclamacao_atendimento
+"Pessoal, meu pai esta confuso e com a boca torta de repente na unidade do conjunto habitacional. Moro perto daqui.",sintomas_urgentes
+"Pessoal, gostaria que o agente comunitario passe aqui na UBS Jardim speranca.",visita_domiciliar
+solicito providencias. preciso retirar meu remedio de pressao alta na unidade do conjunto habitacional. moro perto daqui.,medicamentos
+unidade sem profissional medico hoje na ubs sao jose.,reclamacao_atendimento
+Gostaria de informar que tem muita demora e desorganizacao no atendimento na unidade do conjunto habitacional. Obrigado.,reclamacao_atendimento
+"Preciso de ajuda: a vacina do meu filho esta atrasada e quero tomar na unidade basica perto da escola. Por favor, me orientem.",vacinacao
+Gostaria de informar que quero cadastrar minha familia na equipe de saude da familia no posto da zona leste.,visita_domiciliar
+"Pessoal, paciente com dor toracica intnsa e sudorese no posto perto do mercado. Obrigado.",sintomas_urgentes
+bom dia. quero denunciar mau atendimento no posto da zona leste. aguardo retorno.,reclamacao_atendimento
+quais documentos preciso levar paa ser atendido no posto da vila. Moro perto daqui.,informacoes_gerais
+"como pego o laudo do raio x na unidade do conjunto habitacional. Por favor, me orientem.",exames_resultados
+"Pessoal, que dias o posto funciona no posto da vila.",informacoes_gerais
+"dispensacao de medicamentos, qual o horario da farmacia no posto da zona leste. Obrigado.",medicamentos
+Gostaria de informar que fui estratado pelo funcionario na unidade basica perto da escola. Moro perto daqui.,reclamacao_atendimento
+Bom dia. o agente de saude nao passa na nossa casa ha meses na UBS Jardim Esperanca. Moro perto daqui.,visita_domiciliar
+preciso de ajuda: meu exame demorou e o resultado nao saiu na unidad do meu bairro. obrigado.,exames_resultados
+Gostaria de informar que meu exame demorou e o resultado nao saiu no posto de saude do bairro. Ja tentei outras vezes.,exames_resultados
+Preciso de ajuda: faltam medicamentos de uso continuo no posto no posto da zona lste. Aguardo retorno.,medicamentos
+a unidade esta sem medico ha dias na unidade basica perto da escola. Aguardo retorno.,reclamacao_atendimento
+Bom dia. meu cartao de imunizacao esta incompleto na unidade basica perto da escola.,vacinacao
+Solicito providencias. desejo consulta com medico clinico na UBS Sao Jose.,agendamento_consulta
+Bom dia. tem muita demora e desorganizacao no atendimento na UBS central. Aguardo retorno.,reclamacao_atendimento
+qual o numero para contato da UBS na UBS central. Ja tentei outras vezes.,informacoes_gerais
+"Pessoal, meu bebe esta com febre alta e muito prostrado na unidade do meu bairro.",sintomas_urgentes
+gostaria de informar que quero saber se tem dipirona e amoxicilina para retirar no posto de saude do bairro. moro perto aqui.,medicamentos
+minha mae e idosa e acamada e precisa de atendimento em casa na unidade basica perto da escola. Aguardo retorno.,visita_domiciliar
+"Pessoal, marcacao de consulta odontologica na UBS Sao Jose. Moro perto daqui.",agendamento_consulta
+Gostaria de informar que quando fica pronto o resultado do preventivo no posto da vila. Obrigado.,exames_resultados
+Bom dia. como pego o laudo do raio x na UBS Sao Jose.,exames_resultados
+solicito providencias. fui mal atendido pela recepcao do posto no posto da zona leste.,reclamacao_atendimento
+Preciso de ajuda: queda com suspeita de fratura e muita dor na unidade do conjunto habitacional.,sintomas_urgentes
+"pessoal, preciso levar o pedido para a regulacao no posto da zona leste. obrigado.",exames_resultados
+"Pessoal, a espera passou de quatro horas no posto perto do mercado. Aguardo retorno.",reclamacao_atendimento
+Bom dia. tem uma pessoa desmaiada e com dificuldade para respirar na UBS Sao Jose. Obrigado.,sintomas_urgentes
+"Pessoal, homem inconsciente no chao na UBS central. Aguardo retorno.",sintomas_urgentes
+Gostaria de informar que a equipe poderia ir ate a casa de um paciente restrito ao leito no posto da vila. Obrigado.,visita_domiciliar
+Solicito providencias. nao encontro o antialergico na unidade no posto perto do mercado. Moro perto daqui.,medicamentos
+Bom dia. desejo consula com medico clinico no posto da vila. Aguardo retorno.,agendamento_consulta
+"pessoal, tem muita demora e desorganizacao no atendimento no posto de saude do bairro. aguardo retorno.",reclamacao_atendimento
+Gostaria de informar que preciso da receita renovada para buscar o tratamento do mes no posto perto do mercado.,medicamentos
+Gostaria de informar que quando comeca a campanha de vacinacao dos idosos na unidade basica perto da escola. Obrigado.,vacinacao
+"Pessoal, e preciso agendar antes ou posso ir direto no posto da vila. Aguardo retorno.",informacoes_gerais
+"Preciso de ajuda: minha mae e idosa e acamada e precisa de atendimento em casa na unidade do conjunto habitacional. Por favor, me orientem.",visita_domiciliar
+bom dia. nao encontro o antialergico na unidade na unidade do conjunto habitacional. obrigado.,medicamentos
+"Gostaria de informar que minha mae e iosa e acamada e precisa de atendimento em casa na UBS central. Por favor, me orientem.",visita_domiciliar
+solicito providencias. aplicam vacina de rotina para adultos no posto da zona leste. obrigado.,vacinacao
+Bom dia. quais vacinas meu bebe precisa tomar neste mes na unidade basica perto da escola. Ja tentei outras vezes.,vacinacao
+faltam medicamentos de uso continuo no posto no posto de sade do bairro. Aguardo retorno.,medicamentos
+bom dia. quando fica pronto o resultado do preventivo no posto da vila. moro perto daqui.,exames_resultados
+"preciso de orientacao sobre documentos para abrir ficha na ubs central. por favor, me orientem.",informacoes_gerais
+Bom dia. unidade sem profissional medico hoje no posto perto do mercado.,reclamacao_atendimento
+Bom dia. troca de curativo na residencia do paciente no posto da vila. Obrigado.,visita_domiciliar
+"Gostaria de informar que marcacao de consulta odontologica na UBS Jardim Esperanca. Por favor, me orientem.",agendamento_consulta
+"Solicito providencias. preciso agendar consulta com o medico da familia na UBS Sao Jose. Por favor, me orientem.",agendamento_consulta
+"Preciso de ajuda: como faco para marcar consulta de rotina na UBS Jardim Esperanca. Por favor, me orientem.",agendamento_consulta
+"Gostaria de informar que preciso consultar com a equipe de saude da familia na UBS Jardim Esperanca. Por favor, me orientem.",agendamento_consulta
+Preciso de ajuda: faltam medicamentos de uso continuo no posto no posto da vila.,medicamentos
+"Pessoal, que dias o posto funciona na UBS Jardim Espranca. Aguardo retorno.",informacoes_gerais
+"pessoal, a farmacia da unidade esta sem insulina na ubs central.",medicamentos
+Solicito providencias existe disponibilidade de agenda para o doutor na unidade basica perto da escola. Moro perto daqui.,agendamento_consulta
+"pessoal, tem dose da vacina contra covid hoje na unidade do meu bairro. ja tentei outras vezes.",vacinacao
+Preciso de ajuda: queria uma data para ser examinado pelo medico no posto perto do mercado. Obigado.,agendamento_consulta
+Solicito providencias. quero saber o resultado do meu exame de sangue no posto da zona leste. Ja tentei outras vezes.,exames_resultados
+Solicito providencias. tem muita demora e desorganizacao no atendimento na UBS central. Ja tentei outras vezes.,reclamacao_atendimento
+Gostaria de informar que tem uma pessoa desmaiada e com dificuldade para respirar no posto de saude do bairro. Aguardo retorno.,sintomas_urgentes
+existe disponibilidade de agenda para o doutor no posto perto do mercado. Aguardo retorno.,agendamento_consulta
+Gostaria de informar que a unidade esta sem medico ha dias no posto da vila. Ja tentei outras vezes.,reclamacao_atendimento
+Preciso de ajuda: quais documentos preciso levar para ser atendido no posto da zona leste.,informacoes_gerais
+Bom dia. nao consigo agendar atendimento medico pelo telefone no posto da vila. Aguardo retorno.,agendamento_consulta
+Preciso de ajuda: preciso de orientacao sobre documentos para abrir ficha no posto da zona leste.,informacoes_gerais
+Solicito providencias. quando sai o parecer do exame de imagem no posto de saude do bairro. Moro perto daui.,exames_resultados
+gostaria de informar que tm uma pessoa desmaiada e com dificuldade para respirar no posto da vila. aguardo retorno.,sintomas_urgentes
+"pessoal, quando comeca a campanha de vacinacao dos idosos na unidde do conjunto habitacional. aguardo retorno.",vacinacao
+Preciso de ajuda: gostaria que o agente comunitario passe aqui no posto perto do mercado. Obrigado.,visita_domiciliar
+Solicito providencias. tem dose da vacina contra covid hoje na unidade do meu bairro.,vacinacao
+Solicito providencias. a equipe poderia ir ate a casa de um paciente restrito ao leito no posto perto do mercado. Moro perto daqui.,visita_domiciliar
+gostaria de informar que gostaria que o agente comunitario passe aqui na ubs central. moro perto daqui.,visita_domiciliar
+Bom dia. como faco para receber meu medicamento de uso diario na unidade do meu bairro. Moro perto daqui.,medicamentos
+Solicito providencias. gestante com perda de sangue e dores na unidade do conjunto habitacional. Ja tentei outras vezes.,sintomas_urgentes
+"Gostaria de informar que meu bebe esta com febre alta e muito prostrado no posto da vila. Por favor, me orientem.",sintomas_urgentes
+Gostaria de informar que preciso agendar exame de ultrassom no posto de saude do bairro. Obrigado.,exames_resultados
+Gostaria de informar que quero marcar uma consulta com clinico geral na unidade do conjunto habitacional. Aguardo retorno.,agendamento_consulta
+"pessoal, quero saber o resultado do meu exame de sangue na ubs jardim esperanca.",exames_resultados
+Solicito providencias. a equipe poderia ir ate a casa de um paciente restrito ao leito na UBS central. Ja tentei outras vezes.,visita_domiciliar
+"Pessoal, preciso de uma consulta com pediatra para meu filho na unidade do meu bairro. Por favor, me orientem.",agendamento_consulta
+Preciso de ajuda: reclamo da falta de respeito de um funcionario na UBS central. Aguardo retorno.,reclamacao_atendimento
+Preciso de ajuda: gostaria que o aente comunitario passe aqui no posto perto do mercado. Obrigado.,visita_domiciliar
+"Pessoal, reclamo da falta de respeito de um uncionario no posto da vila. Aguardo retorno.",reclamacao_atendimento
+quero marcar uma consulta com clinico geral no posto perto do mercado. Ja tentei outras vezes.,agendamento_consulta
+gostaria de inormar que tem vacina contra febre amarela no posto na unidade basica perto da escola.,vacinacao
+"gostaria de informar que minha mae e idosa e acamada e precisa de atendimento em casa na ubs jardi esperanca. por favor, me orientem.",visita_domiciliar
+Preciso de ajuda: meu exame demorou e o esultado nao saiu na unidade do meu bairro. Moro perto daqui.,exames_resultados
+"Pessoal, a espera passou de quatro horas no posto de saude do bairro. Obrigado.",reclamacao_atendimento
+Solicito providencias. meu exame demorou e o resultado nao saiu na UBS Sao Jose. Ja tntei outras vezes.,exames_resultados
+e preciso agendar antes ou posso ir direto no posto da zona leste. Moro perto daqui.,informacoes_gerais
+Gostara de informar que como pego o laudo do raio x no posto de saude do bairro.,exames_resultados
+Bom dia. reclamo da falta de respeito de um funcionario no posto de saude do bairro. Ja tentei outras vezes.,reclamacao_atendimento
+Gostaria de informar que familiar com mobilidade reduzida precisa ser atendido na residencia no posto de saude do bairro. Ja tentei outras vezes.,visita_domiciliar
+Bom dia. o posto atende aos sabados na UBS central. Ja tentei outras vezes.,informacoes_gerais
+tem muita demora e desorganizacao no atendimento no posto da vila. Obrigado.,reclamacao_atendimento
+Preciso de ajuda: aplicam vacina de rotina para adultos no posto de saude do bairro. Moro perto daqui.,vacinacao
+"pessoal, crianca com convulsao e febre agora na ubs central. aguardo retorno.",sintomas_urgentes
+Solicito providencias. preciso de visita do agente comunitario de saude na uidade do conjunto habitacional. Aguardo retorno.,visita_domiciliar
+Gostaria de informar que a vacina antirrabica esta disponivel na unidade do conjunto habitacional.,vacinacao
+"Bom dia. a vacina antirrabica esta disponivel no posto da zona leste. Por favor, me orientem.",vacinacao
+Preciso de ajuda tem muita demora e desorganizacao no atendimento no posto de saude do bairro. Aguardo retorno.,reclamacao_atendimento
+Solicito proviencias. tem muita demora e desorganizacao no atendimento no posto de saude do bairro. Ja tentei outras vezes.,reclamacao_atendimento
+"Pessoal, retirar documento com o resultado dos testes no posto de saud do bairro. Obrigado.",exames_resultados
+Preciso de ajuda: como faco para marcar consulta de rotina no posto perto do mercado. Obrigado.,agendamento_consulta
+"Pessoal, quando sai o parecer do exame de imagem na unidade do conjunto habitacional. Obrigado.",exames_resultados
+"Pessoal, preciso retirar meu remedio de pressao alta no posto da zona leste. Moro perto dqui.",medicamentos
+Bom dia. quais servicos a unidade oferece na UBS Jardim Esperanca. Moro perto daqui.,informacoes_gerais
+"Pessoal, preciso retirar meu remedio de pressao alta no posto perto do mercado. Ja tentei outras vezes.",medicamentos
+"Pessol, existe disponibilidade de agenda para o doutor no posto da vila. Obrigado.",agendamento_consulta
+Gostaria de informar que qual o horario de funcionamento da unidade na UBS Jardim Esperanca. Obrigado.,informacoes_gerais
+"a farmacia da unidade esta sem insulina na unidade do meu bairro. por favor, me orientem.",medicamentos
+"bom dia. solicito liberacao de exame especializado na ubs central. por favor, me orientem.",exames_resultados
+"Bom dia. nao consigo agendar atendimento medico pelo telefone na UBS Jardim Esperanca. Por favor, me orientem.",agendamento_consulta
+Solicito providencias. ate quando posso tmar a vacina da gripe na UBS Jardim Esperanca. Aguardo retorno.,vacinacao
+Solicito rovidencias. crianca com crise convulsiva na UBS Sao Jose. Obrigado.,sintomas_urgentes
+Bom dia. troca de curativo na residencia do paciente na UBS central.,visita_domiciliar
+preciso de ajuda: desejo consulta com medico clinico no posto da zona leste.,agendamento_consulta
+Preciso de ajuda: nao encontro o antialergico na unidade no posto perto do mercado. Obrigado.,medicamentos
+preciso levar o pedido para a regulacao na ubs central. guardo retorno.,exames_resultados
+Solicito providencias. preciso de visita do agente comunitario de saude na unidade do meu bairro. Obrigado.,visita_domiciliar
+Solicito providencias. quais documentos preciso levar para ser atendido no posto de saude do bairro.,informacoes_gerais
+Gostaria de informar que troca de curativo na residencia do paciene no posto da zona leste.,visita_domiciliar
+como faco para receber meu medicamento de uso diario na ubs jardim esperanca. aguardo retorno.,medicamentos
+"dispensacao de medicamentos, qual o horario da farmacia na unidade do meu bairro. Moro perto daqui.",medicamentos
+solicito visita domiciliar da equipe para paciente acamado na unidade basica perto da escola. Moro perto daqui.,visita_domiciliar
+"Pessoal, quais documentos preciso levar para ser atendido no posto perto do mercado. Obrigado.",informacoes_gerais
+"pessoal, familiar com mobilidade reduzida precisa ser atendido na residencia na unidade basica perto da escola. por favor, me orientem.",visita_domiciliar
+Solicito providencias. minha mae e idosa e acamada e precisa de atendimento em casa na unidade basica perto da escola. Moro perto daqui.,visita_domiciliar
+"Pessoal, meu exame demorou e o resultado nao saiu na unidade do meu bairro. Aguardo retorno.",exames_resultados
+"gostaria de informar que a espera passou de quatro horas no posto da vila. por favor, me orientem.",reclamacao_atendimento
+estou com sangramento intenso e tontura na UBS Sao Jose. Aguardo retorno.,sintomas_urgentes
+"pessoal, preciso de curativo em casa porque ele nao consegue sair a ubs sao jose. moro perto daqui.",visita_domiciliar
+Bom dia. existe disponibilidade de agenda para o doutor no posto da zona leste.,agendamento_consulta
+preciso de ajuda: preciso retirar mu remedio de pressao alta no posto perto do mercado. aguardo retorno.,medicamentos
+"preciso de ajuda: preciso de uma consulta com pediatra para meu filho na unidade basica perto da escola. por favor, me orientem.",agendamento_consulta
+Gostaria de informar que pessoa com fala enrolada e fraqueza de um lado do corpo no posto da zona leste.,sintomas_urgentes
+Gostaria de informar que recem nascido com febre e respirando com esforcono posto de saude do bairro. Obrigado.,sintomas_urgentes
+Gostaria de informa que preciso de visita do agente comunitario de saude no posto da zona leste. Moro perto daqui.,visita_domiciliar
+gostaria de informar que agente de saude nao faz visitas na minha microarea no posto da zona leste. ja tentei outras vezes.,visita_domiciliar
+minha mae e idosa e acamada e precisa de atendimento em casa na unidade do meu bairro. Moro perto daqui.,visita_domiciliar
+Gostaria de informar que quando sai o parecer do exame de imagem na UBS Jardim Esperanca. Ja tentei outras vezes.,exames_resultados
+Solicito providencias. quando fica pronto o resultado do preventivo no posto de saude do bairro.,exames_resultados
+"Gostaria de informar que quero cadastrar minha familia na equipe de saude da familia na UBS Sao Jose. Por favor, me orientem.",visita_domiciliar
+Gostaria de informar que preciso agendar consulta com o medico da familia no posto perto do mercado. Moro perto daqui.,agendamento_consulta
+Bom dia. desejo consulta com medico clinico na UBS Jardim Esperanca. Moro perto daqui.,agendamento_consulta
+"Pessoal, faltam medicamentos de uso continuo no posto no posto perto do mercado. Obrigado.",medicamentos
+Gostaria de informar que queria uma data para ser examinado pelo medico na UBS central. Ja tentei outras vezes.,agendamento_consulta
+"Pessoal, estou com dor forte no peito e falta de ar na UBS Sao Jose. Ja tenteioutras vezes.",sintomas_urgentes
+"Pessoal, preciso retirar meu remedio de pressao alta no posto de saude do bairro. Por favor, me orientem.",medicamentos
+meu pai eta confuso e com a boca torta de repente na UBS Jardim Esperanca. Moro perto daqui.,sintomas_urgentes
+Bom dia. quero cadastrar minha familia na equipe de saude da familia no posto da vila. Ja tentei outras vezes.,visita_domiciliar
+bom dia. unidade sem profissional medico hoje na unidade basica perto da escola. moro perto daqui.,reclamacao_atendimento
+"Gostaria de informar que dispensacao de medicamentos, qual o horario da farmacia na UBS central.",medicamentos
+"Preciso de ajuda: quais documentos preciso levar para ser atendido no posto perto do mercado. Por favor, me orientem.",informacoes_gerais
+"Bom dia. pedido de encaminhamento para exame de imagem na UBS central. Por favor, me orientem.",exames_resultados
+quais documentos preciso levar para ser atendido no posto de saue do bairro. ja tentei outras vezes.,informacoes_gerais
+"Pessoal, estou com sangramento intenso e tontura na UBS Jardim Esperanca. Ja tentei outras vezes.",sintomas_urgentes
+preciso de ajuda: pedido de encaminhamento para exame de imagem no posto da zona leste. ja tentei outras vezes.,exames_resultados
+Solicito providencias. como pego o laudo do raio x na UBS Sao Jose. Moro perto daqui.,exames_resultados
+"Pessoal, faltou vacina na unidade e preciso da dose de reforco na UBS Sao Jose.",vacinacao
+como faco o cartao SUS no posto da vila.,informacoes_gerais
+"Preciso de ajuda: tem vacina contra febre amarela no posto no posto da zona leste. Por favor, me orientem.",vacinacao
+recem nascido com febre e respirando com esforco na ubs jardim esperanca. aguardo etorno.,sintomas_urgentes
+Gostaria de informar que como cadastrar um recem nascido no sistema do posto na unidade basica perto da escola.,informacoes_gerais
+"pessoal, preciso de uma consulta com pediatra ara meu filho no posto perto do mercado. por favor, me orientem.",agendamento_consulta
+Gostaria de informar que tem vacina contra febre amarela no posto no posto perto do mercado. Moro perto daqui.,vacinacao
+a unidade esta sem medico ha dias no posto da vila. Aguardo retorno.,reclamacao_atendimento
+Preciso de ajuda: falta captopril e metformina na distribuicao no posto da zona leste. Ja tentei outras vezes.,medicamentos
+"pessoal, a vacina do meu filho esta atrasada e quero tomar na ubs jardim esperanca. moro perto daqui.",vacinacao
+Solicito providencias.  agente de saude nao passa na nossa casa ha meses na unidade do conjunto habitacional. Moro perto daqui.,visita_domiciliar
+como faco para marcar consulta de rotina no posto perto do mercado.,agendamento_consulta
+Preciso de ajuda: eserei cinco horas e ninguem me atendeu no posto de saude do bairro. Ja tentei outras vezes.,reclamacao_atendimento
+"pessoal, troca de curativo na residencia do paciente na unidade do meu bairro. por favor, me orientem.",visita_domiciliar
+Bom dia. quando fica pronto o resultado do preventivo no posto perto do mercado. Aguardo retorno.,exames_resultados
+gostaria de informar que unidade sem profissional medico hoje na ubs central.,reclamacao_atendimento
+"Pessoal, quero cadastrar minha familia na equipe de saude da familia no posto da zoa leste. Aguardo retorno.",visita_domiciliar
+solicito providencias. quero saber se tem dipirona e amoxicilina para retirar na unidade baica perto da escola. ja tentei outras vezes.,medicamentos
+bom dia. a enfermeira pode aplicar o reforco do meu filho no posto perto do mercado. aguardo retorno.,vacinacao
+Solicito providencias. retirar documento com o resultado dos testes no posto da vila.,exames_resultados
+a vacina do meu filho esta atrasada e quero tomar no posto de saude do bairro. Aguardo retorno.,vacinacao
+Bom dia. e preciso agendar antes ou posso ir direto no posto de saude do bairo. Obrigado.,informacoes_gerais
+"Pessoal, tem uma pessoa desmaiada e com dificuldade para respirar na UBS Sao Jose.",sintomas_urgentes
+"Solicito providencias. como cadastrar um rece nascido no sistema do posto no posto da vila. Por favor, me orientem.",informacoes_gerais
+preciso de uma consulta com pediatra para meu filho na UBS Sao Jose. Ja tentei outras vezes.,agendamento_consulta
+preciso agendar consulta com o medico da familia no posto perto do mercado. Moro perto daqui.,agendamento_consulta
+Bom dia. qual o horario de funcionamento da unidade na unidade basica perto da escola. Aguardo retorno.,informacoes_gerais
+Bom dia. unidade sem profissional medico hoje na UBS Sao Jose. Ja tentei outras vezes.,reclamacao_atendimento
+Solicito providencias. qual a unidade referencia do meu endereco na UBS Sao Jose. Aguardo retorno.,informacoes_gerais
+"Pessoal, preciso atualizar a caderneta de vacinacao das criancas no posto da vila. Aguardo retorno.",vacinacao
+"Solicito providencias. preciso marcar para minha esposa ver o obstetra no posto perto do mercado. Por favor, me orientem.",agendamento_consulta
+gostaria de informar que estou com dor forte no peito e falta de ar na unidade basica perto da escola. ja tentei outras vezes.,sintomas_urgentes
+Gostaria de informar que precisode visita do agente comunitario de saude na UBS Sao Jose.,visita_domiciliar
+Gostaria de informar que homem inconsciente no chao na unidade do meu bairro. Ja tentei outras vezes.,sintomas_urgentes
+Preciso de ajuda: meu pai esta confuso e com a boca torta derepente na UBS central. Aguardo retorno.,sintomas_urgentes
+Gostaria de informar que hemorragia que nao estanca no posto da vila. Aguardo retorno.,sintomas_urgentes
+"Pessoal, desejo consulta com medico clinico na UBS central. Ja tentei outras vezes.",agendamento_consulta
+Solicito providencias. quero saber o resultado do meu exame de sangue na unidade do meu bairro. brigado.,exames_resultados
+Gostaria de informar que reclamo da falta de respeito de um funcionario na UBS Sao Jose. Obrigado.,reclamacao_atendimento
+Preciso de ajuda: falta captopril e metformina na distribuicao na UBS Jardim Esperanca. Aguardo retorno.,medicamentos
+gostaria de informar que qual a ubs de referencia do meu enereco na ubs central. moro perto daqui.,informacoes_gerais
+a farmacia da unidade esta sem insulina na UBS entral. Ja tentei outras vezes.,medicamentos
+queria uma data para ser examinado pelo medico na unidade do conjunto habitacional. Moro perto daqui.,agendamento_consulta
+Gostaria de informar que queria saber se tem vacina da gripe disponivel na UBS central. Moro perto daqui.,vacinacao
+"Pessoal, qual o horario de funcionamento da unidade na UBS Jardim Esperanca.",informacoes_gerais
+"Pessoal, a enfermeira pode apliar o reforco do meu filho na UBS Sao Jose. Aguardo retorno.",vacinacao
+"Bom dia pedido de encaminhamento para exame de imagem na UBS Sao Jose. Por favor, me orientem.",exames_resultados
+Bom dia. queria uma data para ser examinado pelo medico na UBS Jardim Esperanca. Aguardo retorno.,agendamento_consulta
+Preciso de ajuda: unidade sem profissional medico hoje na unidade do conjunto habitacional. Moro perto daqui.,reclamacao_atendimento
+"Gostaria de informar que preciso da receita renovada para buscar o tratamento do mes na unidade do conjunto habitacional. Por favor, me orientem.",medicamentos
+a epera passou de quatro horas na UBS Sao Jose. Obrigado.,reclamacao_atendimento
+Preciso de ajuda: qual o numero para contato da UBS na UBS Sao Jose.,informacoes_gerais
+Preciso de ajuda: preciso da receita renovada para buscar o tratamento do mes na unidade do conjunto habitacional. Moro perto daqui.,medicamentos
+Solicito providencias. meu bebe esta com febre alta e muito prostrado no posto de saude do bairro. Obrigado.,sintomas_urgentes
+"Solicito providencias. o posto atende aos sabados no posto da zona leste. Por favor, me orientem.",informacoes_gerais
+preciso retirar meu remedio de pressao alt na UBS central. Obrigado.,medicamentos
+"meu cartao de imunizacao esta incompleto na unidade do conjuntohabitacional. Por favor, me orientem.",vacinacao
+"preciso agendar exame de ultrassom na ubs central. por favor, me orientem.",exames_resultados
+Preciso de ajuda: gestante com perda de sangue e dores na unidade do conjunto habitacional. Moro perto daqui.,sintomas_urgentes
+"pessoal, meu cartao de imunizacao esta incompleto no posto da vila. aguardo retorno.",vacinacao
+Bom dia. paciente com dor toracica intensa e sudorese no posto da zona leste. Moro perto daqui.,sintomas_urgentes
+"gostaria de informar que a enfermeira pode aplicar o reforco do meu filho no posto da vila. por favor, me orientem.",vacinacao
+"fui destratado pelo funcionario na UBS central. Por favor, me orientem.",reclamacao_atendimento
+"Preciso de ajuda: a coleta do laboratorio sera em qual dia no posto da zona leste. Por favor, me orientem.",exames_resultados
+bom dia. existe disponibilidade de agenda para o doutor noposto de saude do bairro. aguardo retorno.,agendamento_consulta
+Solicito providencias. nao encontro o antialergico na unidade na unidade do meu bairro. Ja tentei outras vees.,medicamentos
+o agente de saude nao passa na nossa casa ha meses n UBS Sao Jose. Aguardo retorno.,visita_domiciliar
+quando fica pronto o resultado do preventivo no posto da zona leste. Ja tentei outras vezes.,exames_resultados
+Bom dia. tem uma pessoa desmaiada e com dificuldade para respirar no posto perto do mercao. Ja tentei outras vezes.,sintomas_urgentes
+Preciso de ajuda: paciente com dor toracica intensa e sudorese no posto da vila.,sintomas_urgentes
+Bom dia. que dias o posto funciona no posto de saude do bairro. Ja tentei outras vezes.,informacoes_gerais
+"pessoal, fui destratado pelo funcionario na unidade do conjunto habitacional. por favor, me orientem.",reclamacao_atendimento
+"Pessoal, qual o numero para contato da UBS no posto de saude do bairro. Obrigado.",informacoes_gerais
+Preciso de ajuda: meu cartao de imunizacao esta incompleto na UBS Sao Jose.,vacinacao
+"a farmacia da unidade esta sem insulina na unidade do conjunto habitacional. Por faor, me orientem.",medicamentos
+"Pessoal, estou com sangramento intenso e tontura no posto pero do mercado. Ja tentei outras vezes.",sintomas_urgentes
+"Gostaria de informar que gostaria que o agente comunitario passe aqui no posto da vila. Por favor, me orientem.",visita_domiciliar
+fui destratado pelo funcionario na unidade do conjunto habitacional. Moro perto daqui.,reclamacao_atendimento
+ha estoque do remedio para epilepsia no posto de saude do bairro. Aguardo retorno.,medicamentos
+"preciso de ajuda: dispensacao de medicamentos, qual o horario da farmacia na unidade basica perto da escola. moro perto daqui.",medicamentos
+"Pessoal, fui destratado pelo funcionario na unidade basica perto da escola. Por favor, me orientem.",reclamacao_atendimento
+solicito providencias. fui destratado pelo funcionario no posto perto do mercado.,reclamacao_atendimento
+gostaria de informar que a unidade esta sem medico ha dias na ubs sao ose. aguardo retorno.,reclamacao_atendimento
+solicito visita domiciliar da equipe para paciente acamado na unidade do conjunto habitacional. Ja tntei outras vezes.,visita_domiciliar
+"Pessoal, gestantecom perda de sangue e dores na UBS Jardim Esperanca. Aguardo retorno.",sintomas_urgentes
+esperei cinco horas e ninguem me atendeu na unidade do conjunto habitacional. Moro prto daqui.,reclamacao_atendimento
+solicito providencias. a vacina do meu filho esta atrasada e quero tomar na ubs sao jose.,vacinacao
+Preciso de ajuda: fui mal atendid pela recepcao do posto na unidade do meu bairro. Moro perto daqui.,reclamacao_atendimento
+gostaria de informar que preciso arcar para minha esposa ver o obstetra no posto da zona leste.,agendamento_consulta
+"Pessoal, ate quando posso tomar a vacina da gripe no posto perto do mercado. Por favor, me orientem.",vacinacao
+Preciso de ajuda: crianca com crise convulsiva no poso da zona leste. Aguardo retorno.,sintomas_urgentes
+Gostaria de informar que existe disponibilidade de agenda para o doutor no posto perto do mercado. Ja tentei outras vezes.,agendamento_consulta
+Bom dia. qual a unidade referencia do meu endereco no posto da zona leste. Ja tentei outras vezes.,informacoes_gerais
+"preciso levar o pedido para a regulacao na unidade do meu bairro. por favor, me orientem.",exames_resultados
+"Solicito providencias. pedido medico de exame de colesterol, como marco na unidade do meu bairro. Ja tentei outras vezes.",exames_resultados
+Solicito providencias. paciente com dor toracica intensa e sudorese no osto de saude do bairro. Obrigado.,sintomas_urgentes
+"Preciso de ajuda: solicito visita domiciliar da equipe para paciente acamado no posto da zona leste. Por favor, me orientem.",visita_domiciliar
+"Pessoal, quando sai o parecer do exame de imagem na UBS Sao Jose. Por favor, me orientem.",exames_resultados
+"Pessoal, ate quando posso tomar a vacina da gripe no posto da vila. Obrigado.",vacinacao
+meu cartao de imunizacao sta incompleto na UBS Sao Jose.,vacinacao
+"Bom dia. tem vacina contra febre amarela no posto na UBS central. Por favor, me orientem.",vacinacao
+Gostaria de informar que nao encontro o antialergico na unidade no posto da zona leste. Obrigado.,medicamentos
+Solicito providencias. meu pai esta confuso e com a boca torta de repente na unidade bsica perto da escola. Moro perto daqui.,sintomas_urgentes
+Gostaria de informar que quero saber o resultado do meu exae de sangue na unidade basica perto da escola. Ja tentei outras vezes.,exames_resultados
+"Pessoal, gostaria que o agente comunitario passe aqui no posto perto do mercado. Moro perto daqui.",visita_domiciliar
+"preciso de uma consulta com pediatra para meu filho na ubs central. por favor, me orientem.",agendamento_consulta
+"gostaria de inforar que recem nascido com febre e respirando com esforco na unidade do conjunto habitacional. por favor, me orientem.",sintomas_urgentes
+"pessoal, dispensacao de medicamentos, qual o horario da farmacia na ubs central.",medicamentos
+Solicito providencias. homem inconsciente no chao no posto da vila. Moro perto daqui.,sintomas_urgentes
+solicito providencias. familiar com mobilidade reduzida precisa ser atendido na residencia na ubs sao jose. ja tentei outras vezes.,visita_domiciliar
+Preciso de ajuda: homem inconsciente no chao na UBS central. Aguardo retorno.,sintomas_urgentes
+"Pessoal, quero denunciar mau atendimento na unidade do conjunto habitacional.",reclamacao_atendimento
+como pego o laud do raio x na ubs jardim esperanca. aguardo retorno.,exames_resultados
+gostaria de informar que preciso de orientacao sobre documentos para abrir ficha na unidade do meu bairro.,informacoes_gerais
+Gostaria de informar que existe disponibilidade de agenda para o doutor no posto da vla. Ja tentei outras vezes.,agendamento_consulta
+Solicito providencias. solicito liberacao de exame especializado na unidade basica perto da escola. Ja tentei outras vezes.,exames_resultados
+"preciso de ajuda: faltam medicamentos de uso continuo no posto no posto perto do mercado. por favor, me orientem.",medicamentos
+"Pessoal, queria saber se tem vacina da gripe disponivel na unidade basica perto da escola.",vacinacao
+"Pessoal, gostaria que o agente comunitario passe aqui na UBS central. Por favor, me orientem.",visita_domiciliar
+Solicito providencias. queda com suspeita de fratura e muita dor no posto de saude do bairro. Aguardo retorno.,sintomas_urgentes
+Bom dia. pedido de encaminhamento para exame de imagem no posto da zona leste. Obrigado.,exames_resultados
+"Pessoal, ate quando posso tomar a vacina da gripe na unidade basica perto da escola. Moro perto daqui.",vacinacao
+Solicito providencias. fui destratado pelo funcionario no posto da zona lste.,reclamacao_atendimento
+"Preciso de ajuda: qual o numero para contato da UBS no posto de saude do bairro. Por favor, me orientem.",informacoes_gerais
+"Bom dia. qual o numero para contato da UBS no posto perto do mercado. Por favor, me orientem.",informacoes_gerais
+Solicito providencias. solicito visita domiciliar da equipe para paciente acamado no posto da vila.,visita_domiciliar
+"Preciso de ajuda: preciso da receita renovada para buscar o tratamento do mes no posto perto do mercado. Por favor, me orientem.",medicamentos
+"Bom dia. ate quando posso tomar a vacina da gripe no posto da vila. Por favor, me orientem.",vacinacao
+Preciso de ajuda: existe disponibilidade de agenda para o doutor na UBS Sao Jose. Ja tentei outras vezes.,agendamento_consulta
+Gostaria de informar que como cadastrar um recem nascido no sistema do posto no posto perto do mercado.,informacoes_gerais
+Solicito providencias. familiar com mobilidade reduzida precisa ser atendido na residencia na UBS Jardim Esperanca. Ja tentei outras vezes.,visita_domiciliar
+"pessoal, a unidade esta sem medico ha dias no posto da vila.",reclamacao_atendimento
+Preciso de ajuda: meu pai esta confuso e com a boca torta de repente na UBS Jardim Esperanca.,sintomas_urgentes
+solicito providencias. preciso consultar com a equipe de saude da familia no posto pertodo mercado. aguardo retorno.,agendamento_consulta
+"Pessoal, a coleta do laboratorio sera em qual dia na UBS Jardim Esperanca. Aguardo retorno.",exames_resultados
+"Pessoal, quando sa o parecer do exame de imagem na UBS Jardim Esperanca. Aguardo retorno.",exames_resultados
+"Pessoal, ate quando posso tomar a vacina dagripe na UBS central. Ja tentei outras vezes.",vacinacao
+Gostaria de informar que qual o numero para contato da UBS na unidade basica perto daescola.,informacoes_gerais
+"preciso de ajuda: reclamo da falta de respeito de um funcionario na ubs central. por favor, me orientem.",reclamacao_atendimento
+solicito providencias. faltou vacina na unidade e preciso da dose de reforco na ubs sao jose. moro perto daqui.,vacinacao
+solicito marcacao de atendimento na unidade do conjunto habitacional. Moro perto daqui.,agendamento_consulta
+Preciso de ajuda: marcacao de consulta odontologica n posto da vila. Moro perto daqui.,agendamento_consulta
+"Pessoal, pedido medico de exame de colesterol, como marco na unidade do conjunto habitacional. Obrigado.",exames_resultados
+"Pessoal, tem vacina contra febre amarela no posto no posto da vila. Aguardo retorno.",vacinacao
+paciente com dor toracica intensa e sudorese na UBS Sao Jose.,sintomas_urgentes
+"Pessoal, preciso agendar consulta com o medico da familia na unidade do conjunto habitacional. Ja tentei outras vezes.",agendamento_consulta
+solicito providencias. hemorragia que nao estanca na unidade basica perto da escola. moro perto daqui.,sintomas_urgentes
+Solicito providencias. quero remarcar minha consulta que foi cancelada na unidade do conunto habitacional. Obrigado.,agendamento_consulta
+qual o hoario de funcionamento da unidade na unidade basica perto da escola.,informacoes_gerais
+"Gostaria de informar que pedido medico de exame de colesterol, como marco no posto da zona leste. Ja tentei outras vezes.",exames_resultados
+Preciso de ajuda: tem muita demora e desorganizacao no atendimento na UBS Sao Jose.,reclamacao_atendimento
+qual o numero para contato da ubs na unidade basica perto da escola. ja tentei outras vezes.,informacoes_gerais
+quero saber o resultado do mu exame de sangue no posto da vila. Ja tentei outras vezes.,exames_resultados
+"pessoal, quero saber o resultado do meu exame de sangue na ubs sao jose. por faor, me orientem.",exames_resultados
+preciso de ajuda: que dias o posto funciona no posto de saude do bairro.,informacoes_gerais
+Preciso de ajuda: qual a unidade referencia do meu endereco no posto de saude do bairro. Moro perto daqui.,informacoes_gerais
+Gostaria de informar que a coleta do laboratorio sera em qual dia no posto de saude do bairro. Ja tentei outras vezes.,exames_resultados
+gostaria de informar que o posto atende aos sabados na unidae do meu bairro.,informacoes_gerais
+"pessoal, tem muita demora e desorganizacao no atendimento na ubs sao jose. por favor me orientem.",reclamacao_atendimento
+Preciso de ajuda: e preciso agendar antes ou posso ir direto no posto de saude do bairro.Moro perto daqui.,informacoes_gerais
+"pessoal, a equipe poderia ir ate a casa de um paciente restrito ao leito na ubs sao jose. ja tntei outras vezes.",visita_domiciliar
+quais vacinas meu bebe precisa tomar neste mes na unidade basica perto da escola. Moro perto daqui.,vacinacao
+Bom dia. meu bebe esta com febre alta e muito prostrado na unidade basica perto da escola. Aguardo retorno.,sintomas_urgentes
+"solicito providencias. quero saber o resultado do meu exame de sangue na ubs jardim esperanca. por favor, me orientem.",exames_resultados
+solicito providencias. familiar com mobilidade reduzida precisa ser atendido na residencia no posto da vila. agurdo retorno.,visita_domiciliar
+Preciso de ajuda: a vacina antirrabica esta disponivel no posto perto do mercado. Obrigado.,vacinacao
+Preciso de ajuda: familiar com mobilidade reduzida precisa ser atendido na residencia no posto da vila.,visita_domiciliar
+Solicito providencias. reclamo da falta de respeito de um funcionario na unidade basica perto da escola.,reclamacao_atendimento
+"Gostaria de informar que tem vacina contra febre amarela no posto na unidade do meu bairro. Por favor, me orientem.",vacinacao
+Gostaria de informar que hemorragia que nao estanca no posto perto do mercado. Ja tentei outras vezes.,sintomas_urgentes
+"Pessoal, a farmacia da unidade esta sem insulina na UBS Sao Jose.",medicamentos
+Gostaria de informar que quero denunciar mau atendimento na unidade do conjunto habitacional. Ja tentei outras vezes.,reclamacao_atendimento
+"preciso de ajuda: dispensacao de medicamentos, qual o horario da farmacia na unidade do meu bairro. moro peto daqui.",medicamentos
+"Pessoal, preciso atualizar a caderneta de vacinacao das criancas na unidade do meu bairro. Ja tentei outras vezes.",vacinacao
+tem dose da vacina contra covid hoje na unidade do conjunto habitacional. moro perto daqui.,vacinacao
+Solicito providencias. quero cadastrar minha familia na equipe de saude da familia no posto da zona leste.,visita_domiciliar
+"queria uma data para ser examinado pelo medico na unidade do conjunto habitacional. Por favor, me orientem.",agendamento_consulta
+Preciso de ajuda: a equipe poderia ir ate a casa de um paciente restrito ao leito na unidade do meu bairro.,visita_domiciliar
+Gostaria de informar que pessoa com fala enrolada e fraqueza de um lado do corpo na unidade do meu bairro. Ja tentei outras vezes.,sintomas_urgentes
+Gostaria de informar que aplicam vacin de rotina para adultos no posto da vila. Ja tentei outras vezes.,vacinacao
+Gostaria de informar que faltou vacina na unidade e preciso da dose de reforco no posto de saude do bairro. Ja tentei outras vezes.,vacinacao
+Solicito providencias. quero saber o resultado do meu exame de sangue no posto de saude do bairro. Moro perto daqui.,exames_resultados
+Preciso de ajuda: crianca com convulsao e febre agora na unidade do meu bairro. Ja tentei outras vezes.,sintomas_urgentes
+Gostaria de informar que desejo consulta com medico clinico na unidade do conjunto habitacional.,agendamento_consulta
+bom dia. qual a ubs de referencia do meu endereco na unidade do meu bairro. obrigado.,informacoes_gerais
+"Pessoal,  enfermeira pode aplicar o reforco do meu filho no posto da zona leste.",vacinacao
+bom dia. familiar com mobilidade reduzida precisa ser atendido na residencia no posto da vila. aguardo rtorno.,visita_domiciliar
+Bom dia. qual o numero para contato da UBS na unidade basica perto da escola. Ja tentei outras vezes.,informacoes_gerais
+bom dia. preciso de uma consulta com pediatra para meu filho no posto perto do mercado.,agendamento_consulta
+"Pessoal, que dias o posto funciona no posto de saude do bairro. Obrigado.",informacoes_gerais
+solicito providencias. ate quando posso tomar a vacina da gripe na ubs sao jose. ja tentei outras vezes.,vacinacao
+Solicito providencias. qual o horario de funcionamento da unidade na unidade basica perto da escola. Ja tentei outras vezes.,informacoes_gerais
+gostaria de informar que agente de saude nao faz visitas na minha microarea no posto de saude do bairro. moro perto daqui.,visita_domiciliar
+e preciso agendar antes ou posso ir direto no posto de saude do bairro. Aguardo retorno.,informacoes_gerais
+"a vacina do meu filho esta atrasada e quero tomar no posto da zona leste. Por favor, me orientem.",vacinacao
+"Preciso de ajuda: qais servicos a unidade oferece na UBS central. Por favor, me orientem.",informacoes_gerais
+Preciso de ajuda: preciso de uma consulta com pediatra para meu filho no postoda vila. Aguardo retorno.,agendamento_consulta
+"tem vacina contra febre amarela no posto na UBS central. Por favor, me orientem.",vacinacao
+quais vacinas meu bebe precisa tomar neste mes no posto perto do mercado. Obrigado.,vacinacao
+"pessoal, preciso da equipe de saude da familia para visita na unidade do meu bairro. aguardo retorno.",visita_domiciliar
+Gostaria de informar que aplicam vacina de rotina para adultos na unidade o conjunto habitacional. Aguardo retorno.,vacinacao
+Bom dia. como cadastrar um recem nascido no sistema do posto na unidade basica perto da escola. Ja tente outras vezes.,informacoes_gerais
+Preciso de ajuda: gestante com perda de sangue e dores na unidade basica perto da escola.,sintomas_urgentes
+Bom dia. queda com suspeita de fratura e muita dor no posto da vila. Obrigado.,sintomas_urgentes
+"Pessoal, meu bebe esta com febre alta e muito prostrado no posto da vila.",sintomas_urgentes
+"Pessoal, unidade sem profissional medico hoje na unidade do conjunto habitacional. Por favor, me orientem.",reclamacao_atendimento
+"Bom dia. preciso de curatvo em casa porque ele nao consegue sair no posto de saude do bairro. Por favor, me orientem.",visita_domiciliar
+"Solicito providencias. pedido medico de exame de colesterol, como marco no posto da zona leste.",exames_resultados
+Preciso de ajuda: preciso da receita renovada para buscar o tratamento do mes na unidade do conjunto habitacional. Aguardo retorno.,medicamentos
+Preciso de ajuda: a farmacia da unidade esta sem insulina no psto da zona leste. Obrigado.,medicamentos
+Bom dia. faltam medicamentos de uso continuo no posto na unidade basica perto da escola. Moro pertodaqui.,medicamentos
+recem nascido com febe e respirando com esforco no posto de saude do bairro.,sintomas_urgentes
+Bom dia. meu cartao de imunizacao esta incompleto na UBS Sao Jose. Ja tentei outras vezes.,vacinacao
+"preciso agendar consulta com o medico da familia na unidade do conjunto habitacional. Por favor, me orientem.",agendamento_consulta
+Solicito providencias. paciente com dor toracica intensa e sudorese no posto de saude do bairro. Ja tentei outras vezes.,sintomas_urgentes
+Gostaria de informar que a espera passou de quatro horas na unidade do conjunto habitacional. Obrigado.,reclamacao_atendimento
+Preciso de ajuda: quero saber o resultado do meu exame de sangue na unidade basica perto da escola. Obrigado.,exames_resultados
+Bom dia. estou com dor forte no peito e falta de ar no posto da zona leste. Obrigado.,sintomas_urgentes
+quero cadastrar minha familia na equipe de saude da familia na unidade do conjunto habitacional. Obrigado.,visita_domiciliar
+"Gostaria de informar que meu cartao de imunizacao esta incompleto na unidade do meu bairro. Por favor, me orientem.",vacinacao
+gostaria de informar que preciso levaro pedido para a regulacao no posto da zona leste.,exames_resultados
+qual a UBS de referencia do meu endereco no posto da zona leste. Aguardo retorno.,informacoes_gerais
+"faltou vacina na unidade e preciso da dose de reforco na UBS Sao Jose. Por favor, me orientem.",vacinacao
+Bom dia. que dias o posto funciona na unidade basica perto da escola. Aguardo retorno.,informacoes_gerais
+Gostaria de informar que pessoa com fala enrolada e fraqueza de um lado do corpo na unidade do meu bairro. Ja tentei outras vezes.,sintomas_urgentes
+"pessoal, nao encontro o antialergico na unidde no posto perto do mercado. moro perto daqui.",medicamentos
+Gostaria de informar que fui mal atendido pela recepcao do posto no posto da vila.,reclamacao_atendimento
+Preciso de ajuda: hemorragia que nao estanca na UBS central.,sintomas_urgentes
+preciso consultar com a equipe de saude da famila no posto de saude do bairro.,agendamento_consulta
+"Pessoal, meu pai esta confuso e com a boca torta de repente no posto perto do mercado. Ja tentei outras vezes.",sintomas_urgentes
+"Pessoal, preciso de visita do agente comunitario de saude na unidade do meu bairro. Por favor, me orientem.",visita_domiciliar
+"gostaria de informar que falta captopril e metformina na distribuicao no posto de saude do bairro. por favor, me orientem.",medicamentos
+"Solicito providencias. como faco para receer meu medicamento de uso diario na UBS Sao Jose. Por favor, me orientem.",medicamentos
+preciso de ajuda: paciente com dor toracica inensa e sudorese na ubs central.,sintomas_urgentes
+Precis de ajuda: ate quando posso tomar a vacina da gripe na unidade do meu bairro. Moro perto daqui.,vacinacao
+Preciso de ajuda: agente de saude nao faz visitas na minha microarea na UBS Jardim Esperanca. Aguardo retorno.,visita_domiciliar
+preciso de ajuda: tem muita demora e desorganizacao no atendimento no posto perto do mercado. moro perto daqui.,reclamacao_atendimento
+Solicito providencias. retirar documento com o resultado dos testes na UBS Sao Jose. Aguardo retorno.,exames_resultados
+"a coleta do laboratori sera em qual dia no posto perto do mercado. Por favor, me orientem.",exames_resultados
+Solicito providencias. estou com sangramento intenso e tontura na unidade basica perto da escola. Ja tentei outras vezes.,sintomas_urgentes
+quais servicos a unidade oferece na unidade do meu bairro. ja tentei outras vezes.,informacoes_gerais
+"Pessoal, faltou vacina na unidade e preciso da dose de reforco no posto perto do mercado. Moro perto daqui.",vacinacao
+"Pessoal, quais vacinas meu bebe precisa tomar neste mes na UBS Jardim Esperanca. Moro perto daqui.",vacinacao
+preciso de ajuda: preciso agendar consulta com o medico da familia na unidade do conjunto habitacional. aguardo retorno.,agendamento_consulta
+Gostaria de informar que qual o horario de funcionamento da unidade na UBS Sao Jose.,informacoes_gerais
+recem nascido com febre e respirando com esforco na UBS central. Obrigado.,sintomas_urgentes
+"Bom dia. o posto fechou mais cedo e nao atendeu os pacientes no posto da zona leste. Por favor, me orientem.",reclamacao_atendimento
+"Gostaria de informar que quero saber se tem dipirona e amoxicilina para retirar na UBS Sao Jose. Por favor, me orientem.",medicamentos
+"Pessoal, como cadastrar um recem nascido no sistema do posto na unidade do conjunto habitacional. Obrigado.",informacoes_gerais
+"Pessoal, a espra passou de quatro horas na UBS Jardim Esperanca. Moro perto daqui.",reclamacao_atendimento
+Preciso de ajuda: a vacina do meu filho esta atrasada e quero tomar na unidade do conjunto habitacional. Aguardo retorno.,vacinacao
+Solicito providencias. como faco para marcar consulta de rotina no posto de saude do bairro.,agendamento_consulta
+Preciso de ajuda: nao encontro o antialergico na unidade na UBS Jardim Esperanca.,medicamentos
+Preciso de ajuda: tem vacina contra febre amrela no posto na unidade do meu bairro. Obrigado.,vacinacao
+"Gostaria de informar que dispensacao de medicamentos, qual o horario da farmacia no posto da zona leste. Por favor, me orientem.",medicamentos
+gestante com perda de sangue e dores na UBS Jardim Esperanca. Ja tentei outras vezes.,sintomas_urgentes
+quando sai o parecer o exame de imagem no posto de saude do bairro. Obrigado.,exames_resultados
+solicito providncias. como faco o cartao sus na ubs jardim esperanca.,informacoes_gerais
+"preciso de ajuda: quero saber se tem dipirona e amoxicilina para retirar na unidade do meu bairro. por favor, me orientem.",medicamentos
+gostria de informar que preciso da equipe de saude da familia para visita na unidade do meu bairro. ja tentei outras vezes.,visita_domiciliar
+gostaria de informar que nao encontro o antialergicona unidade na ubs jardim esperanca.,medicamentos
+a espera passou de quatro horas no posto a zona leste.,reclamacao_atendimento
+precis de orientacao sobre documentos para abrir ficha no posto de saude do bairro. moro perto daqui.,informacoes_gerais
+"Pessoal, nao consigo agendar atendimento medico pelo telefone na UBS Jardim Esperanca. Obrigado.",agendamento_consulta
+gostaria de informar que quando fica pronto o resltado do preventivo na ubs jardim esperanca.,exames_resultados
+gostaria que o agente comunitario passe aqui na unidade d meu bairro. Ja tentei outras vezes.,visita_domiciliar
+Preciso de ajuda: desejo consulta com medico clinico na UBS Jardim Esperanca. Aguardo retorno.,agendamento_consulta
+Gostaria de informar que meu exame demorou e o resultado nao saiu na unidde do meu bairro. Ja tentei outras vezes.,exames_resultados
+"pessoal, preciso marcar para minha esposa ver o obstetra na unidade basica pero da escola. moro perto daqui.",agendamento_consulta
+Gostaria de nformar que nao encontro o antialergico na unidade na UBS Jardim Esperanca. Obrigado.,medicamentos
+"Pessoal, a farmacia da unidade esta sem insulina no posto da vila. Ja tentei outras vezes.",medicamentos
+meu exame demorou e o resultado nao saiu na UBS Sao ose. Obrigado.,exames_resultados
+Solicito providencias. como faco para receber meu medicamento de uso diario no posto de saude do bairro. Aguardo retorno.,medicamentos
+quero remarcar minha consulta que foi cancelada na UBS Sao Jose.,agendamento_consulta
+"Bom dia. minha mae e idosa e acamada e precisa de atendimento em casa no posto da zona leste. Por favor, me orientem.",visita_domiciliar
+"pessoal, queda com suspeita de fratura e muita dor na unidade do meu bairro. moro perto daqui.",sintomas_urgentes
+Bom dia. quero saber o resultado do meu exame de sangue na unidade do meu bairro. Obrigado.,exames_resultados
+Bom dia. altou vacina na unidade e preciso da dose de reforco na UBS Sao Jose. Obrigado.,vacinacao
+a farmacia da unidade esta sem insulina no posto da zona leste. obrigado.,medicamentos
+"Solicito providencias. paciente com dor toracica intensa e sudorese na unidade do conjunto habitacional. Por favor, me orientem.",sintomas_urgentes
+Solicito providencias. quero denunciar mau atendimento no posto da zona leste. Obrigado.,reclamacao_atendimento
+"gostaria de informar que reclamo da falta de respeito de um funcionario no posto de saude do bairro. por favor, me orientem.",reclamacao_atendimento
+Gostaria de informar que gestante com perda de sangue e dores na UBS Sao Jose. Moro perto daqui.,sintomas_urgentes
+Solicito providencias. aplicam vacina de rotina para adultos na unidade do conjunto habitacional. Aguardo retorno.,vacinacao
+"Bom dia. pessoa com fala enrolada e fraqueza de um lado do corpo na unidade do meu bairro. Por favor, me orientem.",sintomas_urgentes
+Bom dia. quero saber o resultado do meu exame de sangue no posto da zona leste.,exames_resultados
+Solicito providencias. preciso de orientacao sobre documentos para abrir ficha na unidade do meu bairro. Ja tentei outras vezes.,informacoes_gerais
+gostaria de informar que minha mae e idosa e acamada e precisa de atendimento em casa no posto perto do mercado.,visita_domiciliar
+Bom dia. preciso de uma consulta com pediatra para meu ilho no posto da vila. Aguardo retorno.,agendamento_consulta
+"Pessoal, quero remarcar minha consulta que foi cancelada na unidade basica perto da escola. Aguardo retorno.",agendamento_consulta
+quais documentos preciso levar para ser atendido na unidade basica perto da escol. Obrigado.,informacoes_gerais
+Bom dia. queria uma data para ser examinado pelo medico no posto de saude do bairro. Aguardo retorno.,agendamento_consulta
+Preciso de ajuda: preciso da receita renovada para buscar o tratamento do mes no posto da vila. Obrigado.,medicamentos
+"Preciso de ajuda: tem vacina contra febre amarela no posto no posto perto do mercado. Por favor, me orientem.",vacinacao
+solicito providencias. ate quando posso tomar a vacina da gripe no posto da vila. aguardo retorno.,vacinacao
+preciso de ajuda: crianca com convulsao e febre agora no posto perto do mercado. moro perto daui.,sintomas_urgentes
+"gostaria de informar que como faco para receber meu medicamento de uso diario na unidade do meu bairro. por favor, me orientem.",medicamentos
+Bom dia. aplicam vacina de rotina para adultos na unidade do meu bairro. Obrigado.,vacinacao
+Bom dia. tem uma pessoa desmaiada e com dificuldade para respirar na UBS Sao Jose. Ja tentei outras vezes.,sintomas_urgentes
+preciso da receita renovada para buscar o tratamento do mes no posto de saude do bairro. Obrigado.,medicamentos
+ha estoque do remedio para epilepsia no posto perto do mercado.,medicamentos
+Gostaria de informar que como faco o cartao SUS na UBS Sao Jose. Moro perto daqui.,informacoes_gerais
+"pessoal, marcacao de consulta odontologica na unidade do meu bairro. ja tentei ouras vezes.",agendamento_consulta
+Gostaria de informar que o agente de saude nao passa na nossa asa ha meses no posto da vila. Obrigado.,visita_domiciliar
+Bom dia. aplicam vacina de rotina para adultos na unidade do conjunto habitacional. Aguardo retorno.,vacinacao
+Solicito providencias. quais servicos a unidade oferece na UBS Jardim Esperanca.,informacoes_gerais
+"Pessoal, preciso agendar consulta com o medico da familia no posto perto do mercado. Aguardo retorno.",agendamento_consulta
+bom dia. retirar documento com o resultado dos testes na ubs jardim esperanca.,exames_resultados
+Preciso de ajuda: troca de curativo na residencia do paciente na unidade basica perto da escola. Ja tentei outras vezes.,visita_domiciliar
+Preciso de ajuda: agente de saude nao faz visitas na minha microarea no posto da zona leste. Obrigado.,visita_domiciliar
+"Gostaria de informar que qual a unidade referencia do meu endereco na UBS Jardim Esperanca. Por favor, me orientem.",informacoes_gerais
+"Bom dia. o agente de saude nao passa na nossa casa ha meses na UBS Sao Jose. Por favo, me orientem.",visita_domiciliar
+"Bom dia. existe disponibilidade de agenda para o doutor na unidade basica perto da escola. Por favor, me orientem.",agendamento_consulta
+Preciso de ajuda: qual o numero para contato da UBS na unidade do conjunto habitacional. Aguardo retorno.,informacoes_gerais
+tem vacina contra febre amarela no posto na unidade basica perto da escola. obrigado.,vacinacao
+"solicito providencias. quando sai o parecer do exame de imagem na ubs jardim esperanca. por favor, me orientem.",exames_resultados
+o agente de saude nao passa na nossa casa ha meses na unidade basica perto da escola. Moro perto daqui.,visita_domiciliar
+Bom dia. pedido de encaminhamento para exame de imagem no posto da vila. Ja tentei outras vezes.,exames_resultados
+"Pessoal, nao consigo agendar atendimento medico pelo telefone na UBS Jardim Esperanca. Obrigado.",agendamento_consulta
+solicitoprovidencias. como faco o cartao sus no posto da zona leste.,informacoes_gerais
+Bom dia. fui mal atendido pela recepcao do postona UBS Sao Jose.,reclamacao_atendimento
+"Pessoal, o posto atende aos sabados no posto perto do mercado. Aguardo retorno.",informacoes_gerais
+gostaria de informar que porta fechada em horario de funcionamento na unidade do conjunto habitacional. aguardo retorno.,reclamacao_atendimento
+Bom dia. como cadastrar um recem nascido no sistema do posto na unidade do conjunto habitacional. Ja tentei outras vezes.,informacoes_gerais
+"Pessol, homem inconsciente no chao na unidade do meu bairro. Aguardo retorno.",sintomas_urgentes
+"Pessoal, nao encontro o antialergico na unidade na unidade do mu bairro.",medicamentos
+solicito providencias. como renovar a receita do remedio controlado no posto da vila. ja tentei outras vezes.,medicamentos
+Bom dia. pedido de encaminhamento para exame de imagem na unidade do meu bairro. Aguardo retorno.,exames_resultados
+Preciso de ajuda: faltam medicamentos de uso continuo no posto no posto perto do mercado. Obrigado.,medicamentos
+"Preciso de ajuda: preciso de orientacao sobre documentos para abrir ficha na UBS central. Por favor, me orientem.",informacoes_gerais

@@ -1,0 +1,14 @@
+# Visão Computacional para Manutenção Urbana — CitizenTech
+# Python 3.12. Instalação:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+# (torch/torchvision CPU vêm do índice acima; as linhas abaixo cobrem o restante)
+
+torch==2.15.0            # instalar a variante +cpu pelo índice acima
+torchvision==0.29.2      # idem (+cpu)
+opencv-python==5.0.0     # leitura/escrita de vídeo
+scikit-learn==1.5.2      # métricas (precisão, recall, F1, matriz de confusão)
+numpy==2.5.4
+pillow==10.4.0
+matplotlib==3.11.2
+gradio==6.31.0           # interface de integração ao CitizenTech

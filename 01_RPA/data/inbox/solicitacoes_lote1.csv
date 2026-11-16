@@ -1,0 +1,25 @@
+id,data,texto,cep
+S001,2026-11-03,"Quero marcar uma consulta com o clínico geral da UBS do meu bairro.",01001-000
+S002,2026-11-03,"Preciso atualizar a caderneta de vacinação do meu filho de cinco anos.",20040-020
+S003,2026-11-03,"A farmácia do posto está sem insulina há duas semanas e preciso do medicamento.",30130-010
+S004,2026-11-03,"Fiz exame de sangue há vinte dias e o resultado ainda não saiu.",40020-000
+S005,2026-11-04,"Minha mãe é idosa e acamada e precisa de visita da equipe de saúde em casa.",70040-010
+S006,2026-11-04,"Fui mal atendida pela recepção e esperei cinco horas sem ser chamada.",01001-000
+S007,2026-11-04,"Qual o horário de funcionamento do posto de saúde aos sábados?",20040-020
+S008,2026-11-04,"Estou com dor forte no peito e falta de ar desde agora há pouco.",30130-010
+S009,2026-11-05,"Meu bebê de dois meses está com febre alta e respira com dificuldade.",40020-000
+S010,2026-11-05,"Preciso de remédio de pressão. Contato: maria.ficticia@exemplo.com e CPF 123.456.789-09.",70040-010
+S011,2026-11-05,"Quais documentos preciso levar para ser atendido na primeira consulta?",
+S012,2026-11-05,"Como faço para tirar o cartão do SUS da minha família?",01001-000
+S013,2026-11-06,"Preciso agendar uma ultrassonografia que o médico pediu.",20040-020
+S014,2026-11-06,"Preciso de ajuda com um problema, podem verificar por favor?",30130-010
+S015,2026-11-06,"Tem vacina da gripe disponível para idosos nesta semana?",99999-99
+S016,2026-11-06,,01001-000
+S017,2026-11-06,"consulta",01001-000
+S018,2026-11-07,"Quero renovar minha receita de remédio controlado; ligue para (11) 91234-5678 se necessário.",40020-000
+S019,2026-11-07,"A farmácia do posto está sem insulina há duas semanas e preciso do medicamento.",30130-010
+S020,2026-11-07,"O posto fechou mais cedo hoje e não atendeu quem estava na fila.",70040-010
+S021,2026-11-07,"O agente comunitário de saúde não passa na nossa casa há meses.",01001-000
+S022,2026-11-08,"Meu pai desmaiou e está confuso, com a boca torta de repente.",20040-020
+S023,2026-11-08,"Quero marcar consulta de pré-natal, estou grávida de dois meses.",30130-010
+S024,2026-11-08,"Gostaria de apoio para parar de fumar, existe algum programa?",40020-000

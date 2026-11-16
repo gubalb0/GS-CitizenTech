@@ -1,0 +1,10 @@
+# Dados (regeneráveis pelo script 01 ou substituídos pela base real)
+# data/ versionado nesta entrega (amostra de 2000 imagens usada no treino e no teste)
+tmp/
+
+# Caches
+__pycache__/
+*.pyc
+.cache/
+
+# Mantidos na entrega: modelos/, resultados/, exemplos/, relatorio/

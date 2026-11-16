@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE system SYSTEM "iSPD.dtd">
+<system version="2.1">
+    <owner id="user1" powerlimit="100.0"/>
+    <machine energy="0.0" id="mestre" load="0.0" owner="user1" power="1000.0">
+        <position x="300" y="100"/>
+        <icon_id global="0" local="0"/>
+        <characteristic>
+            <process number="1" power="1000.0"/>
+            <memory size="8.0"/>
+            <hard_disk size="100.0"/>
+        </characteristic>
+        <master scheduler="RoundRobin">
+            <slave id="1"/>
+        </master>
+    </machine>
+    <cluster bandwidth="100.0" energy="0.0" id="worker" latency="0.001" master="false" nodes="4" owner="user1" power="1000.0" scheduler="---">
+        <position x="300" y="400"/>
+        <icon_id global="1" local="1"/>
+        <characteristic>
+            <process number="1" power="1000.0"/>
+            <memory size="8.0"/>
+            <hard_disk size="100.0"/>
+            <cost cost_disk="0.0" cost_mem="0.0" cost_proc="0.0"/>
+        </characteristic>
+    </cluster>
+    <link bandwidth="100.0" id="link_ida" latency="0.001" load="0.0">
+        <connect destination="1" origination="0"/>
+        <position x="300" y="100"/>
+        <position x="300" y="400"/>
+        <icon_id global="2" local="2"/>
+    </link>
+    <link bandwidth="100.0" id="link_volta" latency="0.001" load="0.0">
+        <connect destination="0" origination="1"/>
+        <position x="300" y="400"/>
+        <position x="300" y="100"/>
+        <icon_id global="3" local="3"/>
+    </link>
+    <load>
+        <trace file_path="D:\Downloads\GS\CLUSTER\trace\carga_citizentech_400.trace" format="iSPD" tasks="400"/>
+    </load>
+</system>

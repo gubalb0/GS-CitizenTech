@@ -1,0 +1,6 @@
+# Versoes exatas usadas na auditoria/congelamento (docs/modelo_congelado.json). Use se o modelo salvo nao carregar.
+scikit-learn==1.9.1
+numpy==2.4.4
+joblib==1.6.0
+requests==2.33.0
+pytest==8.3.4

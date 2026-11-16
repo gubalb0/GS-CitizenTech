@@ -1,0 +1,81 @@
+texto,categoria
+"Gostaria de marcar uma consulta com o médico da família da minha área.",agendamento_consulta
+"Como posso agendar um horário com a ginecologista do posto?",agendamento_consulta
+"Tentei ligar várias vezes e ninguém atende para marcar atendimento.",agendamento_consulta
+"Preciso de retorno com o cardiologista, minha consulta venceu.",agendamento_consulta
+"Quero marcar avaliação com dentista para minha filha.",agendamento_consulta
+"Minha consulta foi desmarcada sem aviso e preciso de nova data.",agendamento_consulta
+"Existe vaga para consulta de pré-natal esta semana?",agendamento_consulta
+"Preciso de um horário com o clínico, estou com a pressão descontrolada há semanas.",agendamento_consulta
+"Quero agendar consulta para renovar atestado de acompanhamento.",agendamento_consulta
+"Como faço para ser atendido pelo pediatra na unidade?",agendamento_consulta
+"Meu filho precisa tomar a segunda dose da vacina e já passou do prazo.",vacinacao
+"Tem vacina contra a gripe para idosos neste posto?",vacinacao
+"Quero saber o calendário de vacinação das crianças de 4 anos.",vacinacao
+"Perdi a carteirinha de vacinas e preciso de uma segunda via.",vacinacao
+"Preciso tomar o reforço da vacina contra tétano.",vacinacao
+"Quando haverá campanha contra o sarampo na nossa região?",vacinacao
+"A vacina da HPV está disponível para adolescentes?",vacinacao
+"Fui ao posto e a vacina que eu precisava tinha acabado.",vacinacao
+"Gestante precisa de vacina dTpa, onde devo ir?",vacinacao
+"Quero imunizar minha família contra a covid, quais os horários?",vacinacao
+"A farmácia do posto não tem o remédio de diabetes há três semanas.",medicamentos
+"Preciso pegar minha medicação de pressão, como funciona a retirada?",medicamentos
+"Minha receita venceu, como renovo para continuar o tratamento?",medicamentos
+"O antibiótico prescrito não está disponível na unidade.",medicamentos
+"Falta anticoncepcional na distribuição do posto.",medicamentos
+"Quero saber se a unidade fornece fraldas e remédio para idosos.",medicamentos
+"Como retiro medicamento controlado de uso psiquiátrico?",medicamentos
+"O medicamento do meu pai está em falta há um mês.",medicamentos
+"Preciso de insulina e a farmácia só entrega com receita nova.",medicamentos
+"Onde pego os comprimidos da minha mãe hipertensa?",medicamentos
+"Fiz exame de sangue na semana passada e ainda não recebi o resultado.",exames_resultados
+"Preciso marcar uma ultrassonografia pedida pelo médico.",exames_resultados
+"Como faço para buscar o laudo da mamografia?",exames_resultados
+"O pedido de tomografia está parado há meses.",exames_resultados
+"Quero agendar o exame preventivo de colo do útero.",exames_resultados
+"O resultado do exame de urina do meu filho não saiu.",exames_resultados
+"Preciso do resultado do teste de glicose para levar ao endocrinologista.",exames_resultados
+"Como faço para solicitar o encaminhamento para exame de vista?",exames_resultados
+"Meu eletrocardiograma foi feito e nunca me deram o laudo.",exames_resultados
+"Onde retiro resultados dos exames laboratoriais?",exames_resultados
+"Minha avó está acamada e precisa de visita da equipe em casa.",visita_domiciliar
+"O agente comunitário nunca passa na rua onde moro.",visita_domiciliar
+"Solicito curativo domiciliar para meu marido que fez cirurgia.",visita_domiciliar
+"Quero cadastrar minha casa na estratégia de saúde da família.",visita_domiciliar
+"Preciso de atendimento em domicílio para paciente que não consegue andar.",visita_domiciliar
+"Pedimos visita da equipe para acompanhar recém-nascido em casa.",visita_domiciliar
+"A equipe da saúde da família não visita nossa microárea há muito tempo.",visita_domiciliar
+"Meu tio é acamado e precisa trocar a sonda, podem vir em casa?",visita_domiciliar
+"Quero que um agente venha atualizar o cadastro da minha família.",visita_domiciliar
+"Idosa que mora sozinha precisa de acompanhamento domiciliar.",visita_domiciliar
+"Fui tratada com grosseria pela atendente da recepção.",reclamacao_atendimento
+"Esperei a manhã inteira e não fui atendido, isso é um absurdo.",reclamacao_atendimento
+"A unidade fechou no meio do expediente sem avisar ninguém.",reclamacao_atendimento
+"Não havia nenhum médico no posto hoje, perdi o dia de trabalho.",reclamacao_atendimento
+"A fila é gigante e o atendimento é desorganizado.",reclamacao_atendimento
+"Quero registrar uma reclamação sobre a demora na triagem.",reclamacao_atendimento
+"O profissional me atendeu apressado e sem me ouvir.",reclamacao_atendimento
+"O posto está sempre lotado e sem cadeiras para idosos.",reclamacao_atendimento
+"Reclamação: o banheiro da unidade está sujo e interditado.",reclamacao_atendimento
+"Cheguei às 6h e fui dispensado porque as fichas acabaram.",reclamacao_atendimento
+"Qual o horário de atendimento do posto na sexta-feira?",informacoes_gerais
+"Preciso de informações sobre quais documentos levar na primeira consulta.",informacoes_gerais
+"Como faço para tirar meu cartão do SUS?",informacoes_gerais
+"Qual é a UBS responsável pelo meu endereço?",informacoes_gerais
+"Vocês atendem sem agendamento ou tenho que ir cedo?",informacoes_gerais
+"A unidade tem atendimento de fisioterapia?",informacoes_gerais
+"Onde fica a unidade de saúde mais próxima do meu CEP?",informacoes_gerais
+"Gostaria de saber se o posto funciona em feriados.",informacoes_gerais
+"Preciso saber quais serviços de saúde bucal são oferecidos.",informacoes_gerais
+"Posso ser atendido na UBS sendo de outro bairro?",informacoes_gerais
+"Estou com dor no peito que irradia para o braço e suor frio agora.",sintomas_urgentes
+"Minha filha de dois meses está com febre e respira com dificuldade.",sintomas_urgentes
+"Meu pai teve um desmaio e não consegue falar direito.",sintomas_urgentes
+"Estou com falta de ar intensa desde a madrugada.",sintomas_urgentes
+"Gestante com sangramento forte e dor na barriga.",sintomas_urgentes
+"Criança engasgada e ficando roxa, preciso de ajuda.",sintomas_urgentes
+"Idoso caiu e está com dor intensa e inchaço na perna.",sintomas_urgentes
+"Estou com febre muito alta, vômitos e confusão mental.",sintomas_urgentes
+"Mulher com convulsão agora, o que faço?",sintomas_urgentes
+"Tive um corte profundo e não para de sangrar.",sintomas_urgentes

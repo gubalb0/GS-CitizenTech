@@ -1,0 +1,108 @@
+{
+  "integridade": {
+    "corpus-00000-of-00001.parquet": true,
+    "validation-00000-of-00001.parquet": true
+  },
+  "resumo": {
+    "perguntas": 150,
+    "por_estado": {
+      "resolvida": 150
+    },
+    "blocos_total": 252,
+    "por_status_bloco": {
+      "exata_unica": 213,
+      "exata_duplicatas": 39
+    },
+    "multi": {
+      "perguntas": 41,
+      "por_estado": {
+        "resolvida": 41
+      },
+      "blocos_por_pergunta": {
+        "5": 16,
+        "2": 8,
+        "3": 9,
+        "1": 4,
+        "4": 4
+      }
+    },
+    "nao_multi": {
+      "perguntas": 109,
+      "por_estado": {
+        "resolvida": 109
+      }
+    }
+  },
+  "perguntas_nao_univocas": [
+    {
+      "q1": "val-005",
+      "q2": "val-018",
+      "jaccard": 1.0,
+      "pergunta_identica": false,
+      "mesmos_docs": false,
+      "respostas_iguais": false,
+      "pergunta_1": "Qual é o valor autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+      "docs_1": [
+        255,
+        259,
+        263
+      ],
+      "docs_2": [
+        704
+      ]
+    },
+    {
+      "q1": "val-023",
+      "q2": "val-120",
+      "jaccard": 1.0,
+      "pergunta_identica": true,
+      "mesmos_docs": false,
+      "respostas_iguais": false,
+      "pergunta_1": "Qual é o valor da dívida reconhecida para o Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia?",
+      "docs_1": [
+        527
+      ],
+      "docs_2": [
+        468
+      ]
+    },
+    {
+      "q1": "val-059",
+      "q2": "val-099",
+      "jaccard": 0.846,
+      "pergunta_identica": false,
+      "mesmos_docs": false,
+      "respostas_iguais": false,
+      "pergunta_1": "Quais materiais e equipamentos foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+      "docs_1": [
+        409,
+        429,
+        441
+      ],
+      "docs_2": [
+        616,
+        621,
+        684,
+        688,
+        718
+      ]
+    },
+    {
+      "q1": "val-122",
+      "q2": "val-146",
+      "jaccard": 1.0,
+      "pergunta_identica": true,
+      "mesmos_docs": false,
+      "respostas_iguais": false,
+      "pergunta_1": "Qual é o valor autorizado para pagamento ao Hospital Santa Lúcia?",
+      "docs_1": [
+        306,
+        311,
+        316
+      ],
+      "docs_2": [
+        1674
+      ]
+    }
+  ]
+}

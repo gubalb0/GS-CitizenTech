@@ -1,0 +1,173 @@
+{
+  "features_corpus": [
+    {
+      "feature_idx": 0,
+      "name": "id",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "edicao",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "data_edicao",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "referencia",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "secao",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "tipo_documento",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "numero_documento",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "texto_completo",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "data",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 9,
+      "name": "topicos",
+      "type": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    {
+      "feature_idx": 10,
+      "name": "localidades",
+      "type": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    {
+      "feature_idx": 11,
+      "name": "tipo_unidade",
+      "type": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    {
+      "feature_idx": 12,
+      "name": "programas",
+      "type": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    }
+  ],
+  "features_qa": [
+    {
+      "feature_idx": 0,
+      "name": "pergunta",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "resposta",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "secao",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "fonte",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "tipo_documento",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "texto_publicacao",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "acessado_em": "2026-11-13",
+  "fonte": "https://huggingface.co/datasets/gvic-unb/dodf-saude-qa",
+  "via": "datasets-server.huggingface.co/rows"
+}

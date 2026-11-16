@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE system SYSTEM "iSPD.dtd">
+<system version="2.1">
+    <owner id="user1" powerlimit="100.0"/>
+    <cluster bandwidth="100.0" energy="0.0" id="cluster" latency="0.001" master="true" nodes="4" owner="user1" power="1000.0" scheduler="RoundRobin">
+        <position x="300" y="200"/>
+        <icon_id global="0" local="0"/>
+        <characteristic>
+            <process number="1" power="1000.0"/>
+            <memory size="8.0"/>
+            <hard_disk size="100.0"/>
+            <cost cost_disk="0.0" cost_mem="0.0" cost_proc="0.0"/>
+        </characteristic>
+    </cluster>
+    <load>
+        <trace file_path="D:\Downloads\GS\CLUSTER\trace\carga_citizentech_400.trace" format="iSPD" tasks="400"/>
+    </load>
+</system>

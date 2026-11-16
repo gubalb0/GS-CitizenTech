@@ -1,0 +1,15 @@
+[server]
+headless = true
+
+[client]
+# Esconde o botão "Deploy" e o menu de desenvolvedor
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#0B6E4F"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F4"
+textColor = "#1B1F23"
