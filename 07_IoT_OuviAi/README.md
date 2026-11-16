@@ -5,7 +5,7 @@
 Assistente sonoro para pessoas surdas ou com deficiência auditiva: o microfone do celular capta o som, um modelo treinado no **Edge Impulse** reconhece **campainha**, **batida na porta** ou **ambiente**, e a tela mostra o evento.
 
 - Relatório completo com as 12 capturas de tela: [`relatorio_ouviai.pdf`](relatorio_ouviai.pdf)
-- Vídeo da validação ao vivo no celular: ✏️ _link_
+- Vídeo da validação ao vivo no celular (55 s, 15 tentativas): [`video_validacao_ao_vivo.mp4`](video_validacao_ao_vivo.mp4). A gravação de tela do iPhone não captura o som enquanto o microfone está em uso; o relatório (seção 6) traz o tempo de cada tentativa no vídeo.
 
 ## Arquitetura
 
