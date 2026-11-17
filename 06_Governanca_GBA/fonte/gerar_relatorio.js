@@ -41,12 +41,12 @@ const item = (texto) => new Paragraph({
 
 // ---------------------------------------------------------------- títulos (ABNT)
 const titulos = []; // para o sumário
-function H1(numero, texto) {
+function H1(numero, texto, antes = 0) {
   const rotulo = numero ? `${numero} ${texto.toUpperCase()}` : texto.toUpperCase();
   titulos.push({ nivel: 1, rotulo, chave: rotulo });
   return new Paragraph({
     heading: HeadingLevel.HEADING_1, alignment: numero ? AlignmentType.LEFT : AlignmentType.CENTER,
-    spacing: { before: 0, after: 360, line: 360 }, children: [new TextRun(rotulo)],
+    spacing: { before: antes, after: 360, line: 360 }, children: [new TextRun(rotulo)],
   });
 }
 function H2(numero, texto) {
@@ -376,19 +376,17 @@ const governanca = [
 ];
 
 const conclusao = [
-  H1("3", "Conclusão"),
-  new Paragraph({
-    alignment: AlignmentType.JUSTIFIED, spacing: { line: 360 },
-    shading: { type: ShadingType.CLEAR, color: "auto", fill: "FFF2CC" },
-    children: [new TextRun({
-      text: "[Seção a ser redigida pelos integrantes do grupo, conforme o barema da disciplina. Apagar este aviso " +
-        "depois de escrever o texto.]", italics: true,
-    })],
-  }),
+  H1("3", "Conclusão", 480),
+  P("Fomos encarregados de integrar todas as matérias em um único projeto. Hoje, o Zelo e o Gen AI estão ligados de verdade: o cidadão faz uma pergunta na aba \"Publicações oficiais\" e recebe a resposta com a publicação do Diário Oficial de onde ela saiu. O RPA e o Cluster conversam pelos dados, já que a simulação do Cluster usa a fila de pedidos do RPA e mostrou que dobrar os workers reduz o tempo de 100 s para 50 s. A Visão Computacional se liga ao projeto pelo tema, a Computação Quântica ficou no plano conceitual e o IoT e o PLN acabaram ficando separados."),
+  P("Esperávamos integrar mais matérias, principalmente o IoT e o PLN, mas os dois nasceram com propostas muito diferentes do Zelo. O OuviAí roda direto no navegador do celular, sem servidor, justamente para que o áudio da casa da pessoa nunca saia do aparelho; ligá-lo ao Zelo obrigaria a mandar esses dados para fora, o que iria contra a privacidade que é a base do módulo. O PLN trata de direitos do consumidor, que é outro problema, e usa outro modelo (Qwen2.5-3B) com outra estrutura. Transformar a voz dele em um canal de entrada do Zelo é possível, mas exigiria refazer a base de conhecimento e testar tudo de novo. Com o prazo que tivemos, preferimos entregar os dois funcionando bem separados do que integrados pela metade."),
+  P("Nesse processo, aprendemos três coisas. A primeira é que uma regra escrita no prompt não garante nada: mesmo instruída a não inventar contatos, a IA criou um telefone \"0800\" que não existia, e por isso o canal oficial passou a vir de uma tabela fixa no código, e não do modelo. A segunda é que testar com pessoas reais muda o produto: as três pessoas que usaram o Zelo encontraram problemas que nós não tínhamos visto, e ajustamos o sistema a partir do que elas disseram. A terceira é que citar a fonte não garante que a resposta está certa: das 31 perguntas que o Gen AI respondeu (de 150), 8 estavam erradas, e todas traziam uma citação literal do Diário Oficial e passaram em todas as verificações automáticas."),
+  P("Por isso, a parte que ainda não colocaríamos em produção é o modelo do Gen AI. Usamos o Qwen3-8B, um modelo pequeno que roda em um computador comum, mas que no meu PC levou 123 segundos para responder uma única pergunta. Com o orçamento de uma prefeitura, trocar por um modelo maior e rodá-lo em um servidor adequado já resolveria boa parte disso. Em relação à segurança, todos os módulos têm uma pessoa revisando a decisão final, os dados pessoais (CPF, telefone e e-mail) são apagados antes de chegar à IA e o áudio do OuviAí não sai do celular. Também deixamos os limites registrados: o RPA acertou 85,8% dos casos, mas falhou em situações graves, então não está pronto para uso real, e o Gen AI continua sendo um protótipo não validado."),
+  P("Como próximos passos, queremos fazer uma revisão humana completa das 150 respostas do Gen AI, muito maior do que a que conseguimos fazer, usar a Visão Computacional para analisar a foto que o cidadão manda junto com o relato no Zelo, rodar o Gen AI em um servidor com memória suficiente para deixá-lo ligado também na versão publicada e migrar o projeto para criptografia pós-quântica, seguindo o roadmap da Quântica."),
+  P("O mais difícil foi o tempo, ainda mais com tudo precisando ser integrado e sem espaço para mudanças grandes quando algo não se encaixava. A divisão de tarefas funcionou bem: cada um de nós ficou com as matérias em que tinha mais segurança, o que permitiu entregar as nove partes no prazo."),
 ];
 
 const links = [
-  H1("4", "Links"),
+  H1("4", "Links", 480),
   P("**Vídeo de demonstração da integração (YouTube, não listado):** [inserir link]"),
   P("**Repositório GitHub com todos os módulos:** https://github.com/gubalb0/GS-CitizenTech"),
   P("**Repositório do Zelo:** https://github.com/gubalb0/GS-FRONT"),
@@ -397,7 +395,7 @@ const links = [
 
 const ref = (t) => new Paragraph({ alignment: AlignmentType.LEFT, spacing: { line: 240, after: 240 }, children: runs(t) });
 const referencias = [
-  H1(null, "Referências"),
+  H1(null, "Referências", 480),
   ref("AGÊNCIA BRASIL. São Paulo ainda registra alagamentos e trânsito intenso após temporal. Brasília, 25 jan. 2025. " +
     "Disponível em: https://agenciabrasil.ebc.com.br/geral/noticia/2025-01/sao-paulo-ainda-registra-alagamentos-e-transito-intenso-apos-temporal. " +
     "Acesso em: 16 nov. 2026."),
@@ -420,9 +418,9 @@ const corpo = [
   quebra(),
   ...aberturaDesenvolvimento,
   ...rpa, ...cluster, ...quantica, ...front, ...genai, ...iot, ...pln, ...visao, ...governanca,
-  quebra(), ...conclusao,
-  ...vazio(1), ...links,
-  quebra(), ...referencias,
+  ...conclusao,
+  ...links,
+  ...referencias,
 ];
 
 // listas e sumário dependem de figuras/quadros/títulos, que já foram coletados acima
