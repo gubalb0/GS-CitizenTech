@@ -53,6 +53,18 @@ Zelo (aba "Publicações oficiais") → API do Zelo /publicacoes → integracao_
 - O cidadão vê sempre o status, a publicação citada (edição e data do DODF) e o trecho literal. CPF e telefone saem da pergunta no Zelo, antes de chegar ao serviço.
 - O modelo precisa de ~8 GB de RAM, por isso a aba fica desligada no Zelo publicado no Render.
 
+### Teste com o modelo real (17/11/2026)
+
+Executado no PC de Gustavo Balbo (Windows, 15 GB de RAM, vídeo Intel integrado via Vulkan) com LM Studio 0.4.28 e `Qwen_Qwen3-8B-Q4_K_M.gguf`, contexto 8192, identificador `qwen3-8b`. `verificar_hashes.py` antes da execução: `TODOS CONFEREM: True`.
+
+| Pergunta | Status | Publicação citada | Tempo |
+|---|---|---|---|
+| Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia? | Respondida | Extrato do Contrato nº 1025/2024, DODF edição 5, 08/01/2025, Seção III | 123,7 s |
+
+![Aba Publicações oficiais do Zelo com resposta do modelo real](evidencia_integracao_modelo_real.png)
+
+A resposta coincide com a julgada correta para essa pergunta (val-006) na auditoria do módulo. O tempo maior que o das rodadas do Henry (12 a 21 s) vem do hardware: aqui a geração roda no vídeo integrado.
+
 ## Índices de busca
 
 O índice usado nas consultas (`01_RPA/data_assistente/indices/est300o30`, 75 MB) está no repositório. Os demais índices de teste ficaram de fora e podem ser gerados com:
