@@ -23,17 +23,17 @@
 | **2:15 → 2:45** | Prints do RPA (execução, revisão humana) | Triagem de pedidos de UBS · 8 categorias · urgência → humano · 85,8% · **não apto para uso real** (trauma, infarto, saúde mental) |
 | **2:45 → 3:05** | `comparacao.md` ou HTML do iSPD | Simula a fila do RPA · 2 → 4 workers · 100 s → 50 s · speedup ≈ 2× · é simulação, não hardware real |
 | **3:05 → 3:35** | Zelo **local**, aba "Publicações oficiais" (gravar antes, com o LM Studio) | Integração real: Zelo → serviço isolado → RAG do DODF · uma pergunta respondida com publicação e trecho · "capital da França" → fora do escopo · protótipo não validado (8 de 31 incorretas) |
-| **3:25 → 3:45** | Vídeo anotado da Visão | Fissura em concreto · acurácia 0,997 · triagem para inspeção, não avalia estrutura · ligação com o Zelo (foto do relato) |
-| **3:45 → 4:05** | Gravação do OuviAí no celular | Surdos · campainha / batida / ambiente · 15/15 ao vivo · roda no celular, áudio não sai do aparelho |
-| **4:05 → 4:25** | Arquitetura do PLN (`relatorio/arquitetura.png`) | Voz → texto → CDC → resposta falada · idosos e baixa alfabetização · WER 18,9% · poderia ser canal de voz do Zelo |
-| **4:25 → 4:40** | `03_Computacao_Quantica/roadmap.png` | Identidade digital · Shor quebra RSA · criptografia pós-quântica (NIST 2024) · roadmap até 2032 |
-| **4:40 → 5:30** | Relatório, Quadro 1 (integração) | 4 níveis · integrado: Zelo + Gen AI · por dados: RPA + Cluster · por tema: Visão · não integrados (IoT, PLN) e **por quê** · conceitual: Quântica |
-| **5:30 → 5:55** | Relatório, Quadro 3 (riscos) | Humano no circuito em todos · LGPD: mascaramento, áudio apagado/local · aprendizado: regra no prompt não é garantia |
-| **5:55 → 6:10** | README, links | Repositório, Zelo publicado e relatório · agradecimento |
+| **3:35 → 3:55** | Vídeo anotado da Visão | Fissura em concreto · acurácia 0,997 · triagem para inspeção, não avalia estrutura · ligação com o Zelo (foto do relato) |
+| **3:55 → 4:15** | Gravação do OuviAí no celular | Surdos · campainha / batida / ambiente · 15/15 ao vivo · roda no celular, áudio não sai do aparelho |
+| **4:15 → 4:35** | Arquitetura do PLN (`relatorio/arquitetura.png`) | Voz → texto → CDC → resposta falada · idosos e baixa alfabetização · WER 18,9% · poderia ser canal de voz do Zelo |
+| **4:35 → 4:50** | `03_Computacao_Quantica/roadmap.png` | Identidade digital · Shor quebra RSA · criptografia pós-quântica (NIST 2024) · roadmap até 2032 |
+| **4:50 → 5:40** | Relatório, Quadro 1 (integração) | 4 níveis · integrado: Zelo + Gen AI · por dados: RPA + Cluster · por tema: Visão · não integrados (IoT, PLN) e **por quê** · conceitual: Quântica |
+| **5:40 → 6:05** | Relatório, Quadro 3 (riscos) | Humano no circuito em todos · LGPD: mascaramento, áudio apagado/local · aprendizado: regra no prompt não é garantia |
+| **6:05 → 6:20** | README, links | Repositório, Zelo publicado e relatório · agradecimento |
 
 **Total: cerca de 6 min 20 s**, com folga de 1 minuto para o limite de 7.
 
 ## Dicas
-- Na parte da Governança (4:40 → 5:55), fale olhando o quadro e explique; não leia as linhas.
+- Na parte da Governança (4:50 → 6:05), fale olhando o quadro e explique; não leia as linhas.
 - Se passar de 7 min, encurte primeiro os blocos de Gen AI e Quântica.
 - Publique no YouTube como **Não listado** e coloque o link no README e na seção 4 do relatório.
