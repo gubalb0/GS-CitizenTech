@@ -14,7 +14,7 @@ from pathlib import Path
 from . import dados as D
 
 CAMPOS = ["prioridade_de_revisao", "qid", "grupo_automatico(A=fonte correta enviada;B=nao)", "multi", "pergunta", "fontes_recuperadas(enviadas marcadas com *)",
-          "resposta_produzida", "status_atribuido", "evidencias_citadas", "fontes_citadas", "verificacao_automatica", "justificativa_do_sistema",
+          "resposta_produzida", "status_atribuido", "evidencias_citadas", "fontes_citadas", "verificacao_automatica", "identificabilidade_e_cobertura(4.2/4.3)", "justificativa_do_sistema",
           "referencia_do_dataset(gerada por LLM; nao e verdade definitiva)",
           "JULGAMENTO_HUMANO(correta/incorreta/parcial/ambigua_adequada/ambigua_inadequada/abstencao_adequada/abstencao_inadequada)",
           "a_resposta_esta_sustentada_na_fonte_citada?(sim/nao)", "a_fonte_citada_e_a_publicacao_certa?(sim/nao/indeterminado)", "observacoes", "revisor"]
@@ -38,7 +38,9 @@ def linha(o: dict) -> list:
     ev = "\n".join(f"[{e['fonte']}] literal={e['literal']}: {e['trecho']}" for e in s["evidencias"])
     fc = "\n".join(f"{f['id']} {f['chunk_id']} (doc {f['doc_id']}; {f['tipo_documento']} {f['referencia']}; {f['data_edicao']})" for f in s["fontes"])
     ver = json.dumps(s["verificacao"], ensure_ascii=False)
-    return [prioridade(o), o["qid"], o["grupo"], "sim" if o["multi"] else "nao", o["pergunta"], fr, s["resposta"], s["status"], ev, fc, ver, s["justificativa"],
+    t = s["telemetria"]
+    ind = json.dumps({k: (({a: b for a, b in t[k].items() if a != "concorrentes"}) if isinstance(t[k], dict) else t[k]) for k in ("identificabilidade", "cobertura_lista") if t.get(k)}, ensure_ascii=False)
+    return [prioridade(o), o["qid"], o["grupo"], "sim" if o["multi"] else "nao", o["pergunta"], fr, s["resposta"], s["status"], ev, fc, ver, ind, s["justificativa"],
             o["resposta_referencia"], "", "", "", "", ""]
 
 

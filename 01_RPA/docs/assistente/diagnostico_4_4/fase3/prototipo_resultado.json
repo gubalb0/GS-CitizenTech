@@ -1,0 +1,244 @@
+{
+ "val-000": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-002": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-003": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-006": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-007": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {}
+ },
+ "val-012": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {}
+ },
+ "val-013": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-017": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-020": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-021": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-024": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-031": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {}
+ },
+ "val-032": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {}
+ },
+ "val-039": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {
+   "afirmacao_negativa": "não foram",
+   "localidade_conflitante_no_registro": [
+    [
+     "C2",
+     [
+      "sudoeste"
+     ]
+    ],
+    [
+     "C2",
+     [
+      "sudoeste"
+     ]
+    ]
+   ]
+  }
+ },
+ "val-041": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-044": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {}
+ },
+ "val-047": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {}
+ },
+ "val-049": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-050": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {
+   "periodo_declarado_fora_do_pedido": [
+    [
+     "C3",
+     196,
+     [
+      [
+       2025,
+       1,
+       31
+      ],
+      [
+       2025,
+       2,
+       6
+      ]
+     ]
+    ]
+   ]
+  }
+ },
+ "val-059": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-066": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-070": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-083": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {}
+ },
+ "val-087": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {}
+ },
+ "val-090": {
+  "status_fase2": "respondida",
+  "rotulo_auditor": "Correta",
+  "flags": {}
+ },
+ "val-091": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-099": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-100": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {}
+ },
+ "val-102": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-111": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-114": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-118": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-130": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {}
+ },
+ "val-131": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-136": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {}
+ },
+ "val-141": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Abstencao indevida",
+  "flags": {
+   "afirmacao_negativa": "não especifica"
+  }
+ },
+ "val-143": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Correta, mas parcial",
+  "flags": {}
+ },
+ "val-149": {
+  "status_fase2": "parcial",
+  "rotulo_auditor": "Incorreta",
+  "flags": {
+   "localidade_conflitante_no_registro": [
+    [
+     "C1",
+     [
+      "taguatinga"
+     ]
+    ],
+    [
+     "C1",
+     [
+      "taguatinga"
+     ]
+    ]
+   ]
+  }
+ }
+}

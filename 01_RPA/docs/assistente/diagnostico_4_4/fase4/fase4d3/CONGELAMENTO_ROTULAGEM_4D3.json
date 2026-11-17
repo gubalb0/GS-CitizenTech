@@ -1,0 +1,8 @@
+{
+ "congelado_em": "2026-11-16T20:35:42",
+ "sha256": {
+  "CASOS_DIAGNOSTICOS_4D3.json": "cafc0eb529e71c4ae18fd5e1b076b87cf535e7fb87771a974801e31536a877f4",
+  "ROTULAGEM_4D3.md": "4e4168ec93fba89de36f69ab3fa2575eef6d2af8056eb5d238753721fdad063a"
+ },
+ "observacao": "gerado antes de importar/executar qualquer c\u00f3digo do pipeline"
+}

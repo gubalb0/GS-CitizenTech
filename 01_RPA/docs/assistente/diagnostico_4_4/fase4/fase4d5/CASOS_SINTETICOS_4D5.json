@@ -1,0 +1,1057 @@
+{
+ "versao": "casos_4d5/1",
+ "natureza": "sintético; rotulagem de referência do autor, sem segundo avaliador humano",
+ "casos": [
+  {
+   "id": "S01",
+   "tema": "mesma frase, relação explícita",
+   "pergunta": "Qual o objeto do contrato da empresa Alfa Serviços Ltda?",
+   "resposta": "A Alfa Serviços Ltda foi contratada para a manutenção de tomógrafos.",
+   "publicacoes": {
+    "P1": [
+     "Contrato nº 15/2025. A Alfa Serviços Ltda foi contratada para a manutenção de tomógrafos do hospital."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "A Alfa Serviços Ltda foi contratada para a manutenção de tomógrafos do hospital"
+    }
+   ],
+   "entidade": {
+    "nome": "Alfa Serviços Ltda",
+    "formas": [
+     "alfa servicos ltda",
+     "alfa servicos",
+     "alfa"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Alfa",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita"
+    }
+   ],
+   "justificativa": "entidade e atributo na mesma frase, ligados por 'foi contratada para'",
+   "confianca": "alta"
+  },
+  {
+   "id": "S02",
+   "tema": "mesma frase, coocorrência sem relação com a entidade",
+   "pergunta": "Qual o objeto do contrato da empresa Alfa Serviços Ltda?",
+   "resposta": "A Alfa Serviços Ltda contratou a manutenção de tomógrafos.",
+   "publicacoes": {
+    "P1": [
+     "Ata nº 3/2025. Na reunião, a Alfa Serviços Ltda observou que a manutenção de tomógrafos será contratada pela Beta Engenharia Ltda."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Na reunião, a Alfa Serviços Ltda observou que a manutenção de tomógrafos será contratada pela Beta Engenharia Ltda"
+    }
+   ],
+   "entidade": {
+    "nome": "Alfa Serviços Ltda",
+    "formas": [
+     "alfa servicos ltda",
+     "alfa servicos",
+     "alfa"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "beta engenharia ltda",
+    "beta"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Alfa",
+     "vinculo_esperado": "nao_sustentado_outra_entidade",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "coocorrência; o contratante é a Beta"
+    }
+   ],
+   "justificativa": "a Alfa só aparece como quem observou; quem contrata é a Beta",
+   "confianca": "alta"
+  },
+  {
+   "id": "S03",
+   "tema": "frases adjacentes com anáfora",
+   "pergunta": "Quais exames o Hospital Regional de Taguatinga (HRT) passou a oferecer?",
+   "resposta": "O HRT passou a oferecer exames de tomografia.",
+   "publicacoes": {
+    "P1": [
+     "Nota nº 4/2025. O Hospital Regional de Taguatinga (HRT) recebeu o novo equipamento em março. A unidade passou a oferecer exames de tomografia."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "A unidade passou a oferecer exames de tomografia"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "adjacente com anáfora ('A unidade' retoma o HRT)"
+    }
+   ],
+   "justificativa": "a frase citada retoma o HRT por 'A unidade' (referente único na frase anterior)",
+   "confianca": "media_alta"
+  },
+  {
+   "id": "S04",
+   "tema": "frases adjacentes sem vínculo textual",
+   "pergunta": "O que o contrato prevê para o Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O contrato prevê a aquisição de monitores multiparâmetros para o HRT.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 9/2025. O Hospital Regional de Taguatinga (HRT) foi visitado pelo Secretário. O contrato prevê a aquisição de monitores multiparâmetros."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "O contrato prevê a aquisição de monitores multiparâmetros"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_verificavel",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "só proximidade"
+    }
+   ],
+   "justificativa": "a frase anterior menciona o HRT por outro motivo (visita); nada liga o contrato ao HRT",
+   "confianca": "media"
+  },
+  {
+   "id": "S05",
+   "tema": "anáfora ambígua",
+   "pergunta": "Quais exames o Hospital Regional de Taguatinga (HRT) passou a oferecer?",
+   "resposta": "O HRT passou a oferecer exames de tomografia.",
+   "publicacoes": {
+    "P1": [
+     "Nota nº 5/2025. O Hospital Regional de Taguatinga (HRT) recebeu o equipamento. O Hospital Regional de Sobradinho (HRS) ampliou o atendimento. A unidade passou a oferecer exames de tomografia."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "A unidade passou a oferecer exames de tomografia"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "hospital regional de sobradinho",
+    "hrs"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "ambiguo",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "'A unidade' pode ser o HRT ou o HRS"
+    }
+   ],
+   "justificativa": "dois referentes possíveis para 'A unidade'",
+   "confianca": "media"
+  },
+  {
+   "id": "S06",
+   "tema": "entidade só na pergunta (organização)",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O objeto é a manutenção de tomógrafos do HRT.",
+   "publicacoes": {
+    "P1": [
+     "Contrato nº 12/2025. Objeto: manutenção de tomógrafos. Vigência: 12 meses."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Objeto: manutenção de tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_sustentado_herdado",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "ausente"
+    }
+   ],
+   "justificativa": "o HRT não consta em nenhum ponto da publicação",
+   "confianca": "alta"
+  },
+  {
+   "id": "S07",
+   "tema": "entidade em outra frase não relacionada do mesmo chunk",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O objeto é a manutenção de tomógrafos do HRT.",
+   "publicacoes": {
+    "P1": [
+     "Contrato nº 12/2025. Objeto: manutenção de tomógrafos. A empresa executará os serviços em 12 meses. O HRT realizou a reunião de abertura no dia 3 de março."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Objeto: manutenção de tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_sustentado_herdado",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "menção em frase sem relação com o objeto"
+    }
+   ],
+   "justificativa": "o HRT só aparece numa frase sobre reunião",
+   "confianca": "media_alta"
+  },
+  {
+   "id": "S08",
+   "tema": "entidade em outro chunk, outro papel",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O objeto é a manutenção de tomógrafos do HRT.",
+   "publicacoes": {
+    "P1": [
+     "Contrato nº 12/2025. Objeto: manutenção de tomógrafos. Vigência: 12 meses.",
+     "Testemunha: Diretor do HRT. Data de assinatura: 07/05/2025."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Objeto: manutenção de tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_sustentado_outro_atributo",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "o HRT aparece como testemunha, outro papel"
+    }
+   ],
+   "justificativa": "o HRT é mencionado no outro chunk como testemunha, não como destinatário do objeto",
+   "confianca": "alta"
+  },
+  {
+   "id": "S09",
+   "tema": "entidade em outro chunk, sujeito da publicação",
+   "pergunta": "Qual a taxa de ocupação do Hospital Regional de Taguatinga (HRT) no trimestre?",
+   "resposta": "A taxa de ocupação do HRT foi de 82%.",
+   "publicacoes": {
+    "P1": [
+     "Relatório assistencial do Hospital Regional de Taguatinga (HRT), terceiro trimestre de 2024. O relatório analisa os indicadores de desempenho.",
+     "Indicadores: taxa de ocupação de leitos 82%; tempo médio de permanência 5 dias."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Indicadores: taxa de ocupação de leitos 82%"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "INDICADOR",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "sustentado_documental",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "sujeito da publicação (cabeçalho), em outro chunk"
+    }
+   ],
+   "justificativa": "o relatório inteiro é do HRT, definido na primeira frase",
+   "confianca": "media_alta"
+  },
+  {
+   "id": "S10",
+   "tema": "entidade em publicação diferente",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O objeto é a manutenção de tomógrafos do HRT.",
+   "publicacoes": {
+    "P1": [
+     "Contrato nº 12/2025. Objeto: manutenção de tomógrafos. Vigência: 12 meses."
+    ],
+    "P2": [
+     "Portaria nº 7/2025. O Hospital Regional de Taguatinga (HRT) foi incluído na rede de urgência."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Objeto: manutenção de tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_sustentado_herdado",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "o HRT está em outra publicação"
+    }
+   ],
+   "justificativa": "proximidade entre documentos não cria relação",
+   "confianca": "alta"
+  },
+  {
+   "id": "S11",
+   "tema": "atributo associado a outra entidade",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O HRT contratou manutenção de tomógrafos.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 20/2025. O Hospital Regional de Sobradinho (HRS) contratou manutenção de tomógrafos. O Hospital Regional de Taguatinga (HRT) contratou aquisição de monitores."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "O Hospital Regional de Sobradinho (HRS) contratou manutenção de tomógrafos"
+    },
+    {
+     "pub": "P1",
+     "texto": "O Hospital Regional de Taguatinga (HRT) contratou aquisição de monitores"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "hospital regional de sobradinho",
+    "hrs"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_sustentado_outra_entidade",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "a manutenção é do HRS"
+    }
+   ],
+   "justificativa": "frases adjacentes com entidades e objetos trocados",
+   "confianca": "alta"
+  },
+  {
+   "id": "S12",
+   "tema": "dois atributos para uma entidade",
+   "pergunta": "Qual o objeto e o valor do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O HRT contratou manutenção de tomógrafos, no valor de R$ 50.000,00.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 21/2025. O Hospital Regional de Taguatinga (HRT) contratou manutenção de tomógrafos, no valor de R$ 50.000,00."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "O Hospital Regional de Taguatinga (HRT) contratou manutenção de tomógrafos, no valor de R$ 50.000,00"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita (objeto e valor)"
+    }
+   ],
+   "justificativa": "ambos os atributos na mesma frase com o HRT como sujeito",
+   "confianca": "alta"
+  },
+  {
+   "id": "S13",
+   "tema": "mesmo atributo para duas entidades",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Sobradinho (HRS)?",
+   "resposta": "O HRS contratou manutenção de tomógrafos.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 22/2025. O Hospital Regional de Taguatinga (HRT) e o Hospital Regional de Sobradinho (HRS) contrataram manutenção de tomógrafos."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "O Hospital Regional de Taguatinga (HRT) e o Hospital Regional de Sobradinho (HRS) contrataram manutenção de tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Sobradinho",
+    "formas": [
+     "hospital regional de sobradinho",
+     "hrs"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRS",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita, sujeito composto"
+    }
+   ],
+   "justificativa": "o HRS é um dos sujeitos da mesma frase",
+   "confianca": "alta"
+  },
+  {
+   "id": "S14",
+   "tema": "conflito de rótulo com competência explícita",
+   "pergunta": "Quais as competências do Diretor do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "Compete ao Diretor do HRT deliberar sobre o transporte de pacientes.",
+   "publicacoes": {
+    "P1": [
+     "Portaria nº 8/2025. Titular: o Diretor do HRT, a quem compete deliberar sobre o transporte de pacientes."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Titular: o Diretor do HRT, a quem compete deliberar sobre o transporte de pacientes"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "COMPETENCIA",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita ('a quem compete')"
+    }
+   ],
+   "justificativa": "o rótulo é Titular, mas a frase atribui expressamente a competência ao Diretor do HRT",
+   "confianca": "alta"
+  },
+  {
+   "id": "S15",
+   "tema": "conflito de rótulo sem competência explícita",
+   "pergunta": "Quais as competências do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O Diretor do HRT integra a comissão e delibera sobre o transporte de pacientes.",
+   "publicacoes": {
+    "P1": [
+     "Portaria nº 8/2025. Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional de Taguatinga (HRT); Suplente: substituto legal do cargo."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "4 - Titular: Diretor do Hospital Regional de Taguatinga (HRT)"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "COMPETENCIA",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_sustentado_outro_atributo",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "o HRT aparece como cargo de titular; nada sobre competência"
+    }
+   ],
+   "justificativa": "só a designação de membro; 'delibera sobre transporte' não está no texto",
+   "confianca": "alta"
+  },
+  {
+   "id": "S16",
+   "tema": "localização herdada da pergunta",
+   "pergunta": "Qual a aquisição de ambulâncias prevista para Ceilândia?",
+   "resposta": "O contrato prevê a aquisição de ambulâncias para Ceilândia.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 8/2025. Objeto: aquisição de ambulâncias para a rede de urgência do Distrito Federal."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Objeto: aquisição de ambulâncias para a rede de urgência do Distrito Federal"
+    }
+   ],
+   "entidade": {
+    "nome": "Ceilândia",
+    "formas": [
+     "ceilandia"
+    ],
+    "tipo": "localidade",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Ceilândia",
+     "vinculo_esperado": "nao_sustentado_herdado",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "ausente"
+    }
+   ],
+   "justificativa": "a localidade só está na pergunta",
+   "confianca": "alta"
+  },
+  {
+   "id": "S17",
+   "tema": "destinatário diferente da entidade perguntada",
+   "pergunta": "Quais itens foram adquiridos para a Atenção Primária?",
+   "resposta": "Foi adquirida luva cirúrgica para a Atenção Primária.",
+   "publicacoes": {
+    "P1": [
+     "RATIFICO a aquisição do item Código SES 1 - LUVA CIRÚRGICA, para atender as necessidades do Hospital Regional do Guará, no valor global de R$ 300,00. RATIFICO a aquisição do item Código SES 2 - MÁSCARA CIRÚRGICA, para atender as necessidades da Atenção Primária, no valor global de R$ 120,00."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "LUVA CIRÚRGICA, para atender as necessidades do Hospital Regional do Guará"
+    }
+   ],
+   "entidade": {
+    "nome": "Atenção Primária",
+    "formas": [
+     "atencao primaria"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "hospital regional do guara"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Atenção Primária",
+     "vinculo_esperado": "nao_sustentado_outra_entidade",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "o destinatário do registro da luva é outro"
+    }
+   ],
+   "justificativa": "o destinatário da luva é o Hospital Regional do Guará; a Atenção Primária aparece em outro registro",
+   "confianca": "alta"
+  },
+  {
+   "id": "S18",
+   "tema": "destinatário correto, destinatário diferente em outro registro",
+   "pergunta": "Quais itens foram adquiridos para a Atenção Primária?",
+   "resposta": "Foi adquirida máscara cirúrgica para a Atenção Primária.",
+   "publicacoes": {
+    "P1": [
+     "RATIFICO a aquisição do item Código SES 1 - LUVA CIRÚRGICA, para atender as necessidades do Hospital Regional do Guará, no valor global de R$ 300,00. RATIFICO a aquisição do item Código SES 2 - MÁSCARA CIRÚRGICA, para atender as necessidades da Atenção Primária, no valor global de R$ 120,00."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "MÁSCARA CIRÚRGICA, para atender as necessidades da Atenção Primária"
+    }
+   ],
+   "entidade": {
+    "nome": "Atenção Primária",
+    "formas": [
+     "atencao primaria"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "hospital regional do guara"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Atenção Primária",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita no registro"
+    }
+   ],
+   "justificativa": "o registro da máscara nomeia a Atenção Primária como destinatária",
+   "confianca": "alta"
+  },
+  {
+   "id": "S19",
+   "tema": "relação ambígua (consórcio)",
+   "pergunta": "Qual a obra executada pela empresa Alfa Serviços Ltda?",
+   "resposta": "A Alfa executará a parte elétrica da obra de reforma da UPA.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 30/2025. A Alfa Serviços Ltda e a Beta Engenharia Ltda, em consórcio, executarão a obra de reforma da UPA, cabendo à primeira a parte elétrica."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "A Alfa Serviços Ltda e a Beta Engenharia Ltda, em consórcio, executarão a obra de reforma da UPA, cabendo à primeira a parte elétrica"
+    }
+   ],
+   "entidade": {
+    "nome": "Alfa Serviços Ltda",
+    "formas": [
+     "alfa servicos ltda",
+     "alfa servicos",
+     "alfa"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "beta engenharia ltda",
+    "beta"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Alfa",
+     "vinculo_esperado": "ambiguo",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "'a primeira' = Alfa, mas exige resolver a ordem de menção"
+    }
+   ],
+   "justificativa": "a relação depende de resolver 'a primeira'; plausível, mas exige leitura da ordem",
+   "confianca": "media"
+  },
+  {
+   "id": "S20",
+   "tema": "evidência incompleta (relação cortada na fronteira do chunk)",
+   "pergunta": "O que o Hospital Regional de Taguatinga (HRT) passará a oferecer?",
+   "resposta": "O HRT passará a oferecer exames de tomografia.",
+   "publicacoes": {
+    "P1": [
+     "Nota nº 6/2025. O Hospital Regional de Taguatinga (HRT) passará a oferecer",
+     "exames de tomografia a partir de maio."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "exames de tomografia a partir de maio"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_verificavel",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "a frase atravessa a fronteira de chunk; o trecho citado não contém a entidade"
+    }
+   ],
+   "justificativa": "o vínculo existe no documento, mas a citação isola o atributo; exige leitura da frase inteira",
+   "confianca": "media"
+  },
+  {
+   "id": "S21",
+   "tema": "resposta que mistura correto e incorreto",
+   "pergunta": "O que o Hospital Regional de Taguatinga (HRT) contratou?",
+   "resposta": "O HRT contratou manutenção de tomógrafos. O HRT contratou aquisição de ambulâncias.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 31/2025. O Hospital Regional de Taguatinga (HRT) contratou manutenção de tomógrafos. A Secretaria de Saúde contratou aquisição de ambulâncias."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "O Hospital Regional de Taguatinga (HRT) contratou manutenção de tomógrafos"
+    },
+    {
+     "pub": "P1",
+     "texto": "A Secretaria de Saúde contratou aquisição de ambulâncias"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [
+    "secretaria de saude"
+   ],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "manutenção de tomógrafos",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita"
+    },
+    {
+     "trecho_da_resposta": "aquisição de ambulâncias",
+     "vinculo_esperado": "nao_sustentado_outra_entidade",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "a contratante é a Secretaria"
+    }
+   ],
+   "justificativa": "primeira afirmação sustentada; segunda atribui ao HRT o que é da Secretaria",
+   "confianca": "alta"
+  },
+  {
+   "id": "S22",
+   "tema": "anáfora por pronome",
+   "pergunta": "O que a empresa Alfa Serviços Ltda fornecerá?",
+   "resposta": "A Alfa fornecerá os tomógrafos.",
+   "publicacoes": {
+    "P1": [
+     "Extrato nº 32/2025. A Alfa Serviços Ltda assinou o contrato. Ela fornecerá os tomógrafos."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Ela fornecerá os tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Alfa Serviços Ltda",
+    "formas": [
+     "alfa servicos ltda",
+     "alfa servicos",
+     "alfa"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Alfa",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "adjacente com anáfora ('Ela')"
+    }
+   ],
+   "justificativa": "referente único na frase anterior",
+   "confianca": "media_alta"
+  },
+  {
+   "id": "S23",
+   "tema": "resposta que apenas repete a pergunta",
+   "pergunta": "Qual o objeto do contrato do Hospital Regional de Taguatinga (HRT)?",
+   "resposta": "O contrato do HRT tem um objeto.",
+   "publicacoes": {
+    "P1": [
+     "Contrato nº 12/2025. Objeto: manutenção de tomógrafos. Testemunha: Diretor do HRT."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "Objeto: manutenção de tomógrafos"
+    }
+   ],
+   "entidade": {
+    "nome": "Hospital Regional de Taguatinga",
+    "formas": [
+     "hospital regional de taguatinga",
+     "hrt"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "OBJETO",
+   "alvos": [
+    {
+     "trecho_da_resposta": "HRT",
+     "vinculo_esperado": "nao_verificavel",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "a resposta não afirma conteúdo novo"
+    }
+   ],
+   "justificativa": "sem afirmação nova não há relação a verificar",
+   "confianca": "media"
+  },
+  {
+   "id": "S24",
+   "tema": "eco da pergunta ambíguo (padrão A06)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região Sul em relação aos serviços do Gama?",
+   "resposta": "Compete discutir e deliberar sobre os serviços regulados no Gama.",
+   "publicacoes": {
+    "P1": [
+     "Ordem nº 1/2025. Coordenação de Regulação da Região Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre os serviços regulados em toda a Região Sul."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "IV - Compete à CRSSU discutir e deliberar sobre os serviços regulados em toda a Região Sul"
+    }
+   ],
+   "entidade": {
+    "nome": "Gama",
+    "formas": [
+     "gama"
+    ],
+    "tipo": "localidade",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "COMPETENCIA",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Gama",
+     "vinculo_esperado": "ambiguo",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "a competência é regional; o Gama pode estar incluído"
+    }
+   ],
+   "justificativa": "duas leituras plausíveis (eco legítimo ou localização sem apoio)",
+   "confianca": "baixa"
+  },
+  {
+   "id": "S25",
+   "tema": "localidade na mesma frase da competência",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região Sul em relação aos serviços do Gama?",
+   "resposta": "Compete deliberar sobre os serviços regulados, inclusive os do Gama.",
+   "publicacoes": {
+    "P1": [
+     "Ordem nº 1/2025. Coordenação de Regulação da Região Sul (CRSSU). IV - Compete à CRSSU deliberar sobre os serviços regulados, inclusive os do Gama."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "IV - Compete à CRSSU deliberar sobre os serviços regulados, inclusive os do Gama"
+    }
+   ],
+   "entidade": {
+    "nome": "Gama",
+    "formas": [
+     "gama"
+    ],
+    "tipo": "localidade",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "COMPETENCIA",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Gama",
+     "vinculo_esperado": "sustentado",
+     "sustentacao_da_citacao": "sim",
+     "sustentacao_documental": "sim",
+     "relacao_esperada": "explícita ('inclusive os do Gama')"
+    }
+   ],
+   "justificativa": "a frase estende a competência ao Gama",
+   "confianca": "alta"
+  },
+  {
+   "id": "S26",
+   "tema": "localidade como parte de outra entidade em frase não adjacente (padrão val-087)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região Sul em relação aos serviços do Gama?",
+   "resposta": "A Coordenação norteia as gerências de regulação no Gama.",
+   "publicacoes": {
+    "P1": [
+     "Ordem nº 1/2025. Coordenação de Regulação da Região Sul (CRSSU). IX - As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais. X - A Coordenação reunir-se-á mensalmente. XI - Poderão se manifestar os presidentes dos Conselhos de Saúde do Gama e de Santa Maria."
+    ]
+   },
+   "citacoes": [
+    {
+     "pub": "P1",
+     "texto": "As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais"
+    }
+   ],
+   "entidade": {
+    "nome": "Gama",
+    "formas": [
+     "gama"
+    ],
+    "tipo": "localidade",
+    "parciais": []
+   },
+   "outras_entidades": [],
+   "atributo_familia": "COMPETENCIA",
+   "alvos": [
+    {
+     "trecho_da_resposta": "Gama",
+     "vinculo_esperado": "nao_sustentado_outra_entidade",
+     "sustentacao_da_citacao": "nao",
+     "sustentacao_documental": "nao",
+     "relacao_esperada": "o Gama aparece como parte do nome de outro órgão (Conselhos de Saúde do Gama)"
+    }
+   ],
+   "justificativa": "o único 'Gama' do texto pertence ao nome de um conselho, em frase não relacionada à competência",
+   "confianca": "media_alta"
+  }
+ ]
+}

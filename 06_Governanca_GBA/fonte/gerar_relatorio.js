@@ -181,7 +181,7 @@ const introducao = [
     "Computacional), atendimento em saúde pública (RPA, Cluster Computing e Generative AI) e acesso do cidadão a " +
     "serviços e direitos (IoT, PLN e Computação Quântica). O Zelo, aplicação de zeladoria urbana com front-end, API e " +
     "modelo de linguagem, é o único módulo publicado e em uso por pessoas de fora do grupo, por isso serve de eixo da " +
-    "integração."),
+    "integração e é por ele que o cidadão acessa o Generative AI."),
   P("A seção 2 traz um tópico por disciplina, com o problema atacado, o funcionamento, os resultados medidos e a " +
     "relação com os demais módulos. O último tópico, de Governança, classifica a integração de cada módulo, reúne os " +
     "indicadores e discute riscos, ética e proteção de dados. A seção 3 traz a conclusão do grupo e a seção 4, os links " +
@@ -249,7 +249,7 @@ const front = [
     "uma tentativa de prompt injection. Na validação com três moradores de 19 e 20 anos, todos concluíram as tarefas " +
     "sem ajuda e deram nota 4 de 5. O teste revelou que o modelo inventou um telefone (\"0800-xxxx\") mesmo com o prompt " +
     "proibindo; o grupo passou a apagar telefones no código e a mostrar o canal oficial da prefeitura a partir de uma " +
-    "tabela com fonte verificada."),
+    "tabela com fonte verificada. Uma aba do Zelo também dá acesso ao módulo de Generative AI (seção 2.5)."),
   ...figura("04_Front_End_Zelo/docs/validacao/depois_protocolo.png",
     "Tela de protocolo do Zelo com o canal oficial da prefeitura", "elaborada pelos autores (2026).", 11.5),
 ];
@@ -261,11 +261,11 @@ const genai = [
     "dodf-saude-qa (FREIRE et al., 2026), recuperação lexical BM25 e o modelo local Qwen3-8B. Depois da geração, o código " +
     "confere se o trecho citado existe, se os nomes e números da resposta estão na evidência e se outra publicação " +
     "semelhante poderia ser a correta."),
-  P("Nas 150 perguntas de validação, o sistema deu 2 respostas completas e 41 parciais, sempre com a publicação " +
-    "identificada, e se absteve em 107 (71%). Nenhuma resposta saiu sem trecho literal, mas 19 das 43 respostas dadas " +
-    "vieram de uma publicação diferente da esperada, marcadas com aviso. A geração levou 19,7 s por pergunta (mediana) e " +
-    "chegou a 8,2 GB de memória. O módulo tem 163 testes e está em andamento: a própria equipe recomenda uma auditoria " +
-    "humana das respostas antes de qualquer integração."),
+  P("Na rodada de avaliação mais recente (150 perguntas), o sistema respondeu 31 (20,7%) e se absteve em 119. Na " +
+    "auditoria feita por modelo de linguagem, sem revisão humana, 8 das 31 respostas estavam incorretas apesar de citarem " +
+    "trechos literais. Cada resposta leva de 12 a 21 s (medianas) e o servidor do modelo chega a 8 GB de memória. O módulo " +
+    "tem 337 testes e está integrado ao Zelo por uma camada separada, descrita na seção 2.9, sem alteração dos arquivos " +
+    "congelados do assistente."),
 ];
 
 const iot = [
@@ -321,18 +321,20 @@ const governanca = [
   ...quadro("Nível de integração de cada módulo", "elaborado pelos autores (2026).",
     ["Módulo", "Nível", "Justificativa"],
     [
-      ["Front-end (Zelo)", "Integrado (técnico)", "Front, API, modelo de linguagem e duas APIs públicas funcionam juntos, publicados no Render."],
+      ["Front-end (Zelo)", "Integrado (técnico)", "Front, API, modelo de linguagem e duas APIs públicas funcionam juntos no Render; consulta o Generative AI."],
       ["RPA", "Integrado por dados", "A carga simulada no Cluster representa a classificação feita pelo robô."],
       ["Cluster Computing", "Integrado por dados", "Simula a fila de classificação do RPA com 2 e 4 workers."],
       ["Visão Computacional", "Integrado por tema", "Mesmo problema do Zelo (manutenção urbana); a foto do problema poderia entrar no relato."],
-      ["Generative AI", "Não integrado", "Em andamento; a avaliação recomenda auditoria humana antes de integrar."],
+      ["Generative AI", "Integrado (técnico)", "Aba do Zelo chama um serviço separado que importa o assistente; só roda no computador com o modelo local."],
       ["IoT (OuviAí)", "Não integrado", "Outro problema (acessibilidade em casa); roda no celular, sem servidor."],
       ["PLN", "Não integrado", "Outro problema (direitos do consumidor); a voz poderia ser um canal de entrada do Zelo."],
       ["Computação Quântica", "Conceitual", "Sem implementação; o roadmap de criptografia se aplica aos dados de todos os módulos."],
     ], [3.2, 2.8, 8]),
-  P("Os três módulos não integrados foram desenvolvidos para problemas diferentes, e o prazo comum de todas as " +
-    "disciplinas não permitiu adaptá-los ao Zelo. Os caminhos mais curtos seriam usar a voz do módulo de PLN como " +
-    "entrada para quem não consegue digitar e enviar ao Zelo a foto classificada pela Visão Computacional."),
+  P("A integração do Generative AI usa um serviço local que carrega o índice uma vez, atende uma pergunta por vez e " +
+    "devolve status, publicação e trecho citado; o Zelo apaga dados pessoais antes de enviar a pergunta. Como o modelo " +
+    "precisa de cerca de 8 GB de memória, a aba fica desligada no Zelo publicado e funciona só na demonstração local. O " +
+    "IoT e o PLN foram feitos para problemas diferentes; os caminhos mais curtos seriam usar a voz do PLN como entrada do " +
+    "Zelo e enviar a foto classificada pela Visão Computacional junto do relato."),
   H3("2.9.2", "Indicadores"),
   P("O Quadro 2 reúne os principais indicadores medidos em cada módulo. Eles vieram de conjuntos de teste diferentes, " +
     "então servem para acompanhar cada módulo, e não para comparar um com outro."),
@@ -342,7 +344,7 @@ const governanca = [
       ["RPA", "85,8% de acurácia; 14/15 urgências protegidas", "10 a 22 s por lote de 25 registros", "120 frases escritas pelo grupo"],
       ["Cluster", "Speedup de 1,9992× (1,9942× com switch)", "100,04 s → 50,04 s simulados", "400 tarefas simuladas"],
       ["Zelo", "6/6 casos de teste; nota 4/5 dos usuários", "Até 1 min para o servidor gratuito ligar", "6 casos e 3 moradores"],
-      ["Generative AI", "2 completas, 41 parciais, 71% de abstenção", "19,7 s por pergunta", "150 perguntas de validação"],
+      ["Generative AI", "31 de 150 com resposta; 8 incorretas", "12 a 21 s por pergunta", "150 perguntas de validação"],
       ["IoT", "98,8% / 97,78% / 15 de 15", "7 ms por inferência", "60 áudios e 15 tentativas ao vivo"],
       ["PLN", "WER 18,9%; 22/25 respostas corretas", "10,7 s até o início da fala", "20 áudios e 30 perguntas"],
       ["Visão", "Acurácia 0,997; recall 0,993", "53,2 ms por imagem", "300 imagens de teste"],
@@ -357,7 +359,7 @@ const governanca = [
     [
       ["RPA", "Trauma, infarto e crise de saúde mental não recebem prioridade alta", "Declarado inapto para uso real; não foi corrigido"],
       ["Zelo", "Modelo de linguagem inventou um telefone", "Filtro de telefones no código e canal oficial vindo de tabela verificada"],
-      ["Generative AI", "Resposta baseada em outra publicação", "Status parcial, fonte identificada e aviso ao usuário"],
+      ["Generative AI", "Resposta incorreta com citação literal (8 de 31)", "Status, publicação e trecho sempre visíveis; aviso de protótipo não validado"],
       ["Visão", "Fissura fina passa como íntegra", "Uso só para triagem; limiar pode ser reduzido"],
       ["PLN", "Erro maior com ruído e com certas vozes", "Filtro de voz e orientação de uso em local silencioso"],
       ["IoT", "Falso positivo com ruídos da casa", "Não substitui alarme; regra de confirmação proposta"],
@@ -369,7 +371,7 @@ const governanca = [
     "Computação Quântica complementa esses controles ao tratar a proteção de longo prazo dos dados guardados."),
   P("O principal aprendizado de governança foi que regra escrita no prompt não garante o comportamento do modelo. Os " +
     "casos do telefone inventado no Zelo e das respostas com a publicação errada no Generative AI só foram contidos " +
-    "quando a verificação passou para o código. Os riscos do RPA mostram o limite oposto: uma regra de urgência por " +
+    "quando a verificação passou para o código, e mesmo assim o Generative AI ainda entrega respostas incorretas. Os riscos do RPA mostram o limite oposto: uma regra de urgência por " +
     "palavras-chave não cobre casos clínicos sem a participação de profissionais de saúde."),
 ];
 

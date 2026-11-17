@@ -1,0 +1,20 @@
+﻿id;descricao;entrada;esperado_fronteira(ou relacao);observado_original_4D5;observado_corrigido_4D7;resultado;comentario_original;nota
+R01;UI/G. (caso da val-083);vitamina d 400 ui/g., para atender as necessidades da ;False;True;False;OK;original DIVERGE do esperado;
+R02;U.I.;dose de 400 u.i. por dia;False;True;False;OK;original DIVERGE do esperado;
+R03;Dr.;o dr. silva assinou;False;True;False;OK;original DIVERGE do esperado;
+R04;Dra.;a dra. maria assinou;False;True;False;OK;original DIVERGE do esperado;
+R05;Sr.;o sr. jose assinou;False;True;False;OK;original DIVERGE do esperado;
+R06;Sra.;a sra. ana assinou;False;True;False;OK;original DIVERGE do esperado;
+R07;etc.;contratos, licitacoes etc. e outros;False;True;False;OK;original DIVERGE do esperado;
+R08;art.;conforme art. 30 da lei;False;True;False;OK;original DIVERGE do esperado;
+R09;ponto final apos palavra longa;o contrato foi assinado. o hrt recebeu;True;True;True;OK;original ok;
+R10;ponto final apos palavra curta (<=3 letras);o contrato e do hrt. o hospital;True;True;False;LIMITACAO;original ok;"LIMITACAO conhecida: palavra de ate 3 caracteres antes do ponto e tratada como abreviatura; nas unidades segmentadas o ponto final raramente fica em `entre`"
+R11;decimal;reducao de 5.883740% do valor;False;True;False;OK;original DIVERGE do esperado;
+R12;data com pontos;assinado em 07.05.2025 pelo diretor;False;True;False;OK;original DIVERGE do esperado;
+R13;data com barras e ponto final;assinado em 07/05/2025. proximo;True;True;True;OK;original ok;o ponto final vem apos '2025' (4 caracteres): continua fronteira
+R14;valor monetario;no valor de r$ 1.147.963,68 para o hospital;False;True;False;OK;original DIVERGE do esperado;
+R15;CNPJ;cnpj 10.293.515/0001-80 ltda;False;True;False;OK;original DIVERGE do esperado;
+R16;ponto e virgula;"item um; item dois";True;True;True;OK;original ok;inalterado pela correcao
+R17;parenteses;hospital (hrt) contratou;True;True;True;OK;original ok;inalterado (parenteses sao tratados antes, em outra linha de _relacao)
+I-4D.5;integracao: _relacao na unidade 33 do doc 495 (VITAMINA D);VITAMINA D 400 UI/G., para atender as necessidades da Atenção Primária, no valor global de R$20.400,00.;explicita;;;ESTADO_ORIGINAL;coocorrencia: fronteira de clausula entre entidade e atributo;
+I-4D.7;integracao: _relacao na unidade 33 do doc 495 (VITAMINA D);VITAMINA D 400 UI/G., para atender as necessidades da Atenção Primária, no valor global de R$20.400,00.;explicita;;;OK;explicita: 10 palavras entre a entidade e o atributo;

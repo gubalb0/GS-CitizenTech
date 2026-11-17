@@ -1,0 +1,17 @@
+﻿conjunto;base;politica;n_alvos;falsos_vinculos_aceitos;negativos_encaminhados(nao_aceitos);negativos_rejeitados;legitimas_aceitas;legitimas_encaminhadas;legitimas_rejeitadas;documentais_preservadas(aceita+encaminha);documentais_rejeitadas;conflitantes_rejeitadas;ambiguos(aceita/encaminha/rejeita);nao_verificaveis(aceita/encaminha/rejeita)
+sintetico;N3;V0;27;7;0;4;9;0;0;0;1;1/7;2/0/1;2/0/1
+sintetico;N3;V1;27;1;0;10;9;0;0;0;1;7/7;1/0/2;2/0/1
+sintetico;N3;V2;27;0;0;11;9;0;0;0;1;7/7;0/0/3;1/0/2
+sintetico;N3;V3;27;2;0;9;9;0;0;0;1;6/7;1/0/2;2/0/1
+sintetico;N4;V0;27;8;0;3;9;0;0;1;0;0/7;2/0/1;2/0/1
+sintetico;N4;V1;27;2;0;9;9;0;0;1;0;6/7;1/0/2;2/0/1
+sintetico;N4;V2;27;0;0;11;9;0;0;0;1;7/7;0/0/3;1/0/2
+sintetico;N4;V3;27;3;0;8;9;0;0;1;0;5/7;1/0/2;2/0/1
+real;N3;V0;7;2;0;1;1;0;0;2;0;0/2;0/0/1;0/0/0
+real;N3;V1;7;0;0;3;1;0;0;2;0;2/2;0/0/1;0/0/0
+real;N3;V2;7;0;0;3;0;0;1;0;2;2/2;0/0/1;0/0/0
+real;N3;V3;7;1;0;2;1;0;0;2;0;1/2;0/0/1;0/0/0
+real;N4;V0;7;2;0;1;1;0;0;2;0;0/2;1/0/0;0/0/0
+real;N4;V1;7;1;0;2;1;0;0;2;0;1/2;1/0/0;0/0/0
+real;N4;V2;7;0;0;3;0;0;1;0;2;2/2;0/0/1;0/0/0
+real;N4;V3;7;1;0;2;1;0;0;2;0;1/2;1/0/0;0/0/0

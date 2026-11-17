@@ -1,0 +1,149 @@
+{
+ "S01": {
+  "run_id": "val-074-B-r3",
+  "slot": "val-074-B",
+  "condicao": "B",
+  "qid": "val-074",
+  "repeticao": 3
+ },
+ "S02": {
+  "run_id": "val-087-B-r2",
+  "slot": "val-087-B",
+  "condicao": "B",
+  "qid": "val-087",
+  "repeticao": 2
+ },
+ "S03": {
+  "run_id": "val-087-A-r1",
+  "slot": "val-087-A",
+  "condicao": "A",
+  "qid": "val-087",
+  "repeticao": 1
+ },
+ "S04": {
+  "run_id": "val-025-C-r2",
+  "slot": "val-025-C",
+  "condicao": "C",
+  "qid": "val-025",
+  "repeticao": 2
+ },
+ "S05": {
+  "run_id": "val-024-C-r3",
+  "slot": "val-024-C",
+  "condicao": "C",
+  "qid": "val-024",
+  "repeticao": 3
+ },
+ "S06": {
+  "run_id": "val-074-B-r1",
+  "slot": "val-074-B",
+  "condicao": "B",
+  "qid": "val-074",
+  "repeticao": 1
+ },
+ "S07": {
+  "run_id": "val-006-C-r1",
+  "slot": "val-006-C",
+  "condicao": "C",
+  "qid": "val-006",
+  "repeticao": 1
+ },
+ "S08": {
+  "run_id": "val-024-C-r1",
+  "slot": "val-024-C",
+  "condicao": "C",
+  "qid": "val-024",
+  "repeticao": 1
+ },
+ "S09": {
+  "run_id": "val-074-A-r3",
+  "slot": "val-074-A",
+  "condicao": "A",
+  "qid": "val-074",
+  "repeticao": 3
+ },
+ "S10": {
+  "run_id": "val-006-C-r3",
+  "slot": "val-006-C",
+  "condicao": "C",
+  "qid": "val-006",
+  "repeticao": 3
+ },
+ "S11": {
+  "run_id": "val-006-C-r2",
+  "slot": "val-006-C",
+  "condicao": "C",
+  "qid": "val-006",
+  "repeticao": 2
+ },
+ "S12": {
+  "run_id": "val-087-B-r1",
+  "slot": "val-087-B",
+  "condicao": "B",
+  "qid": "val-087",
+  "repeticao": 1
+ },
+ "S13": {
+  "run_id": "val-087-A-r2",
+  "slot": "val-087-A",
+  "condicao": "A",
+  "qid": "val-087",
+  "repeticao": 2
+ },
+ "S14": {
+  "run_id": "val-074-A-r1",
+  "slot": "val-074-A",
+  "condicao": "A",
+  "qid": "val-074",
+  "repeticao": 1
+ },
+ "S15": {
+  "run_id": "val-074-B-r2",
+  "slot": "val-074-B",
+  "condicao": "B",
+  "qid": "val-074",
+  "repeticao": 2
+ },
+ "S16": {
+  "run_id": "val-087-B-r3",
+  "slot": "val-087-B",
+  "condicao": "B",
+  "qid": "val-087",
+  "repeticao": 3
+ },
+ "S17": {
+  "run_id": "val-087-A-r3",
+  "slot": "val-087-A",
+  "condicao": "A",
+  "qid": "val-087",
+  "repeticao": 3
+ },
+ "S18": {
+  "run_id": "val-074-A-r2",
+  "slot": "val-074-A",
+  "condicao": "A",
+  "qid": "val-074",
+  "repeticao": 2
+ },
+ "S19": {
+  "run_id": "val-024-C-r2",
+  "slot": "val-024-C",
+  "condicao": "C",
+  "qid": "val-024",
+  "repeticao": 2
+ },
+ "S20": {
+  "run_id": "val-025-C-r3",
+  "slot": "val-025-C",
+  "condicao": "C",
+  "qid": "val-025",
+  "repeticao": 3
+ },
+ "S21": {
+  "run_id": "val-025-C-r1",
+  "slot": "val-025-C",
+  "condicao": "C",
+  "qid": "val-025",
+  "repeticao": 1
+ }
+}

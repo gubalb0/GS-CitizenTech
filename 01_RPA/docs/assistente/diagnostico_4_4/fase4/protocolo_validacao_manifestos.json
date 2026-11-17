@@ -1,0 +1,817 @@
+{
+ "descricao": "Manifestos congelados da validacao seletiva da Fase 4B (versao candidata). NENHUMA geracao foi executada na elaboracao deste arquivo.",
+ "gerado_por": "preparar_manifestos_validacao.py (offline)",
+ "versao_pipeline": "fail-closed-4.4.4b-cand",
+ "hash_codigo_vivo": {
+  "geracao.py": "46862831592d09fc708c6d18a888d3759f65c2ac284ef2174d8c7cc96fc53c19",
+  "evidencias.py": "742031bb9934a3d956858f55700ae87901e25045ac83d81475e9dea4386222a0",
+  "catalogo.py": "8e44143ba1d092f59a1d163fb951407100af9a5d14227b38c55f60f9d30e09e7"
+ },
+ "hash_snapshots": {
+  "geracao_44_fase4b_cand.py": "46862831592d09fc708c6d18a888d3759f65c2ac284ef2174d8c7cc96fc53c19",
+  "evidencias_44_fase4b_cand.py": "742031bb9934a3d956858f55700ae87901e25045ac83d81475e9dea4386222a0",
+  "geracao_44_fase4a.py": "bbd28166f0db19c3c7255b767ff0d34591391c96c7f3b4292e86fa4330e9e8e3",
+  "evidencias_44_fase4a.py": "be8ac1dd9a2bdde6a19e4056973ad50e1282846a48c55bed7652c77ffc8d6f5b"
+ },
+ "modelo": {
+  "id_api": "qwen3-8b",
+  "arquivo": "Qwen3-8B Q4_K_M (bartowski)",
+  "runtime": "LM Studio 0.4.28, llama.cpp Vulkan 2.73.0 (memoria do projeto, D2)",
+  "contexto_lm_studio": 8192,
+  "a_registrar_na_execucao": [
+   "id/arquivo do modelo carregado (GET /v1/models)",
+   "versao do LM Studio e do runtime",
+   "GPU offload, flash attention, batch size, threads (captura da configuracao ativa, sem altera-la)",
+   "RAM livre antes/durante"
+  ]
+ },
+ "slots": {
+  "val-074-A": {
+   "qid": "val-074",
+   "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+   "flag_priorizar_atributo": false,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "2e1abe003e19ca82cdf217557aea453c66f8d001ca002b397e022799d8dd5a08",
+   "hash_contexto": "3d99b28a62a0b1b5d53c1682eb4c41d6731dcdc34f73bbcbe07b4eda6c075c3c",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "67ae756ffb60262098023d7158399ee4480d7ce5917937196a3fbea9e75af0ed",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-338:est300o30:0016",
+     "doc_id": 338,
+     "posicao_ranking": 1,
+     "sha256_texto": "db42b5ce85fcb519fae2d1c2c311959730be0cc8c4a55e8a5b7cff102ec54750",
+     "tokens_estimados": 585
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-1722:est300o30:0024",
+     "doc_id": 1722,
+     "posicao_ranking": 2,
+     "sha256_texto": "ac54bfd80347b7f1b2f3f05f05a0fce8475d63112c85008b6d06a53214459274",
+     "tokens_estimados": 553
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-442:est300o30:0015",
+     "doc_id": 442,
+     "posicao_ranking": 3,
+     "sha256_texto": "af6b73660c8ad2c8a39c653150540ebe74bbad268c7aa64ff827dda94ab7d5b1",
+     "tokens_estimados": 530
+    }
+   ],
+   "tokens_contexto_estimados": 2916,
+   "selecao_s1": [],
+   "condicao": "A",
+   "papel": "alvo",
+   "referencia_historica_4_3": {
+    "status": "fora_do_escopo",
+    "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+    "problemas": [
+     "abstencao_sem_justificativa"
+    ],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2916,
+    "tokens_prompt_real": 2748,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "De acordo com o Contrato nº 1025/2024, publicado na Edição 5 do DODF de 08/01/2025, o objeto foi o fornecimento ininterrupto de alimentação hospitalar especialmente preparada para pacientes, acompanhantes legalmente instituídos e colaboradores autorizados das unidades de saúde do IGESDF, incluindo a UPA 24H Samambaia, com valor total mensal de R$ 9.365.315,22 e vigência até 30 de julho de 2025."
+   }
+  },
+  "val-074-B": {
+   "qid": "val-074",
+   "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+   "flag_priorizar_atributo": true,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "7b3653d3a90d17949a0d91eacf32c8847b5d0fc677bf79a84ca889aca645243b",
+   "hash_contexto": "ce5937a9341d511aa775358cddb6d3037796f94757479d3141c8e28b9190d617",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "8c453334ccd2cbc8356412bb5edc0f719f1decc2ac27ace23b4d3b82b51cbaa3",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-28:est300o30:0000",
+     "doc_id": 28,
+     "posicao_ranking": 4,
+     "sha256_texto": "e2710b835941ebfca6f47cea35de57917459cb8a7262fbdf1c891b4b248ef60f",
+     "tokens_estimados": 599
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-338:est300o30:0016",
+     "doc_id": 338,
+     "posicao_ranking": 1,
+     "sha256_texto": "db42b5ce85fcb519fae2d1c2c311959730be0cc8c4a55e8a5b7cff102ec54750",
+     "tokens_estimados": 585
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-1722:est300o30:0024",
+     "doc_id": 1722,
+     "posicao_ranking": 2,
+     "sha256_texto": "ac54bfd80347b7f1b2f3f05f05a0fce8475d63112c85008b6d06a53214459274",
+     "tokens_estimados": 553
+    }
+   ],
+   "tokens_contexto_estimados": 2985,
+   "selecao_s1": [
+    {
+     "chunk_id": "dodf-338:est300o30:0016",
+     "posicao": 1,
+     "rotulo_forte": null,
+     "decisao": "mantido",
+     "motivo": "selecionado (ja estava na selecao original)"
+    },
+    {
+     "chunk_id": "dodf-1722:est300o30:0024",
+     "posicao": 2,
+     "rotulo_forte": null,
+     "decisao": "mantido",
+     "motivo": "selecionado (ja estava na selecao original)"
+    },
+    {
+     "chunk_id": "dodf-442:est300o30:0015",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "deslocado por chunk priorizado: orcamento"
+    },
+    {
+     "chunk_id": "dodf-28:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": "objeto",
+     "decisao": "priorizado",
+     "motivo": "rotulo 'objeto' repete o atributo pedido 'objeto' e o chunk contem a entidade da pergunta"
+    },
+    {
+     "chunk_id": "dodf-1014:est300o30:0104",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "descartado pelo orcamento (como na selecao original)"
+    }
+   ],
+   "condicao": "B",
+   "papel": "alvo",
+   "referencia_historica_4_3": {
+    "status": "fora_do_escopo",
+    "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+    "problemas": [
+     "abstencao_sem_justificativa"
+    ],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2916,
+    "tokens_prompt_real": 2748,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "De acordo com o Contrato nº 1025/2024, publicado na Edição 5 do DODF de 08/01/2025, o objeto foi o fornecimento ininterrupto de alimentação hospitalar especialmente preparada para pacientes, acompanhantes legalmente instituídos e colaboradores autorizados das unidades de saúde do IGESDF, incluindo a UPA 24H Samambaia, com valor total mensal de R$ 9.365.315,22 e vigência até 30 de julho de 2025."
+   }
+  },
+  "val-087-A": {
+   "qid": "val-087",
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "flag_priorizar_atributo": false,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "dbbdf70bf99681591cfac8359f8502d8b296f8c79110537a8e2537285d562b6b",
+   "hash_contexto": "ec5eaddd5029cb837d41216a856e65b9b48e1e21cfc98bacc795d486c2c3c3b0",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "ca919fe775e38460b247f3f70f3d726beb76a9c1bb2d1fc68d28ec98838bd6c8",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-174:est300o30:0004",
+     "doc_id": 174,
+     "posicao_ranking": 1,
+     "sha256_texto": "6b1e9041f496ff260d73a9675b882533905da93b87115d36472e9501856ac1fa",
+     "tokens_estimados": 504
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-174:est300o30:0001",
+     "doc_id": 174,
+     "posicao_ranking": 2,
+     "sha256_texto": "3cf4717203eeae088661db7cae3fc6bd6be04be341ca627458ef44232f42f1a8",
+     "tokens_estimados": 613
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-174:est300o30:0000",
+     "doc_id": 174,
+     "posicao_ranking": 3,
+     "sha256_texto": "a31fc2f7a6ecdafa197ed14944111b7ca5811271858de32ff6f6d1f029d82e8a",
+     "tokens_estimados": 580
+    }
+   ],
+   "tokens_contexto_estimados": 2948,
+   "selecao_s1": [],
+   "condicao": "A",
+   "papel": "alvo",
+   "referencia_historica_4_3": {
+    "status": "insuficiente",
+    "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=coordenacao"
+    ],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2948,
+    "tokens_prompt_real": 2493,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "Conforme a Ordem de Serviço nº 396/2022, publicada na Edição 26 do DODF de 06 de fevereiro de 2025, compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, incluindo o Gama, bem como acerca dos fluxos existentes, orientando a forma de implementação dos protocolos de regulação de internação hospitalar, regulação ambulatorial, consultas, exames e procedimentos no âmbito da região."
+   }
+  },
+  "val-087-B": {
+   "qid": "val-087",
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "flag_priorizar_atributo": true,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "7d6675033a96a203a873d0987c94cfe0f332e6ba35826d8dcdf3ccf122357da2",
+   "hash_contexto": "05602bf6c3baa45a858426d194a3ab51aecc4ccf2330872b119c10ed7f7ba70c",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "77cf469a047363aa9a13d4a6182787e8682559f5b5afa86fad9e5172cc873868",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-174:est300o30:0002",
+     "doc_id": 174,
+     "posicao_ranking": 4,
+     "sha256_texto": "41ed2e0108d94c007f2ec69b5a96eb099a87fc6dadcf22ed3ebffb182d59eae3",
+     "tokens_estimados": 604
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-174:est300o30:0003",
+     "doc_id": 174,
+     "posicao_ranking": 5,
+     "sha256_texto": "d51a274e158eff7027ff6ebd15fafc9be8aac58b247ea5881ac82e755ce87494",
+     "tokens_estimados": 569
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-174:est300o30:0004",
+     "doc_id": 174,
+     "posicao_ranking": 1,
+     "sha256_texto": "6b1e9041f496ff260d73a9675b882533905da93b87115d36472e9501856ac1fa",
+     "tokens_estimados": 504
+    }
+   ],
+   "tokens_contexto_estimados": 2928,
+   "selecao_s1": [
+    {
+     "chunk_id": "dodf-174:est300o30:0004",
+     "posicao": 1,
+     "rotulo_forte": null,
+     "decisao": "mantido",
+     "motivo": "selecionado (ja estava na selecao original)"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0001",
+     "posicao": 2,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "deslocado por chunk priorizado: orcamento"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "deslocado por chunk priorizado: orcamento"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": "competencia",
+     "decisao": "priorizado",
+     "motivo": "rotulo 'competencia' repete o atributo pedido 'competencias' e o chunk contem a entidade da pergunta"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": "compete",
+     "decisao": "priorizado",
+     "motivo": "rotulo 'compete' repete o atributo pedido 'competencias' e o chunk contem a entidade da pergunta"
+    }
+   ],
+   "condicao": "B",
+   "papel": "alvo",
+   "referencia_historica_4_3": {
+    "status": "insuficiente",
+    "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=coordenacao"
+    ],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2948,
+    "tokens_prompt_real": 2493,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "Conforme a Ordem de Serviço nº 396/2022, publicada na Edição 26 do DODF de 06 de fevereiro de 2025, compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, incluindo o Gama, bem como acerca dos fluxos existentes, orientando a forma de implementação dos protocolos de regulação de internação hospitalar, regulação ambulatorial, consultas, exames e procedimentos no âmbito da região."
+   }
+  },
+  "val-006-C": {
+   "qid": "val-006",
+   "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+   "flag_priorizar_atributo": false,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "e142e052ace9f1cba61fb300b8807456e00a225795684307a325f86ec0fb55a3",
+   "hash_contexto": "854dc51bebc5da687c55fca7b8aa1ebe80c34c89745a2a8e0dd39b993715f2b2",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "9d244d6d4c8f5f39afde99c90445927e09e13bfd5e87cc6726d4bad7e7922201",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-957:est300o30:0000",
+     "doc_id": 957,
+     "posicao_ranking": 1,
+     "sha256_texto": "e05d21cb7de4052741a10b9aba18be7d830298e7b0834848bca02d74b6de2166",
+     "tokens_estimados": 472
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-28:est300o30:0000",
+     "doc_id": 28,
+     "posicao_ranking": 2,
+     "sha256_texto": "e2710b835941ebfca6f47cea35de57917459cb8a7262fbdf1c891b4b248ef60f",
+     "tokens_estimados": 599
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-1014:est300o30:0104",
+     "doc_id": 1014,
+     "posicao_ranking": 3,
+     "sha256_texto": "c827bea04bcff2c460b454d991723eb900269f5c389a44f674d4366de041bc84",
+     "tokens_estimados": 595
+    }
+   ],
+   "tokens_contexto_estimados": 2910,
+   "selecao_s1": [],
+   "condicao": "C",
+   "papel": "controle",
+   "classe_auditoria_4_3": "Correta (respondida)",
+   "referencia_historica_4_3": {
+    "status": "respondida",
+    "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+    "problemas": [],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2910,
+    "tokens_prompt_real": 2649,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "De acordo com o Contrato nº 1025/2024, publicado na Edição 5 do DODF, de 08/01/2025, foi contratado o fornecimento ininterrupto de alimentação hospitalar especialmente preparada para pacientes, acompanhantes legalmente instituídos e colaboradores autorizados das UPAs 24H de Ceilândia I e Ceilândia II, pela empresa MÁXIMA FACILITY E SOLUÇÕES LTDA."
+   }
+  },
+  "val-024-C": {
+   "qid": "val-024",
+   "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+   "flag_priorizar_atributo": false,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "d624028f5a1c4ffd74d09283d496c3548c3e102cb4034329e67f8e6a920f983f",
+   "hash_contexto": "0e82d9e678781f6e0554af13f198c3150de6cab80b94439e97efa05194af165d",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "d189ee12cd649541285df2c349e1ed8f8df1d60f45f9e5f423eab6964026bb07",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-718:est300o30:0000",
+     "doc_id": 718,
+     "posicao_ranking": 1,
+     "sha256_texto": "e83b502540911d5af734bf0e7dadec495be11ef9acbe538e79c569c0c5f2cabb",
+     "tokens_estimados": 597
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-1131:est300o30:0010",
+     "doc_id": 1131,
+     "posicao_ranking": 2,
+     "sha256_texto": "8114409341812be0a7b0a770bce1a063e234f44cbc08a0a9e03d40725bb42d02",
+     "tokens_estimados": 592
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-1131:est300o30:0011",
+     "doc_id": 1131,
+     "posicao_ranking": 4,
+     "sha256_texto": "9550868d78dd0b0d827a1f7311388465c5f24be113c34266ceb073d111e8b570",
+     "tokens_estimados": 536
+    }
+   ],
+   "tokens_contexto_estimados": 2969,
+   "selecao_s1": [],
+   "condicao": "C",
+   "papel": "controle",
+   "classe_auditoria_4_3": "Correta, mas parcial (respondida)",
+   "referencia_historica_4_3": {
+    "status": "respondida",
+    "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando na redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+    "problemas": [],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2969,
+    "tokens_prompt_real": 2643,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "De acordo com o Primeiro Termo Aditivo ao Contrato nº 051462/2024, publicado na Edição 97 do DODF, de 27/05/2025, houve supressão de 5 (cinco) equipamentos de Raio X Panorâmico localizados no Hospital Regional de Ceilândia, reduzindo o valor global do contrato de R$ 1.147.963,68 para R$ 1.080.420,48, com redução do valor mensal de R$ 95.663,64 para R$ 90.035,04."
+   }
+  },
+  "val-025-C": {
+   "qid": "val-025",
+   "pergunta": "Qual instituição foi autorizada a receber pagamento referente ao credenciamento no hospital?",
+   "flag_priorizar_atributo": false,
+   "versao_politica": "fail-closed-4.4.4b-cand",
+   "versao_prompt": "v3",
+   "hash_prompt_sistema": "c4abcdc1955af41c001e8ad6bf7ec93b73d5a19b7716012eb97dfc19c8cf7068",
+   "hash_mensagens": "af65aebd64b28e196be308d6893cda3c308d6fe65ad4d6666ab27677bb5101a2",
+   "hash_contexto": "165c090e514a96c05c8b30e0bc99f2d86adacf9f8f88c0bd9200598144c780c9",
+   "hash_parametros": "da69521dce9cc743d64ab00e94a54e1cf4e81fe7b20c95b741e9fb7b969068f4",
+   "hash_corpo_requisicao": "e27b034a20379974858be967e517904e15e1e5a638ba20cce1b23312eff90c7e",
+   "parametros": {
+    "model": "qwen3-8b",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "max_tokens": 1100,
+    "stream": false,
+    "response_format": "json_schema:resposta_cidadao(strict) hash=f7a398e4a4ce6c21",
+    "seed": null,
+    "tentativas_json": 2,
+    "temperatura_retentativa": 0.0,
+    "orcamento_tokens": 3000,
+    "max_chunks": 5,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350
+   },
+   "chunks_enviados": [
+    {
+     "id_prompt": "C1",
+     "chunk_id": "dodf-1242:est300o30:0034",
+     "doc_id": 1242,
+     "posicao_ranking": 1,
+     "sha256_texto": "7dfe3fb9028f9d9f7f67960529359c49770323e57ee811b211b5e3110f5d40fa",
+     "tokens_estimados": 455
+    },
+    {
+     "id_prompt": "C2",
+     "chunk_id": "dodf-1243:est300o30:0037",
+     "doc_id": 1243,
+     "posicao_ranking": 2,
+     "sha256_texto": "7dfe3fb9028f9d9f7f67960529359c49770323e57ee811b211b5e3110f5d40fa",
+     "tokens_estimados": 455
+    },
+    {
+     "id_prompt": "C3",
+     "chunk_id": "dodf-1244:est300o30:0032",
+     "doc_id": 1244,
+     "posicao_ranking": 3,
+     "sha256_texto": "7dfe3fb9028f9d9f7f67960529359c49770323e57ee811b211b5e3110f5d40fa",
+     "tokens_estimados": 455
+    }
+   ],
+   "tokens_contexto_estimados": 2604,
+   "selecao_s1": [],
+   "condicao": "C",
+   "papel": "controle",
+   "classe_auditoria_4_3": "Abstencao correta (fora_do_escopo)",
+   "referencia_historica_4_3": {
+    "status": "fora_do_escopo",
+    "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+    "problemas": [
+     "abstencao_sem_justificativa"
+    ],
+    "tentativas": 1,
+    "tokens_contexto_estimados": 2604,
+    "tokens_prompt_real": 2093,
+    "versao_politica_da_rodada": "fail-closed-4.3",
+    "resposta_referencia_benchmark": "A Sociedade Beneficente de Senhoras Hospital Sírio Libanês, CNPJ nº 61.590.410/0012-87, foi autorizada a receber o pagamento de R$ 392.523,32 relativo ao Termo de Credenciamento nº 546/2022, conforme publicado na Edição 9 do DODF, de 14/01/2025."
+   }
+  }
+ },
+ "sequencia": [
+  {
+   "ordem": 1,
+   "run_id": "val-074-A-r1",
+   "slot": "val-074-A",
+   "repeticao": 1,
+   "condicao": "A",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 2,
+   "run_id": "val-074-B-r1",
+   "slot": "val-074-B",
+   "repeticao": 1,
+   "condicao": "B",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 3,
+   "run_id": "val-087-A-r1",
+   "slot": "val-087-A",
+   "repeticao": 1,
+   "condicao": "A",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 4,
+   "run_id": "val-087-B-r1",
+   "slot": "val-087-B",
+   "repeticao": 1,
+   "condicao": "B",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 5,
+   "run_id": "val-006-C-r1",
+   "slot": "val-006-C",
+   "repeticao": 1,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 6,
+   "run_id": "val-024-C-r1",
+   "slot": "val-024-C",
+   "repeticao": 1,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 7,
+   "run_id": "val-025-C-r1",
+   "slot": "val-025-C",
+   "repeticao": 1,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 8,
+   "run_id": "val-087-B-r2",
+   "slot": "val-087-B",
+   "repeticao": 2,
+   "condicao": "B",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 9,
+   "run_id": "val-087-A-r2",
+   "slot": "val-087-A",
+   "repeticao": 2,
+   "condicao": "A",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 10,
+   "run_id": "val-074-B-r2",
+   "slot": "val-074-B",
+   "repeticao": 2,
+   "condicao": "B",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 11,
+   "run_id": "val-074-A-r2",
+   "slot": "val-074-A",
+   "repeticao": 2,
+   "condicao": "A",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 12,
+   "run_id": "val-025-C-r2",
+   "slot": "val-025-C",
+   "repeticao": 2,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 13,
+   "run_id": "val-024-C-r2",
+   "slot": "val-024-C",
+   "repeticao": 2,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 14,
+   "run_id": "val-006-C-r2",
+   "slot": "val-006-C",
+   "repeticao": 2,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 15,
+   "run_id": "val-074-A-r3",
+   "slot": "val-074-A",
+   "repeticao": 3,
+   "condicao": "A",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 16,
+   "run_id": "val-074-B-r3",
+   "slot": "val-074-B",
+   "repeticao": 3,
+   "condicao": "B",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 17,
+   "run_id": "val-087-A-r3",
+   "slot": "val-087-A",
+   "repeticao": 3,
+   "condicao": "A",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 18,
+   "run_id": "val-087-B-r3",
+   "slot": "val-087-B",
+   "repeticao": 3,
+   "condicao": "B",
+   "papel": "alvo"
+  },
+  {
+   "ordem": 19,
+   "run_id": "val-006-C-r3",
+   "slot": "val-006-C",
+   "repeticao": 3,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 20,
+   "run_id": "val-024-C-r3",
+   "slot": "val-024-C",
+   "repeticao": 3,
+   "condicao": "C",
+   "papel": "controle"
+  },
+  {
+   "ordem": 21,
+   "run_id": "val-025-C-r3",
+   "slot": "val-025-C",
+   "repeticao": 3,
+   "condicao": "C",
+   "papel": "controle"
+  }
+ ],
+ "n_geracoes_recomendado": 21,
+ "auditoria_de_consistencia": {
+  "A_x_B": {
+   "val-074": {
+    "hash_prompt_sistema_igual": true,
+    "hash_parametros_igual": true,
+    "versao_prompt_igual": true,
+    "pergunta_igual": true,
+    "hash_contexto_diferente": true,
+    "chunks_A": [
+     "dodf-338:est300o30:0016",
+     "dodf-1722:est300o30:0024",
+     "dodf-442:est300o30:0015"
+    ],
+    "chunks_B": [
+     "dodf-28:est300o30:0000",
+     "dodf-338:est300o30:0016",
+     "dodf-1722:est300o30:0024"
+    ],
+    "so_o_contexto_difere": true
+   },
+   "val-087": {
+    "hash_prompt_sistema_igual": true,
+    "hash_parametros_igual": true,
+    "versao_prompt_igual": true,
+    "pergunta_igual": true,
+    "hash_contexto_diferente": true,
+    "chunks_A": [
+     "dodf-174:est300o30:0004",
+     "dodf-174:est300o30:0001",
+     "dodf-174:est300o30:0000"
+    ],
+    "chunks_B": [
+     "dodf-174:est300o30:0002",
+     "dodf-174:est300o30:0003",
+     "dodf-174:est300o30:0004"
+    ],
+    "so_o_contexto_difere": true
+   }
+  },
+  "contexto_A_reproduz_rodada_4_3": {
+   "val-074": {
+    "contexto_reproduz_rodada_4_3": true
+   },
+   "val-087": {
+    "contexto_reproduz_rodada_4_3": true
+   },
+   "val-006": {
+    "contexto_reproduz_rodada_4_3": true
+   },
+   "val-024": {
+    "contexto_reproduz_rodada_4_3": true
+   },
+   "val-025": {
+    "contexto_reproduz_rodada_4_3": true
+   }
+  },
+  "controles_contexto_identico_com_flag_ligada": {
+   "val-006": true,
+   "val-024": true,
+   "val-025": true
+  }
+ }
+}

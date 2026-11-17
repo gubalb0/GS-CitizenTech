@@ -1,0 +1,1548 @@
+{
+ "resumo": {
+  "baseline": {
+   "falsos_bloqueios": [
+    "C03",
+    "C05",
+    "C06"
+   ],
+   "falsas_liberacoes": [
+    "A02"
+   ],
+   "corretas_preservadas": 10,
+   "corretas_total": 13,
+   "parciais_bloqueadas": [],
+   "inconclusivos": [
+    "A06=entregue",
+    "C07=bloqueado",
+    "D01=bloqueado"
+   ]
+  },
+  "B1": {
+   "falsos_bloqueios": [
+    "A07",
+    "C03",
+    "C05",
+    "C06"
+   ],
+   "falsas_liberacoes": [],
+   "corretas_preservadas": 9,
+   "corretas_total": 13,
+   "parciais_bloqueadas": [],
+   "inconclusivos": [
+    "A06=bloqueado",
+    "C07=bloqueado",
+    "D01=bloqueado"
+   ]
+  },
+  "B2": {
+   "falsos_bloqueios": [
+    "A07",
+    "C03",
+    "C05",
+    "C06"
+   ],
+   "falsas_liberacoes": [],
+   "corretas_preservadas": 9,
+   "corretas_total": 13,
+   "parciais_bloqueadas": [],
+   "inconclusivos": [
+    "A06=bloqueado",
+    "C07=bloqueado",
+    "D01=bloqueado"
+   ]
+  },
+  "C_simplificada": {
+   "falsos_bloqueios": [
+    "B04",
+    "C03",
+    "C05",
+    "C06"
+   ],
+   "falsas_liberacoes": [],
+   "corretas_preservadas": 9,
+   "corretas_total": 13,
+   "parciais_bloqueadas": [],
+   "inconclusivos": [
+    "A06=bloqueado",
+    "C07=bloqueado",
+    "D01=bloqueado"
+   ]
+  },
+  "D": {
+   "falsos_bloqueios": [
+    "A03",
+    "A04",
+    "A05",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "C03",
+    "C05",
+    "C06"
+   ],
+   "falsas_liberacoes": [],
+   "corretas_preservadas": 4,
+   "corretas_total": 13,
+   "parciais_bloqueadas": [
+    "A05"
+   ],
+   "inconclusivos": [
+    "A06=bloqueado",
+    "C07=bloqueado",
+    "D01=bloqueado"
+   ]
+  }
+ },
+ "mudancas_vs_baseline": {
+  "B1": [
+   "A02",
+   "A06",
+   "A07"
+  ],
+  "B2": [
+   "A02",
+   "A06",
+   "A07"
+  ],
+  "C_simplificada": [
+   "A02",
+   "A06",
+   "B04"
+  ],
+  "D": [
+   "A02",
+   "A03",
+   "A04",
+   "A05",
+   "A06",
+   "B02",
+   "B03",
+   "B04",
+   "B05"
+  ]
+ },
+ "por_caso": {
+  "A01": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=gama"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=gama"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=gama"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=gama"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=gama"
+    ]
+   }
+  },
+  "A02": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "C_simplificada: 'gama' sem vinculo em trecho nao conflitante"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "A03": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "A04": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "A05": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "A06": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "C_simplificada: 'gama' sem vinculo em trecho nao conflitante"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "A07": {
+   "baseline": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "D": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   }
+  },
+  "B01": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   }
+  },
+  "B02": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "B03": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "B04": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "C_simplificada: 'gama' sem vinculo em trecho nao conflitante"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "B05": {
+   "baseline": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "B1": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "parcial",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "parcial",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "D: nenhuma citacao com rotulo compativel"
+    ]
+   }
+  },
+  "B06": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   }
+  },
+  "B07": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   }
+  },
+  "C01": {
+   "baseline": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "B1": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "D": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   }
+  },
+  "C02": {
+   "baseline": {
+    "entregue": false,
+    "status": "ambigua",
+    "problemas": []
+   },
+   "B1": {
+    "status": "ambigua",
+    "entregue": false,
+    "problemas": []
+   },
+   "B2": {
+    "status": "ambigua",
+    "entregue": false,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "ambigua",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "ambigua",
+    "problemas": []
+   }
+  },
+  "C03": {
+   "baseline": {
+    "entregue": false,
+    "status": "ambigua",
+    "problemas": []
+   },
+   "B1": {
+    "status": "ambigua",
+    "entregue": false,
+    "problemas": []
+   },
+   "B2": {
+    "status": "ambigua",
+    "entregue": false,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "ambigua",
+    "problemas": []
+   },
+   "D": {
+    "entregue": false,
+    "status": "ambigua",
+    "problemas": []
+   }
+  },
+  "C04": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=alfa,numero=12/2025"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=alfa,numero=12/2025"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=alfa,numero=12/2025"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=alfa,numero=12/2025"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=alfa,numero=12/2025"
+    ]
+   }
+  },
+  "C05": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   }
+  },
+  "C06": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencias_de_publicacoes_distintas_combinadas"
+    ]
+   }
+  },
+  "C07": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:numero=12/2025"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:numero=12/2025"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:numero=12/2025"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:numero=12/2025"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:numero=12/2025"
+    ]
+   }
+  },
+  "D01": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   }
+  },
+  "D02": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:planaltina"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:planaltina"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:planaltina"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:planaltina"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:planaltina"
+    ]
+   }
+  },
+  "D03": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=planaltina"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=planaltina"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=planaltina"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=planaltina"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "evidencia_nao_corresponde_a_pergunta:nome=planaltina"
+    ]
+   }
+  },
+  "D04": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:obras"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:obras"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:obras"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:obras"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "afirmacoes_nao_sustentadas_pela_evidencia:obras"
+    ]
+   }
+  },
+  "D05": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "valores_nao_sustentados:90.000,00"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "valores_nao_sustentados:90.000,00"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "valores_nao_sustentados:90.000,00"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "valores_nao_sustentados:90.000,00"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "valores_nao_sustentados:90.000,00"
+    ]
+   }
+  },
+  "D06": {
+   "baseline": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "B1": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "D": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   }
+  },
+  "D07": {
+   "baseline": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "B1": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "D": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   }
+  },
+  "D08": {
+   "baseline": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "B1": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "B2": {
+    "status": "respondida",
+    "entregue": true,
+    "problemas": []
+   },
+   "C_simplificada": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   },
+   "D": {
+    "entregue": true,
+    "status": "respondida",
+    "problemas": []
+   }
+  },
+  "D09": {
+   "baseline": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B1": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "B2": {
+    "status": "insuficiente",
+    "entregue": false,
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "C_simplificada": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   },
+   "D": {
+    "entregue": false,
+    "status": "insuficiente",
+    "problemas": [
+     "rotulo_incompativel_com_atributo"
+    ]
+   }
+  }
+ },
+ "relacoes_baseline": {
+  "A01": [],
+  "A02": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "nortear",
+     "gerencias",
+     "implementar",
+     "normas",
+     "protocolos"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "termos_exclusivos": [],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "A03": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "discutir",
+     "deliberar"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   }
+  ],
+  "A04": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "discutir",
+     "deliberar"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "termos_exclusivos": [],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "A05": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": false,
+    "bloqueia": false,
+    "termos_exclusivos": [],
+    "medida_de_uso": "nao_mensuravel",
+    "rotulo": null
+   }
+  ],
+  "A06": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "discutir",
+     "deliberar"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "termos_exclusivos": [],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "A07": [
+   {
+    "fonte": "C1",
+    "estado": "compativel",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "manutencao",
+     "preventiva",
+     "equipamentos",
+     "imagem"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "objeto"
+   },
+   {
+    "fonte": "C1",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "termos_exclusivos": [],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "valor"
+   }
+  ],
+  "B01": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "nortear",
+     "gerencias",
+     "implementar",
+     "normas"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [
+     "diretor",
+     "hrg"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "B02": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "discutir",
+     "deliberar",
+     "direcao",
+     "avaliacao",
+     "monitoramento"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   }
+  ],
+  "B03": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "discute",
+     "delibera",
+     "reunioes",
+     "ordinarias"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   }
+  ],
+  "B04": [
+   {
+    "fonte": "C1",
+    "estado": "conflito",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "diretor",
+     "hrg",
+     "deliberar"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "B05": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "discutir",
+     "deliberar",
+     "direcao",
+     "monitoramento"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "termos_exclusivos": [],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "B06": [
+   {
+    "fonte": "C1",
+    "estado": "desconhecido",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "gerencias",
+     "normas"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": null
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [
+     "gersu"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [
+     "nov"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "B07": [
+   {
+    "fonte": "C1",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [
+     "hrg"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   },
+   {
+    "fonte": "C2",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [
+     "hrsm"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "titular"
+   }
+  ],
+  "C01": [
+   {
+    "fonte": "C1",
+    "estado": "compativel",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "manutencao",
+     "preventiva",
+     "equipamentos",
+     "imagem"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "objeto"
+   }
+  ],
+  "C02": [],
+  "C03": [],
+  "C04": [],
+  "C05": [],
+  "C06": [],
+  "C07": [],
+  "D01": [
+   {
+    "fonte": "C1",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [],
+    "medida_de_uso": "nao_mensuravel",
+    "rotulo": "contratada"
+   }
+  ],
+  "D02": [],
+  "D03": [],
+  "D04": [],
+  "D05": [],
+  "D06": [
+   {
+    "fonte": "C1",
+    "estado": "compativel",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "manutencao",
+     "preventiva",
+     "equipamentos",
+     "imagem"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "objeto"
+   }
+  ],
+  "D07": [
+   {
+    "fonte": "C1",
+    "estado": "compativel",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "manutencao",
+     "preventiva",
+     "equipamentos",
+     "imagem"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "objeto"
+   }
+  ],
+  "D08": [
+   {
+    "fonte": "C1",
+    "estado": "compativel",
+    "causas_do_conflito": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "termos_exclusivos": [
+     "manutencao",
+     "preventiva",
+     "equipamentos",
+     "imagem"
+    ],
+    "medida_de_uso": "termos_apoiados",
+    "rotulo": "objeto"
+   }
+  ],
+  "D09": [
+   {
+    "fonte": "C1",
+    "estado": "conflito",
+    "causas_do_conflito": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "termos_exclusivos": [],
+    "medida_de_uso": "nao_mensuravel",
+    "rotulo": "contratada"
+   }
+  ]
+ }
+}

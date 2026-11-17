@@ -1,0 +1,50 @@
+{
+ "n_registros": 21,
+ "run_ids_unicos": 21,
+ "run_ids_esperados": 21,
+ "lacunas": [],
+ "extras": [],
+ "ordens": true,
+ "por_slot": {
+  "val-074-A": 3,
+  "val-074-B": 3,
+  "val-087-A": 3,
+  "val-087-B": 3,
+  "val-006-C": 3,
+  "val-024-C": 3,
+  "val-025-C": 3
+ },
+ "repeticoes_por_slot_3": true,
+ "divergencias": [],
+ "tentativas>1": [],
+ "ram_livre_min_mb_global": 1137,
+ "commit_max_pct_global": 64.4,
+ "duracao_total_s": 342.1,
+ "tokens_prompt_por_slot": {
+  "val-074-A": [
+   2748
+  ],
+  "val-074-B": [
+   2865
+  ],
+  "val-087-A": [
+   2493
+  ],
+  "val-087-B": [
+   2479
+  ],
+  "val-006-C": [
+   2649
+  ],
+  "val-024-C": [
+   2643
+  ],
+  "val-025-C": [
+   2093
+  ]
+ },
+ "sha256_arquivos": {
+  "validacao_seletiva_20261116-155046.jsonl": "cbb8482916d55050",
+  "validacao_seletiva_retomada_20261116-161042.jsonl": "c198f0893d40121f"
+ }
+}

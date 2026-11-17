@@ -1,0 +1,286 @@
+{
+ "val-074-A-r1": {
+  "gravado": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  },
+  "replay": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ "val-074-B-r1": {
+  "gravado": {
+   "status": "ambigua",
+   "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  },
+  "replay": {
+   "status": "ambigua",
+   "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  }
+ },
+ "val-087-A-r1": {
+  "gravado": {
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação das normas e protocolos de regulação de internação hospitalar no Gama.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação das normas e protocolos de regulação de internação hospitalar no Gama.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ "val-087-B-r1": {
+  "gravado": {
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, norteará as gerências de regulação no cumprimento das atribuições regimentais.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, norteará as gerências de regulação no cumprimento das atribuições regimentais.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ "val-006-C-r1": {
+  "gravado": {
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  }
+ },
+ "val-024-C-r1": {
+  "gravado": {
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  }
+ },
+ "val-025-C-r1": {
+  "gravado": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  },
+  "replay": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ "val-087-B-r2": {
+  "gravado": {
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região, bem como a implementação das normas e protocolos de regulação.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região, bem como a implementação das normas e protocolos de regulação.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ "val-087-A-r2": {
+  "gravado": {
+   "status": "insuficiente",
+   "resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  },
+  "replay": {
+   "status": "insuficiente",
+   "resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  }
+ },
+ "val-074-B-r2": {
+  "gravado": {
+   "status": "ambigua",
+   "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  },
+  "replay": {
+   "status": "ambigua",
+   "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  }
+ },
+ "val-074-A-r2": {
+  "gravado": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  },
+  "replay": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ "val-025-C-r2": {
+  "gravado": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  },
+  "replay": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ "val-024-C-r2": {
+  "gravado": {
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  }
+ },
+ "val-006-C-r2": {
+  "gravado": {
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  }
+ },
+ "val-074-A-r3": {
+  "gravado": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  },
+  "replay": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ "val-074-B-r3": {
+  "gravado": {
+   "status": "ambigua",
+   "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  },
+  "replay": {
+   "status": "ambigua",
+   "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  }
+ },
+ "val-087-A-r3": {
+  "gravado": {
+   "status": "insuficiente",
+   "resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  },
+  "replay": {
+   "status": "insuficiente",
+   "resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  }
+ },
+ "val-087-B-r3": {
+  "gravado": {
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, as Deliberações nortearão as gerências de regulação no cumprimento das atribuições regimentais.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, as Deliberações nortearão as gerências de regulação no cumprimento das atribuições regimentais.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ "val-006-C-r3": {
+  "gravado": {
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  }
+ },
+ "val-024-C-r3": {
+  "gravado": {
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando na redução do valor contratual.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  },
+  "replay": {
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando na redução do valor contratual.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  }
+ },
+ "val-025-C-r3": {
+  "gravado": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  },
+  "replay": {
+   "status": "fora_do_escopo",
+   "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ }
+}

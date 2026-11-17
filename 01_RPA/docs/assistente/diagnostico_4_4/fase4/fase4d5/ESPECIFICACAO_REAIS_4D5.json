@@ -1,0 +1,174 @@
+{
+ "val-087-A-r1": {
+  "descricao": "val-087, resposta A-r1 (flag desligada), doc 174",
+  "doc": 174,
+  "chunks_do_contexto": [
+   "dodf-174:est300o30:0004",
+   "dodf-174:est300o30:0001",
+   "dodf-174:est300o30:0000"
+  ],
+  "entidades": [
+   {
+    "nome": "Gama",
+    "formas": [
+     "gama"
+    ],
+    "tipo": "localidade",
+    "parciais": []
+   },
+   {
+    "nome": "CRSSU",
+    "formas": [
+     "crssu",
+     "coordenacao de regulacao da regiao de saude sul"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   }
+  ],
+  "atributo_familia": "COMPETENCIA",
+  "outras_entidades": [],
+  "esperado": {
+   "Gama": {
+    "vinculo": "nao_sustentado_outra_entidade",
+    "citacao": "nao",
+    "documental": "nao",
+    "nota": "no texto, 'Gama' é endereço/nome de outros órgãos (HRG, Conselhos de Saúde do Gama), em incisos distintos do IX"
+   },
+   "CRSSU": {
+    "vinculo": "sustentado_documental",
+    "citacao": "nao",
+    "documental": "sim",
+    "nota": "Art. 1º/Art. 4º definem a CRSSU e suas competências; o inciso IX citado não nomeia a CRSSU"
+   }
+  }
+ },
+ "val-024": {
+  "descricao": "val-024, doc 718",
+  "doc": 718,
+  "chunks_do_contexto": [
+   "dodf-718:est300o30:0000"
+  ],
+  "entidades": [
+   {
+    "nome": "Hospital Regional de Ceilândia",
+    "formas": [
+     "hospital regional de ceilandia",
+     "hrc"
+    ],
+    "tipo": "organizacao",
+    "parciais": [
+     "ceilandia"
+    ]
+   }
+  ],
+  "atributo_familia": "OBJETO",
+  "outras_entidades": [
+   "hran",
+   "hrs",
+   "hrl",
+   "crt"
+  ],
+  "esperado": {
+   "Hospital Regional de Ceilândia": {
+    "vinculo": "nao_sustentado_herdado",
+    "citacao": "nao",
+    "documental": "nao",
+    "nota": "o doc lista HRAN, CRT, CEO UBS 11 - Ceilândia, HRS, HRL; 'Ceilândia' é a localidade da UBS 11, não o Hospital Regional de Ceilândia"
+   }
+  }
+ },
+ "val-031": {
+  "descricao": "val-031, doc 1464",
+  "doc": 1464,
+  "chunks_do_contexto": [
+   "dodf-1464:est300o30:0000",
+   "dodf-1464:est300o30:0004"
+  ],
+  "entidades": [
+   {
+    "nome": "Hospital da Criança de Brasília José Alencar",
+    "formas": [
+     "hospital da crianca de brasilia jose alencar",
+     "hcb"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   }
+  ],
+  "atributo_familia": "INDICADOR",
+  "outras_entidades": [],
+  "esperado": {
+   "Hospital da Criança de Brasília José Alencar": {
+    "vinculo": "sustentado_documental",
+    "citacao": "nao",
+    "documental": "sim",
+    "nota": "a primeira frase do relatório define o HCB como o hospital objeto de todo o relatório; o span citado está em outro chunk"
+   }
+  }
+ },
+ "val-020": {
+  "descricao": "val-020, doc 361",
+  "doc": 361,
+  "chunks_do_contexto": [
+   "dodf-361:est300o30:0001"
+  ],
+  "entidades": [
+   {
+    "nome": "Gama",
+    "formas": [
+     "gama"
+    ],
+    "tipo": "localidade",
+    "parciais": []
+   }
+  ],
+  "atributo_familia": "OBJETO",
+  "outras_entidades": [],
+  "esperado": {
+   "Gama": {
+    "vinculo": "ambiguo",
+    "citacao": "nao",
+    "documental": "parcial",
+    "nota": "o Gama é endereço de uma filial da empresa credenciada, no fim do mesmo ato; a resposta omite que é filial; exige leitura humana"
+   }
+  }
+ },
+ "val-083": {
+  "descricao": "val-083, doc 495 (C1) e doc 1444 (C2)",
+  "doc": [
+   495,
+   1444
+  ],
+  "chunks_do_contexto": [
+   "dodf-495:est300o30:0015",
+   "dodf-1444:est300o30:0014"
+  ],
+  "entidades": [
+   {
+    "nome": "Atenção Primária",
+    "formas": [
+     "atencao primaria"
+    ],
+    "tipo": "organizacao",
+    "parciais": []
+   }
+  ],
+  "atributo_familia": "OBJETO",
+  "outras_entidades": [
+   "hospital regional do guara"
+  ],
+  "itens": {
+   "VITAMINA D": "sustentado",
+   "CLORETO DE SODIO": "nao_sustentado_outra_entidade"
+  },
+  "esperado": {
+   "Atenção Primária": {
+    "vinculo": "por_item",
+    "citacao": "ver itens",
+    "documental": "ver itens",
+    "nota": "destinatário literal do registro; o gabarito do dataset trata os itens do Hospital Regional do Guará como parte da resposta (interpretação humana)"
+   }
+  }
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "fase": "4D.7",
+ "verificar_hashes": "TODOS CONFEREM: True (antes e depois)",
+ "candidata": "fail-closed-4.4.4d1-cand",
+ "arquivos_anteriores_conferidos": 56,
+ "arquivos_anteriores_alterados": [],
+ "arquivos_novos_em_pastas_anteriores": [],
+ "producao": {
+  "citizentech/assistente/catalogo.py": "8e44143ba1d092f59a1d163fb951407100af9a5d14227b38c55f60f9d30e09e7",
+  "citizentech/assistente/evidencias.py": "12118192b9529075dbbf32fecb920128754459aae8376537949dc9da248328da",
+  "citizentech/assistente/geracao.py": "c857b99f49947e1acad62e4373af39e98fa58d65675f3dd2cec8f263932c1678"
+ },
+ "hashes_antes_depois": {
+  "citizentech/assistente/catalogo.py": {
+   "antes": "8e44143ba1d092f59a1d163fb951407100af9a5d14227b38c55f60f9d30e09e7",
+   "depois": "8e44143ba1d092f59a1d163fb951407100af9a5d14227b38c55f60f9d30e09e7"
+  },
+  "citizentech/assistente/evidencias.py": {
+   "antes": "12118192b9529075dbbf32fecb920128754459aae8376537949dc9da248328da",
+   "depois": "12118192b9529075dbbf32fecb920128754459aae8376537949dc9da248328da"
+  },
+  "citizentech/assistente/geracao.py": {
+   "antes": "c857b99f49947e1acad62e4373af39e98fa58d65675f3dd2cec8f263932c1678",
+   "depois": "c857b99f49947e1acad62e4373af39e98fa58d65675f3dd2cec8f263932c1678"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/FASE4D1_NORMALIZACAO_ROTULOS.md": {
+   "antes": "388ea4f094bae2d0f2f6aba8b591eb0653e1e27859eeb9fb599e4840884c06bb",
+   "depois": "388ea4f094bae2d0f2f6aba8b591eb0653e1e27859eeb9fb599e4840884c06bb"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/FASE4D2_DIAGNOSTICO_MECANISMO_B.md": {
+   "antes": "343d067c2ad1dc00a6b3af7407c64b6028cf7de567eb27c737f2fecadfcd4c1b",
+   "depois": "343d067c2ad1dc00a6b3af7407c64b6028cf7de567eb27c737f2fecadfcd4c1b"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/CASOS_DIAGNOSTICOS_4D3.json": {
+   "antes": "cafc0eb529e71c4ae18fd5e1b076b87cf535e7fb87771a974801e31536a877f4",
+   "depois": "cafc0eb529e71c4ae18fd5e1b076b87cf535e7fb87771a974801e31536a877f4"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/COMPARACAO_VARIANTES_4D3.csv": {
+   "antes": "60589254c37d5361e489cb346329e4dd59f13bbeb1f786a87ab74c5b41f108ab",
+   "depois": "60589254c37d5361e489cb346329e4dd59f13bbeb1f786a87ab74c5b41f108ab"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/CONGELAMENTO_ROTULAGEM_4D3.json": {
+   "antes": "c04229279cbafcebd5b7910763c1c55762df09c4abfd4ccebcbb66e796011202",
+   "depois": "c04229279cbafcebd5b7910763c1c55762df09c4abfd4ccebcbb66e796011202"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/RELATORIO_4D3.md": {
+   "antes": "0dccce031e1f39a4b7a77c9989659f98dfa03ddfc0913756e98242831cdb189a",
+   "depois": "0dccce031e1f39a4b7a77c9989659f98dfa03ddfc0913756e98242831cdb189a"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/RESULTADOS_BASELINE_4D3.csv": {
+   "antes": "b62b52bd57595a3b8769c761cd8b1c601bc846f443d9c198e37187946d4d132d",
+   "depois": "b62b52bd57595a3b8769c761cd8b1c601bc846f443d9c198e37187946d4d132d"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/ROTULAGEM_4D3.md": {
+   "antes": "4e4168ec93fba89de36f69ab3fa2575eef6d2af8056eb5d238753721fdad063a",
+   "depois": "4e4168ec93fba89de36f69ab3fa2575eef6d2af8056eb5d238753721fdad063a"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/construir_casos_4d3.py": {
+   "antes": "c29f75ca909e0c055fd1c419d6a2d75890a03ad67b14995a3fad71ad5af81784",
+   "depois": "c29f75ca909e0c055fd1c419d6a2d75890a03ad67b14995a3fad71ad5af81784"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/executar_4d3.py": {
+   "antes": "13bbb079341ba54a8ce6dffd9117ca99f4df031f168c061ad60bd8c375df6f66",
+   "depois": "13bbb079341ba54a8ce6dffd9117ca99f4df031f168c061ad60bd8c375df6f66"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/primeira_execucao_descartada_v1/CASOS_DIAGNOSTICOS_4D3.json": {
+   "antes": "eaf3df42b304f24d3967d40d5544d7cad6c823a083c2e6de174a30a08fc01dfc",
+   "depois": "eaf3df42b304f24d3967d40d5544d7cad6c823a083c2e6de174a30a08fc01dfc"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/primeira_execucao_descartada_v1/COMPARACAO_VARIANTES_4D3.csv": {
+   "antes": "a945d66dbc924ce523b8221124545d66500e09492a769fb5efb9da57b525b1df",
+   "depois": "a945d66dbc924ce523b8221124545d66500e09492a769fb5efb9da57b525b1df"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/primeira_execucao_descartada_v1/CONGELAMENTO_ROTULAGEM_4D3.json": {
+   "antes": "da45787883daf5c254e8ab101ac0ba910f3a4314d98a6c929a11598e4e775611",
+   "depois": "da45787883daf5c254e8ab101ac0ba910f3a4314d98a6c929a11598e4e775611"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/primeira_execucao_descartada_v1/RESULTADOS_BASELINE_4D3.csv": {
+   "antes": "0cd3568eeb3ef472f517914c82225d697132c73ad9a99095ca236c3e8ef4404c",
+   "depois": "0cd3568eeb3ef472f517914c82225d697132c73ad9a99095ca236c3e8ef4404c"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/primeira_execucao_descartada_v1/ROTULAGEM_4D3.md": {
+   "antes": "1e5749184f56197bd62c8a95aa9f7b907683a7dc918051d54b1e6a0c179bdce1",
+   "depois": "1e5749184f56197bd62c8a95aa9f7b907683a7dc918051d54b1e6a0c179bdce1"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/primeira_execucao_descartada_v1/resultados_4d3_detalhe.json": {
+   "antes": "0dfd29ebffd53171dc979231f48cb1bd693d6d95ad1e0b690e66b00716a00866",
+   "depois": "0dfd29ebffd53171dc979231f48cb1bd693d6d95ad1e0b690e66b00716a00866"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d3/resultados_4d3_detalhe.json": {
+   "antes": "c51d47e50f79429fc526957017d816ed1c7f639f7973743173955c2fd15627eb",
+   "depois": "c51d47e50f79429fc526957017d816ed1c7f639f7973743173955c2fd15627eb"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/CASOS_REAIS_4D4.md": {
+   "antes": "6391f8a23b5dd8ab7a543fc54a23ced41fd45e1000748c500efdb0db1db6ee0d",
+   "depois": "6391f8a23b5dd8ab7a543fc54a23ced41fd45e1000748c500efdb0db1db6ee0d"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/MATRIZ_AVALIACAO_4D4.csv": {
+   "antes": "ebca8ba1a81db64fdab7523301af471055b5b28d3c3b7da9b86d22f670517342",
+   "depois": "ebca8ba1a81db64fdab7523301af471055b5b28d3c3b7da9b86d22f670517342"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/PACOTE_REVISAO_HUMANA_4D4.md": {
+   "antes": "84e649758f79fb4624a76ec9d7d3639fa66bf3f9da32a01874f16875d754be37",
+   "depois": "84e649758f79fb4624a76ec9d7d3639fa66bf3f9da32a01874f16875d754be37"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/PACOTE_REVISAO_HUMANA_4D4_REFERENCIA.md": {
+   "antes": "497aba630246569165d14838d458e359845629a5c097edd90fe2b49bccb00b55",
+   "depois": "497aba630246569165d14838d458e359845629a5c097edd90fe2b49bccb00b55"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/RELATORIO_4D4.md": {
+   "antes": "a7f28c457a4903e77b471f4330bdfed68f175e7c796f9918497b85a74cf3723c",
+   "depois": "a7f28c457a4903e77b471f4330bdfed68f175e7c796f9918497b85a74cf3723c"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/analise_b04_4d4.py": {
+   "antes": "ec2aae1e9f2c5515227f581b5aaf8c74024a8407dd874aee9899e77b7ff3014f",
+   "depois": "ec2aae1e9f2c5515227f581b5aaf8c74024a8407dd874aee9899e77b7ff3014f"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/b04_c_causas_4d4.json": {
+   "antes": "1e4f7bf46998c1a806d9b44d67df7e9fe103277995d4c2470a2c9f333ed5125a",
+   "depois": "1e4f7bf46998c1a806d9b44d67df7e9fe103277995d4c2470a2c9f333ed5125a"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/diagnostico_real_4d4.py": {
+   "antes": "a9f978298ca4d9cb79fe497008e8c0c88e159157f908ce6502fd7113a04956e5",
+   "depois": "a9f978298ca4d9cb79fe497008e8c0c88e159157f908ce6502fd7113a04956e5"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/gerar_matriz_4d4.py": {
+   "antes": "4613d73f503f63770e7758f5faa9b737a2bf3cfd637a0426329b0cb1bd72c293",
+   "depois": "4613d73f503f63770e7758f5faa9b737a2bf3cfd637a0426329b0cb1bd72c293"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/gerar_pacote_4d4.py": {
+   "antes": "cf5b11066582a0f75f711fa80b274a3670d7850bcc3c3383eb6d94382e9cb6af",
+   "depois": "cf5b11066582a0f75f711fa80b274a3670d7850bcc3c3383eb6d94382e9cb6af"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/real_4d4.json": {
+   "antes": "4534f366164ad795b5d78227b86f4292191ca77135ad9b0653bf9b81e32d89e1",
+   "depois": "4534f366164ad795b5d78227b86f4292191ca77135ad9b0653bf9b81e32d89e1"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d4/replay_150_status_4d4.json": {
+   "antes": "23aac3e85731ac0807c898bc86b657689d5a6831b205a39213048e7f45df03ee",
+   "depois": "23aac3e85731ac0807c898bc86b657689d5a6831b205a39213048e7f45df03ee"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/CASOS_REAIS_4D5.md": {
+   "antes": "e45b39caf493532d15c20d0bec1e20b3b5485b97c1ef3db4d5681522d34c4f3d",
+   "depois": "e45b39caf493532d15c20d0bec1e20b3b5485b97c1ef3db4d5681522d34c4f3d"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/CASOS_SINTETICOS_4D5.json": {
+   "antes": "9a24350e98624ef41640b7082ec10bc1c308720ec6e346efc147ff3c550e4d18",
+   "depois": "9a24350e98624ef41640b7082ec10bc1c308720ec6e346efc147ff3c550e4d18"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/CONGELAMENTO_ROTULAGEM_4D5.json": {
+   "antes": "9ba4ad969581914d6838717d5d39e02580800d1b1f47b478ac7a74bbb35abc87",
+   "depois": "9ba4ad969581914d6838717d5d39e02580800d1b1f47b478ac7a74bbb35abc87"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/ESPECIFICACAO_REAIS_4D5.json": {
+   "antes": "988a9bfbb5fb16c49251ee626332337548570945772a37fe218f994cc8f0dbca",
+   "depois": "988a9bfbb5fb16c49251ee626332337548570945772a37fe218f994cc8f0dbca"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/MODELO_RELACIONAL_4D5.md": {
+   "antes": "25a23480c8e0cca1bc731ab1e811f2722f17f5566650ac07d9c58d560fbbe6da",
+   "depois": "25a23480c8e0cca1bc731ab1e811f2722f17f5566650ac07d9c58d560fbbe6da"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/RELATORIO_4D5.md": {
+   "antes": "b3fc640a9df4ea34425bf63ccf76a712b37f1407779c6bc0aa1d7497d5e75fda",
+   "depois": "b3fc640a9df4ea34425bf63ccf76a712b37f1407779c6bc0aa1d7497d5e75fda"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/RESULTADOS_NIVEIS_4D5.csv": {
+   "antes": "ec4a24cfb85fcd8203da68f5bd784e711c57199172abbcff15c5d21841a8cf75",
+   "depois": "ec4a24cfb85fcd8203da68f5bd784e711c57199172abbcff15c5d21841a8cf75"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/ROTULAGEM_4D5.md": {
+   "antes": "dea66b5832807b7b5fa5ec09e2a8330c84889cf09182da8ebb171112dc4c9462",
+   "depois": "dea66b5832807b7b5fa5ec09e2a8330c84889cf09182da8ebb171112dc4c9462"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/construir_casos_4d5.py": {
+   "antes": "1dbc9846b82ce3f506dd50863fe0891aaad220c42215fc295899e6ef240c9e3f",
+   "depois": "1dbc9846b82ce3f506dd50863fe0891aaad220c42215fc295899e6ef240c9e3f"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/execucao_v1/RESULTADOS_NIVEIS_4D5.csv": {
+   "antes": "17bef0c1e79cff6652166ec9d619058f19edf0a8ddf4931050a656b4b9aec85d",
+   "depois": "17bef0c1e79cff6652166ec9d619058f19edf0a8ddf4931050a656b4b9aec85d"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/execucao_v1/prototipo_vinculo_4d5.py": {
+   "antes": "74c40509314ccad6517af702acf0bc8cae7b8bc65b1551dc771bf8d1f6cd8ab8",
+   "depois": "74c40509314ccad6517af702acf0bc8cae7b8bc65b1551dc771bf8d1f6cd8ab8"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/execucao_v1/resultados_4d5_detalhe.json": {
+   "antes": "f55c374fc9ec5e1a1e80fd7a50381adc37b720b7e08da98c82e8cc26aca5e669",
+   "depois": "f55c374fc9ec5e1a1e80fd7a50381adc37b720b7e08da98c82e8cc26aca5e669"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/execucao_v2/RESULTADOS_NIVEIS_4D5.csv": {
+   "antes": "7d8be1a3fec94d9f2ab7d9a1cd39b9891742376ecc4da228aa45c0cecf7363ec",
+   "depois": "7d8be1a3fec94d9f2ab7d9a1cd39b9891742376ecc4da228aa45c0cecf7363ec"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/execucao_v2/resultados_4d5_detalhe.json": {
+   "antes": "0cf4130695c616c64e12fac5db2d907cc6e0cd3e15fa71a2c1fa606ad1b00584",
+   "depois": "0cf4130695c616c64e12fac5db2d907cc6e0cd3e15fa71a2c1fa606ad1b00584"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/executar_4d5.py": {
+   "antes": "d11010dea0bfd1c3706f38b03cbf427077872a6f96cecbb3091cba6c48d595db",
+   "depois": "d11010dea0bfd1c3706f38b03cbf427077872a6f96cecbb3091cba6c48d595db"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/prototipo_vinculo_4d5.py": {
+   "antes": "01a60eb511cdced34ef5544017cd7ada9ff6e5770c9f0bec088c647dc7aba8b5",
+   "depois": "01a60eb511cdced34ef5544017cd7ada9ff6e5770c9f0bec088c647dc7aba8b5"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d5/resultados_4d5_detalhe.json": {
+   "antes": "81ae2d7e84f854570677620d1841bbe48594ec7c8bcf7ce197e26df805645cf6",
+   "depois": "81ae2d7e84f854570677620d1841bbe48594ec7c8bcf7ce197e26df805645cf6"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/ANALISE_CASOS_REAIS_4D6.md": {
+   "antes": "233c7af308511ac8d77707e123939ed024bb55701165516fec9dc516849512e3",
+   "depois": "233c7af308511ac8d77707e123939ed024bb55701165516fec9dc516849512e3"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/POLITICAS_VETO_4D6.md": {
+   "antes": "c9737830b86d01989752ce54a7e26a816a9b33c4205fc82239ef4f0e36b698b7",
+   "depois": "c9737830b86d01989752ce54a7e26a816a9b33c4205fc82239ef4f0e36b698b7"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/RELATORIO_4D6.md": {
+   "antes": "4ac0b143783c3a52f9e7eb59ac6b0d1f239a4f6846843c90671315666a23378d",
+   "depois": "4ac0b143783c3a52f9e7eb59ac6b0d1f239a4f6846843c90671315666a23378d"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/RESULTADOS_VETO_4D6.csv": {
+   "antes": "727607195578aeb69cfd59e6887d2eb18d84ddb7a8193a9544014aa6db6dee97",
+   "depois": "727607195578aeb69cfd59e6887d2eb18d84ddb7a8193a9544014aa6db6dee97"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/RESUMO_VETO_4D6.csv": {
+   "antes": "98a8397b8efc469ca363983a5c028e3626fe4919ba2455df0815c4338c28adc9",
+   "depois": "98a8397b8efc469ca363983a5c028e3626fe4919ba2455df0815c4338c28adc9"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/resultados_veto_4d6_detalhe.json": {
+   "antes": "36799e9a097c49cddd26043ad545eec4773fa306946a690d5ed1eda4e39a590b",
+   "depois": "36799e9a097c49cddd26043ad545eec4773fa306946a690d5ed1eda4e39a590b"
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d6/simular_veto_4d6.py": {
+   "antes": "2e0981fa8eb074adb0ab1c05000ea82e5da7a22c49802c1d1dbe73c5389f462e",
+   "depois": "2e0981fa8eb074adb0ab1c05000ea82e5da7a22c49802c1d1dbe73c5389f462e"
+  }
+ },
+ "arquivos_novos_4d7": {
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/COMPARACAO_4D5_4D7.md": {
+   "sha256": "671013a204674b75dc7c4ff822865935a23849d5d607e36b935353e433026c49",
+   "bytes": 3661
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/RELATORIO_4D7.md": {
+   "sha256": "79114ea4a043fbc5ccec64d6e946472cfb49a74b5d141ad81daa9b9fa40decdb",
+   "bytes": 6283
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/RESULTADOS_4D7.csv": {
+   "sha256": "7952767b882cde77925a2fdfc662f0df0ba7fa9eb7776586829e4669e8f30347",
+   "bytes": 12061
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/TESTES_REGEX_4D7.csv": {
+   "sha256": "6384a0536673848e2819d284f73973b7d77c33f1273a5cce6d6c73ced710291b",
+   "bytes": 2551
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/criar_copia_corrigida_4d7.py": {
+   "sha256": "f1fe58c76f36790224fc901c5b41bd101039a66190158b92ea2d35994316b0f2",
+   "bytes": 1561
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/diff_analisador_4d5_4d7.patch": {
+   "sha256": "0d7f9f15318c73ae56c24dfc31a9b7ff8adf2a87ae7bbe18ca084d5cee3370e8",
+   "bytes": 609
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/executar_4d7.py": {
+   "sha256": "337434e6ca8a74bb7c083769ae41a1953d5136e324b1961e0507bbf387bd1999",
+   "bytes": 7983
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/gerar_resultados_4d7.py": {
+   "sha256": "e58d817316555a7719ee025709353c05d9a2b563174bc297440f4aedc525ab34",
+   "bytes": 1916
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/prototipo_vinculo_4d7.py": {
+   "sha256": "71be7a522cd95474444945847067a53abf8102af28b687d65f7cb5133f3ba316",
+   "bytes": 13441
+  },
+  "docs/assistente/diagnostico_4_4/fase4/fase4d7/testes_regex_4d7.py": {
+   "sha256": "0056d8635a96252904a3e52dd43533d006b519d07a8fa3c40e6eb84e5d987af5",
+   "bytes": 4349
+  }
+ },
+ "observacao": "o manifesto nao inclui o proprio hash; __pycache__ ignorado"
+}

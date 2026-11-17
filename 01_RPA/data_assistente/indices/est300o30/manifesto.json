@@ -1,0 +1,28 @@
+{
+  "config": "est300o30",
+  "estrategia": "estrutura",
+  "max_tokens": 300,
+  "overlap_tokens": 30,
+  "codificador": "intfloat/multilingual-e5-small",
+  "dimensao": 384,
+  "dedup": true,
+  "documentos_originais": 1381,
+  "documentos_indexados": 1305,
+  "duplicatas_redundantes": 76,
+  "n_chunks": 16199,
+  "n_janelas": 17566,
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "radical_leve": false
+  },
+  "tempos_s": {
+    "chunking": 11.8,
+    "bm25": 4.73,
+    "janelas": 19.14,
+    "embeddings": 1983.83
+  },
+  "tempo_total_construcao_s": 2021.7,
+  "rss_mb_apos_construcao": 824,
+  "tamanho_em_disco_bytes": 79175869
+}

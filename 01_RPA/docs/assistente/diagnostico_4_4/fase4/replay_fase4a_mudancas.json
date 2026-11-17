@@ -1,0 +1,20 @@
+{
+ "val-083": {
+  "fase3": "parcial",
+  "fase4a": "insuficiente",
+  "problemas": [
+   "destinatario_conflitante"
+  ],
+  "texto_fase3": "Foram adquiridos os seguintes itens para atender as necessidades da Atenção Primária no Guará: VITAMINA D 400 UI/G., BUTILBROMETO DE ESCOPOLAMINA COMPRIMIDO OU DRÁGEA 10 MG, CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% (9 MG/ML) AMPOLA 10 ML, LENÇOL DESCARTÁVEL, ROLO e ESTADIÔMETRO INFANTIL PORTÁTIL.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 20 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 00108555/2025 (DODF edição 73, 2025-04-16, Seção III); Extrato 00375749/2025 (DODF edição 180, 2025-09-23, Seção III).",
+  "texto_fase4a": "No registro de Extrato 00375749/2025 (DODF edição 180, 2025-09-23, Seção III), o item 'CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% (9 MG/ML) AMPOLA 10 ML' é destinado a hospital regional do guara, e a pergunta trata de atencao primaria; por isso o item não responde à pergunta."
+ },
+ "val-149": {
+  "fase3": "parcial",
+  "fase4a": "insuficiente",
+  "problemas": [
+   "publicacao_sem_vinculo_com_a_localidade"
+  ],
+  "texto_fase3": "Ações de atenção básica e primária em saúde serão executadas em Ceilândia durante 2025, incluindo programas voltados à promoção da saúde, prevenção de doenças, atenção primária, gestão da saúde populacional e linhas de cuidado. A Gerência de Serviços de Atenção Primária nº 07 da Ceilândia também está envolvida na execução dessas ações.\n\nAVISO: resposta parcial. Foram analisadas apenas 3 publicação(ões); o corpus contém ao menos 3 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato Contrato nº 051847/2024 (DODF edição 166, 2025-09-03, Seção III); Portaria numerada 03/2006 (DODF edição 205, 2025-10-29, Seção I); Decreto 00340534/2025 (DODF edição 65, 2025-07-14, Seção I).",
+  "texto_fase4a": "Portaria numerada 03/2006 (DODF edição 205, 2025-10-29, Seção I) não menciona a localidade perguntada (ceilandia); o trecho dessa publicação não pode ser associado a ela."
+ }
+}

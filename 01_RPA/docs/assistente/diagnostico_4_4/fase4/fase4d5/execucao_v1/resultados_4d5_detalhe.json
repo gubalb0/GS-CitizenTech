@@ -1,0 +1,2400 @@
+[
+ {
+  "origem": "sintetico",
+  "id": "S01",
+  "alvo": "Alfa",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "explicita",
+   "N2": "explicita",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": true,
+   "N2": true,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TP",
+   "N2": "TP",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "explicita",
+     "7 palavras entre a entidade e o atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='A Alfa Serviços Ltda foi contratada para a manutenção de tom' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S02",
+  "alvo": "Alfa",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "outra_entidade",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "outra_entidade",
+     "'beta engenharia ltda' esta mais perto do atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='A Alfa Serviços Ltda contratou a manutenção de tomógrafos.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S03",
+  "alvo": "HRT",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_com_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": true,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "TP",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [
+    [
+     1,
+     "anafora com referente unico"
+    ]
+   ],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='O HRT passou a oferecer exames de tomografia.' termos=['tomografia']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S04",
+  "alvo": "HRT",
+  "esperado": "nao_verificavel",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_sem_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_aceito",
+   "N4": "incerto_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [
+    [
+     1,
+     "so proximidade"
+    ]
+   ],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='O contrato prevê a aquisição de monitores multiparâmetros pa' termos=['aquisicao', 'monitores', 'multiparametros']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S05",
+  "alvo": "HRT",
+  "esperado": "ambiguo",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_aceito",
+   "N4": "incerto_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     3,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   3
+  ],
+  "unidades_atributo": [
+   3
+  ],
+  "nota": "clausula='O HRT passou a oferecer exames de tomografia.' termos=['tomografia']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S06",
+  "alvo": "HRT",
+  "esperado": "nao_sustentado_herdado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "ausente"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": false
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "TN",
+   "N4": "TN"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O objeto é a manutenção de tomógrafos do HRT.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S07",
+  "alvo": "HRT",
+  "esperado": "nao_sustentado_herdado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     3,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     3,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O objeto é a manutenção de tomógrafos do HRT.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S08",
+  "alvo": "HRT",
+  "esperado": "nao_sustentado_outro_atributo",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "TN",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [
+    [
+     3,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O objeto é a manutenção de tomógrafos do HRT.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S09",
+  "alvo": "HRT",
+  "esperado": "sustentado_documental",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "sujeito_da_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": true
+  },
+  "classe": {
+   "N1": "doc_rejeitado(so_documental)",
+   "N2": "doc_rejeitado(so_documental)",
+   "N3": "doc_rejeitado(so_documental)",
+   "N4": "doc_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [
+    [
+     0,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     0,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='A taxa de ocupação do HRT foi de 82%.' termos=['82']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S10",
+  "alvo": "HRT",
+  "esperado": "nao_sustentado_herdado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "ausente"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": false
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "TN",
+   "N4": "TN"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [],
+   "em_outra_publicacao": [
+    "P2"
+   ]
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O objeto é a manutenção de tomógrafos do HRT.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S11",
+  "alvo": "HRT",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_sem_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: ['hospital regional de sobradinho', 'hrs']"
+    ]
+   ],
+   "N2": [
+    [
+     2,
+     "so proximidade"
+    ]
+   ],
+   "N3": [
+    [
+     2,
+     "direta"
+    ],
+    [
+     2,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     2,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     2,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1,
+   2
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O HRT contratou manutenção de tomógrafos.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S12",
+  "alvo": "HRT",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "explicita",
+   "N2": "explicita",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": true,
+   "N2": true,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TP",
+   "N2": "TP",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "explicita",
+     "1 palavras entre a entidade e o atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O HRT contratou manutenção de tomógrafos, no valor de R$ 50.' termos=['manutencao', 'tomografos', 'r', '5000000']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S13",
+  "alvo": "HRS",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "coocorrencia",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "FN_perda_de_recall",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "coocorrencia",
+     "fronteira de clausula entre entidade e atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O HRS contratou manutenção de tomógrafos.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S14",
+  "alvo": "HRT",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "outra_entidade",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "FN_perda_de_recall",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "outra_entidade",
+     "a mencao e parte do nome de outra entidade"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "parte_de_outra_entidade"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='Compete ao Diretor do HRT deliberar sobre o transporte de pa' termos=['deliberar', 'transporte', 'pacientes']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S15",
+  "alvo": "HRT",
+  "esperado": "nao_sustentado_outro_atributo",
+  "estados": {
+   "N1": "outro_atributo",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "outro_atributo",
+     "unidade com rotulo da familia MEMBRO incompativel com COMPETENCIA"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     2,
+     "parte_de_outra_entidade"
+    ],
+    [
+     2,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     2,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ],
+    [
+     2,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "nenhuma unidade citada reune os termos; usando unidades citadas clausula='O Diretor do HRT integra a comissão e delibera sobre o trans' termos=['diretor', 'integra', 'comissao', 'delibera', 'transporte', 'pacientes']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S16",
+  "alvo": "Ceilândia",
+  "esperado": "nao_sustentado_herdado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "ausente"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": false
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "TN",
+   "N4": "TN"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "nenhuma unidade citada reune os termos; usando unidades citadas clausula='O contrato prevê a aquisição de ambulâncias para Ceilândia.' termos=['contrato', 'preve']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S17",
+  "alvo": "Atenção Primária",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_sem_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     0,
+     "sem_mencao",
+     "outras entidades na unidade: ['hospital regional do guara']"
+    ]
+   ],
+   "N2": [
+    [
+     1,
+     "so proximidade"
+    ]
+   ],
+   "N3": [
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   0
+  ],
+  "unidades_atributo": [
+   0
+  ],
+  "nota": "clausula='Foi adquirida luva cirúrgica para a Atenção Primária.' termos=['luva', 'cirurgica']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S18",
+  "alvo": "Atenção Primária",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "coocorrencia",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "FN_perda_de_recall",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "coocorrencia",
+     "fronteira de clausula entre entidade e atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='Foi adquirida máscara cirúrgica para a Atenção Primária.' termos=['mascara', 'cirurgica']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S19",
+  "alvo": "Alfa",
+  "esperado": "ambiguo",
+  "estados": {
+   "N1": "outra_entidade",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_aceito",
+   "N4": "incerto_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "outra_entidade",
+     "'beta engenharia ltda' esta mais perto do atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='A Alfa executará a parte elétrica da obra de reforma da UPA.' termos=['parte', 'eletrica', 'reforma', 'upa']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S20",
+  "alvo": "HRT",
+  "esperado": "nao_verificavel",
+  "estados": {
+   "N1": "coocorrencia",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_aceito",
+   "N4": "incerto_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "coocorrencia",
+     "fronteira de clausula entre entidade e atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O HRT passará a oferecer exames de tomografia.' termos=['exames', 'tomografia']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S21",
+  "alvo": "manutenção de tomógrafos",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "coocorrencia",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "FN_perda_de_recall",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "coocorrencia",
+     "fronteira de clausula entre entidade e atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1,
+   2
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O HRT contratou manutenção de tomógrafos.' termos=['manutencao', 'tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S21",
+  "alvo": "aquisição de ambulâncias",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_sem_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: ['secretaria de saude']"
+    ]
+   ],
+   "N2": [
+    [
+     1,
+     "so proximidade"
+    ]
+   ],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1,
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='O HRT contratou aquisição de ambulâncias.' termos=['aquisicao', 'ambulancias']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S22",
+  "alvo": "Alfa",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_com_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": true,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "TP",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [
+    [
+     1,
+     "anafora com referente unico"
+    ]
+   ],
+   "N3": [
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ],
+    [
+     1,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='A Alfa fornecerá os tomógrafos.' termos=['tomografos']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S23",
+  "alvo": "HRT",
+  "esperado": "nao_verificavel",
+  "estados": {
+   "N1": "sem_conteudo",
+   "N2": "sem_conteudo",
+   "N3": "sem_conteudo",
+   "N4": "sem_conteudo"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": false
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_rejeitado",
+   "N4": "incerto_rejeitado"
+  },
+  "detalhes": [],
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [],
+  "nota": "clausula='O contrato do HRT tem um objeto.' termos=[]"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S24",
+  "alvo": "Gama",
+  "esperado": "ambiguo",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "ausente"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": false
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_rejeitado",
+   "N4": "incerto_rejeitado"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='Compete discutir e deliberar sobre os serviços regulados no ' termos=['discutir', 'deliberar']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S25",
+  "alvo": "Gama",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "explicita",
+   "N2": "explicita",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": true,
+   "N2": true,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TP",
+   "N2": "TP",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "explicita",
+     "3 palavras entre a entidade e o atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     2,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     2,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='inclusive os do Gama.' termos=['inclusive']"
+ },
+ {
+  "origem": "sintetico",
+  "id": "S26",
+  "alvo": "Gama",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     2,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     4,
+     "parte_de_outra_entidade"
+    ]
+   ],
+   "N4": [
+    [
+     4,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   2
+  ],
+  "unidades_atributo": [
+   2
+  ],
+  "nota": "clausula='A Coordenação norteia as gerências de regulação no Gama.' termos=['norteia', 'gerencias']"
+ },
+ {
+  "origem": "real",
+  "id": "val-087-A-r1",
+  "alvo": "Gama",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     41,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     10,
+     "parte_de_outra_entidade"
+    ],
+    [
+     10,
+     "parte_de_outra_entidade"
+    ],
+    [
+     22,
+     "parte_de_outra_entidade"
+    ],
+    [
+     22,
+     "parte_de_outra_entidade"
+    ],
+    [
+     43,
+     "parte_de_outra_entidade"
+    ]
+   ],
+   "N4": [
+    [
+     10,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ],
+    [
+     10,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ],
+    [
+     22,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ],
+    [
+     22,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ],
+    [
+     26,
+     "parte_de_outra_entidade",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     26,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     43,
+     "parte_de_outra_entidade",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   41,
+   10,
+   2
+  ],
+  "unidades_atributo": [
+   41
+  ],
+  "nota": "clausula='incluindo a implementação das normas e protocolos de regulação de internação hos' termos=['incluindo', 'implementacao', 'normas', 'protocolos', 'internacao', 'hospitalar']; chunks_do_contexto=['dodf-174:est300o30:0000', 'dodf-174:est300o30:0001', 'dodf-174:est300o30:0004']"
+ },
+ {
+  "origem": "real",
+  "id": "val-087-A-r1",
+  "alvo": "CRSSU",
+  "esperado": "sustentado_documental",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "doc_rejeitado(so_documental)",
+   "N2": "doc_rejeitado(so_documental)",
+   "N3": "doc_aceito",
+   "N4": "doc_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     41,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     2,
+     "direta"
+    ],
+    [
+     2,
+     "direta"
+    ],
+    [
+     3,
+     "direta"
+    ],
+    [
+     3,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     2,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     2,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     3,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     3,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     31,
+     "parte_de_outra_entidade",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     31,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     32,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     35,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     38,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   41,
+   10,
+   2
+  ],
+  "unidades_atributo": [
+   41
+  ],
+  "nota": "clausula='A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear a' termos=['nortear', 'gerencias']; chunks_do_contexto=['dodf-174:est300o30:0000', 'dodf-174:est300o30:0001', 'dodf-174:est300o30:0004']"
+ },
+ {
+  "origem": "real",
+  "id": "val-024",
+  "alvo": "Hospital Regional de Ceilândia",
+  "esperado": "nao_sustentado_herdado",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "ausente"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": false
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "TN",
+   "N4": "TN"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     3,
+     "sem_mencao",
+     "outras entidades na unidade: ['crt', 'hran', 'hrl', 'hrs']"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [],
+   "em_outra_publicacao": [],
+   "parciais_na_publicacao": [
+    [
+     3,
+     "Objeto: a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipam"
+    ]
+   ]
+  },
+  "unidades_citadas": [
+   3
+  ],
+  "unidades_atributo": [
+   3
+  ],
+  "nota": "clausula='A modificação contratual realizada para equipamentos de radiologia no Hospital R' termos=['supressao', '5', 'cinco', 'raio', 'x', 'panoramico']; chunks_do_contexto=['dodf-718:est300o30:0000']"
+ },
+ {
+  "origem": "real",
+  "id": "val-031",
+  "alvo": "Hospital da Criança de Brasília José Alencar",
+  "esperado": "sustentado_documental",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "sujeito_da_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "doc_rejeitado(so_documental)",
+   "N2": "doc_rejeitado(so_documental)",
+   "N3": "doc_aceito",
+   "N4": "doc_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     23,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     21,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     0,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     0,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     1,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     3,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     21,
+     "direta",
+     "no_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   23
+  ],
+  "unidades_atributo": [
+   23
+  ],
+  "nota": "clausula='Os indicadores de satisfação dos pacientes no Hospital da Criança de Brasília Jo' termos=['942', 'julho', '966', 'agosto', '976', 'setembro']; chunks_do_contexto=['dodf-1464:est300o30:0000', 'dodf-1464:est300o30:0004']"
+ },
+ {
+  "origem": "real",
+  "id": "val-020",
+  "alvo": "Gama",
+  "esperado": "ambiguo",
+  "estados": {
+   "N1": "ausente",
+   "N2": "ausente",
+   "N3": "ausente",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": false,
+   "N4": true
+  },
+  "classe": {
+   "N1": "incerto_rejeitado",
+   "N2": "incerto_rejeitado",
+   "N3": "incerto_rejeitado",
+   "N4": "incerto_aceito"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     1,
+     "sem_mencao",
+     "outras entidades na unidade: []"
+    ]
+   ],
+   "N2": [],
+   "N3": [],
+   "N4": [
+    [
+     8,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   1
+  ],
+  "unidades_atributo": [
+   1
+  ],
+  "nota": "clausula='O estabelecimento credenciado para prestar serviços de radiologia e medicina nuc' termos=['instituto', 'endocrinologia', 'ltda', 'cnpj', '249427320001', '69']; chunks_do_contexto=['dodf-361:est300o30:0001']"
+ },
+ {
+  "origem": "real",
+  "id": "val-083",
+  "alvo": "item VITAMINA D (doc 495)",
+  "esperado": "sustentado",
+  "estados": {
+   "N1": "coocorrencia",
+   "N2": "ausente",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "FN_perda_de_recall",
+   "N2": "FN_perda_de_recall",
+   "N3": "TP",
+   "N4": "TP"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     33,
+     "coocorrencia",
+     "fronteira de clausula entre entidade e atributo"
+    ]
+   ],
+   "N2": [],
+   "N3": [
+    [
+     33,
+     "direta"
+    ],
+    [
+     35,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     2,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     6,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     14,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     19,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     20,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     25,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     26,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     27,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     28,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     33,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     35,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     38,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     40,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     43,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     48,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     49,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     50,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     52,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     53,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     54,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     55,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     56,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     59,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     60,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     62,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   33
+  ],
+  "unidades_atributo": [
+   33
+  ],
+  "nota": "destinatário avaliado como entidade"
+ },
+ {
+  "origem": "real",
+  "id": "val-083",
+  "alvo": "item CLORETO DE SODIO (doc 1444)",
+  "esperado": "nao_sustentado_outra_entidade",
+  "estados": {
+   "N1": "ausente",
+   "N2": "adjacente_sem_vinculo",
+   "N3": "mesmo_chunk",
+   "N4": "mesma_publicacao"
+  },
+  "aceita": {
+   "N1": false,
+   "N2": false,
+   "N3": true,
+   "N4": true
+  },
+  "classe": {
+   "N1": "TN",
+   "N2": "TN",
+   "N3": "FP_falso_vinculo",
+   "N4": "FP_falso_vinculo"
+  },
+  "detalhes": {
+   "N1": [
+    [
+     29,
+     "sem_mencao",
+     "outras entidades na unidade: ['hospital regional do guara']"
+    ]
+   ],
+   "N2": [
+    [
+     30,
+     "so proximidade"
+    ]
+   ],
+   "N3": [
+    [
+     30,
+     "direta"
+    ],
+    [
+     31,
+     "direta"
+    ]
+   ],
+   "N4": [
+    [
+     1,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     2,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     3,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     4,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     5,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     6,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     7,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     8,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     9,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     11,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     12,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     13,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     15,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     16,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     19,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     20,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     23,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     24,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     30,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     31,
+     "direta",
+     "no_contexto_enviado"
+    ],
+    [
+     33,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     34,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     35,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     36,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     37,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     38,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     39,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     40,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     41,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     43,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     44,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ],
+    [
+     45,
+     "direta",
+     "FORA_do_contexto_enviado"
+    ]
+   ],
+   "em_outra_publicacao": []
+  },
+  "unidades_citadas": [
+   29
+  ],
+  "unidades_atributo": [
+   29
+  ],
+  "nota": "destinatário avaliado como entidade"
+ }
+]

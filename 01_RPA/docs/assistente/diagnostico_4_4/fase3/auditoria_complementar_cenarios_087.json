@@ -1,0 +1,108 @@
+{
+ "A1_titular_na_publicacao_resposta_usa_so_a_competencia": {
+  "status": "parcial",
+  "problemas": [],
+  "relacoes": [
+   [
+    "Compete à CRSSU discutir e deliberar sob",
+    null,
+    "desconhecido",
+    "0000"
+   ],
+   [
+    "Compete à CRSSU discutir e deliberar sob",
+    null,
+    "desconhecido",
+    "0000"
+   ]
+  ]
+ },
+ "A2_trecho_titular_de_outra_entidade_citado_mas_nao_usado": {
+  "status": "parcial",
+  "problemas": [],
+  "relacoes": [
+   [
+    "Compete à CRSSU discutir e deliberar sob",
+    null,
+    "desconhecido",
+    "0000"
+   ],
+   [
+    "Compete à CRSSU discutir e deliberar sob",
+    null,
+    "desconhecido",
+    "0000"
+   ],
+   [
+    "Titular: Maria da Silva, representante d",
+    "titular",
+    "conflito",
+    "0000"
+   ],
+   [
+    "Titular: Maria da Silva, representante d",
+    "titular",
+    "conflito",
+    "0000"
+   ]
+  ]
+ },
+ "B1_resposta_usa_a_lista_de_membros_da_propria_entidade_como_competencia": {
+  "status": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "relacoes": [
+   [
+    "Titular: Diretor do Hospital Regional do",
+    "titular",
+    "conflito",
+    "0000"
+   ],
+   [
+    "Titular: Diretor do Hospital Regional do",
+    "titular",
+    "conflito",
+    "0000"
+   ]
+  ]
+ },
+ "B2_so_ha_lista_de_membros_para_a_entidade": {
+  "status": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "relacoes": [
+   [
+    "Titular: Diretor do Hospital Regional do",
+    "titular",
+    "conflito",
+    "0000"
+   ],
+   [
+    "Titular: Diretor do Hospital Regional do",
+    "titular",
+    "conflito",
+    "0000"
+   ]
+  ]
+ },
+ "C_prefixo_titular_com_competencia_na_mesma_frase": {
+  "status": "parcial",
+  "problemas": [],
+  "relacoes": [
+   [
+    "Titular: o Diretor do HRG, a quem compet",
+    "titular",
+    "conflito",
+    "0000"
+   ],
+   [
+    "Titular: o Diretor do HRG, a quem compet",
+    "titular",
+    "conflito",
+    "0000"
+   ]
+  ]
+ }
+}

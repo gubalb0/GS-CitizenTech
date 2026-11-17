@@ -1,0 +1,27 @@
+{
+ "descricao": "Avaliacao CEGA (passo 1) pela rubrica fixada em PROTOCOLO_VALIDACAO_SELETIVA.md, registrada ANTES de abrir o arquivo de mapeamento codigo->condicao. Classe pela saida bruta do modelo (nao pelo status do pipeline). Elementos exigidos: val-074 E1 = objeto 'fornecimento ininterrupto de alimentacao hospitalar' (unidades IGESDF); val-087 E1 = compete a CRSSU discutir e deliberar sobre direcao/avaliacao/monitoramento/organizacao/funcionamento/aperfeicoamento dos servicos regulados na Regiao Sul. Controles: referencia do benchmark e classe da auditoria 4.3.",
+ "avaliador": "Claude (modelo), uma unica passada; recomenda-se revisao humana",
+ "classes": {
+  "S01": {"classe": "Correta", "nota": "E1 presente, literal do trecho 'Objeto:'; unidades do IGESDF; nao menciona UPA Samambaia explicitamente (E2 parcial)"},
+  "S06": {"classe": "Correta", "nota": "identica a S01"},
+  "S15": {"classe": "Correta", "nota": "identica a S01"},
+  "S09": {"classe": "Abstencao indevida", "nota": "fora_do_escopo; texto 'pergunta nao esta relacionada' sem sustentacao"},
+  "S14": {"classe": "Abstencao indevida", "nota": "idem"},
+  "S18": {"classe": "Abstencao indevida", "nota": "idem"},
+  "S02": {"classe": "Correta", "nota": "E1 presente (discutir e deliberar...); acrescenta protocolos de regulacao, consistente com o trecho; nao menciona Gama (aceitavel)"},
+  "S12": {"classe": "Correta", "nota": "E1 presente; acrescenta 'nortear gerencias' (C3 item IX), sustentado pelo trecho"},
+  "S16": {"classe": "Correta", "nota": "idem S12"},
+  "S03": {"classe": "Incorreta", "nota": "E1 ausente; atribui 'implementacao de normas e protocolos ... no Gama' e usa lista de titulares (C2 Titular HRG) como evidencia de competencia: falha marcada (membros como competencia), afirmacao nao sustentada sobre o Gama"},
+  "S13": {"classe": "Incorreta", "nota": "E1 ausente; cita Titular: Diretor do HRG como evidencia de competencia; afirma implementacao no HRG"},
+  "S17": {"classe": "Incorreta", "nota": "idem S13"},
+  "S05": {"classe": "Correta parcial", "nota": "supressao de 5 equipamentos de Raio X Panoramico e reducao do valor; omite os valores (como na 4.3)"},
+  "S08": {"classe": "Correta parcial", "nota": "idem S05"},
+  "S19": {"classe": "Correta parcial", "nota": "idem S05"},
+  "S07": {"classe": "Correta", "nota": "fornecimento ininterrupto de alimentacao hospitalar especialmente preparada, conforme referencia (omite empresa/UPAs)"},
+  "S10": {"classe": "Correta", "nota": "idem S07"},
+  "S11": {"classe": "Correta", "nota": "idem S07"},
+  "S04": {"classe": "Abstencao correta", "nota": "pergunta sem entidade identificavel; abstencao (redacao 'nao esta relacionada' imprecisa)"},
+  "S20": {"classe": "Abstencao correta", "nota": "idem S04"},
+  "S21": {"classe": "Abstencao correta", "nota": "idem S04"}
+ }
+}

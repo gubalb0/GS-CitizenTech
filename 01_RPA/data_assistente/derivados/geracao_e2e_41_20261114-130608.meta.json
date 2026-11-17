@@ -1,0 +1,53 @@
+{
+  "run_id": "20261114-130608",
+  "etapa": "4.3",
+  "inicio": "2026-11-14T13:06:10",
+  "versao_prompt": "v3",
+  "versao_politica": "fail-closed-4.3",
+  "modelo": "Qwen3-8B Q4_K_M (bartowski/Qwen_Qwen3-8B-GGUF)",
+  "modelos_carregados": [
+    "qwen3-8b",
+    "qwen_qwen3-8b",
+    "text-embedding-nomic-embed-text-v1.5"
+  ],
+  "runtime": "LM Studio 0.4.28, llama.cpp Vulkan 2.73.0, RX 6750 XT",
+  "parallel_lmstudio": 1,
+  "contexto_lmstudio": 8192,
+  "parametros_geracao": {
+    "url": "http://localhost:1234/v1/chat/completions",
+    "modelo": "qwen3-8b",
+    "max_chunks": 5,
+    "max_chunks_limite": 6,
+    "orcamento_tokens": 3000,
+    "razao_qwen": 1.76,
+    "max_tokens_chunk": 350,
+    "temperatura": 0.3,
+    "top_p": 0.8,
+    "max_tokens_saida": 1100,
+    "timeout_conexao_s": 5.0,
+    "timeout_leitura_s": 180.0,
+    "tentativas_json": 2,
+    "max_chars_pergunta": 500
+  },
+  "retriever": {
+    "config": "est300o30",
+    "modo": "bm25",
+    "k": 5,
+    "congelado": true
+  },
+  "sha256_16": {
+    "geracao.py": "a5a6e2c472e34946",
+    "evidencias.py": "a33d577c920a4df8",
+    "avaliacao_e2e.py": "235b9ebdc391cf92"
+  },
+  "conjunto": "validacao (150 perguntas); o teste de 350 NAO foi usado",
+  "diagnostica": true,
+  "catalogo_identificabilidade": {
+    "docs_canonicos": 1305,
+    "janela_proximidade_chars": 1500,
+    "regra": "4.3 (4.2 + relevancia por janela com cobertura parcial)",
+    "comparacao_com": "20261114-014826 (Etapa 4.2); mesmo modelo, runtime, parametros, retriever, indices e orcamento de contexto"
+  },
+  "fim": "2026-11-14T13:50:21",
+  "completa": true
+}

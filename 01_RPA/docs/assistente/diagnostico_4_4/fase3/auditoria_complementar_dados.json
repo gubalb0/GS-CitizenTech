@@ -1,0 +1,1209 @@
+{
+ "val-007": {
+  "pergunta": "Quais serviços de saúde estão sendo implementados em Riacho Fundo II?",
+  "gabarito_dataset": "De acordo com a Portaria Conjunta nº 12/2025, publicada na Edição 82 do DODF de 06/05/2025, foi descentralizado crédito orçamentário no valor de R$ 4.600.000,00 destinado à formalização de Convênio para a construção de bases para o Serviço de Atendimento Móvel de Urgência - SAMU, com uma base localizada no Posto de Saúde da Família - QN 7B - Conjunto 03 – Lote 01/02 em Riacho Fundo II.",
+  "docs_esperados_dataset": [
+   [
+    474
+   ],
+   [
+    488
+   ],
+   [
+    571
+   ],
+   [
+    591
+   ],
+   [
+    621
+   ]
+  ],
+  "auditoria_anterior": {
+   "classe": "Incorreta",
+   "justificativa": "Junta a eleicao do Conselho Regional de Saude do Riacho Fundo II (doc 1236) ao 'Hospital da Mulher'. No doc 1449 (Ata CDM-DF) o Hospital da Mulher e um hospital de SAO PAULO visitado por uma conselheira; nao e servico implementado em Riacho Fundo II. Nenhuma evidencia descreve servico de saude implementado na localidade."
+  },
+  "recuperados": [
+   {
+    "pos": 1,
+    "chunk_id": "dodf-1236:est300o30:0008",
+    "doc": 1236,
+    "score": 25.06,
+    "ref": "Resolução 2025/2028 ed.152",
+    "enviado": true,
+    "n_chunks_doc": 17,
+    "ordem": 8
+   },
+   {
+    "pos": 2,
+    "chunk_id": "dodf-1236:est300o30:0012",
+    "doc": 1236,
+    "score": 23.39,
+    "ref": "Resolução 2025/2028 ed.152",
+    "enviado": true,
+    "n_chunks_doc": 17,
+    "ordem": 12
+   },
+   {
+    "pos": 3,
+    "chunk_id": "dodf-1449:est300o30:0008",
+    "doc": 1449,
+    "score": 23.05,
+    "ref": "Ata 08/2025 ed.181",
+    "enviado": true,
+    "n_chunks_doc": 10,
+    "ordem": 8
+   },
+   {
+    "pos": 4,
+    "chunk_id": "dodf-303:est300o30:0020",
+    "doc": 303,
+    "score": 22.0,
+    "ref": "Extrato Contrato nº 051690/2024 ed.42",
+    "enviado": false,
+    "n_chunks_doc": 28,
+    "ordem": 20
+   },
+   {
+    "pos": 5,
+    "chunk_id": "dodf-303:est300o30:0007",
+    "doc": 303,
+    "score": 21.98,
+    "ref": "Extrato Contrato nº 051690/2024 ed.42",
+    "enviado": false,
+    "n_chunks_doc": 28,
+    "ordem": 7
+   }
+  ],
+  "contexto": {
+   "C1": {
+    "chunk_id": "dodf-1236:est300o30:0008",
+    "doc": 1236,
+    "texto": "Capítulo IV DA COMPOSIÇÃO Art. 12. Serão 12 (doze) vagas para membros conselheiros (as) titulares e 12 (doze) vagas para membros conselheiros (as) suplentes, distribuídos da seguinte forma: 6 (seis) representantes titulares e 6 (seis) representantes suplentes dos usuários de serviços saúde do DF oriundos das entidades constituídas legalmente a no mínimo 01(um) ano, com CNPJ e ata registrada, atuante e sediada na respectiva Região Administrativa do Riacho Fundo II - DF, eleitos no Fórum Ampliado e Qualificado; 3 (três) representantes titulares e 3 (três) representantes suplentes dos trabalhadores do Sistema Único de Saúde (SUS) da Região Administrativa do Riacho Fundo II – DF, de entidades de profissionais da área da saúde, eleitos no Fórum Ampliado e Qualificado; 3 (três) representantes titulares e 3 (três) representantes suplentes do segmento gestor e entidades prestadoras de serviços de saúde conveniados, que atuem na Região Administrativa do Riacho Fundo II - DF, indicados pela Superintendência da Região de Saúde Centro-Sul. Parágrafo único. Para cada titular haverá 1(um) suplente, ainda que não sejam da mesma entidade ou órgão, sendo as vagas distribuídas, pela ordem, às entidades mais votadas dentro de cada segmento e indicadas na forma deste Edital. Capítulo V DAS INSCRIÇÕES Art."
+   },
+   "C2": {
+    "chunk_id": "dodf-1236:est300o30:0012",
+    "doc": 1236,
+    "texto": "SEÇÃO II DA ELEIÇÃO Art. 16. A eleição para preenchimento das vagas dos membros titulares e suplentes no Conselho Regional de Saúde do Riacho Fundo II, ocorrerá em formato presencial em Fórum Ampliado e Qualificado dos Segmentos Trabalhadores e Usuários, no dia 18 de setembro de 2025, de 9h às 11h, local: UBS 01, Tenda, na QC 06, conjunto 16, lote 16, Área Especial, Riacho Fundo II e seguirá a seguinte ordem do dia: I - apresentação e credenciamento do representante, indicados por cada entidade por meio de ofício, habilitadas de acordo com a Lei e aptas a votar e concorrer às vagas, identificados em lista de presença; II - serão destinados 40 (quarenta) minutos para credenciamento, de forma que a Comissão Eleitoral não aceitará entidades que se apresentarem após esse prazo; III - não é permitida a substituição do representante da entidade após o credenciamento; IV - o Presidente da Comissão Eleitoral dará início aos trabalhos com a separação dos Fóruns Ampliados e Qualificados de usuários e trabalhadores, indicando um relator para cada Fórum; V - havendo consenso nos Fóruns quanto à escolha dos representantes titulares e suplentes a eleição ocorrerá por aclamação; VI - não havendo consenso nos Fóruns, as entidades mais votadas, por ordem decrescente de votos, terão seus assentos definidos no Conselho Regional de Saúde do Riacho Fundo II – CRSRF II, sendo titulares os mais votados e na sequência sendo estabelecidas às respectivas suplências;"
+   },
+   "C3": {
+    "chunk_id": "dodf-1449:est300o30:0008",
+    "doc": 1449,
+    "texto": "A secretária Giselle Ferreira ressaltou que as políticas estão sendo implementadas a curto, médio e longo prazo. Vivemos num mundo pós pandemia onde cada vez mais jovens vivem a violência, a dependência química, onde essas pautas têm sido tratadas como saúde pública. A senhora Rafaela Mitre enfatiza sobre a importância da interação em rede e fica muito feliz em saber que a secretaria da mulher já está em ação com a secretaria de saúde de forma transversal. A senhora Diulinni sugere que nas delegacias também existam programas de saúde mental, pois as mulheres já chegam ali com o emocional abalado. A senhora Ivonice Campos ressalta a atenção cuidadosa do CDM-DF em discutir esta pauta , considerando que os casos intensivos de violência são casos de saúde pública. A dra Valeska ressalta sobre a importância da ação com uma rede de apoio, onde o médico consiga ouvir o paciente, relata sobre o sonho de em Brasília ter um hospital referência para a Mulher. A senhora Giselle Ferreira compartilha sobre sua visita à São Paulo em especial à Secretaria da Mulher para conhecer as ações e programas. Ressalta que conheceu o Hospital da Mulher onde todos os equipamentos e rede funcionam 24 horas para apoiar a mulher em seus enfrentamentos e desafios contra a violência. A senhora Ana Maria ressalta que em sua gestão apoia muito as mulheres do Riacho Fundo e solicita o CEAM do Riacho Fundo II."
+   }
+  },
+  "tokens_contexto": 2848,
+  "grupo_real": [
+   "B",
+   0
+  ],
+  "saida_bruta": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "Serão 12 (doze) vagas para membros conselheiros (as) titulares e 12 (doze) vagas para membros conselheiros (as) suplentes, distribuídos da seguinte forma: 6 (seis) representantes titulares e 6 (seis) "
+    },
+    {
+     "fonte": "C2",
+     "resposta_possivel": "A eleição para preenchimento das vagas dos membros titulares e suplentes no Conselho Regional de Saúde do Riacho Fundo II, ocorrerá em formato presencial em Fórum Ampliado e Qualificado dos Segmentos "
+    },
+    {
+     "fonte": "C3",
+     "resposta_possivel": "A senhora Giselle Ferreira compartilha sobre sua visita à São Paulo em especial à Secretaria da Mulher para conhecer as ações e programas. Ressalta que conheceu o Hospital da Mulher onde todos os  "
+    }
+   ],
+   "status": "parcial",
+   "resposta": "A implementação de serviços de saúde em Riacho Fundo II inclui ações relacionadas ao Conselho Regional de Saúde, eleições para membros conselheiros e programas voltados à saúde da mulher, como o Hospital da Mulher.",
+   "fontes": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "Serão 12 (doze) vagas para membros conselheiros (as) titulares e 12 (doze) vagas para membros conselheiros (as) suplentes, distribuídos da seguinte forma: 6 (seis) representantes titulares e 6 (seis) representantes suplentes dos usuários de serviços saúde do DF oriundos das entidades constituídas..."
+    },
+    {
+     "fonte": "C2",
+     "trecho": "A eleição para preenchimento das vagas dos membros titulares e suplentes no Conselho Regional de Saúde do Riacho Fundo II, ocorrerá em formato presencial em Fórum Ampliado e Qualificado dos Segmentos Trabalhadores e Usuários..."
+    },
+    {
+     "fonte": "C3",
+     "trecho": "A senhora Giselle Ferreira compartilha sobre sua visita à São Paulo em especial à Secretaria da Mulher para conhecer as ações e programas. Ressalta que conheceu o Hospital da Mulher onde todos os equipamentos e rede funcionam 24 horas..."
+    }
+   ],
+   "justificativa": "Os trechos mencionados abordam serviços de saúde em Riacho Fundo II, incluindo eleições para membros conselheiros, ações relacionadas à saúde da mulher e programas voltados ao apoio às mulheres. No entanto, não há informações detalhadas sobre os serviços específicos implementados."
+  },
+  "fase3_status": "parcial",
+  "fase3_resposta": "A implementação de serviços de saúde em Riacho Fundo II inclui ações relacionadas ao Conselho Regional de Saúde, eleições para membros conselheiros e programas voltados à saúde da mulher, como o Hospital da Mulher.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 1 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Resolução 2025/2028 (DODF edição 152, 2025-08-14, Seção I); Ata 08/2025 (DODF edição 181, 2025-09-24, Seção I).",
+  "fase3_problemas": [],
+  "evidencia_registro": {
+   "encontrada_so_em_outra_publicacao": [],
+   "origem_dos_termos": {},
+   "origem_do_alinhamento": {
+    "riacho": "chunk_citado",
+    "fundo": "chunk_citado"
+   },
+   "atribuicao": {
+    "conselho": [
+     [
+      "1236",
+      "metadados"
+     ],
+     [
+      "1449",
+      "metadados"
+     ]
+    ],
+    "mulher": [
+     [
+      "1236",
+      "metadados"
+     ],
+     [
+      "1449",
+      "metadados"
+     ]
+    ]
+   },
+   "citacoes": {
+    "C1": "literal",
+    "C2": "literal",
+    "C3": "literal"
+   },
+   "protecao": {
+    "atributo": "servicos",
+    "relacoes": [
+     {
+      "entidade": [
+       "riacho",
+       "fundo"
+      ],
+      "atributo": "servicos",
+      "familia_atributo": "OBJETO",
+      "valor": "Serão 12 (doze) vagas para membros conselheiros (as) titulares e 12 (doze) vagas para memb",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-1236:est300o30:0008",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "riacho",
+       "fundo"
+      ],
+      "atributo": "servicos",
+      "familia_atributo": "OBJETO",
+      "valor": "Serão 12 (doze) vagas para membros conselheiros (as) titulares e 12 (doze) vagas para memb",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-1236:est300o30:0008",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "riacho",
+       "fundo"
+      ],
+      "atributo": "servicos",
+      "familia_atributo": "OBJETO",
+      "valor": "A eleição para preenchimento das vagas dos membros titulares e suplentes no Conselho Regio",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-1236:est300o30:0012",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "riacho",
+       "fundo"
+      ],
+      "atributo": "servicos",
+      "familia_atributo": "OBJETO",
+      "valor": "A eleição para preenchimento das vagas dos membros titulares e suplentes no Conselho Regio",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-1236:est300o30:0012",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "riacho",
+       "fundo"
+      ],
+      "atributo": "servicos",
+      "familia_atributo": "OBJETO",
+      "valor": "A senhora Giselle Ferreira compartilha sobre sua visita à São Paulo em especial à Secretar",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-1449:est300o30:0008",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "riacho",
+       "fundo"
+      ],
+      "atributo": "servicos",
+      "familia_atributo": "OBJETO",
+      "valor": "A senhora Giselle Ferreira compartilha sobre sua visita à São Paulo em especial à Secretar",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-1449:est300o30:0008",
+      "estado": "desconhecido"
+     }
+    ],
+    "periodo_pedido": null,
+    "associacao_estrutural": []
+   }
+  },
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "citacao": "literal",
+    "trecho_verificado": "serao 12 doze vagas para membros conselheiros as titulares e 12 doze vagas para membros conselheiros as suplentes distribuidos da seguinte forma 6 seis represen"
+   },
+   {
+    "fonte": "C2",
+    "citacao": "literal",
+    "trecho_verificado": "a eleicao para preenchimento das vagas dos membros titulares e suplentes no conselho regional de saude do riacho fundo ii ocorrera em formato presencial em foru"
+   },
+   {
+    "fonte": "C3",
+    "citacao": "literal",
+    "trecho_verificado": "a senhora giselle ferreira compartilha sobre sua visita a sao paulo em especial a secretaria da mulher para conhecer as acoes e programas ressalta que conheceu "
+   }
+  ]
+ },
+ "val-012": {
+  "pergunta": "Quais equipamentos médicos foram adquiridos para o Hospital Regional de Ceilândia?",
+  "gabarito_dataset": "Foram adquiridos diversos equipamentos para o Hospital Regional de Ceilândia, incluindo uma Balança Antropométrica Digital Adulto e Pediátrica (R$ 29.120,00), uma Estante Modular Perfurada (R$ 30.660,00), uma Pinça de Biópsia para Histeroscopia tipo Bettocchi (R$ 7.500,00), uma Capa Protetora para Arco Cirúrgico/Escopia (R$ 1.318,00) e um Diafragma Ventilador de Transporte (R$ 2.796,00), conforme ratificações de dispensas de licitação publicadas na Edição 219 do DODF, de 18/11/2025.",
+  "docs_esperados_dataset": [
+   [
+    1680
+   ]
+  ],
+  "auditoria_anterior": {
+   "classe": "Incorreta",
+   "justificativa": "Pergunta: EQUIPAMENTOS medicos adquiridos. Resposta lista alcool etilico (insumo) e manutencao corretiva de macas (servico), doc 238 (ed.35); nenhum e equipamento adquirido. Ha docs com equipamentos para o HRC (ex.: 958 lavadora ultrassonica; 1346 mesa de necropsia). Interpretacao do termo 'equipamento'."
+  },
+  "recuperados": [
+   {
+    "pos": 1,
+    "chunk_id": "dodf-238:est300o30:0003",
+    "doc": 238,
+    "score": 16.77,
+    "ref": "Extrato licitação nº 006/2025 ed.35",
+    "enviado": true,
+    "n_chunks_doc": 4,
+    "ordem": 3
+   },
+   {
+    "pos": 2,
+    "chunk_id": "dodf-560:est300o30:0017",
+    "doc": 560,
+    "score": 16.77,
+    "ref": "Extrato 03/2023 ed.81",
+    "enviado": true,
+    "n_chunks_doc": 35,
+    "ordem": 17
+   },
+   {
+    "pos": 3,
+    "chunk_id": "dodf-807:est300o30:0000",
+    "doc": 807,
+    "score": 16.24,
+    "ref": "Extrato 1170/2025 ed.101",
+    "enviado": true,
+    "n_chunks_doc": 1,
+    "ordem": 0
+   },
+   {
+    "pos": 4,
+    "chunk_id": "dodf-956:est300o30:0002",
+    "doc": 956,
+    "score": 16.12,
+    "ref": "Extrato CONTRATO nº 01/2018 ed.116",
+    "enviado": false,
+    "n_chunks_doc": 16,
+    "ordem": 2
+   },
+   {
+    "pos": 5,
+    "chunk_id": "dodf-1455:est300o30:0003",
+    "doc": 1455,
+    "score": 16.04,
+    "ref": "Extrato 09/2025 ed.181",
+    "enviado": false,
+    "n_chunks_doc": 28,
+    "ordem": 3
+   }
+  ],
+  "contexto": {
+   "C1": {
+    "chunk_id": "dodf-238:est300o30:0003",
+    "doc": 238,
+    "texto": "RATIFICO em 17 de JANEIRO de 2025, a dispensa de licitação em razão de valor n° 2330-008189, Processo SEI nº 00060-00039791/2025-19, com fundamento no artigo 75, inciso II da Lei nº 14.133, de 1º de abril de 2021, à empresa APOLLO MATERIAIS MEDICO HOSPITALARES LTDA - CNPJ: 25.453.279/0001-90, cujo objeto é a aquisição do item identificado pelo Código SES 95046 ALCOOL ETILICO ABSOLUTO 99,5GL FRASCO 1.000ML, para atender as necessidades do Hospital Regional de Ceilândia, no valor global de R$ 2.288,96 (dois mil duzentos e oitenta e oito reais e noventa e seis centavos). RATIFICO em 17 de JANEIRO de 2025, a dispensa de licitação em razão de valor n° SERVIÇO N° 006/2025, Processo SEI nº 00060-00031871/2025-18, com fundamento no artigo 75, inciso II da Lei nº 14.133, de 1º de abril de 2021, à empresa DS MEDICAL EQUIPAMENTOS MÉDICOS E HOSPITALARES - CNPJ: 22.146.429/0001-24, cujo objeto é o serviço de Manutenção Corretiva em Macas - Marca: LINET - Modelo: SPRINT, para atender as necessidades do Hospital Regional de Ceilândia, no valor global de R$ 6.400,00 (seis mil e quatrocentos reais). FELILIPE DIENER FONSECA"
+   },
+   "C2": {
+    "chunk_id": "dodf-560:est300o30:0017",
+    "doc": 560,
+    "texto": "29/2023, Processo SEI nº 00060-00408652/2023-70, empresa DS MEDICAL COMERCIO E SERVIÇOS DE EQUIPAMENTOS MÉDICOS HOSPITALARES LTDA – CNPJ:22.146.429/0001-24, cujo objeto é a aquisição do SERVIÇO DE REPARO EM PROCESSADOR DE TECIDOS marca LUPETEC para atender às necessidades do Hospital Regional de Taguatinga, no valor global de R$1.150,00 (Mil, cento e cinquenta reais). 29/2023, Processo SEI nº 00060-00408652/2023-70, empresa DS MEDICAL COMERCIO E SERVIÇOS DE EQUIPAMENTOS MÉDICOS HOSPITALARES LTDA – CNPJ:22.146.429/0001-24, cujo objeto é a aquisição do SERVIÇO DE REPARO EM MICRÓTOMO marca YIDI para atender às necessidades do Hospital Regional de Taguatinga, no valor global de R$1.060,00 (Mil e sessenta reais). 1/2025, Processo SEI nº 00060-00071289/2025-94, empresa: DS MEDICAL – EQUIPAMENTOS MÉDICOS E HOSPITALARES CNPJ 22.146.429/0001-24, cujo objeto é a aquisição do – SERVIÇO DE REPARO EM SELADORA, marca BAUMER, para atender às necessidades do Hospital Regional de Samambaia, no valor global de R$950,00 ( Novecentos e cinquenta reais)."
+   },
+   "C3": {
+    "chunk_id": "dodf-807:est300o30:0000",
+    "doc": 807,
+    "texto": "PROCESSO: 04016-00050111/2025-13. PARTES: INSTITUTO DE GESTÃO ESTRATÉGICA DE SAÚDE DO DISTRITO FEDERAL - IGESDF E EMPRESA RGN INSTRUMENTOS E EQUIPAMENTOS MEDICOS LTDA, CNPJ N.º 22.654.814/0001-82. DISPENSA N.º 04/2025. OBJETO: AQUISIÇÃO DE MATERIAIS E EQUIPAMENTOS DESTINADOS APARELHAR LEITOS DE UNIDADE DE CUIDADOS INTERMEDIÁRIOS PEDIÁTRICOS (UCIP) NO HOSPITAL DE BASE HBDF E HOSPITAL REGIONAL DE SANTA MARIA HRSM. FUNDAMENTO LEGAL: NA FORMA DO REGULAMENTO PRÓPRIO DE COMPRAS E CONTRATAÇÕES DO IGESDF. ASSINATURA: 26/05/2025. SIGNATÁRIO: PELA CONTRATADA: RAPHAEL GONÇALVES NICÉSIO, NA QUALIDADE DE REPRESENTANTE LEGAL – EMPRESA RGN INSTRUMENTOS E EQUIPAMENTOS MEDICOS LTDA."
+   }
+  },
+  "tokens_contexto": 2592,
+  "grupo_real": [
+   "B",
+   0
+  ],
+  "saida_bruta": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "a aquisição do item identificado pelo Código SES 95046 ALCOOL ETILICO ABSOLUTO 99,5GL FRASCO 1.000ML"
+    },
+    {
+     "fonte": "C1",
+     "resposta_possivel": "o serviço de Manutenção Corretiva em Macas - Marca: LINET - Modelo: SPRINT"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "Foram adquiridos álcool etílico absoluto 99,5GL frasco 1.000ML e o serviço de manutenção corretiva em macas marca LINET modelo SPRINT para o Hospital Regional de Ceilândia.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "a aquisição do item identificado pelo Código SES 95046 ALCOOL ETILICO ABSOLUTO 99,5GL FRASCO 1.000ML"
+    },
+    {
+     "fonte": "C1",
+     "trecho": "o serviço de Manutenção Corretiva em Macas - Marca: LINET - Modelo: SPRINT"
+    }
+   ],
+   "justificativa": ""
+  },
+  "fase3_status": "parcial",
+  "fase3_resposta": "Foram adquiridos álcool etílico absoluto 99,5GL frasco 1.000ML e o serviço de manutenção corretiva em macas marca LINET modelo SPRINT para o Hospital Regional de Ceilândia.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 9 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato licitação nº 006/2025 (DODF edição 35, 2025-02-19, Seção III).",
+  "fase3_problemas": [],
+  "evidencia_registro": {
+   "encontrada_so_em_outra_publicacao": [],
+   "origem_dos_termos": {},
+   "origem_do_alinhamento": {
+    "ceilandia": "chunk_citado"
+   },
+   "atribuicao": {
+    "99,5": [
+     [
+      "238",
+      "citacao_verificada"
+     ]
+    ],
+    "1.000": [
+     [
+      "238",
+      "citacao_verificada"
+     ]
+    ],
+    "linet": [
+     [
+      "238",
+      "citacao_verificada"
+     ]
+    ],
+    "sprint": [
+     [
+      "238",
+      "citacao_verificada"
+     ]
+    ]
+   },
+   "citacoes": {
+    "C1": "literal"
+   },
+   "protecao": {
+    "atributo": "equipamentos",
+    "relacoes": [
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "equipamentos",
+      "familia_atributo": null,
+      "valor": "a aquisição do item identificado pelo Código SES 95046 ALCOOL ETILICO ABSOLUTO 99,5GL FRAS",
+      "rotulo": {
+       "rotulo": "objeto",
+       "familia": "OBJETO"
+      },
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-238:est300o30:0003",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "equipamentos",
+      "familia_atributo": null,
+      "valor": "o serviço de Manutenção Corretiva em Macas - Marca: LINET - Modelo: SPRINT",
+      "rotulo": {
+       "rotulo": "objeto",
+       "familia": "OBJETO"
+      },
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-238:est300o30:0003",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "equipamentos",
+      "familia_atributo": null,
+      "valor": "a aquisição do item identificado pelo Código SES 95046 ALCOOL ETILICO ABSOLUTO 99,5GL FRAS",
+      "rotulo": {
+       "rotulo": "objeto",
+       "familia": "OBJETO"
+      },
+      "origem": "citacao",
+      "chunk_id": "dodf-238:est300o30:0003",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "equipamentos",
+      "familia_atributo": null,
+      "valor": "o serviço de Manutenção Corretiva em Macas - Marca: LINET - Modelo: SPRINT",
+      "rotulo": {
+       "rotulo": "objeto",
+       "familia": "OBJETO"
+      },
+      "origem": "citacao",
+      "chunk_id": "dodf-238:est300o30:0003",
+      "estado": "desconhecido"
+     }
+    ],
+    "periodo_pedido": null,
+    "associacao_estrutural": []
+   }
+  },
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "citacao": "literal",
+    "trecho_verificado": "a aquisicao do item identificado pelo codigo ses 95046 alcool etilico absoluto 99,5 gl frasco 1.000 ml"
+   },
+   {
+    "fonte": "C1",
+    "citacao": "literal",
+    "trecho_verificado": "o servico de manutencao corretiva em macas marca linet modelo sprint"
+   }
+  ]
+ },
+ "val-087": {
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "gabarito_dataset": "Conforme a Ordem de Serviço nº 396/2022, publicada na Edição 26 do DODF de 06 de fevereiro de 2025, compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, incluindo o Gama, bem como acerca dos fluxos existentes, orientando a forma de implementação dos protocolos de regulação de internação hospitalar, regulação ambulatorial, consultas, exames e procedimentos no âmbito da região.",
+  "docs_esperados_dataset": [
+   [
+    157
+   ],
+   [
+    174
+   ]
+  ],
+  "auditoria_anterior": {
+   "classe": "Abstencao indevida",
+   "justificativa": "docs 174/180 (Ordem de servico 396/2022, ed.26): lista de competencias da Coordenacao de Regulacao da Regiao Sul (CRSSU). Reprovacao por 'nome=coordenacao' e falso positivo."
+  },
+  "recuperados": [
+   {
+    "pos": 1,
+    "chunk_id": "dodf-174:est300o30:0004",
+    "doc": 174,
+    "score": 33.31,
+    "ref": "Ordem de serviço 396/2022 ed.26",
+    "enviado": true,
+    "n_chunks_doc": 5,
+    "ordem": 4
+   },
+   {
+    "pos": 2,
+    "chunk_id": "dodf-174:est300o30:0001",
+    "doc": 174,
+    "score": 32.22,
+    "ref": "Ordem de serviço 396/2022 ed.26",
+    "enviado": true,
+    "n_chunks_doc": 5,
+    "ordem": 1
+   },
+   {
+    "pos": 3,
+    "chunk_id": "dodf-174:est300o30:0000",
+    "doc": 174,
+    "score": 30.66,
+    "ref": "Ordem de serviço 396/2022 ed.26",
+    "enviado": true,
+    "n_chunks_doc": 5,
+    "ordem": 0
+   },
+   {
+    "pos": 4,
+    "chunk_id": "dodf-174:est300o30:0002",
+    "doc": 174,
+    "score": 29.01,
+    "ref": "Ordem de serviço 396/2022 ed.26",
+    "enviado": false,
+    "n_chunks_doc": 5,
+    "ordem": 2
+   },
+   {
+    "pos": 5,
+    "chunk_id": "dodf-174:est300o30:0003",
+    "doc": 174,
+    "score": 25.56,
+    "ref": "Ordem de serviço 396/2022 ed.26",
+    "enviado": false,
+    "n_chunks_doc": 5,
+    "ordem": 3
+   }
+  ],
+  "contexto": {
+   "C1": {
+    "chunk_id": "dodf-174:est300o30:0004",
+    "doc": 174,
+    "texto": "VIII - As Deliberações poderão ser revistas e modificadas pela manifestação favorável de 8 membros, nesse caso, deverá constar explicitamente a revogação da Deliberação que foi modificada em uma nova numeração, devendo ser novamente comunicada a todas as unidades administrativas afetadas para que possa produzir novos efeitos. IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da Região de Saúde Sul. X - As Deliberações deverão nortear as medidas adotadas pelas Ouvidorias, em suas atribuições regimentais e independentes, para promoção do acesso do usuário aos serviços regulados, ações que resultem em aperfeiçoamento dos serviços regulados e a mediação e conciliação entre o usuário e a regulação da Secretaria de Saúde. XI - Em todas as Deliberações deverão ser oportunizadas as manifestações dos presidentes dos Conselhos de Saúde do Gama (CRSG) e de Santa Maria (CRSSM), exclusivamente em matéria de regulação da Região de Saúde Sul, com direito a manifestações favoráveis e desfavoráveis no cômputo para formar maioria absoluta. Art. 5º Esta Ordem de Serviço entra em vigor na data de sua publicação. WILLY PEREIRA DA SILVA FILHO"
+   },
+   "C2": {
+    "chunk_id": "dodf-174:est300o30:0001",
+    "doc": 174,
+    "texto": "Suplente: Substituto legal do cargo; 2 - Titular: Superintendente da Região de Saúde Sul, da Superintendência da Região de Saúde Sul (SRSSU); Suplente: Substituto legal do cargo; 3 - Titular: Assessor de Planejamento, da Assessoria de Planejamento (ASPLAN); Suplente: Substituto legal do cargo; 4 - Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria, da Superintendência do Hospital Regional de Santa Maria (SUPSM); Suplente: Substituto legal do cargo; 6 - Titular: Diretor Regional de Atenção Primária à Saúde, da Diretoria Regional de Atenção Primária à Saúde (DIRAPS); Suplente: Substituto legal do cargo; 7 - Titular: Diretor Regional de Atenção Secundária, da Diretoria Regional de Atenção Secundária (DIRASE); Suplente: Substituto legal do cargo; 8 - Titular: Gerente de Regulação, da Gerência de Regulação do Hospital Regional de Santa Maria (GEREG); Suplente: Substituto legal do cargo; 9 - Titular: Gerente de Regulação da Região de Saúde Sul, da Gerência de Regulação da Região de Saúde Sul (GERSU); Suplente: Substituto legal do cargo; 10 - Titular: Presidente do Conselho de Saúde do Gama, do Conselho de Saúde do Gama (CRSG); Suplente: Substituto legal do cargo; 11 - Titular: Presidente do Conselho de Saúde de Santa Maria, do Conselho de Saúde de Santa Maria (CRSSM); Suplente: Substituto legal do cargo;"
+   },
+   "C3": {
+    "chunk_id": "dodf-174:est300o30:0000",
+    "doc": 174,
+    "texto": "O SUPERINTENDENTE DA REGIÃO DE SAÚDE SUL, DA SECRETARIA DE ESTADO DE SAÚDE DO DISTRITO FEDERAL, no uso de suas atribuições que lhe são conferidas pelo art. 261 do Anexo Único do Regimento Interno, aprovado pelo Decreto nº 39.546, de 19 de dezembro de 2018, publicado no DODF nº 241, de 20 de dezembro de 2018; a vista do contido no art. 13, da Portaria/SES-DF nº 396/2022, conforme processo SEI nº 00060-00436786/2024-61, resolve: Considerando o Decreto nº 37.515, de 26 de julho de 2016, o qual Institui o Programa de Gestão Regional da Saúde - PRS para as Regiões de Saúde e Unidades de Referência Distrital; Considerando a Portaria SES-DF nº 127, de 14 de Fevereiro de 2022, que regulamenta a instituição e a gestão de comitês, comissões, câmaras técnicas e grupos de trabalho na Secretaria de Estado de Saúde do Distrito Federal (SES-DF); Art. 1º Instituir a Coordenação de Regulação da Região de Saúde Sul (CRSSU), na forma de uma comissão, de caráter permanente, vinculada à Superintendência da Região de Saúde Sul (SRSSU). Art. 2º Designar, sob a coordenação do primeiro, membros para compor a Coordenação de Regulação da Região de Saúde Sul (CRSSU): 1 - Coordenação - Gerente Interno de Regulação, da Gerência Interna de Regulação do HRG (GIR); Suplente: Substituto legal do cargo;"
+   }
+  },
+  "tokens_contexto": 2948,
+  "grupo_real": [
+   "A",
+   1
+  ],
+  "saida_bruta": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e/"
+    },
+    {
+     "fonte": "C2",
+     "resposta_possivel": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria, "
+    }
+   ],
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação de normas e protocolos de internação hospitalar no Hospital Regional do Gama (HRG).",
+   "fontes": [
+    "C1",
+    "C2"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da Região"
+    },
+    {
+     "fonte": "C2",
+     "trecho": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria, da Superintendência do Hospital Regional de Santa Maria (SUPSM);"
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama, mas não detalham especificamente as competências exclusivas dessa coordenação."
+  },
+  "fase3_status": "insuficiente",
+  "fase3_resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+  "fase3_problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "evidencia_registro": {
+   "encontrada_so_em_outra_publicacao": [],
+   "origem_dos_termos": {},
+   "origem_do_alinhamento": {
+    "coordenacao": "chunk_vizinho:dodf-174:est300o30:0000",
+    "regulacao": "chunk_citado",
+    "sul": "chunk_citado",
+    "gama": "chunk_citado"
+   },
+   "atribuicao": {
+    "hrg": [
+     [
+      "174",
+      "citacao_verificada"
+     ]
+    ]
+   },
+   "citacoes": {
+    "C1": "literal",
+    "C2": "literal"
+   },
+   "protecao": {
+    "atributo": "competencias",
+    "relacoes": [
+     {
+      "entidade": [
+       "coordenacao",
+       "regulacao",
+       "sul",
+       "gama"
+      ],
+      "atributo": "competencias",
+      "familia_atributo": "COMPETENCIA",
+      "valor": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das ",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-174:est300o30:0004",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "coordenacao",
+       "regulacao",
+       "sul",
+       "gama"
+      ],
+      "atributo": "competencias",
+      "familia_atributo": "COMPETENCIA",
+      "valor": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das ",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-174:est300o30:0004",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "coordenacao",
+       "regulacao",
+       "sul",
+       "gama"
+      ],
+      "atributo": "competencias",
+      "familia_atributo": "COMPETENCIA",
+      "valor": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (",
+      "rotulo": {
+       "rotulo": "titular",
+       "familia": "MEMBRO"
+      },
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-174:est300o30:0001",
+      "estado": "conflito"
+     }
+    ]
+   }
+  },
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "citacao": "literal",
+    "trecho_verificado": "as deliberacoes deverao nortear as respectivas gerencias de regulacao no cumprimento das atribuicoes regimentais de implementar as normas e os protocolos de reg"
+   },
+   {
+    "fonte": "C2",
+    "citacao": "literal",
+    "trecho_verificado": "titular diretor do hospital regional do gama da diretoria do hospital regional do gama hrg suplente substituto legal do cargo 5 titular superintendente do hospi"
+   }
+  ]
+ },
+ "val-100": {
+  "pergunta": "Quais aquisições de equipamentos hospitalares foram realizadas para o Hospital Regional de Ceilândia?",
+  "gabarito_dataset": "De acordo com as publicações nas Edições 176 e 181 do DODF de 17 e 24 de setembro de 2025, foram ratificadas dispensas de licitação para aquisição de diversos equipamentos e serviços no Hospital Regional de Ceilândia, incluindo laringoscópio com lâmina McCoy, kit perfurador elétrico cirúrgico, pinças para videocirurgia, refrigerador vertical, mesa cirúrgica Maquet, cadeira otorrinolaringológica/oftalmológica e eletrocardiógrafo, além de serviços de manutenção em cama Stryke.",
+  "docs_esperados_dataset": [
+   [
+    1413
+   ],
+   [
+    1418
+   ],
+   [
+    1453
+   ],
+   [
+    1460
+   ],
+   [
+    1478
+   ]
+  ],
+  "auditoria_anterior": {
+   "classe": "Incorreta",
+   "justificativa": "Pergunta: aquisicoes de EQUIPAMENTOS. A resposta lista servicos de manutencao (hemodialise, osmose) do doc 440 (ed.62). Nao sao aquisicoes de equipamentos; interpretacao do termo."
+  },
+  "recuperados": [
+   {
+    "pos": 1,
+    "chunk_id": "dodf-440:est300o30:0007",
+    "doc": 440,
+    "score": 18.8,
+    "ref": "Extrato 03/2025 ed.62",
+    "enviado": true,
+    "n_chunks_doc": 13,
+    "ordem": 7
+   },
+   {
+    "pos": 2,
+    "chunk_id": "dodf-1035:est300o30:0003",
+    "doc": 1035,
+    "score": 18.31,
+    "ref": "Ata 02/2025 ed.127",
+    "enviado": true,
+    "n_chunks_doc": 28,
+    "ordem": 3
+   },
+   {
+    "pos": 3,
+    "chunk_id": "dodf-322:est300o30:0082",
+    "doc": 322,
+    "score": 17.96,
+    "ref": "Extrato de pauta Licitação nº 6466/2008 ed.44",
+    "enviado": true,
+    "n_chunks_doc": 212,
+    "ordem": 82
+   },
+   {
+    "pos": 4,
+    "chunk_id": "dodf-434:est300o30:0018",
+    "doc": 434,
+    "score": 17.9,
+    "ref": "Extrato de pauta Contrato nº 002/1994 ed.61",
+    "enviado": false,
+    "n_chunks_doc": 237,
+    "ordem": 18
+   },
+   {
+    "pos": 5,
+    "chunk_id": "dodf-238:est300o30:0003",
+    "doc": 238,
+    "score": 17.32,
+    "ref": "Extrato licitação nº 006/2025 ed.35",
+    "enviado": false,
+    "n_chunks_doc": 4,
+    "ordem": 3
+   }
+  ],
+  "contexto": {
+   "C1": {
+    "chunk_id": "dodf-440:est300o30:0007",
+    "doc": 440,
+    "texto": "RATIFICO, em 31/03/2025, a dispensa de licitação, em razão de valor, com fundamento no artigo 75, inciso II da Lei nº 14.133, de 1º de abril de 2021, Processo SEI nº 00060-00116903/2025-54, PDPAS nº SERVIÇO N° 17/2026, adjudicada à empresa SH BIOMEDICA SERVICOS DE MANUTENCAO EM EQUIPAMENTOS HOSPITALARES LTDA - CNPJ: 56.238.861/0001-67, cujo objeto é o serviço na MÁQUINA DE HEMODIALISE, para atender às necessidades do Hospital Regional de Ceilândia, no valor global de R$ 1.254,67 (um mil duzentos e cinquenta e quatro reais e sessenta e sete centavos). RATIFICO, em 31/03/2025, a dispensa de licitação, em razão de valor, com fundamento no artigo 75, inciso II da Lei nº 14.133, de 1º de abril de 2021, Processo SEI nº 00060-00116936/2025-02, PDPAS nº SERVIÇO N° 16/2026, adjudicada à empresa SH BIOMEDICA SERVICOS DE MANUTENCAO EM EQUIPAMENTOS HOSPITALARES LTDA - CNPJ: 56.238.861/0001-67, cujo objeto é o serviço na OSMOSE REVERSA, para atender às necessidades do Hospital Regional de Ceilândia, no valor global de R$ 2.724,32 (dois mil setecentos e vinte e quatro reais e trinta e dois centavos)."
+   },
+   "C2": {
+    "chunk_id": "dodf-1035:est300o30:0003",
+    "doc": 1035,
+    "texto": "Neste sentido, contextualizou que o Comitê deverá ser composto por servidores técnicos das Polícias Militar e Civil, os quais participarão da construção e análise de estudos de casos, bem como das necessidades de aperfeiçoamento que se julgar pertinentes, de forma conjunta com as corregedorias das Polícias, motivo pelo qual deliberou-se pela não inclusão dos Secretários de Segurança Pública. Não obstante, afirmou não haver impedimentos para futuras conversas sobre esta pauta. Na sequência, agradeceu os Secretários pelo recorde obtido na liquidação dos recursos do Fundo Nacional de Segurança Pública, fruto do trabalho integrado entre os Estados e o MJSP, por intermédio da Rede Interfederativa. Por fim, fazendo menção à pauta das câmeras corporais, informou que os convênios para aquisição por parte de São Paulo e Pernambuco foram deferidos e afirmou que deseja levar mais investimento para os Estados para que estes estejam cada vez mais instrumentalizados. Neste âmbito, destacou a pauta levantada pelo Secretário de Segurança de Amazonas que diz respeito ao elevado preço das munições, solicitando aos Estados que façam uma ata única por meio do CompraSusp, uma vez levantadas as necessidades de cada Ente. 2.2. Em atenção à fala do Secretário Nacional sobre as necessidades de aquisições dos Estados e do Distrito Federal, o Presidente propôs que estes possam primeiro solicitar aquilo que eles precisam ao MJSP, para só então o Ministério efetuar grandes aquisições de equipamentos e serviços, invertendo o fluxo seguido atualmente. Submetida à plenária, a proposta foi aprovada por unanimidade."
+   },
+   "C3": {
+    "chunk_id": "dodf-322:est300o30:0082",
+    "doc": 322,
+    "texto": "VI – autorizar o retorno dos autos à Sefipe/TCDF, para acompanhamento. A Desembargadora de Contas ANILCÉIA MACHADO deixou de atuar nos autos, por força do art. 153, § 1º, do RI/TCDF. PROCESSO Nº 00600-00010902/2023-81-e - Autos instaurados em cumprimento aos itens VI e VIII.a da Decisão n.º 3.606/20231, prolatada no Processo n.º 00600-00000337/2023-43-e, para examinar as questões trazidas pelo Ministério Público junto ao Tribunal – MPjTCDF no Parecer n.º 700/2023-G4P/ML acerca das aquisições realizadas com recursos do Programa de Descentralização Administrativa e Financeira – PDAF pela Coordenação Regional de Ensino de Ceilândia, da Secretaria de Estado de Educação do Distrito Federal – SEE/DF, em favor da empresa DD7 Assessoria Empresarial e Comercial Ltda., albergando a regularidade, a vantajosidade das aquisições, bem como a efetiva entrega dos bens, nos exercícios de 2021 a 2023. DECISÃO Nº 478/2025 - O Tribunal, por unanimidade, de acordo com o voto do Relator, decidiu: I – tomar conhecimento: a) do Relatório Prévio de Inspeção (e-DOC AFA9A9DC-e); b) da Matriz de Planejamento de e-DOC 6CDFDE5C-e; c) da Matriz de Achados de e-DOC DBC21F58-e;"
+   }
+  },
+  "tokens_contexto": 2878,
+  "grupo_real": [
+   "B",
+   0
+  ],
+  "saida_bruta": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "serviço na MÁQUINA DE HEMODIALISE, para atender às necessidades do Hospital Regional de Ceilândia, no valor global de R$ 1.254,67 (um mil duzentos e cinquenta e quatro reais e sessenta e sete centavos"
+    },
+    {
+     "fonte": "C1",
+     "resposta_possivel": "serviço na OSMOSE REVERSA, para atender às necessidades do Hospital Regional de Ceilândia, no valor global de R$ 2.724,32 (dois mil setecentos e vinte e quatro reais e trinta e dois centavos)"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "Foram realizadas aquisições para o Hospital Regional de Ceilândia: serviço na MÁQUINA DE HEMODIALISE no valor de R$ 1.254,67 e serviço na OSMOSE REVERSA no valor de R$ 2.724,32.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "serviço na MÁQUINA DE HEMODIALISE, para atender às necessidades do Hospital Regional de Ceilândia, no valor global de R$ 1.254,67 (um mil duzentos e cinquenta e quatro reais e sessenta e sete centavos)."
+    },
+    {
+     "fonte": "C1",
+     "trecho": "serviço na OSMOSE REVERSA, para atender às necessidades do Hospital Regional de Ceilândia, no valor global de R$ 2.724,32 (dois mil setecentos e vinte e quatro reais e trinta e dois centavos)."
+    }
+   ],
+   "justificativa": ""
+  },
+  "fase3_status": "parcial",
+  "fase3_resposta": "Foram realizadas aquisições para o Hospital Regional de Ceilândia: serviço na MÁQUINA DE HEMODIALISE no valor de R$ 1.254,67 e serviço na OSMOSE REVERSA no valor de R$ 2.724,32.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 18 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 03/2025 (DODF edição 62, 2025-04-01, Seção III).",
+  "fase3_problemas": [],
+  "evidencia_registro": {
+   "encontrada_so_em_outra_publicacao": [],
+   "origem_dos_termos": {},
+   "origem_do_alinhamento": {
+    "ceilandia": "chunk_citado"
+   },
+   "atribuicao": {
+    "1.254,67": [
+     [
+      "440",
+      "citacao_verificada"
+     ]
+    ],
+    "2.724,32": [
+     [
+      "440",
+      "citacao_verificada"
+     ]
+    ],
+    "maquina": [
+     [
+      "440",
+      "citacao_verificada"
+     ]
+    ],
+    "hemodialise": [
+     [
+      "440",
+      "citacao_verificada"
+     ]
+    ],
+    "osmose": [
+     [
+      "440",
+      "citacao_verificada"
+     ]
+    ],
+    "reversa": [
+     [
+      "440",
+      "citacao_verificada"
+     ]
+    ]
+   },
+   "citacoes": {
+    "C1": "literal"
+   },
+   "protecao": {
+    "atributo": "aquisicoes",
+    "relacoes": [
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "aquisicoes",
+      "familia_atributo": null,
+      "valor": "serviço na MÁQUINA DE HEMODIALISE, para atender às necessidades do Hospital Regional de Ce",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-440:est300o30:0007",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "aquisicoes",
+      "familia_atributo": null,
+      "valor": "serviço na OSMOSE REVERSA, para atender às necessidades do Hospital Regional de Ceilândia,",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-440:est300o30:0007",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "aquisicoes",
+      "familia_atributo": null,
+      "valor": "serviço na MÁQUINA DE HEMODIALISE, para atender às necessidades do Hospital Regional de Ce",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-440:est300o30:0007",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "aquisicoes",
+      "familia_atributo": null,
+      "valor": "serviço na OSMOSE REVERSA, para atender às necessidades do Hospital Regional de Ceilândia,",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-440:est300o30:0007",
+      "estado": "desconhecido"
+     }
+    ],
+    "periodo_pedido": null,
+    "associacao_estrutural": []
+   }
+  },
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "citacao": "literal",
+    "trecho_verificado": "servico na maquina de hemodialise para atender as necessidades do hospital regional de ceilandia no valor global de r 1.254,67 um mil duzentos e cinquenta e qua"
+   },
+   {
+    "fonte": "C1",
+    "citacao": "literal",
+    "trecho_verificado": "servico na osmose reversa para atender as necessidades do hospital regional de ceilandia no valor global de r 2.724,32 dois mil setecentos e vinte e quatro reai"
+   }
+  ]
+ },
+ "val-149": {
+  "pergunta": "Quais ações de atenção básica e primária em saúde serão executadas em Ceilândia durante 2025?",
+  "gabarito_dataset": "Conforme o Plano Anual de Publicidade – 2025, publicado na Edição 16 do DODF de 23 de janeiro de 2025, a Secretaria de Estado de Saúde do Distrito Federal executará a campanha 'Estratégia da Saúde da Família' em abril de 2025, que visa fortalecer a atenção primária em saúde. Além disso, a campanha 'Onde Buscar Atendimento' está programada para agosto de 2025, orientando a população sobre os serviços disponíveis nas unidades básicas de saúde.",
+  "docs_esperados_dataset": [
+   [
+    87
+   ],
+   [
+    99
+   ]
+  ],
+  "auditoria_anterior": {
+   "classe": "Incorreta",
+   "justificativa": "Resposta generica extraida do doc 1611 (Portaria 03/2006, texto sobre o INAS), que nao menciona Ceilandia; doc 1365 e grade de equipamentos por UBS; doc 1052 e decreto de cargos. Nenhuma publicacao descreve acoes de atencao primaria a executar em Ceilandia em 2025."
+  },
+  "recuperados": [
+   {
+    "pos": 1,
+    "chunk_id": "dodf-1365:est300o30:0001",
+    "doc": 1365,
+    "score": 19.73,
+    "ref": "Extrato Contrato nº 051847/2024 ed.166",
+    "enviado": true,
+    "n_chunks_doc": 17,
+    "ordem": 1
+   },
+   {
+    "pos": 2,
+    "chunk_id": "dodf-1611:est300o30:0020",
+    "doc": 1611,
+    "score": 19.42,
+    "ref": "Portaria numerada 03/2006 ed.205",
+    "enviado": true,
+    "n_chunks_doc": 66,
+    "ordem": 20
+   },
+   {
+    "pos": 3,
+    "chunk_id": "dodf-1052:est300o30:0002",
+    "doc": 1052,
+    "score": 18.74,
+    "ref": "Decreto 00340534/2025 ed.65",
+    "enviado": true,
+    "n_chunks_doc": 3,
+    "ordem": 2
+   },
+   {
+    "pos": 4,
+    "chunk_id": "dodf-1365:est300o30:0015",
+    "doc": 1365,
+    "score": 17.82,
+    "ref": "Extrato Contrato nº 051847/2024 ed.166",
+    "enviado": false,
+    "n_chunks_doc": 17,
+    "ordem": 15
+   },
+   {
+    "pos": 5,
+    "chunk_id": "dodf-1008:est300o30:0010",
+    "doc": 1008,
+    "score": 16.98,
+    "ref": "Extrato Contrato nº 051690/2024 ed.123",
+    "enviado": false,
+    "n_chunks_doc": 13,
+    "ordem": 10
+   }
+  ],
+  "contexto": {
+   "C1": {
+    "chunk_id": "dodf-1365:est300o30:0001",
+    "doc": 1365,
+    "texto": "Objeto: a alteração da Grade de Distribuição, item 4.5.3, do Contrato Administrativo nº 051847/2024-SES/DF - HOFFMANNLAB (149792734): ONDE SE LÊ: GRADE DE DISTRIBUIÇÃO LABORATÓRIOS CENTRÍFUGA DE BANCADA LOCAL QUANTITATIVO NUPAC/HRAN 02 NUPAC/POLICLÍNICA DE TAGUATINGA 02 NUPAC/HRG 02 LRC 05 NUPAC/HRPL 02 NUPAC/HMIB 02 NUPAC/HRC 02 NUPAC/HGRu 02 NUPAC/HRT 02 LRGu 05 NUPAC/HRSAM 02 NUPAC/HRBz 01 NUPAC-PAR 02 NUPAC/HRS 02 NUPAC/SSB 03 TOTAL 36 GRADE DE DISTRIBUIÇÃO REGIÃO SUDESTE CENTRÍFUGA DE BANCADA UBS QUANTIDADE UBS 1 BRAZLÂNDIA 01 UBS 2 BRAZLÂNDIA 01 UBS 9 BRAZLÂNDIA 01 UBS 1 CEILÂNDIA 01 UBS 2 CEILÂNDIA 01 UBS 3 CEILÂNDIA 01 UBS 5 CEILÂNDIA 01 UBS 6 CEILÂNDIA 01 UBS 7 CEILÂNDIA 01 UBS 9 CEILÂNDIA 01 UBS 10 CEILÂNDIA 01 UBS 11 CEILÂNDIA 01 UBS 12 CEILÂNDIA 01 UBS 16 CEILÂNDIA 01 UBS 17 CEILÂNDIA 01 UBS 15 CEILÂNDIA 01 TOTAL 16 GRADE DE DISTRIBUIÇÃO REGIÃO SUL CENTRÍFUGA DE BANCADA UBS QUANTIDADE Unidade Básica de Saúde 1 - Gama 01 Unidade Básica de Saúde 2 -Gama 01 Unidade Básica de Saúde 3 - Gama 01 Unidade Básica de Saúde 4 - Gama 01 Unidade Básica de Saúde 5 - Gama 01 Unidade Básica de Saúde 6 - Gama 01 Unidade Básica de Saúde 7 - Gama - Estádio 01 Unidade Básica de Saúde 8- Gama - DVO 01 Unidade Básica de Saúde 9 - Gama 01 Unidade Básica de Saúde 11 - Gama - Ponte Alta Norte 01 Unidade Básica de Saúde 12 - Gama 01 Unidade Básica de Saúde 15 - Gama - Prisional 01 Unidade Básica"
+   },
+   "C2": {
+    "chunk_id": "dodf-1611:est300o30:0020",
+    "doc": 1611,
+    "texto": "Art. 22. Casos de longa permanência em instituições psiquiátricas serão objeto de análise técnica para definição de estratégias de desinstitucionalização e reabilitação psicossocial, sempre que possível, conforme legislação vigente e diretrizes do INAS. TÍTULO III DOS PROGRAMAS DE PROMOÇÃO DA SAÚDE, PREVENÇÃO DE DOENÇAS, ATENÇÃO PRIMÁRIA E LINHAS DE CUIDADO CAPÍTULO I DOS PROGRAMAS DE ATENÇÃO INTEGRAL Art. 23. O INAS poderá desenvolver e implementar programas voltados à promoção da saúde, prevenção de doenças, atenção primária, gestão da saúde populacional e linhas de cuidado, com o objetivo de melhorar a qualidade de vida dos beneficiários, reduzir agravos e otimizar a utilização dos serviços de saúde. Art. 24. São objetivos dos programas: I - incentivar hábitos e práticas saudáveis de vida; II - identificar e monitorar fatores de risco e condições crônicas prevalentes na população assistida; III - promover a educação em saúde, o autocuidado e ações de prevenção; IV - reduzir a incidência e prevalência de doenças evitáveis; V - fomentar o acompanhamento contínuo por meio de linhas de cuidado, inclusive preventivas e de reabilitação; VI - otimizar a utilização dos recursos assistenciais e evitar a sobrecarga da rede de atendimento; VII - favorecer a coordenação do cuidado, integrando as ações assistenciais conforme as necessidades dos beneficiários; VIII - promover programas de rastreamento e diagnóstico precoce de doenças; e IX - desenvolver programas específicos de saúde mental e qualidade de vida. Art. 25. Os programas poderão contemplar, entre outras ações: I - campanhas educativas e de vacinação;"
+   },
+   "C3": {
+    "chunk_id": "dodf-1052:est300o30:0002",
+    "doc": 1052,
+    "texto": "ANEXO II UNIDADES ADMINISTRATIVAS, CARGOS DE NATUREZA ESPECIAL, PÚBLICOS E EM COMISSÃO (Art. 3º, do Decreto nº 47.444, de 14 de julho de 2025) ÓRGÃO/UNIDADE ADMINISTRATIVA/CARGO/SÍMBOLO/QUANTIDADE - SECRETARIA DE ESTADO DE SAÚDE DO DISTRITO FEDERAL - GABNETE - ASSESSORIA TÉCNICA DE APOIO À SAÚDE - Assessor Técnico, CPC-04, 01 - SUPERINTENDÊNCIA DA REGIÃO DE SAÚDE SUDOESTE - DIRETORIA REGIONAL DE ATENÇÃO SECUNDÁRIA - Diretor, CPE-07, 01 - SUPERINTENDÊNCIA DA REGIÃO DE SAÚDE OESTE - DIRETORIA REGIONAL DE ATENÇÃO PRIMÁRIA À SAÚDE - GERÊNCIA DE SERVIÇOS DE ATENÇÃO PRIMÁRIA Nº 07 DA CEILÂNDIA - Gerente, CPC-05, 01."
+   }
+  },
+  "tokens_contexto": 2724,
+  "grupo_real": [
+   "B",
+   0
+  ],
+  "saida_bruta": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "OBJETO: a alteração da Grade de Distribuição, item 4.5.3, do Contrato Administrativo nº 051847/2024-SES/DF - HOFFMANNLAB (149792734): ONDE SE LÊ: GRADE DE DISTRIBUIÇÃO LABORATÓRIOS CENTRÍFUGA DE BANCÁ"
+    },
+    {
+     "fonte": "C2",
+     "resposta_possivel": "Art. 23. O INAS poderá desenvolver e implementar programas voltados à promoção da saúde, prevenção de doenças, atenção primária, gestão da saúde populacional e linhas de cuidado, com o objetivo de mel"
+    },
+    {
+     "fonte": "C3",
+     "resposta_possivel": "SUPERINTENDÊNCIA DA REGIÃO DE SAÚDE OESTE - DIRETORIA REGIONAL DE ATENÇÃO PRIMÁRIA À SAÚDE - GERÊNCIA DE SERVIÇOS DE ATENÇÃO PRIMÁRIA Nº 07 DA CEILÂNDIA - Gerente, CPC-05, 01."
+    }
+   ],
+   "status": "parcial",
+   "resposta": "Ações de atenção básica e primária em saúde serão executadas em Ceilândia durante 2025, incluindo programas voltados à promoção da saúde, prevenção de doenças, atenção primária, gestão da saúde populacional e linhas de cuidado. A Gerência de Serviços de Atenção Primária nº 07 da Ceilândia também está envolvida na execução dessas ações.",
+   "fontes": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "OBJETO: a alteração da Grade de Distribuição, item 4.5.3, do Contrato Administrativo nº 051847/2024-SES/DF - HOFFMANNLAB (149792734): ONDE SE LÊ: GRADE DE DISTRIBUIÇÃO LABORATÓRIOS CENTRÍFUGA DE BANCÁ"
+    },
+    {
+     "fonte": "C2",
+     "trecho": "Art. 23. O INAS poderá desenvolver e implementar programas voltados à promoção da saúde, prevenção de doenças, atenção primária, gestão da saúde populacional e linhas de cuidado, com o objetivo de mel"
+    },
+    {
+     "fonte": "C3",
+     "trecho": "SUPERINTENDÊNCIA DA REGIÃO DE SAÚDE OESTE - DIRETORIA REGIONAL DE ATENÇÃO PRIMÁRIA À SAÚDE - GERÊNCIA DE SERVIÇOS DE ATENÇÃO PRIMÁRIA Nº 07 DA CEILÂNDIA - Gerente, CPC-05, 01."
+    }
+   ],
+   "justificativa": "Os trechos fornecidos mencionam ações de atenção básica e primária em saúde em Ceilândia, incluindo programas voltados à promoção da saúde, prevenção de doenças, gestão da saúde populacional e linhas de cuidado. A Gerência de Serviços de Atenção Primária nº 07 da Ceilândia também está envolvida na execução dessas ações."
+  },
+  "fase3_status": "parcial",
+  "fase3_resposta": "Ações de atenção básica e primária em saúde serão executadas em Ceilândia durante 2025, incluindo programas voltados à promoção da saúde, prevenção de doenças, atenção primária, gestão da saúde populacional e linhas de cuidado. A Gerência de Serviços de Atenção Primária nº 07 da Ceilândia também está envolvida na execução dessas ações.\n\nAVISO: resposta parcial. Foram analisadas apenas 3 publicação(ões); o corpus contém ao menos 3 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato Contrato nº 051847/2024 (DODF edição 166, 2025-09-03, Seção III); Portaria numerada 03/2006 (DODF edição 205, 2025-10-29, Seção I); Decreto 00340534/2025 (DODF edição 65, 2025-07-14, Seção I).",
+  "fase3_problemas": [],
+  "evidencia_registro": {
+   "encontrada_so_em_outra_publicacao": [],
+   "origem_dos_termos": {},
+   "origem_do_alinhamento": {
+    "ceilandia": "chunk_citado",
+    "2025": "chunk_citado"
+   },
+   "atribuicao": {
+    "07": [
+     [
+      "1365",
+      "metadados"
+     ],
+     [
+      "1611",
+      "metadados"
+     ],
+     [
+      "1052",
+      "metadados"
+     ]
+    ],
+    "gerencia": [
+     [
+      "1052",
+      "citacao_verificada"
+     ]
+    ]
+   },
+   "citacoes": {
+    "C1": "reparada",
+    "C2": "reparada",
+    "C3": "literal"
+   },
+   "protecao": {
+    "atributo": "acoes",
+    "relacoes": [
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "acoes",
+      "familia_atributo": null,
+      "valor": "OBJETO: a alteração da Grade de Distribuição, item 4.5.3, do Contrato Administrativo nº 05",
+      "rotulo": {
+       "rotulo": "objeto",
+       "familia": "OBJETO"
+      },
+      "origem": "citacao",
+      "chunk_id": "dodf-1365:est300o30:0001",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "acoes",
+      "familia_atributo": null,
+      "valor": "Art. 23. O INAS poderá desenvolver e implementar programas voltados à promoção da saúde, p",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-1611:est300o30:0020",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "acoes",
+      "familia_atributo": null,
+      "valor": "SUPERINTENDÊNCIA DA REGIÃO DE SAÚDE OESTE - DIRETORIA REGIONAL DE ATENÇÃO PRIMÁRIA À SAÚDE",
+      "rotulo": null,
+      "origem": "candidata_literal",
+      "chunk_id": "dodf-1052:est300o30:0002",
+      "estado": "desconhecido"
+     },
+     {
+      "entidade": [
+       "ceilandia"
+      ],
+      "atributo": "acoes",
+      "familia_atributo": null,
+      "valor": "SUPERINTENDÊNCIA DA REGIÃO DE SAÚDE OESTE - DIRETORIA REGIONAL DE ATENÇÃO PRIMÁRIA À SAÚDE",
+      "rotulo": null,
+      "origem": "citacao",
+      "chunk_id": "dodf-1052:est300o30:0002",
+      "estado": "desconhecido"
+     }
+    ],
+    "periodo_pedido": null,
+    "associacao_estrutural": []
+   }
+  },
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "citacao": "reparada",
+    "trecho_verificado": "objeto a alteracao da grade de distribuicao item 4.5.3 do contrato administrativo no 051847/2024 ses df hoffmannlab 149792734 onde se le grade de distribuicao l"
+   },
+   {
+    "fonte": "C2",
+    "citacao": "reparada",
+    "trecho_verificado": "art 23 o inas podera desenvolver e implementar programas voltados a promocao da saude prevencao de doencas atencao primaria gestao da saude populacional e linha"
+   },
+   {
+    "fonte": "C3",
+    "citacao": "literal",
+    "trecho_verificado": "superintendencia da regiao de saude oeste diretoria regional de atencao primaria a saude gerencia de servicos de atencao primaria no 07 da ceilandia gerente cpc"
+   }
+  ]
+ }
+}

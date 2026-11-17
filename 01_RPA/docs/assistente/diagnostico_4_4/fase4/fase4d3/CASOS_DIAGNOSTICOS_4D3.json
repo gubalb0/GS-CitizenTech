@@ -1,0 +1,1504 @@
+{
+ "versao": "casos_4d3/2",
+ "natureza": "conjunto sintético diagnóstico, NÃO representativo do corpus real; rotulagem de referência escrita antes da execução, por quem também escreveu os casos (sem revisão independente)",
+ "casos": [
+  {
+   "id": "A01",
+   "familia": "A",
+   "descricao": "entidade (Gama) apenas na pergunta; nenhum trecho citado a menciona",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "As Deliberações devem nortear as gerências de regulação nos serviços do Gama.",
+   "chunks": [
+    {
+     "chave": "neu",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IX - As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "neu",
+     "span": "As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "sem rótulo (inciso IX, texto corrido)"
+   ],
+   "relacao_entidade_atributo": "não associada (Gama só na pergunta)",
+   "julgamento_referencia": {
+    "classe": "insuficiente_evidencia",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "nao_sustenta_a_localizacao",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "as deliberações norteiam gerências de regulação 'nos serviços do Gama'",
+     "trecho_que_sustenta_ou_contradiz": "IX (cita normas e protocolos de regulação; não menciona Gama)",
+     "entidade_associada_ao_atributo": "não: nada liga o inciso IX ao Gama",
+     "informacao_so_da_pergunta": "sim: 'Gama' vem só da pergunta",
+     "por_que": "o conteúdo vem do trecho, mas a localização 'no Gama' é eco da pergunta sem apoio; deveria ser bloqueada ou entregue sem a localização"
+    }
+   },
+   "papel_na_analise": [
+    "entidade_herdada_vs_sustentada"
+   ]
+  },
+  {
+   "id": "A02",
+   "familia": "A",
+   "descricao": "padrão val-087-A-r1: atributo do inciso IX (neutro) + entidade só num trecho de rótulo conflitante (Titular)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "A Coordenação tem competência para nortear as gerências de regulação e implementar as normas e protocolos de regulação no Gama.",
+   "chunks": [
+    {
+     "chave": "neu",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IX - As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação."
+    },
+    {
+     "chave": "mem_g",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional do Gama (HRG); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "neu",
+     "span": "As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação"
+    },
+    {
+     "chunk": "mem_g",
+     "span": "4 - Titular: Diretor do Hospital Regional do Gama (HRG)"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IX: sem rótulo",
+    "4 - Titular: (MEMBRO, conflita com COMPETENCIA)"
+   ],
+   "relacao_entidade_atributo": "atributo e entidade em trechos diferentes; o trecho da entidade é de membros, não de competência",
+   "julgamento_referencia": {
+    "classe": "insuficiente_evidencia",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "nao_sustenta_a_localizacao",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "media_alta",
+    "justificativa": {
+     "afirmacao_avaliada": "a competência de nortear/implementar normas existe 'no Gama'",
+     "trecho_que_sustenta_ou_contradiz": "IX sustenta o conteúdo; o único trecho com 'Gama' é a designação de titular do HRG",
+     "entidade_associada_ao_atributo": "não: Gama aparece só como cargo do titular, não como alcance da competência",
+     "informacao_so_da_pergunta": "parcialmente: 'Gama' está na pergunta e no trecho de membro",
+     "por_que": "o trecho que contém 'Gama' é de designação de membro e não sustenta competência; a localização é um eco da pergunta ancorado em citação de outro atributo"
+    }
+   },
+   "papel_na_analise": [
+    "B1_corrige_padrao_val087_A_r1",
+    "citacao_literal_vs_sustentacao_semantica"
+   ]
+  },
+  {
+   "id": "A03",
+   "familia": "A",
+   "descricao": "entidade na pergunta e em trecho compatível (Compete)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "Compete discutir e deliberar sobre os serviços regulados do Gama.",
+   "chunks": [
+    {
+     "chave": "comp_g",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados, inclusive os do Gama."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "comp_g",
+     "span": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados, inclusive os do Gama"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IV - Compete (COMPETENCIA, compatível)"
+   ],
+   "relacao_entidade_atributo": "associada explicitamente no mesmo trecho",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "compete discutir e deliberar sobre serviços regulados do Gama",
+     "trecho_que_sustenta_ou_contradiz": "inciso IV: '...serviços regulados, inclusive os do Gama'",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não: o Gama também está no trecho",
+     "por_que": "paráfrase literal de trecho com rótulo compatível que cita a entidade"
+    }
+   },
+   "papel_na_analise": [
+    "controle_positivo"
+   ]
+  },
+  {
+   "id": "A04",
+   "familia": "A",
+   "descricao": "entidade na pergunta e em dois trechos com relações diferentes (competência compatível + membro conflitante)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "Compete discutir e deliberar sobre os serviços regulados do Gama.",
+   "chunks": [
+    {
+     "chave": "comp_g",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados, inclusive os do Gama."
+    },
+    {
+     "chave": "mem_g",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional do Gama (HRG); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "comp_g",
+     "span": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados, inclusive os do Gama"
+    },
+    {
+     "chunk": "mem_g",
+     "span": "4 - Titular: Diretor do Hospital Regional do Gama (HRG)"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IV - Compete (compatível)",
+    "4 - Titular (MEMBRO, conflitante)"
+   ],
+   "relacao_entidade_atributo": "o trecho compatível associa; o trecho de membro é acessório",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "compete discutir e deliberar sobre os serviços regulados do Gama",
+     "trecho_que_sustenta_ou_contradiz": "inciso IV (compatível); o trecho de membros é citado mas não usado",
+     "entidade_associada_ao_atributo": "sim, pelo inciso IV",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "o conteúdo vem integralmente de trecho compatível; a citação conflitante é supérflua e não deve bloquear"
+    }
+   },
+   "papel_na_analise": [
+    "conflito_nao_necessario"
+   ]
+  },
+  {
+   "id": "A05",
+   "familia": "A",
+   "descricao": "resposta que só repete a pergunta, com trecho compatível citado",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "A Coordenação possui competências relacionadas aos serviços do Gama.",
+   "chunks": [
+    {
+     "chave": "comp_g",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados, inclusive os do Gama."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "comp_g",
+     "span": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados, inclusive os do Gama"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IV - Compete (compatível)"
+   ],
+   "relacao_entidade_atributo": "associada no trecho",
+   "julgamento_referencia": {
+    "classe": "correta_parcial",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "media",
+    "justificativa": {
+     "afirmacao_avaliada": "a Coordenação tem competências ligadas aos serviços do Gama",
+     "trecho_que_sustenta_ou_contradiz": "inciso IV",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "sim: a resposta é quase só eco da pergunta, porém o trecho a confirma",
+     "por_que": "verdadeira e sustentada, mas não informa quais competências; parcial"
+    }
+   },
+   "papel_na_analise": [
+    "repeticao_legitima_da_pergunta"
+   ]
+  },
+  {
+   "id": "A06",
+   "familia": "A",
+   "descricao": "padrão E6: atributo de trecho compatível sem Gama + trecho de membro com Gama; resposta ecoa 'no Gama'",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "Compete discutir e deliberar sobre os serviços regulados no Gama.",
+   "chunks": [
+    {
+     "chave": "comp_ng",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados."
+    },
+    {
+     "chave": "mem_g",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional do Gama (HRG); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "comp_ng",
+     "span": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados"
+    },
+    {
+     "chunk": "mem_g",
+     "span": "4 - Titular: Diretor do Hospital Regional do Gama (HRG)"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IV - Compete (compatível, sem Gama)",
+    "4 - Titular (conflitante, com Gama)"
+   ],
+   "relacao_entidade_atributo": "competência regional; Gama só como cargo",
+   "julgamento_referencia": {
+    "classe": "ambiguo",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "sustenta_o_conteudo_nao_a_localizacao",
+    "decisao_ideal_do_pipeline": "indeterminado",
+    "confianca": "baixa",
+    "justificativa": {
+     "afirmacao_avaliada": "a competência de discutir/deliberar alcança os serviços do Gama",
+     "trecho_que_sustenta_ou_contradiz": "inciso IV sustenta o conteúdo; 'Gama' só no trecho de membro",
+     "entidade_associada_ao_atributo": "parcial: depende de o Gama pertencer à Região Sul, que nenhum trecho afirma",
+     "informacao_so_da_pergunta": "sim",
+     "por_que": "duas leituras plausíveis: (a) eco legítimo da pergunta sobre competência regional; (b) localização não sustentada. Não forçado"
+    }
+   },
+   "papel_na_analise": [
+    "B1_bloqueia_E6",
+    "interpretacao_dupla"
+   ]
+  },
+  {
+   "id": "A07",
+   "familia": "A",
+   "descricao": "caso legítimo (mundo contratos): entidade (Planaltina) só na cláusula de Valor do mesmo extrato; resposta de Objeto repete a unidade da pergunta",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda para o Hospital Regional de Planaltina?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem, para o Hospital Regional de Planaltina.",
+   "chunks": [
+    {
+     "chave": "opl",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00, para o Hospital Regional de Planaltina (HRP)."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "opl",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    },
+    {
+     "chunk": "opl",
+     "span": "Valor: R$ 80.000,00, para o Hospital Regional de Planaltina (HRP)"
+    }
+   ],
+   "entidade": "Hospital Regional de Planaltina",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)",
+    "Valor: ... para o HRP (VALOR, conflitante)"
+   ],
+   "relacao_entidade_atributo": "mesmo extrato: a cláusula de Valor identifica a unidade do contrato; o Objeto é da mesma contratada",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "media_alta",
+    "justificativa": {
+     "afirmacao_avaliada": "o objeto do contrato da Alfa é a manutenção preventiva, para o HRP",
+     "trecho_que_sustenta_ou_contradiz": "chunk único: 'Objeto: manutenção preventiva ...' e 'Valor: R$ 80.000,00, para o Hospital Regional de Planaltina'",
+     "entidade_associada_ao_atributo": "sim, por pertencerem ao mesmo extrato",
+     "informacao_so_da_pergunta": "o nome Planaltina também está no trecho",
+     "por_que": "o extrato único liga contratada, objeto e unidade; citar a cláusula de Valor serve de âncora da unidade"
+    }
+   },
+   "papel_na_analise": [
+    "B1_bloqueia_legitimo",
+    "perda_de_recall_regra_conservadora"
+   ]
+  },
+  {
+   "id": "B01",
+   "familia": "B",
+   "descricao": "rótulo Titular citado e conteúdo exclusivo dele usado (padrão val-087-A-r2/r3)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "A Coordenação tem competência para nortear as gerências e implementar as normas; o Diretor do HRG atua na regulação do Gama.",
+   "chunks": [
+    {
+     "chave": "neu",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IX - As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação."
+    },
+    {
+     "chave": "mem_g",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional do Gama (HRG); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "neu",
+     "span": "As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação"
+    },
+    {
+     "chunk": "mem_g",
+     "span": "4 - Titular: Diretor do Hospital Regional do Gama (HRG)"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IX: sem rótulo",
+    "4 - Titular (MEMBRO, conflitante)"
+   ],
+   "relacao_entidade_atributo": "membro do HRG apresentado como se fosse competência",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "incorreta",
+    "sustentacao_pelos_trechos": "nao_sustenta",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "o Diretor do HRG 'atua na regulação do Gama' (competência)",
+     "trecho_que_sustenta_ou_contradiz": "trecho de membros: designa o Diretor do HRG como titular, sem dizer que regula",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "o Gama está na pergunta; 'HRG' não",
+     "por_que": "dado de membro tratado como competência; afirmação nova sem apoio"
+    }
+   },
+   "papel_na_analise": [
+    "controle_de_bloqueio_correto"
+   ]
+  },
+  {
+   "id": "B02",
+   "familia": "B",
+   "descricao": "rótulo Compete (compatível), pergunta sem entidade extra",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul?",
+   "resposta": "Compete discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados.",
+   "chunks": [
+    {
+     "chave": "comp_ng",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "comp_ng",
+     "span": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados"
+    }
+   ],
+   "entidade": "CRSSU",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IV - Compete (compatível)"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "competência de discutir e deliberar sobre direção/avaliação/monitoramento",
+     "trecho_que_sustenta_ou_contradiz": "inciso IV",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "cópia fiel de trecho com rótulo compatível"
+    }
+   },
+   "papel_na_analise": [
+    "controle_positivo"
+   ]
+  },
+  {
+   "id": "B03",
+   "familia": "B",
+   "descricao": "trecho com rótulo desconhecido (texto corrido, art. 5º)",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul?",
+   "resposta": "Discute e delibera sobre os serviços regulados, em reuniões ordinárias mensais.",
+   "chunks": [
+    {
+     "chave": "reuniao",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 5º As reuniões ordinárias da CRSSU ocorrerão mensalmente, para discutir e deliberar sobre os serviços regulados."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "reuniao",
+     "span": "As reuniões ordinárias da CRSSU ocorrerão mensalmente, para discutir e deliberar sobre os serviços regulados"
+    }
+   ],
+   "entidade": "CRSSU",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "sem rótulo reconhecido"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho; atributo inferido do verbo, não do rótulo",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "media",
+    "justificativa": {
+     "afirmacao_avaliada": "a Coordenação discute e delibera sobre serviços regulados, em reuniões mensais",
+     "trecho_que_sustenta_ou_contradiz": "art. 5º",
+     "entidade_associada_ao_atributo": "sim (verbos do próprio trecho)",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "sem rótulo não há como confirmar a família do atributo, mas o conteúdo está literalmente no trecho"
+    }
+   },
+   "papel_na_analise": [
+    "rotulo_desconhecido"
+   ]
+  },
+  {
+   "id": "B04",
+   "familia": "B",
+   "descricao": "rótulo conflitante (Titular) mas competência explícita no próprio trecho ('a quem compete')",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "resposta": "Compete ao Diretor do HRG deliberar sobre os serviços do Gama.",
+   "chunks": [
+    {
+     "chave": "cue",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Titular: o Diretor do HRG do Gama, a quem compete deliberar sobre os serviços regulados do Gama."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "cue",
+     "span": "Titular: o Diretor do HRG do Gama, a quem compete deliberar sobre os serviços regulados do Gama"
+    }
+   ],
+   "entidade": "Gama",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "Titular (MEMBRO) com cue 'a quem compete'"
+   ],
+   "relacao_entidade_atributo": "associada no trecho: a competência é afirmada junto ao titular",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "media_alta",
+    "justificativa": {
+     "afirmacao_avaliada": "compete ao Diretor do HRG deliberar sobre os serviços regulados do Gama",
+     "trecho_que_sustenta_ou_contradiz": "mesmo trecho: 'a quem compete deliberar sobre os serviços regulados do Gama'",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não: o Gama está no trecho",
+     "por_que": "o rótulo conflita, mas há evidência positiva explícita da competência"
+    }
+   },
+   "papel_na_analise": [
+    "conflito_de_rotulo_vs_evidencia_positiva",
+    "perda_de_recall_regra_conservadora"
+   ]
+  },
+  {
+   "id": "B05",
+   "familia": "B",
+   "descricao": "trecho conflitante citado, mas o conteúdo da resposta vem de trecho compatível",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul?",
+   "resposta": "Compete discutir e deliberar sobre a direção e o monitoramento dos serviços regulados.",
+   "chunks": [
+    {
+     "chave": "comp_ng",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados."
+    },
+    {
+     "chave": "mem_g",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional do Gama (HRG); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "comp_ng",
+     "span": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação e monitoramento dos serviços regulados"
+    },
+    {
+     "chunk": "mem_g",
+     "span": "4 - Titular: Diretor do Hospital Regional do Gama (HRG)"
+    }
+   ],
+   "entidade": "CRSSU",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IV - Compete (compatível)",
+    "4 - Titular (conflitante)"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho compatível",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "compete discutir e deliberar sobre direção e monitoramento",
+     "trecho_que_sustenta_ou_contradiz": "inciso IV",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "o trecho de membros é citado sem ser usado"
+    }
+   },
+   "papel_na_analise": [
+    "conflito_nao_necessario"
+   ]
+  },
+  {
+   "id": "B06",
+   "familia": "B",
+   "descricao": "dois trechos conflitantes (GERSU e NOV) citados e usados numa resposta sobre competência",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul?",
+   "resposta": "As gerências de regulação seguem as normas; a GERSU e o NOV participam.",
+   "chunks": [
+    {
+     "chave": "neu",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). IX - As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação."
+    },
+    {
+     "chave": "mem2",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 6 - Titular: Gerente de Regulação da GERSU; 7 - Titular: Ouvidor do Núcleo de Ouvidoria (NOV); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "neu",
+     "span": "As Deliberações deverão nortear as gerências de regulação no cumprimento das atribuições regimentais de implementar as normas e protocolos de regulação"
+    },
+    {
+     "chunk": "mem2",
+     "span": "6 - Titular: Gerente de Regulação da GERSU"
+    },
+    {
+     "chunk": "mem2",
+     "span": "7 - Titular: Ouvidor do Núcleo de Ouvidoria (NOV)"
+    }
+   ],
+   "entidade": "CRSSU",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "IX: sem rótulo",
+    "6/7 - Titular (MEMBRO, conflitante)"
+   ],
+   "relacao_entidade_atributo": "membros apresentados como competência",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "incorreta",
+    "sustentacao_pelos_trechos": "nao_sustenta",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "media_alta",
+    "justificativa": {
+     "afirmacao_avaliada": "a GERSU e o NOV 'participam' (como competência)",
+     "trecho_que_sustenta_ou_contradiz": "a designação de titulares não é competência nem participação nas normas",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "afirmação sobre membros respondendo a pergunta de competência"
+    }
+   },
+   "papel_na_analise": [
+    "multiplos_conflitos"
+   ]
+  },
+  {
+   "id": "B07",
+   "familia": "B",
+   "descricao": "dois trechos conflitantes para entidades diferentes (HRG e HRSM); resposta os mistura",
+   "pergunta": "Quais as competências da Coordenação de Regulação da Região de Saúde Sul?",
+   "resposta": "Compete ao HRG e ao HRSM deliberar sobre os serviços regulados.",
+   "chunks": [
+    {
+     "chave": "mem_g",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 4 - Titular: Diretor do Hospital Regional do Gama (HRG); Suplente: substituto."
+    },
+    {
+     "chave": "mem_ng",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Ordem de Serviço nº 93/2025. Coordenação de Regulação da Região de Saúde Sul (CRSSU). Art. 2º Designar membros: 5 - Titular: Superintendente do Hospital Regional de Santa Maria (HRSM); Suplente: substituto."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "mem_g",
+     "span": "4 - Titular: Diretor do Hospital Regional do Gama (HRG)"
+    },
+    {
+     "chunk": "mem_ng",
+     "span": "5 - Titular: Superintendente do Hospital Regional de Santa Maria (HRSM)"
+    }
+   ],
+   "entidade": "CRSSU",
+   "atributo": "COMPETENCIA",
+   "rotulo_do_trecho": [
+    "Titular HRG (conflitante)",
+    "Titular HRSM (conflitante)"
+   ],
+   "relacao_entidade_atributo": "membros tratados como detentores de competência",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "incorreta",
+    "sustentacao_pelos_trechos": "nao_sustenta",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "compete ao HRG e ao HRSM deliberar",
+     "trecho_que_sustenta_ou_contradiz": "ambos os trechos apenas designam titulares",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "a competência não consta em nenhum trecho"
+    }
+   },
+   "papel_na_analise": [
+    "multiplos_conflitos",
+    "controle_de_bloqueio_correto"
+   ]
+  },
+  {
+   "id": "C01",
+   "familia": "C",
+   "descricao": "entidade e atributo no mesmo trecho",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto = manutenção preventiva de equipamentos de imagem",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "cópia do campo Objeto do extrato da Alfa"
+    }
+   },
+   "papel_na_analise": [
+    "controle_positivo"
+   ]
+  },
+  {
+   "id": "C02",
+   "familia": "C",
+   "descricao": "entidade (Alfa) num trecho e atributo (Objeto) de OUTRA empresa em outro; ambos citados",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a reforma da rede de gases medicinais.",
+   "chunks": [
+    {
+     "chave": "va",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Valor: R$ 80.000,00. Vigência: 12 meses."
+    },
+    {
+     "chave": "ob",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 13/2025. Contratada: Beta Engenharia Ltda. Objeto: reforma da rede de gases medicinais. Valor: R$ 150.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "va",
+     "span": "Contratada: Alfa Serviços Ltda. Valor: R$ 80.000,00"
+    },
+    {
+     "chunk": "ob",
+     "span": "Objeto: reforma da rede de gases medicinais"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Valor (da Alfa)",
+    "Objeto: (da Beta, compatível com o atributo)"
+   ],
+   "relacao_entidade_atributo": "atributo pertence à Beta, entidade citada é a Alfa",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "incorreta",
+    "sustentacao_pelos_trechos": "nao_sustenta",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "o objeto do contrato da Alfa é a reforma de gases",
+     "trecho_que_sustenta_ou_contradiz": "extrato 13/2025 (Beta) traz esse objeto; extrato 12/2025 (Alfa) não",
+     "entidade_associada_ao_atributo": "não: atributo associado à Beta",
+     "informacao_so_da_pergunta": "o nome Alfa vem da pergunta e consta num trecho citado",
+     "por_que": "combinação de entidade de um trecho com atributo de outro; resposta falsa"
+    }
+   },
+   "papel_na_analise": [
+    "entidade_x_atributo",
+    "combinacao_de_trechos"
+   ]
+  },
+  {
+   "id": "C03",
+   "familia": "C",
+   "descricao": "dois contratos no contexto; resposta usa apenas o da entidade correta",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    },
+    {
+     "chave": "ob",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 13/2025. Contratada: Beta Engenharia Ltda. Objeto: reforma da rede de gases medicinais. Valor: R$ 150.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    },
+    {
+     "chunk": "ob",
+     "span": "Objeto: reforma da rede de gases medicinais"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto (Alfa)",
+    "Objeto (Beta)"
+   ],
+   "relacao_entidade_atributo": "atributo da Alfa associado explicitamente; trecho da Beta é distrator",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto da Alfa",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "conteúdo vem do trecho da entidade correta; o outro trecho é ruído citado"
+    }
+   },
+   "papel_na_analise": [
+    "distrator_citado"
+   ]
+  },
+  {
+   "id": "C04",
+   "familia": "C",
+   "descricao": "atributo associado a entidade diferente; só o trecho da Beta é citado",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a reforma da rede de gases medicinais.",
+   "chunks": [
+    {
+     "chave": "ob",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 13/2025. Contratada: Beta Engenharia Ltda. Objeto: reforma da rede de gases medicinais. Valor: R$ 150.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "ob",
+     "span": "Objeto: reforma da rede de gases medicinais"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto (Beta)"
+   ],
+   "relacao_entidade_atributo": "atributo pertence à Beta; a Alfa não consta no trecho",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "incorreta",
+    "sustentacao_pelos_trechos": "nao_sustenta",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto da Alfa = reforma de gases",
+     "trecho_que_sustenta_ou_contradiz": "extrato 13/2025 da Beta",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "a entidade da pergunta não está na evidência"
+    }
+   },
+   "papel_na_analise": [
+    "entidade_x_atributo",
+    "controle_de_bloqueio_correto"
+   ]
+  },
+  {
+   "id": "C05",
+   "familia": "C",
+   "descricao": "duas entidades, mesmo atributo",
+   "pergunta": "Qual o objeto dos contratos nº 12/2025 e nº 13/2025 das empresas Alfa Serviços Ltda e Beta Engenharia Ltda?",
+   "resposta": "Alfa Serviços: manutenção preventiva de equipamentos de imagem; Beta Engenharia: reforma da rede de gases medicinais.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    },
+    {
+     "chave": "ob",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 13/2025. Contratada: Beta Engenharia Ltda. Objeto: reforma da rede de gases medicinais. Valor: R$ 150.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    },
+    {
+     "chunk": "ob",
+     "span": "Objeto: reforma da rede de gases medicinais"
+    }
+   ],
+   "entidade": "Alfa e Beta",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto (Alfa)",
+    "Objeto (Beta)"
+   ],
+   "relacao_entidade_atributo": "cada entidade com seu atributo",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto de cada contrato",
+     "trecho_que_sustenta_ou_contradiz": "extratos 12 e 13/2025",
+     "entidade_associada_ao_atributo": "sim, ambas",
+     "informacao_so_da_pergunta": "os nomes também estão nos trechos",
+     "por_que": "cada entidade associada ao seu objeto"
+    }
+   },
+   "papel_na_analise": [
+    "controle_positivo"
+   ]
+  },
+  {
+   "id": "C06",
+   "familia": "C",
+   "descricao": "duas entidades, atributos diferentes (objeto da Alfa, valor da Beta)",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda e o valor do contrato nº 13/2025 da empresa Beta Engenharia Ltda?",
+   "resposta": "Alfa Serviços: manutenção preventiva de equipamentos de imagem; Beta Engenharia: R$ 150.000,00.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    },
+    {
+     "chave": "vb",
+     "doc": 102,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 13/2025. Contratada: Beta Engenharia Ltda. Objeto: reforma da rede de gases medicinais. Valor: R$ 150.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    },
+    {
+     "chunk": "vb",
+     "span": "Contratada: Beta Engenharia Ltda. Objeto: reforma da rede de gases medicinais. Valor: R$ 150.000,00"
+    }
+   ],
+   "entidade": "Alfa e Beta",
+   "atributo": "OBJETO+VALOR",
+   "rotulo_do_trecho": [
+    "Objeto (Alfa)",
+    "Objeto e Valor (Beta; o span citado contém ambos)"
+   ],
+   "relacao_entidade_atributo": "pergunta composta; cada entidade com o atributo pedido",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "media",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto da Alfa e valor da Beta",
+     "trecho_que_sustenta_ou_contradiz": "extratos 12 e 13/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "a pergunta pede atributos distintos para entidades distintas (limitação: o mecanismo trata um atributo por pergunta)"
+    }
+   },
+   "papel_na_analise": [
+    "atributo_composto"
+   ]
+  },
+  {
+   "id": "C07",
+   "familia": "C",
+   "descricao": "relação ambígua: aditivo cita as duas empresas; pergunta é sobre 'contrato'",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto do contrato da Alfa é a prorrogação da vigência por mais 12 meses.",
+   "chunks": [
+    {
+     "chave": "adit",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Termo Aditivo nº 5/2025. Partes: Alfa Serviços Ltda e Beta Engenharia Ltda. Objeto: prorrogação da vigência por mais 12 meses."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "adit",
+     "span": "Objeto: prorrogação da vigência por mais 12 meses"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "termo aditivo, não contrato; duas partes",
+   "julgamento_referencia": {
+    "classe": "ambiguo",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "sustenta_literalmente",
+    "decisao_ideal_do_pipeline": "indeterminado",
+    "confianca": "baixa",
+    "justificativa": {
+     "afirmacao_avaliada": "o objeto do contrato da Alfa é a prorrogação",
+     "trecho_que_sustenta_ou_contradiz": "termo aditivo 5/2025 (Alfa e Beta)",
+     "entidade_associada_ao_atributo": "ambígua: o objeto é do aditivo, não do contrato",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "duas leituras plausíveis (o aditivo é a resposta útil vs o objeto do contrato não foi informado)"
+    }
+   },
+   "papel_na_analise": [
+    "relacao_ambigua"
+   ]
+  },
+  {
+   "id": "D01",
+   "familia": "D",
+   "descricao": "resposta que apenas repete a pergunta",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O contrato da empresa Alfa Serviços Ltda tem um objeto descrito no extrato.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Contratada: Alfa Serviços Ltda"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "sem rótulo"
+   ],
+   "relacao_entidade_atributo": "apenas a entidade citada",
+   "julgamento_referencia": {
+    "classe": "correta_parcial",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta_trivialmente",
+    "decisao_ideal_do_pipeline": "indeterminado",
+    "confianca": "baixa",
+    "justificativa": {
+     "afirmacao_avaliada": "o contrato da Alfa tem um objeto descrito",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim (trivial)",
+     "informacao_so_da_pergunta": "sim: eco da pergunta",
+     "por_que": "verdadeira mas não responde; um sistema fail-closed poderia tratá-la como insuficiente"
+    }
+   },
+   "papel_na_analise": [
+    "repeticao_legitima_da_pergunta"
+   ]
+  },
+  {
+   "id": "D02",
+   "familia": "D",
+   "descricao": "acrescenta localização não sustentada (ausente da pergunta)",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem no Hospital Regional de Planaltina.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "entidade Alfa associada; localização nova",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "nao_sustenta_a_localizacao",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "a manutenção ocorre no HRP",
+     "trecho_que_sustenta_ou_contradiz": "nenhum trecho cita Planaltina",
+     "entidade_associada_ao_atributo": "a localização não é associada",
+     "informacao_so_da_pergunta": "não: Planaltina é nova",
+     "por_que": "afirmação nova não sustentada"
+    }
+   },
+   "papel_na_analise": [
+    "afirmacao_nova_nao_sustentada"
+   ]
+  },
+  {
+   "id": "D03",
+   "familia": "D",
+   "descricao": "localização na pergunta, ausente em toda a evidência",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda no Hospital Regional de Planaltina?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem no Hospital Regional de Planaltina.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Hospital Regional de Planaltina",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "localização não associada",
+   "julgamento_referencia": {
+    "classe": "insuficiente_evidencia",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "nao_sustenta_a_localizacao",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "o objeto vale para o HRP",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025 sem menção ao HRP",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "sim: eco da pergunta sem apoio",
+     "por_que": "eco de entidade da pergunta que a evidência não traz"
+    }
+   },
+   "papel_na_analise": [
+    "entidade_herdada_vs_sustentada"
+   ]
+  },
+  {
+   "id": "D04",
+   "familia": "D",
+   "descricao": "acrescenta entidade não sustentada",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem, contratada pela Secretaria de Obras.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "entidade extra sem apoio",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "nao_verificavel",
+    "sustentacao_pelos_trechos": "nao_sustenta",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "contratante = Secretaria de Obras",
+     "trecho_que_sustenta_ou_contradiz": "nenhum trecho cita contratante",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "entidade inventada"
+    }
+   },
+   "papel_na_analise": [
+    "afirmacao_nova_nao_sustentada"
+   ]
+  },
+  {
+   "id": "D05",
+   "familia": "D",
+   "descricao": "fato sustentado + número inventado",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem, no valor de R$ 90.000,00.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "valor contradiz o trecho (R$ 80.000,00)",
+   "julgamento_referencia": {
+    "classe": "incorreta",
+    "correcao_semantica": "incorreta",
+    "sustentacao_pelos_trechos": "contradiz",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "valor de R$ 90.000,00",
+     "trecho_que_sustenta_ou_contradiz": "o extrato traz R$ 80.000,00",
+     "entidade_associada_ao_atributo": "não",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "número divergente do trecho"
+    }
+   },
+   "papel_na_analise": [
+    "afirmacao_nova_nao_sustentada"
+   ]
+  },
+  {
+   "id": "D06",
+   "familia": "D",
+   "descricao": "correta com paráfrase",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "A empresa Alfa Serviços foi contratada para realizar a manutenção preventiva dos equipamentos de imagem.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "Alfa contratada para manutenção preventiva de equipamentos de imagem",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "paráfrase fiel"
+    }
+   },
+   "papel_na_analise": [
+    "perda_de_recall_regra_conservadora"
+   ]
+  },
+  {
+   "id": "D07",
+   "familia": "D",
+   "descricao": "parcialmente correta: responde só o objeto numa pergunta de objeto e valor",
+   "pergunta": "Qual o objeto e o valor do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O objeto é a manutenção preventiva de equipamentos de imagem.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO+VALOR",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho",
+   "julgamento_referencia": {
+    "classe": "correta_parcial",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto do contrato",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "omite o valor, que está no trecho; parcial"
+    }
+   },
+   "papel_na_analise": [
+    "parcial"
+   ]
+  },
+  {
+   "id": "D08",
+   "familia": "D",
+   "descricao": "resposta curta",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "Manutenção preventiva de equipamentos de imagem.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Objeto: manutenção preventiva de equipamentos de imagem"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "Objeto: (compatível)"
+   ],
+   "relacao_entidade_atributo": "mesmo trecho",
+   "julgamento_referencia": {
+    "classe": "correta",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta",
+    "decisao_ideal_do_pipeline": "entregar",
+    "confianca": "alta",
+    "justificativa": {
+     "afirmacao_avaliada": "objeto",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "não",
+     "por_que": "trecho literal sem sujeito explícito"
+    }
+   },
+   "papel_na_analise": [
+    "resposta_curta"
+   ]
+  },
+  {
+   "id": "D09",
+   "familia": "D",
+   "descricao": "resposta genérica sem conteúdo",
+   "pergunta": "Qual o objeto do contrato nº 12/2025 da empresa Alfa Serviços Ltda?",
+   "resposta": "O contrato trata de serviços prestados pela empresa.",
+   "chunks": [
+    {
+     "chave": "oa",
+     "doc": 101,
+     "ordem": 0,
+     "n_chunks_doc": 1,
+     "texto": "Extrato de Contrato nº 12/2025. Contratada: Alfa Serviços Ltda. Objeto: manutenção preventiva de equipamentos de imagem. Valor: R$ 80.000,00."
+    }
+   ],
+   "citacoes": [
+    {
+     "chunk": "oa",
+     "span": "Contratada: Alfa Serviços Ltda"
+    }
+   ],
+   "entidade": "Alfa Serviços Ltda",
+   "atributo": "OBJETO",
+   "rotulo_do_trecho": [
+    "sem rótulo"
+   ],
+   "relacao_entidade_atributo": "apenas a entidade",
+   "julgamento_referencia": {
+    "classe": "insuficiente_evidencia",
+    "correcao_semantica": "correta",
+    "sustentacao_pelos_trechos": "sustenta_trivialmente",
+    "decisao_ideal_do_pipeline": "bloquear",
+    "confianca": "media",
+    "justificativa": {
+     "afirmacao_avaliada": "o contrato trata de serviços",
+     "trecho_que_sustenta_ou_contradiz": "extrato 12/2025",
+     "entidade_associada_ao_atributo": "sim",
+     "informacao_so_da_pergunta": "sim: tudo é eco da pergunta",
+     "por_que": "não informa o objeto; deveria ser tratada como não respondida"
+    }
+   },
+   "papel_na_analise": [
+    "resposta_generica"
+   ]
+  }
+ ]
+}

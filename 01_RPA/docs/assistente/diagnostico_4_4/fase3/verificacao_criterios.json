@@ -1,0 +1,122 @@
+{
+ "criterios": [
+  {
+   "criterio": 1,
+   "descricao": "val-039, 050, 130, 136, 141 nao sao mais entregues como respondida/parcial",
+   "resultado": "PASS",
+   "detalhe": "{'val-039': 'insuficiente', 'val-050': 'insuficiente', 'val-130': 'insuficiente', 'val-136': 'insuficiente', 'val-141': 'insuficiente'}"
+  },
+  {
+   "criterio": 2,
+   "descricao": "val-047 continua parcial, sem texto exclusivo",
+   "resultado": "PASS",
+   "detalhe": "Entre os itens encontrados em Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I), consta: 402 - Anestesiologia - Hospita"
+  },
+  {
+   "criterio": 3,
+   "descricao": "val-087 deixa de ser parcial com a frase atual",
+   "resultado": "PASS",
+   "detalhe": "insuficiente"
+  },
+  {
+   "criterio": 4,
+   "descricao": "val-044, 031 e 032 permanecem parcial com o mesmo texto da Fase 2",
+   "resultado": "PASS",
+   "detalhe": ""
+  },
+  {
+   "criterio": 5,
+   "descricao": "as 23 respostas dadas julgadas Correta/Correta-mas-parcial mantem status e texto da 4.3",
+   "resultado": "PASS",
+   "detalhe": "n=23"
+  },
+  {
+   "criterio": 6,
+   "descricao": "nenhuma promocao de status em relacao a Fase 2; todas as mudancas sao rebaixamentos ou reescrita de texto de parcial",
+   "resultado": "PASS",
+   "detalhe": "mudancas=['val-039', 'val-047', 'val-050', 'val-087', 'val-130', 'val-136', 'val-141']"
+  },
+  {
+   "criterio": 7,
+   "descricao": "val-062, 108 e 126 seguem bloqueados pelos mesmos motivos",
+   "resultado": "PASS",
+   "detalhe": ""
+  },
+  {
+   "criterio": "extra",
+   "descricao": "nenhuma abstencao da 4.3 (alem dos 10 casos da Fase 2) mudou",
+   "resultado": "PASS",
+   "detalhe": "[]"
+  }
+ ],
+ "mudancas_fase3_vs_fase2": {
+  "val-039": {
+   "fase2": "parcial",
+   "fase3": "insuficiente",
+   "problemas": [
+    "ausencia_nao_encontrada_contexto_parcial"
+   ],
+   "texto_mudou": true,
+   "texto_fase2": "As unidades de saúde em São Sebastião que receberão equipamentos odontológicos conforme o contrato de distribuição são as descritas nos códigos SES mencionados no documento, mas não foram especificadas suas denominações.\n\nAVISO: resposta parcial. Foram analisa",
+   "texto_fase3": "Não encontrei esta informação nos trechos das publicações analisados (1 de 28 trechos de Extrato Contrato nº 051690/2024 (DODF edição 42, 2025-02-28, Seção III)). Isso não significa que ela não conste da publicação."
+  },
+  "val-047": {
+   "fase2": "parcial",
+   "fase3": "parcial",
+   "problemas": [],
+   "texto_mudou": true,
+   "texto_fase2": "O programa de residência médica disponível no Hospital Regional do Gama é Anestesiologia.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: ",
+   "texto_fase3": "Entre os itens encontrados em Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I), consta: 402 - Anestesiologia - Hospital Regional do Gama (HRG). Este é apenas um dos itens da lista; a publicação traz outros itens e a lista não é exaustiva.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Aviso 1/2"
+  },
+  "val-050": {
+   "fase2": "parcial",
+   "fase3": "insuficiente",
+   "problemas": [
+    "periodo_incompativel"
+   ],
+   "texto_mudou": true,
+   "texto_fase2": "Foram adquiridos os seguintes insumos farmacêuticos para o Hospital Regional de Taguatinga: MIDAZOLAM SOLUÇÃO INJETÁVEL 15 MG AMPOLA 3 ML, HEPARINA SODICA SOLUÇÃO INJETÁVEL 5000 UI/0,25 ML AMPOLA 0,25 M e METARAMINOL (HEMITARTARATO) SOLUÇÃO INJETÁVEL 10 MG/ML ",
+   "texto_fase3": "Extrato 01/2025 (DODF edição 28, 2025-02-10, Seção III) refere-se ao período de 31/01/2025 a 06/02/2025 (referencia), que não coincide com o período solicitado (31/07/2025 a 22/08/2025); por isso não é possível responder com segurança."
+  },
+  "val-087": {
+   "fase2": "parcial",
+   "fase3": "insuficiente",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ],
+   "texto_mudou": true,
+   "texto_fase2": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação de normas e protocolos de internação hospitalar no Hospital Regional do Gama (HRG).\n\nAVISO: resposta parcial, baseada apenas nas",
+   "texto_fase3": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança."
+  },
+  "val-130": {
+   "fase2": "parcial",
+   "fase3": "insuficiente",
+   "problemas": [
+    "localidade_conflitante_no_registro"
+   ],
+   "texto_mudou": true,
+   "texto_fase2": "As empresas credenciadas para prestar serviços assistenciais clínicos e cirúrgicos na Asa Sul são: Biosphere Health Center (CNPJ: 11.859.927/0007-93) e VISÃO HOSPITAL DE OLHOS (CNPJ: 37.114.071/0001-25).\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publ",
+   "texto_fase3": "No registro de Autorização 133/2021 (DODF edição 1, 2025-01-02, Seção III) em que consta o identificador 11.859.927/0007-93, a localidade informada é asa norte, e não asa sul; por isso o item não responde à pergunta."
+  },
+  "val-136": {
+   "fase2": "parcial",
+   "fase3": "insuficiente",
+   "problemas": [
+    "remissao_a_documento_nao_publicado"
+   ],
+   "texto_mudou": true,
+   "texto_fase2": "A empresa credenciada no Hospital Home propôs serviços assistenciais clínicos e cirúrgicos eletivos e de urgência e emergência.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 6 outra(s) publicação(ões) potencialme",
+   "texto_fase3": "Extrato 09/2025 (DODF edição 14, 2025-01-21, Seção III) remete o atributo solicitado (especialidades) a documento não publicado nas publicações consultadas (Doc. SEI nº 160711978); a informação solicitada não está disponível aqui."
+  },
+  "val-141": {
+   "fase2": "parcial",
+   "fase3": "insuficiente",
+   "problemas": [
+    "ausencia_nao_encontrada_contexto_parcial"
+   ],
+   "texto_mudou": true,
+   "texto_fase2": "A proposta menciona o apoio a medidas preventivas e de saúde pública por meio da epidemiologia forense aplicada à segurança, mas não especifica detalhes sobre a Região Norte.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode ha",
+   "texto_fase3": "Não encontrei esta informação nos trechos das publicações analisados (3 de 28 trechos de Ata 02/2025 (DODF edição 127, 2025-07-10, Seção I)). Isso não significa que ela não conste da publicação."
+  }
+ }
+}

@@ -1,0 +1,808 @@
+{
+ "val-000": {
+  "status": "respondida",
+  "resposta": "A empresa HOSPITAL DA VISÃO DO MEIO NORTE LTDA foi inabilitada no credenciamento para prestação de serviço de cirurgia oftalmológica.\n\nFonte: Extrato EDITAL nº 03/2025 (DODF edição 213, 2025-11-10, Seção III).",
+  "problemas": []
+ },
+ "val-001": {
+  "status": "ambigua",
+  "resposta": "Há informações sobre serviços de manutenção contratados para a Policlínica do Núcleo Bandeirante, mas não é possível determinar qual foi o serviço específico contratado.",
+  "problemas": []
+ },
+ "val-002": {
+  "status": "respondida",
+  "resposta": "O medicamento adquirido para o Hospital da Criança de Brasília José Alencar no Chamamento nº 270/2025 foi Pazopanibe.\n\nFonte: Ineditorial CHAMAMENTO nº 259/2025 (DODF edição 203, 2025-10-24, Seção III).",
+  "problemas": []
+ },
+ "val-003": {
+  "status": "respondida",
+  "resposta": "A empresa FORTE TECH SOLUCOES INTEGRADAS LTDA foi ratificada para fornecimento de tintas para tecido ao Hospital São Vicente de Paulo.\n\nFonte: Extrato 00403975/2025 (DODF edição 170, 2025-09-09, Seção III).",
+  "problemas": []
+ },
+ "val-004": {
+  "status": "ambigua",
+  "resposta": "Os trechos mencionam manutenção da piscina, mas não especificam os produtos adquiridos.",
+  "problemas": []
+ },
+ "val-005": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um valor único autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas.",
+  "problemas": []
+ },
+ "val-006": {
+  "status": "respondida",
+  "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+  "problemas": []
+ },
+ "val-007": {
+  "status": "parcial",
+  "resposta": "A implementação de serviços de saúde em Riacho Fundo II inclui ações relacionadas ao Conselho Regional de Saúde, eleições para membros conselheiros e programas voltados à saúde da mulher, como o Hospital da Mulher.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 1 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Resolução 2025/2028 (DODF edição 152, 2025-08-14, Seção I); Ata 08/2025 (DODF edição 181, 2025-09-24, Seção I).",
+  "problemas": []
+ },
+ "val-008": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Autorização Edital nº 01/2024 (DODF edição 13, 2025-01-20, Seção III); Reconhecimento de dívida 00000818/2024 (DODF edição 24, 2025-02-04, Seção III); Reconhecimento de dívida 00000818/2024 (DODF edição 42, 2025-02-28, Seção III); Reconhecimento de dívida 00000818/2024 (DODF edição 45, 2025-03-07, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-009": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Resolução 2025/2028 (DODF edição 184, 2025-09-29, Seção I); Resolução 2025/2028 (DODF edição 184, 2025-09-29, Seção I)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-010": {
+  "status": "ambigua",
+  "resposta": "A data de encerramento do prazo varia conforme o chamamento.",
+  "problemas": []
+ },
+ "val-011": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato Edital nº 01/2024 (DODF edição 106, 2025-06-09, Seção III); Autorização Edital nº 01/2024 (DODF edição 13, 2025-01-20, Seção III); Autorização 133/2021 (DODF edição 18, 2025-01-27, Seção III); Extrato 23/2025 (DODF edição 20, 2025-01-29, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-012": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos álcool etílico absoluto 99,5GL frasco 1.000ML e o serviço de manutenção corretiva em macas marca LINET modelo SPRINT para o Hospital Regional de Ceilândia.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 9 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato licitação nº 006/2025 (DODF edição 35, 2025-02-19, Seção III).",
+  "problemas": []
+ },
+ "val-013": {
+  "status": "parcial",
+  "resposta": "Foram realizadas aquisições de insumos e serviços para atender às necessidades do Hospital Regional de Taguatinga na região Sudoeste, incluindo CAIXA ORGANIZADORA 28 LITROS (Código SES: 35477), GLICEROL FRASCO 1000ML (Código SES 95364) e ACETAZOLAMIDA COMPRIMIDO 250 MG (Código SES 90393).\n\nAVISO: resposta parcial. Foram analisadas apenas 3 publicação(ões); o corpus contém ao menos 28 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 08/2025 (DODF edição 164, 2025-09-01, Seção III); Extrato 08/2025 (DODF edição 145, 2025-08-05, Seção III); Extrato 02/2025 (DODF edição 36, 2025-02-20, Seção III).",
+  "problemas": []
+ },
+ "val-014": {
+  "status": "ambigua",
+  "resposta": "A data limite para envio de propostas varia conforme o chamamento, sendo necessário especificar qual chamamento está em questão.",
+  "problemas": []
+ },
+ "val-015": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": []
+ },
+ "val-016": {
+  "status": "ambigua",
+  "resposta": "A dívida foi reconhecida com base em considerações sobre direito adquirido pelo credor, descentralização do crédito orçamentário para pagamento de despesas anteriores e a saúde como dever do Estado.",
+  "problemas": []
+ },
+ "val-017": {
+  "status": "parcial",
+  "resposta": "O estabelecimento de saúde na Asa Sul com brigada de incêndio própria credenciada é o HOME - HOSPITAL ORTOPÉDICO E MEDICINA ESPECIALIZADA LTDA.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato 006/2000 (DODF edição 137, 2025-07-24, Seção III).",
+  "problemas": []
+ },
+ "val-018": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um valor único autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas.",
+  "problemas": []
+ },
+ "val-019": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-020": {
+  "status": "parcial",
+  "resposta": "O estabelecimento credenciado para prestar serviços de radiologia e medicina nuclear no Gama é o Instituto de Medicina Nuclear e Endocrinologia de Brasília Ltda, com CNPJ 24.942.732/0001-69.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato Edital nº 3/2024 (DODF edição 51, 2025-03-17, Seção III).",
+  "problemas": []
+ },
+ "val-021": {
+  "status": "parcial",
+  "resposta": "Os serviços de saúde mental credenciados para atender os beneficiários da Polícia Militar em Sobradinho são: INTERNAÇÃO EM SAÚDE MENTAL E HOSPITAL DIA EM PSIQUIATRIA.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato 22/2024 (DODF edição 1, 2025-01-02, Seção III).",
+  "problemas": []
+ },
+ "val-022": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-023": {
+  "status": "ambigua",
+  "resposta": "Há duas referências diferentes para o valor da dívida reconhecida para o Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia.",
+  "problemas": []
+ },
+ "val-024": {
+  "status": "respondida",
+  "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando na redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+  "problemas": []
+ },
+ "val-025": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-026": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-027": {
+  "status": "ambigua",
+  "resposta": "Há diferentes prazos mencionados para o Chamamento nº 170/2025: 26/06/2025, 23/06/2025 e 25/06/2025.",
+  "problemas": []
+ },
+ "val-028": {
+  "status": "ambigua",
+  "resposta": "O objeto da aquisição no chamamento nº 036/2025 é mencionado como 'Aquisição de Dietas enterais e orais (Fórmula infantil, Suplementação Nutricional, Espessante para alimentos), em Sistema de Registro de Preços' conforme o documento C2 e C3. No documento C1, o objeto é referido como 'Aquisição de Livro (Residência Médica)'.",
+  "problemas": []
+ },
+ "val-029": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-030": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor total pago à empresa Fresenius Kabi Brasil Ltda pela aquisição de medicamentos no Hospital da Criança de Brasília, pois os trechos fornecidos mencionam diferentes valores em contextos distintos.",
+  "problemas": []
+ },
+ "val-031": {
+  "status": "parcial",
+  "resposta": "Os indicadores de satisfação dos pacientes no Hospital da Criança de Brasília José Alencar durante o terceiro trimestre de 2023 foram: 94,2% em julho, 96,6% em agosto e 97,6% em setembro.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 1 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Ato CONTRATO nº 076/2019 (DODF edição 183, 2025-09-26, Seção III).",
+  "problemas": []
+ },
+ "val-032": {
+  "status": "parcial",
+  "resposta": "A Unidade Básica de Saúde (UBS) 03 JARDIM BOTÂNICO foi incluída no contrato com a empresa Vida Diagnósticos.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato Contrato nº 052609/2024 (DODF edição 181, 2025-09-24, Seção III).",
+  "problemas": []
+ },
+ "val-033": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:aparelho,anestesia,monitor,sinais,vitais"
+  ]
+ },
+ "val-034": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-035": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-036": {
+  "status": "ambigua",
+  "resposta": "A instituição credenciante para os serviços prestados no Hospital São Mateus não foi claramente identificada nos trechos fornecidos.",
+  "problemas": []
+ },
+ "val-037": {
+  "status": "ambigua",
+  "resposta": "Não é possível determinar o número exato de empresas vencedoras na aquisição de dietas enterais e orais no Hospital da Criança de Brasília com base nas informações fornecidas.",
+  "problemas": []
+ },
+ "val-038": {
+  "status": "ambigua",
+  "resposta": "Várias empresas foram adjudicadas para fornecer medicamentos às UBS das Unidades Prisionais.",
+  "problemas": []
+ },
+ "val-039": {
+  "status": "insuficiente",
+  "resposta": "Não encontrei esta informação nos trechos das publicações analisados (1 de 28 trechos de Extrato Contrato nº 051690/2024 (DODF edição 42, 2025-02-28, Seção III)). Isso não significa que ela não conste da publicação.",
+  "problemas": [
+   "ausencia_nao_encontrada_contexto_parcial"
+  ]
+ },
+ "val-040": {
+  "status": "ambigua",
+  "resposta": "Há múltiplas informações sobre serviços de manutenção contratados para o Hospital de Apoio de Brasília.",
+  "problemas": []
+ },
+ "val-041": {
+  "status": "respondida",
+  "resposta": "HOSPITAL DAS CLÍNICAS E PRONTO SOCORRO DE FRATURAS DE CEILÂNDIA LTDA teve seu crédito orçamentário descentralizado para pagamento de despesas de exercícios anteriores.\n\nFonte: Reconhecimento de dívida 00472544/2024 (DODF edição 69, 2025-04-10, Seção III); Reconhecimento de dívida 00521871/2024 (DODF edição 69, 2025-04-10, Seção III); Reconhecimento de dívida 00472519/2024 (DODF edição 56, 2025-03-24, Seção III).",
+  "problemas": []
+ },
+ "val-042": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": []
+ },
+ "val-043": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar com clareza qual empresa teve sua dívida reconhecida no hospital.",
+  "problemas": []
+ },
+ "val-044": {
+  "status": "parcial",
+  "resposta": "Os serviços de saúde credenciados para atender beneficiários na Asa Sul incluem SERVIÇOS ASSISTENCIAIS CLÍNICOS E CIRÚRGICOS ELETIVOS E DE URGÊNCIA E EMERGÊNCIA.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 4 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 09/2025 (DODF edição 14, 2025-01-21, Seção III).",
+  "problemas": []
+ },
+ "val-045": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato Contrato nº 052609/2024 (DODF edição 181, 2025-09-24, Seção III); Edital 00061377/2022 (DODF edição 26, 2025-02-06, Seção III); Extrato Contrato nº 051690/2024 (DODF edição 42, 2025-02-28, Seção III); Extrato de pauta Licitação nº 6466/2008 (DODF edição 44, 2025-03-06, Seção I)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-046": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-047": {
+  "status": "parcial",
+  "resposta": "Entre os itens encontrados em Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I), consta: 402 - Anestesiologia - Hospital Regional do Gama (HRG). Este é apenas um dos itens da lista; a publicação traz outros itens e a lista não é exaustiva.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I).",
+  "problemas": []
+ },
+ "val-048": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-049": {
+  "status": "respondida",
+  "resposta": "Dr. SONALDO MARCOS VIEIRA BARBOSA (CRM-DF 31051), Dr. RAY COSTA PORTELA (CRM-DF 27975) e Dra. TATIELE ALESSANDRA D'ANGELIS BRANDAO (CRM-DF 30142) foram eleitos como membros efetivos da Comissão de Ética Médica da Unidade de Pronto Atendimento Riacho Fundo II.\n\nFonte: Ineditorial 607/2025 (DODF edição 95, 2025-05-23, Seção III).",
+  "problemas": []
+ },
+ "val-050": {
+  "status": "insuficiente",
+  "resposta": "Extrato 01/2025 (DODF edição 28, 2025-02-10, Seção III) refere-se ao período de 31/01/2025 a 06/02/2025 (referencia), que não coincide com o período solicitado (31/07/2025 a 22/08/2025); por isso não é possível responder com segurança.",
+  "problemas": [
+   "periodo_incompativel"
+  ]
+ },
+ "val-051": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor autorizado para pagamento ao Hospital São Mateus devido a diferentes valores mencionados em publicações distintas.",
+  "problemas": []
+ },
+ "val-052": {
+  "status": "ambigua",
+  "resposta": "Foram adquiridos insumos e serviços conforme os seguintes itens: CAIXA ORGANIZADORA 28 LITROS, EQUIPAMENTO DE ULTRASSOM PORTÁTIL e GLICEROL FRASCO 1000ML para atender às necessidades do Hospital Regional de Taguatinga.",
+  "problemas": []
+ },
+ "val-053": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-054": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Reconhecimento de dívida 00105182/2023 (DODF edição 93, 2025-05-21, Seção III); Extrato 21/2024 (DODF edição 1, 2025-01-02, Seção III); Extrato 22/2024 (DODF edição 1, 2025-01-02, Seção III); Extrato 02/2025 (DODF edição 5, 2025-01-08, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-055": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-056": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-057": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Ineditorial AVISO nº 497/2024 (DODF edição 93, 2025-05-21, Seção III); Extrato 00038944/2025 (DODF edição 28, 2025-02-10, Seção III); Portaria 840/2011 (DODF edição 132, 2025-07-17, Seção I); Edital EDITAL nº 01/2025 (DODF edição 74, 2025-08-15, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-058": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:0,9,100,12,1000,cloreto,sodio"
+  ]
+ },
+ "val-059": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos os seguintes materiais e equipamentos para o Hospital Regional de Brazlândia: Sonda de troca para gastrostomia percutânea em silicone, de 24 FR, e cateter intravenoso periférico 22G, com dispositivo de segurança, estéril.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato 09/2025 (DODF edição 185, 2025-09-30, Seção III).",
+  "problemas": []
+ },
+ "val-060": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": []
+ },
+ "val-061": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-062": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "trecho_nao_literal:C1",
+   "citacao_fabricada:C1:1.105.500,00"
+  ]
+ },
+ "val-063": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:500,125,pulseira,identificacao,adulto,branca"
+  ]
+ },
+ "val-064": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-065": {
+  "status": "ambigua",
+  "resposta": "Endereço do hospital credenciado em Brasília para atendimento em radioterapia não é único e varia conforme o documento.",
+  "problemas": []
+ },
+ "val-066": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos materiais médicos como Bolsa de solução para CAPD, Adaptador de Titânio, Dialisador de Alt, Cola/Adesivo Cirúrgico e Fita para Impressora.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 124 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Ineditorial RESULTADO nº 469/2024 (DODF edição 25, 2025-02-05, Seção III); Ineditorial CHAMAMENTO nº 039/2025 (DODF edição 30, 2025-02-12, Seção III).",
+  "problemas": []
+ },
+ "val-067": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-068": {
+  "status": "ambigua",
+  "resposta": "O responsável pela autorização de pagamento ao Hospital Urológico de Brasília foi mencionado em diferentes documentos com nomes distintos.",
+  "problemas": []
+ },
+ "val-069": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar os insumos e serviços adquiridos especificamente para o Hospital Regional de Samambaia.",
+  "problemas": []
+ },
+ "val-070": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos os seguintes medicamentos e materiais hospitalares para o Hospital Regional de Brazlândia: AGULHA HIPODERMICA 40 X 1,2 COM DISPOSITIVO DE SEGURANÇA DESCARTAVEL; COLETOR DE URINA PARA INCONTINÊNCIA URINÁRIA MASCULINA; EQUIPO SIMPLES PARA INFUSÃO DE SOLUÇÕES PARENTERAIS e SUXAMETONIO (CLORETO) PO PARA SOLUCAO INJETAVEL 100 MG FRASCO-AMPOLA.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 245 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato de dispensa de licitação 11/2025 (DODF edição 219, 2025-11-18, Seção III); Extrato 08/2025 (DODF edição 147, 2025-08-07, Seção III).",
+  "problemas": []
+ },
+ "val-071": {
+  "status": "ambigua",
+  "resposta": "Há diferentes valores reconhecidos para dívidas do Hospital Maria Auxiliadora referentes a serviços médicos prestados.",
+  "problemas": []
+ },
+ "val-072": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um valor único autorizado para pagamento ao Hospital Urológico de Brasília.",
+  "problemas": []
+ },
+ "val-073": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato Edital nº 1/2025 (DODF edição 96, 2025-05-26, Seção III); Extrato 006/2000 (DODF edição 137, 2025-07-24, Seção III); Extrato Edital nº 04/2024 (DODF edição 150, 2025-08-12, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-074": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-075": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Reconhecimento de dívida 00105182/2023 (DODF edição 93, 2025-05-21, Seção III); Reconhecimento de dívida 00000818/2024 (DODF edição 24, 2025-02-04, Seção III); Reconhecimento de dívida 00000818/2024 (DODF edição 42, 2025-02-28, Seção III); Reconhecimento de dívida 00000818/2024 (DODF edição 45, 2025-03-07, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-076": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-077": {
+  "status": "ambigua",
+  "resposta": "Existem diferentes valores reconhecidos para o Hospital São Mateus no Gama em publicações distintas.",
+  "problemas": []
+ },
+ "val-078": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-079": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar com clareza qual empresa foi credenciada para prestar serviços hospitalares em Taguatinga.",
+  "problemas": []
+ },
+ "val-080": {
+  "status": "ambigua",
+  "resposta": "Há diferentes valores autorizados para pagamento à Clínica do Sono e Hospital Otorrino Odonto-Médico Otoface de Brasília em diferentes processos.",
+  "problemas": []
+ },
+ "val-081": {
+  "status": "ambigua",
+  "resposta": "Há diferentes valores de dívida reconhecidos para o Hospital Maria Auxiliadora em publicações distintas.",
+  "problemas": []
+ },
+ "val-082": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato 07/2023 (DODF edição 16, 2025-01-23, Seção III); Extrato 01/2025 (DODF edição 28, 2025-02-10, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-083": {
+  "status": "insuficiente",
+  "resposta": "No registro de Extrato 00375749/2025 (DODF edição 180, 2025-09-23, Seção III), o item 'CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% (9 MG/ML) AMPOLA 10 ML' é destinado a hospital regional do guara, e a pergunta trata de atencao primaria; por isso o item não responde à pergunta.",
+  "problemas": [
+   "destinatario_conflitante"
+  ]
+ },
+ "val-084": {
+  "status": "ambigua",
+  "resposta": "O período de vigência do credenciamento do Hospital São Mateus varia conforme o documento. No aditivo do Termo de Credenciamento, o prazo é de 01/01/2025 a 31/12/2025. Já no contrato nº 054607/2025, a vigência é de 12 meses, podendo ser prorrogada por até 120 meses.",
+  "problemas": []
+ },
+ "val-085": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar com clareza quem autorizou o pagamento ao Hospital da Plástica DF, pois diferentes documentos mencionam nomes distintos.",
+  "problemas": []
+ },
+ "val-086": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-087": {
+  "status": "insuficiente",
+  "resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ]
+ },
+ "val-088": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:planeta,sorriso,vital,medici"
+  ]
+ },
+ "val-089": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:500,0110-542,video,cirurgia,karl,storz"
+  ]
+ },
+ "val-090": {
+  "status": "respondida",
+  "resposta": "O motivo do cancelamento do Chamamento nº 202/2025 foi respaldado no Art.6° do Decreto Distrital nº 33.390/11 e nos despachos exarados nos autos do processo.\n\nFonte: Ineditorial AVISO nº 219/2025 (DODF edição 163, 2025-08-29, Seção III).",
+  "problemas": []
+ },
+ "val-091": {
+  "status": "parcial",
+  "resposta": "Foram objeto de aquisição os seguintes medicamentos: Álcool, Azul Patente e Alprostadil; Cloridrato de Fenilefrina, Cloridrato de Proximetacaina, Fitomenadiona; Biperideno Cloridrato e Biperideno Lactato; Isotretinoina.\n\nAVISO: resposta parcial. Foram analisadas apenas 4 publicação(ões); o corpus contém ao menos 139 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Ineditorial CHAMAMENTO nº 272/2025 (DODF edição 188, 2025-10-03, Seção III); Ineditorial CHAMAMENTO nº 072/2025 (DODF edição 52, 2025-03-18, Seção III); Ineditorial CHAMAMENTO nº 035/2025 (DODF edição 24, 2025-02-04, Seção III); Ineditorial AVISO nº 211/2025 (DODF edição 159, 2025-08-25, Seção III).",
+  "problemas": []
+ },
+ "val-092": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor total estimado para a aquisição de material médico no Hospital da Criança de Brasília com base nas informações fornecidas.",
+  "problemas": []
+ },
+ "val-093": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar com precisão o objeto da aquisição em Sistema de Registro de Preços para o Hospital da Criança de Brasília José Alencar, pois existem múltiplas publicações com diferentes objetos.",
+  "problemas": []
+ },
+ "val-094": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar os serviços de reparo e aquisições de insumos realizados no Hospital Regional de Samambaia com base nos documentos fornecidos.",
+  "problemas": []
+ },
+ "val-095": {
+  "status": "ambigua",
+  "resposta": "Há mais de uma publicação que pode responder a esta pergunta e não é possível escolher entre elas apenas com a informação fornecida: Portaria conjunta 12/2025 (DODF edição 84, 2025-05-08, Seção I); Aviso AVISO nº 005/2025 (DODF edição 175, 2025-09-16, Seção III). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-096": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um valor único autorizado para pagamento ao Hospital Pacini, pois há diferentes valores mencionados em publicações distintas.",
+  "problemas": []
+ },
+ "val-097": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Portaria Contrato nº 188/2024 (DODF edição 17, 2025-01-24, Seção I); Portaria conjunta 214/2025 (DODF edição 44, 2025-03-06, Seção I); Aviso AVISO nº 005/2025 (DODF edição 175, 2025-09-16, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-098": {
+  "status": "ambigua",
+  "resposta": "Foram adquiridos dois medicamentos para a Atenção Primária à Saúde na Região Oeste: LEVODOPA+BENSERAZIDA COMPRIMIDO SIMPLES (100MG+25MG) e FINASTERIDA COMPRIMIDO 5MG.",
+  "problemas": []
+ },
+ "val-099": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos materiais e serviços para o Hospital Regional de Ceilândia, incluindo álcool etílico absoluto, manutenção corretiva em macas, serviço na máquina de hemodiálise e serviço na osmose reversa.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 10 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato licitação nº 006/2025 (DODF edição 35, 2025-02-19, Seção III); Extrato 03/2025 (DODF edição 62, 2025-04-01, Seção III).",
+  "problemas": []
+ },
+ "val-100": {
+  "status": "parcial",
+  "resposta": "Foram realizadas aquisições para o Hospital Regional de Ceilândia: serviço na MÁQUINA DE HEMODIALISE no valor de R$ 1.254,67 e serviço na OSMOSE REVERSA no valor de R$ 2.724,32.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 18 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 03/2025 (DODF edição 62, 2025-04-01, Seção III).",
+  "problemas": []
+ },
+ "val-101": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um valor único autorizado para pagamento ao Hospital Anchieta, pois diferentes publicações mencionam valores distintos.",
+  "problemas": []
+ },
+ "val-102": {
+  "status": "parcial",
+  "resposta": "Os materiais de expediente adquiridos incluem Bobina de Plástico, Fita adesiva, Marcador para quadro e Fita para Impressora.\n\nAVISO: resposta parcial. Foram analisadas apenas 3 publicação(ões); o corpus contém ao menos 32 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Ineditorial CHAMAMENTO nº 274/2025 (DODF edição 191, 2025-10-08, Seção III); Ineditorial CHAMAMENTO nº 272/2025 (DODF edição 188, 2025-10-03, Seção III); Ineditorial CHAMAMENTO nº 039/2025 (DODF edição 30, 2025-02-12, Seção III).",
+  "problemas": []
+ },
+ "val-103": {
+  "status": "ambigua",
+  "resposta": "Há diferentes serviços habilitados para prestação em Ceilândia, conforme os editais de credenciamento.",
+  "problemas": []
+ },
+ "val-104": {
+  "status": "ambigua",
+  "resposta": "O objeto da contratação varia conforme o chamamento. Para obter informações específicas, é necessário identificar qual chamamento está sendo referenciado.",
+  "problemas": []
+ },
+ "val-105": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-106": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato 00315393/2025 (DODF edição 121, 2025-07-02, Seção III); Extrato 3/2025 (DODF edição 49, 2025-03-13, Seção III); Termo CONTRATO nº 02/2025 (DODF edição 55, 2025-03-21, Seção III); Extrato 078/2020 (DODF edição 93, 2025-05-21, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-107": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 321/2025 (DODF edição 74, 2025-04-22, Seção III); Extrato 154/2021 (DODF edição 1, 2025-01-02, Seção III); Extrato 165/2021 (DODF edição 1, 2025-01-02, Seção III); Extrato Contrato nº 76/2019 (DODF edição 2, 2025-01-03, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-108": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "caracteres_fora_do_alfabeto"
+  ]
+ },
+ "val-109": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": []
+ },
+ "val-110": {
+  "status": "ambigua",
+  "resposta": "As empresas vencedoras variam conforme o chamamento. Para obter informações precisas, é necessário especificar qual chamamento ou objeto de aquisição.",
+  "problemas": []
+ },
+ "val-111": {
+  "status": "parcial",
+  "resposta": "Foram contratados os seguintes serviços de infraestrutura para o Hospital Regional de Brazlândia: câmara de conservação de baixa temperatura e poltrona de acompanhante.\n\nAVISO: resposta parcial, baseada apenas nas 2 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato 03/2025 (DODF edição 62, 2025-04-01, Seção III); Extrato 08/2025 (DODF edição 163, 2025-08-29, Seção III).",
+  "problemas": []
+ },
+ "val-112": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-113": {
+  "status": "ambigua",
+  "resposta": "Há diferentes valores para a aquisição de Fita Reagente Glicemia Capilar, conforme os trechos fornecidos.",
+  "problemas": []
+ },
+ "val-114": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos serviços de reparo de câmaras frias, freezers e outros equipamentos médicos para atender às necessidades da Região de Saúde Sudoeste.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 33 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 02/2025 (DODF edição 46, 2025-03-10, Seção III); Extrato de dispensa de licitação 10/2025 (DODF edição 209, 2025-11-04, Seção III).",
+  "problemas": []
+ },
+ "val-115": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar com clareza quem foi responsável pela autorização do pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas, pois diferentes documentos mencionam nomes distintos.",
+  "problemas": []
+ },
+ "val-116": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-117": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar com clareza os insumos adquiridos para atender às necessidades do Hospital de Planaltina.",
+  "problemas": []
+ },
+ "val-118": {
+  "status": "parcial",
+  "resposta": "O Hospital Regional de Brazlândia adquiriu a mascara de proteção respiratória PFF2 (equivalente a N95), identificada pelo Código SES 6542.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 2 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 03/2025 (DODF edição 62, 2025-04-01, Seção III).",
+  "problemas": []
+ },
+ "val-119": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-120": {
+  "status": "ambigua",
+  "resposta": "Existem dois valores diferentes para a dívida reconhecida ao Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia: R$119.159,52 e R$169.905,44.",
+  "problemas": []
+ },
+ "val-121": {
+  "status": "ambigua",
+  "resposta": "O prazo para instalação dos equipamentos é estabelecido como até 60 dias corridos após a entrega, conforme mencionado no contrato.",
+  "problemas": []
+ },
+ "val-122": {
+  "status": "ambigua",
+  "resposta": "Há diferentes valores autorizados para pagamento ao Hospital Santa Lúcia em publicações distintas.",
+  "problemas": []
+ },
+ "val-123": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um valor único para a dívida reconhecida para o Hospital São Mateus, pois diferentes publicações mencionam valores distintos.",
+  "problemas": []
+ },
+ "val-124": {
+  "status": "ambigua",
+  "resposta": "O responsável pela autorização de pagamento ao Hospital Santa Lúcia foi mencionado em diferentes publicações.",
+  "problemas": []
+ },
+ "val-125": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar um único valor da dívida reconhecida pelo Hospital Santa Marta.",
+  "problemas": []
+ },
+ "val-126": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": [
+   "trecho_nao_literal:C2",
+   "citacao_em_outro_chunk:C2->C1"
+  ]
+ },
+ "val-127": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-128": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Ineditorial CHAMAMENTO nº 226/2025 (DODF edição 150, 2025-08-12, Seção III); Ineditorial CHAMAMENTO nº 194/2025 (DODF edição 133, 2025-07-18, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-129": {
+  "status": "ambigua",
+  "resposta": "Não foi possível identificar com clareza o representante da instituição credenciada no hospital em relação ao processo de credenciamento.",
+  "problemas": []
+ },
+ "val-130": {
+  "status": "insuficiente",
+  "resposta": "No registro de Autorização 133/2021 (DODF edição 1, 2025-01-02, Seção III) em que consta o identificador 11.859.927/0007-93, a localidade informada é asa norte, e não asa sul; por isso o item não responde à pergunta.",
+  "problemas": [
+   "localidade_conflitante_no_registro"
+  ]
+ },
+ "val-131": {
+  "status": "parcial",
+  "resposta": "Foram contratados serviços de manutenção corretiva de cama para leito elétrica em aço inoxidável e lavadora termodesinfetora, além de prestação de serviços de engenharia de manutenção preventiva, corretiva, preditiva e assistência técnica.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 3 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 00347421/2024 (DODF edição 67, 2025-04-08, Seção III); Extrato CONTRATO nº 169/2025 (DODF edição 196, 2025-10-15, Seção III).",
+  "problemas": []
+ },
+ "val-132": {
+  "status": "ambigua",
+  "resposta": "Duas empresas foram contratadas para prestação de serviços de Anatomia Patológica no Hospital da Criança de Brasília: Micra Laboratório de Anatomia Patológica e Citopatologia Ltda e Instituto Hermes Pardini AS.",
+  "problemas": []
+ },
+ "val-133": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor autorizado para pagamento ao Hospital Lago Sul, pois há diferentes valores mencionados em publicações distintas.",
+  "problemas": []
+ },
+ "val-134": {
+  "status": "ambigua",
+  "resposta": "Servicos de manutenção corretiva ratificados para as UBS na Região Oeste incluem: Câmara Fria Biotecnológica da UBS 8 BRZ, Bebedouro Industrial na UBS 11 de Ceilândia, Autoclave Horizontal Lufercó da UBS 12 CEI e Seladora Automática da UBS 02 HRBZ. Além disso, manutenção corretiva em Câmara de Vacina localizada na UBS 2 Asa Norte e UTAI (Rodoviária).",
+  "problemas": []
+ },
+ "val-135": {
+  "status": "ambigua",
+  "resposta": "Há mais de uma publicação que pode responder a esta pergunta e não é possível escolher entre elas apenas com a informação fornecida: Reconhecimento de dívida 03/2025 (DODF edição 58, 2025-03-26, Seção III); Reconhecimento de dívida 00001371/2024 (DODF edição 96, 2025-05-26, Seção III); Reconhecimento de dívida 00000141/2024 (DODF edição 108, 2025-06-11, Seção III); Reconhecimento de dívida 00001385/2024 (DODF edição 76, 2025-04-24, Seção III); Reconhecimento de dívida 00001409/2024 (DODF edição 95, 2025-05-23, Seção III). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+  "problemas": []
+ },
+ "val-136": {
+  "status": "insuficiente",
+  "resposta": "Extrato 09/2025 (DODF edição 14, 2025-01-21, Seção III) remete o atributo solicitado (especialidades) a documento não publicado nas publicações consultadas (Doc. SEI nº 160711978); a informação solicitada não está disponível aqui.",
+  "problemas": [
+   "remissao_a_documento_nao_publicado"
+  ]
+ },
+ "val-137": {
+  "status": "ambigua",
+  "resposta": "O período de vigência do credenciamento do Hospital Santa Marta varia conforme o documento. Para o Termo de Credenciamento nº 56046/2025, a vigência é de 19/11/2025 a 19/11/2030. Já para o 4º Aditivo ao Termo de Credenciamento nº 01/2020, a vigência foi de 01/01/2025 a 22/11/2025.",
+  "problemas": []
+ },
+ "val-138": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor total da aquisição de ataduras de crepom para o Hospital Regional de Samambaia, pois diferentes processos apresentam valores distintos.",
+  "problemas": []
+ },
+ "val-139": {
+  "status": "ambigua",
+  "resposta": "As publicações recuperadas trazem informações diferentes em edições de datas diferentes: Aplicação de penalidade Contrato nº 277/2023 (DODF edição 22, 2025-01-31, Seção III): 05 (cinco) no Hospital Regional de Taguatinga - HRT; Extrato CONTRATO nº 277/2023 (DODF edição 22, 2025-01-31, Seção III): para a execução de serviços de manutenção corretiva, preventiva, preditiva e eventual, com fornecimento de peças, materiais de reposição, ferramental e insumos, assistência técnica e quaisquer outros; Extrato 02/2025 (DODF edição 46, 2025-03-10, Seção III): atender às necessidades do Hospital Regional de Taguatinga. Informe a publicação, a data ou o contrato desejado.",
+  "problemas": []
+ },
+ "val-140": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor total gasto com a aquisição de pano multiuso para o Hospital de Planaltina, pois existem diferentes valores registrados em publicações distintas.",
+  "problemas": []
+ },
+ "val-141": {
+  "status": "insuficiente",
+  "resposta": "Não encontrei esta informação nos trechos das publicações analisados (3 de 28 trechos de Ata 02/2025 (DODF edição 127, 2025-07-10, Seção I)). Isso não significa que ela não conste da publicação.",
+  "problemas": [
+   "ausencia_nao_encontrada_contexto_parcial"
+  ]
+ },
+ "val-142": {
+  "status": "ambigua",
+  "resposta": "A dívida refere-se a anos diferentes: 2021 e 2020.",
+  "problemas": []
+ },
+ "val-143": {
+  "status": "parcial",
+  "resposta": "Foram adquiridos os seguintes insumos hospitalares para o Hospital de Apoio de Brasília em junho de 2025: AGULHA HIPODERMICA 40 X 1,2 COM DISPOSITIVO DE SEGURANÇA DESCARTAVEL, QUETIAPINA COMPRIMIDO 25MG e LIDOCAINA (CLORIDRATO) GELEIA 2 % BISNAGA 30 G.\n\nAVISO: resposta parcial, baseada apenas nas 2 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Extrato 00195546/2025 (DODF edição 140, 2025-07-29, Seção III); Extrato 00053909/2025 (DODF edição 104, 2025-06-05, Seção III).",
+  "problemas": []
+ },
+ "val-144": {
+  "status": "insuficiente",
+  "resposta": "Não foi possível confirmar uma resposta nas publicações recuperadas.",
+  "problemas": []
+ },
+ "val-145": {
+  "status": "ambigua",
+  "resposta": "Não foi possível determinar o valor da dívida reconhecida referente aos serviços prestados no hospital em 2021, pois há diferentes valores mencionados para diferentes hospitais.",
+  "problemas": []
+ },
+ "val-146": {
+  "status": "ambigua",
+  "resposta": "Há diferentes valores autorizados para pagamento ao Hospital Santa Lúcia, conforme os documentos publicados.",
+  "problemas": []
+ },
+ "val-147": {
+  "status": "fora_do_escopo",
+  "resposta": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ]
+ },
+ "val-148": {
+  "status": "ambigua",
+  "resposta": "A pergunta permite mais de uma interpretação, pois há referência a diferentes instituições hospitalares autorizadas a receber pagamento de dívida.",
+  "problemas": []
+ },
+ "val-149": {
+  "status": "insuficiente",
+  "resposta": "Portaria numerada 03/2006 (DODF edição 205, 2025-10-29, Seção I) não menciona a localidade perguntada (ceilandia); o trecho dessa publicação não pode ser associado a ela.",
+  "problemas": [
+   "publicacao_sem_vinculo_com_a_localidade"
+  ]
+ }
+}

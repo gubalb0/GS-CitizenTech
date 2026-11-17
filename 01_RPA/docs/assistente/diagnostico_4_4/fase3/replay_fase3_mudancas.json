@@ -1,0 +1,91 @@
+{
+ "val-039": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "As unidades de saúde em São Sebastião que receberão equipamentos odontológicos conforme o contrato de distribuição são as descritas nos códigos SES mencionados no documento, mas não foram especificadas suas denominações.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 100 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato Contrato nº 051690/2024 (DODF edição 42, 2025-02-28, Seção III)."
+  },
+  "fase3": {
+   "status": "insuficiente",
+   "resposta": "Não encontrei esta informação nos trechos das publicações analisados (1 de 28 trechos de Extrato Contrato nº 051690/2024 (DODF edição 42, 2025-02-28, Seção III)). Isso não significa que ela não conste da publicação.",
+   "problemas": [
+    "ausencia_nao_encontrada_contexto_parcial"
+   ]
+  }
+ },
+ "val-047": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "O programa de residência médica disponível no Hospital Regional do Gama é Anestesiologia.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I)."
+  },
+  "fase3": {
+   "status": "parcial",
+   "resposta": "Entre os itens encontrados em Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I), consta: 402 - Anestesiologia - Hospital Regional do Gama (HRG). Este é apenas um dos itens da lista; a publicação traz outros itens e a lista não é exaustiva.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Aviso 1/2024 (DODF edição 22, 2025-01-31, Seção I).",
+   "problemas": []
+  }
+ },
+ "val-050": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "Foram adquiridos os seguintes insumos farmacêuticos para o Hospital Regional de Taguatinga: MIDAZOLAM SOLUÇÃO INJETÁVEL 15 MG AMPOLA 3 ML, HEPARINA SODICA SOLUÇÃO INJETÁVEL 5000 UI/0,25 ML AMPOLA 0,25 M e METARAMINOL (HEMITARTARATO) SOLUÇÃO INJETÁVEL 10 MG/ML AMPOLA 1M.\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 2 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 07/2025 (DODF edição 159, 2025-08-25, Seção III); Extrato 01/2025 (DODF edição 28, 2025-02-10, Seção III)."
+  },
+  "fase3": {
+   "status": "insuficiente",
+   "resposta": "Extrato 01/2025 (DODF edição 28, 2025-02-10, Seção III) refere-se ao período de 31/01/2025 a 06/02/2025 (referencia), que não coincide com o período solicitado (31/07/2025 a 22/08/2025); por isso não é possível responder com segurança.",
+   "problemas": [
+    "periodo_incompativel"
+   ]
+  }
+ },
+ "val-087": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação de normas e protocolos de internação hospitalar no Hospital Regional do Gama (HRG).\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I)."
+  },
+  "fase3": {
+   "status": "insuficiente",
+   "resposta": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  }
+ },
+ "val-130": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "As empresas credenciadas para prestar serviços assistenciais clínicos e cirúrgicos na Asa Sul são: Biosphere Health Center (CNPJ: 11.859.927/0007-93) e VISÃO HOSPITAL DE OLHOS (CNPJ: 37.114.071/0001-25).\n\nAVISO: resposta parcial. Foram analisadas apenas 2 publicação(ões); o corpus contém ao menos 10 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Autorização 133/2021 (DODF edição 1, 2025-01-02, Seção III); Autorização Edital nº 01/2024 (DODF edição 112, 2025-06-17, Seção III)."
+  },
+  "fase3": {
+   "status": "insuficiente",
+   "resposta": "No registro de Autorização 133/2021 (DODF edição 1, 2025-01-02, Seção III) em que consta o identificador 11.859.927/0007-93, a localidade informada é asa norte, e não asa sul; por isso o item não responde à pergunta.",
+   "problemas": [
+    "localidade_conflitante_no_registro"
+   ]
+  }
+ },
+ "val-136": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "A empresa credenciada no Hospital Home propôs serviços assistenciais clínicos e cirúrgicos eletivos e de urgência e emergência.\n\nAVISO: resposta parcial. Foram analisadas apenas 1 publicação(ões); o corpus contém ao menos 6 outra(s) publicação(ões) potencialmente relevante(s) que não foram analisadas, portanto não é possível confirmar que a lista está completa.\n\nFonte: Extrato 09/2025 (DODF edição 14, 2025-01-21, Seção III)."
+  },
+  "fase3": {
+   "status": "insuficiente",
+   "resposta": "Extrato 09/2025 (DODF edição 14, 2025-01-21, Seção III) remete o atributo solicitado (especialidades) a documento não publicado nas publicações consultadas (Doc. SEI nº 160711978); a informação solicitada não está disponível aqui.",
+   "problemas": [
+    "remissao_a_documento_nao_publicado"
+   ]
+  }
+ },
+ "val-141": {
+  "fase2": {
+   "status": "parcial",
+   "resposta": "A proposta menciona o apoio a medidas preventivas e de saúde pública por meio da epidemiologia forense aplicada à segurança, mas não especifica detalhes sobre a Região Norte.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ata 02/2025 (DODF edição 127, 2025-07-10, Seção I)."
+  },
+  "fase3": {
+   "status": "insuficiente",
+   "resposta": "Não encontrei esta informação nos trechos das publicações analisados (3 de 28 trechos de Ata 02/2025 (DODF edição 127, 2025-07-10, Seção I)). Isso não significa que ela não conste da publicação.",
+   "problemas": [
+    "ausencia_nao_encontrada_contexto_parcial"
+   ]
+  }
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "sem_termos": [],
+ "conflitos": [
+  [
+   "val-087",
+   "insuficiente",
+   9,
+   [
+    [
+     "C2",
+     true,
+     true
+    ],
+    [
+     "C2",
+     true,
+     true
+    ]
+   ]
+  ]
+ ],
+ "sinteticos": {
+  "S1_sem_termos_mensuraveis_rotulo_conflitante_citado_e_nao_usado": {
+   "status": "insuficiente",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ],
+   "termos": [],
+   "relacoes": [
+    [
+     "C1",
+     "compativel",
+     true,
+     false
+    ],
+    [
+     "C1",
+     "compativel",
+     true,
+     false
+    ],
+    [
+     "C2",
+     "conflito",
+     true,
+     true
+    ],
+    [
+     "C2",
+     "conflito",
+     true,
+     true
+    ]
+   ]
+  },
+  "S1b_controle_mesma_resposta_com_um_termo_mensuravel": {
+   "status": "respondida",
+   "problemas": [],
+   "termos": [
+    "vigencia"
+   ],
+   "relacoes": [
+    [
+     "C1",
+     "compativel",
+     true,
+     false
+    ],
+    [
+     "C1",
+     "compativel",
+     true,
+     false
+    ],
+    [
+     "C2",
+     "conflito",
+     false,
+     false
+    ],
+    [
+     "C2",
+     "conflito",
+     false,
+     false
+    ]
+   ]
+  },
+  "S3_termo_coincidente_so_no_trecho_conflitante": {
+   "status": "insuficiente",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ],
+   "termos": [
+    "reajuste",
+    "cirurgica",
+    "altera"
+   ],
+   "relacoes": [
+    [
+     "C1",
+     "compativel",
+     false,
+     false
+    ],
+    [
+     "C1",
+     "compativel",
+     false,
+     false
+    ],
+    [
+     "C2",
+     "conflito",
+     true,
+     true
+    ],
+    [
+     "C2",
+     "conflito",
+     true,
+     true
+    ]
+   ]
+  },
+  "S2_conflitante_e_o_proprio_apoio_da_afirmacao_com_termo_compartilhado": {
+   "status": "insuficiente",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ],
+   "termos": [
+    "predio",
+    "santos"
+   ],
+   "relacoes": [
+    [
+     "C1",
+     "compativel",
+     false,
+     false
+    ],
+    [
+     "C1",
+     "conflito",
+     true,
+     true
+    ],
+    [
+     "C1",
+     "compativel",
+     false,
+     false
+    ],
+    [
+     "C1",
+     "conflito",
+     true,
+     true
+    ]
+   ]
+  }
+ }
+}

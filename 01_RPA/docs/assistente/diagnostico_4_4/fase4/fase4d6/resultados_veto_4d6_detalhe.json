@@ -1,0 +1,992 @@
+{
+ "alvos": [
+  {
+   "id": "S01",
+   "conjunto": "sintetico",
+   "alvo": "Alfa",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S02",
+   "conjunto": "sintetico",
+   "alvo": "Alfa",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": true,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S03",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "complementar",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S04",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_verificavel",
+   "derivado": {
+    "cat": "nao_relacionada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S05",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "ambiguo",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S06",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_sustentado_herdado",
+   "derivado": {
+    "cat": "sem_vinculo_amplo",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S07",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_sustentado_herdado",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S08",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_sustentado_outro_atributo",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S09",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "sustentado_documental",
+   "derivado": {
+    "cat": "documental",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": true
+   }
+  },
+  {
+   "id": "S10",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_sustentado_herdado",
+   "derivado": {
+    "cat": "sem_vinculo_amplo",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S11",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": false,
+    "contra_b": true,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S12",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S13",
+   "conjunto": "sintetico",
+   "alvo": "HRS",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S14",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S15",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_sustentado_outro_atributo",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": true,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S16",
+   "conjunto": "sintetico",
+   "alvo": "Ceilândia",
+   "esperado": "nao_sustentado_herdado",
+   "derivado": {
+    "cat": "sem_vinculo_amplo",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S17",
+   "conjunto": "sintetico",
+   "alvo": "Atenção Primária",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": false,
+    "contra_b": true,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [
+     1
+    ],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S18",
+   "conjunto": "sintetico",
+   "alvo": "Atenção Primária",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S19",
+   "conjunto": "sintetico",
+   "alvo": "Alfa",
+   "esperado": "ambiguo",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": true,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S20",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_verificavel",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S21",
+   "conjunto": "sintetico",
+   "alvo": "manutenção de tomógrafos",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S21",
+   "conjunto": "sintetico",
+   "alvo": "aquisição de ambulâncias",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": false,
+    "contra_b": true,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S22",
+   "conjunto": "sintetico",
+   "alvo": "Alfa",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "complementar",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S23",
+   "conjunto": "sintetico",
+   "alvo": "HRT",
+   "esperado": "nao_verificavel",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S24",
+   "conjunto": "sintetico",
+   "alvo": "Gama",
+   "esperado": "ambiguo",
+   "derivado": {
+    "cat": "sem_vinculo_amplo",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S25",
+   "conjunto": "sintetico",
+   "alvo": "Gama",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "citada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "S26",
+   "conjunto": "sintetico",
+   "alvo": "Gama",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": true,
+     "N4": true
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "val-087-A-r1",
+   "conjunto": "real",
+   "alvo": "Gama",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": true,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "val-087-A-r1",
+   "conjunto": "real",
+   "alvo": "CRSSU",
+   "esperado": "sustentado_documental",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "val-024",
+   "conjunto": "real",
+   "alvo": "Hospital Regional de Ceilândia",
+   "esperado": "nao_sustentado_herdado",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": false,
+    "contra_b": true,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "val-031",
+   "conjunto": "real",
+   "alvo": "Hospital da Criança de Brasília José Alencar",
+   "esperado": "sustentado_documental",
+   "derivado": {
+    "cat": "documental",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": true
+   }
+  },
+  {
+   "id": "val-020",
+   "conjunto": "real",
+   "alvo": "Gama",
+   "esperado": "ambiguo",
+   "derivado": {
+    "cat": "nao_verificavel",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "val-083",
+   "conjunto": "real",
+   "alvo": "item VITAMINA D (doc 495)",
+   "esperado": "sustentado",
+   "derivado": {
+    "cat": "nao_relacionada",
+    "contra_a": false,
+    "contra_b": false,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  },
+  {
+   "id": "val-083",
+   "conjunto": "real",
+   "alvo": "item CLORETO DE SODIO (doc 1444)",
+   "esperado": "nao_sustentado_outra_entidade",
+   "derivado": {
+    "cat": "conflitante",
+    "contra_a": false,
+    "contra_b": true,
+    "contra_c": {
+     "N3": false,
+     "N4": false
+    },
+    "doc_expl": [],
+    "sujeito": false
+   }
+  }
+ ],
+ "resumo": {
+  "sintetico|N3|V0": {
+   "falsos_vinculos_aceitos": 7,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 4,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "1/7",
+   "ambiguos(aceita/encaminha/rejeita)": "2/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "2/0/1"
+  },
+  "sintetico|N3|V1": {
+   "falsos_vinculos_aceitos": 1,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 10,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "7/7",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/2",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "2/0/1"
+  },
+  "sintetico|N3|V2": {
+   "falsos_vinculos_aceitos": 0,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 11,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "7/7",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/3",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "1/0/2"
+  },
+  "sintetico|N3|V3": {
+   "falsos_vinculos_aceitos": 2,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 9,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "6/7",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/2",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "2/0/1"
+  },
+  "sintetico|N4|V0": {
+   "falsos_vinculos_aceitos": 8,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 3,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 1,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "0/7",
+   "ambiguos(aceita/encaminha/rejeita)": "2/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "2/0/1"
+  },
+  "sintetico|N4|V1": {
+   "falsos_vinculos_aceitos": 2,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 9,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 1,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "6/7",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/2",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "2/0/1"
+  },
+  "sintetico|N4|V2": {
+   "falsos_vinculos_aceitos": 0,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 11,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "7/7",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/3",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "1/0/2"
+  },
+  "sintetico|N4|V3": {
+   "falsos_vinculos_aceitos": 3,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 8,
+   "legitimas_aceitas": 9,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 1,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "5/7",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/2",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "2/0/1"
+  },
+  "real|N3|V0": {
+   "falsos_vinculos_aceitos": 2,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 1,
+   "legitimas_aceitas": 1,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "0/2",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N3|V1": {
+   "falsos_vinculos_aceitos": 0,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 3,
+   "legitimas_aceitas": 1,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "2/2",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N3|V2": {
+   "falsos_vinculos_aceitos": 0,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 3,
+   "legitimas_aceitas": 0,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 1,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 2,
+   "conflitantes_rejeitadas": "2/2",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N3|V3": {
+   "falsos_vinculos_aceitos": 1,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 2,
+   "legitimas_aceitas": 1,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N4|V0": {
+   "falsos_vinculos_aceitos": 2,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 1,
+   "legitimas_aceitas": 1,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "0/2",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/0",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N4|V1": {
+   "falsos_vinculos_aceitos": 1,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 2,
+   "legitimas_aceitas": 1,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/0",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N4|V2": {
+   "falsos_vinculos_aceitos": 0,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 3,
+   "legitimas_aceitas": 0,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 1,
+   "documentais_preservadas(aceita+encaminha)": 0,
+   "documentais_rejeitadas": 2,
+   "conflitantes_rejeitadas": "2/2",
+   "ambiguos(aceita/encaminha/rejeita)": "0/0/1",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  },
+  "real|N4|V3": {
+   "falsos_vinculos_aceitos": 1,
+   "negativos_encaminhados(nao_aceitos)": 0,
+   "negativos_rejeitados": 2,
+   "legitimas_aceitas": 1,
+   "legitimas_encaminhadas": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2",
+   "ambiguos(aceita/encaminha/rejeita)": "1/0/0",
+   "nao_verificaveis(aceita/encaminha/rejeita)": "0/0/0"
+  }
+ },
+ "sensibilidade": {
+  "ablacao V1[a]|sintetico|N3": {
+   "falsos_vinculos_aceitos": 5,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "3/7"
+  },
+  "ablacao V1[a+b]|sintetico|N3": {
+   "falsos_vinculos_aceitos": 2,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "6/7"
+  },
+  "ablacao V1[a+b+c]|sintetico|N3": {
+   "falsos_vinculos_aceitos": 1,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "7/7"
+  },
+  "ablacao V1[c_so]|sintetico|N3": {
+   "falsos_vinculos_aceitos": 6,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 1,
+   "conflitantes_rejeitadas": "2/7"
+  },
+  "ablacao V1[a]|sintetico|N4": {
+   "falsos_vinculos_aceitos": 6,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "2/7"
+  },
+  "ablacao V1[a+b]|sintetico|N4": {
+   "falsos_vinculos_aceitos": 3,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "5/7"
+  },
+  "ablacao V1[a+b+c]|sintetico|N4": {
+   "falsos_vinculos_aceitos": 2,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "6/7"
+  },
+  "ablacao V1[c_so]|sintetico|N4": {
+   "falsos_vinculos_aceitos": 7,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/7"
+  },
+  "ablacao V1[a]|real|N3": {
+   "falsos_vinculos_aceitos": 2,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "0/2"
+  },
+  "ablacao V1[a+b]|real|N3": {
+   "falsos_vinculos_aceitos": 1,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2"
+  },
+  "ablacao V1[a+b+c]|real|N3": {
+   "falsos_vinculos_aceitos": 0,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "2/2"
+  },
+  "ablacao V1[c_so]|real|N3": {
+   "falsos_vinculos_aceitos": 1,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2"
+  },
+  "ablacao V1[a]|real|N4": {
+   "falsos_vinculos_aceitos": 2,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "0/2"
+  },
+  "ablacao V1[a+b]|real|N4": {
+   "falsos_vinculos_aceitos": 1,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2"
+  },
+  "ablacao V1[a+b+c]|real|N4": {
+   "falsos_vinculos_aceitos": 1,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "1/2"
+  },
+  "ablacao V1[c_so]|real|N4": {
+   "falsos_vinculos_aceitos": 2,
+   "legitimas_rejeitadas": 0,
+   "documentais_rejeitadas": 0,
+   "conflitantes_rejeitadas": "0/2"
+  },
+  "N2|sintetico": {
+   "aceitos_so_por_N2": [
+    "S03",
+    "S22"
+   ],
+   "por_anafora": [
+    "S03",
+    "S22"
+   ],
+   "por_introducao_com_dois_pontos": [],
+   "perdidos_sem_anafora": [
+    "S03",
+    "S22"
+   ],
+   "perdidos_sem_adjacencia(N1 apenas)": [
+    "S03",
+    "S22"
+   ]
+  },
+  "N2|real": {
+   "aceitos_so_por_N2": [],
+   "por_anafora": [],
+   "por_introducao_com_dois_pontos": [],
+   "perdidos_sem_anafora": [],
+   "perdidos_sem_adjacencia(N1 apenas)": []
+  },
+  "V3 com documental aceito|sintetico|N4": {
+   "falsos_vinculos_aceitos": 3,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 1
+  },
+  "V3 com documental aceito|real|N4": {
+   "falsos_vinculos_aceitos": 1,
+   "legitimas_rejeitadas": 0,
+   "documentais_preservadas(aceita+encaminha)": 2
+  },
+  "registros_vizinhos": {
+   "sintetico": [],
+   "real": []
+  },
+  "adjacente_sem_vinculo_(proximidade)": {
+   "sintetico": [
+    "S04",
+    "S11",
+    "S17",
+    "S21"
+   ],
+   "real": [
+    "val-083"
+   ]
+  },
+  "positivos_ou_documentais_rejeitados": {
+   "sintetico|N3|V0": [
+    "S09(doc)"
+   ],
+   "sintetico|N3|V1": [
+    "S09(doc)"
+   ],
+   "sintetico|N3|V2": [
+    "S09(doc)"
+   ],
+   "sintetico|N3|V3": [
+    "S09(doc)"
+   ],
+   "sintetico|N4|V2": [
+    "S09(doc)"
+   ],
+   "real|N3|V2": [
+    "val-087-A-r1(doc)",
+    "val-031(doc)",
+    "val-083(pos)"
+   ],
+   "real|N4|V2": [
+    "val-087-A-r1(doc)",
+    "val-031(doc)",
+    "val-083(pos)"
+   ]
+  },
+  "diagnostico_val083_vitamina": {
+   "unidade": "VITAMINA D 400 UI/G., para atender as necessidades da Atenção Primária, no valor global de R$20.400,00.",
+   "termos_do_item": [
+    "vitamina"
+   ],
+   "ocorrencias_do_termo": [
+    0
+   ],
+   "ocorrencias_de_400": [
+    11,
+    96
+   ],
+   "relacao_com_prototipo_4D5_como_esta": [
+    "coocorrencia",
+    "fronteira de clausula entre entidade e atributo"
+   ],
+   "relacao_com_regex_de_abreviatura_pretendida(copia local, diagnostico)": [
+    "explicita",
+    "10 palavras entre a entidade e o atributo"
+   ],
+   "linha_122_no_arquivo_4D5(unicode_escape)": "    entre = re.sub(r\"\\x08(\\\\w{1,3})\\\\.\", r\"\\x01\", entre)   # ponto de abreviatura ('UI/G.') nao e fronteira"
+  }
+ }
+}

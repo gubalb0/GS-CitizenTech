@@ -1,0 +1,638 @@
+{
+ "A01": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "evidencia_nao_corresponde_a_pergunta:nome=gama"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "A02": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "BLOQUEIA",
+  "C_causas": "BLOQUEIA",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "atribuicoes",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; nenhum termo da resposta depende so de trechos com este conflito: nao bloqueia"
+   }
+  ]
+ },
+ "A03": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   }
+  ]
+ },
+ "A04": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; nenhum termo da resposta depende so de trechos com este conflito: nao bloqueia"
+   }
+  ]
+ },
+ "A05": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": false,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   }
+  ]
+ },
+ "A06": {
+  "decisao_ideal_4d3": "indeterminado",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "BLOQUEIA",
+  "C_causas": "BLOQUEIA",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; nenhum termo da resposta depende so de trechos com este conflito: nao bloqueia"
+   }
+  ]
+ },
+ "A07": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "respondida",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "objeto",
+    "estado": "compativel",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'objeto' (OBJETO) compativel com o atributo 'objeto'"
+   },
+   {
+    "fonte": "C1",
+    "rotulo": "valor",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'valor' (VALOR) incompativel com o atributo 'objeto'; nenhum termo da resposta depende so de trechos com este conflito: nao bloqueia"
+   }
+  ]
+ },
+ "B01": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "atribuicoes",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; o trecho e o unico apoio, entre trechos sem este conflito, de termo(s) da resposta: ['diretor', 'hrg']"
+   }
+  ]
+ },
+ "B02": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   }
+  ]
+ },
+ "B03": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   }
+  ]
+ },
+ "B04": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "BLOQUEIA",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo 'titular' (MEMBRO) no inicio do trecho, mas o proprio trecho contem 'compete' (familia compativel com 'competencias'): relacao semantica nao verificada automaticamente"
+   }
+  ]
+ },
+ "B05": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "compete",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": false,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; nenhum termo da resposta depende so de trechos com este conflito: nao bloqueia"
+   }
+  ]
+ },
+ "B06": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": null,
+    "estado": "desconhecido",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "atribuicoes",
+    "justificativa": "rotulo, destinatario e localidade fora do que e verificavel por estrutura: associacao nao verificavel"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; o trecho e o unico apoio, entre trechos sem este conflito, de termo(s) da resposta: ['gersu']"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; o trecho e o unico apoio, entre trechos sem este conflito, de termo(s) da resposta: ['nov']"
+   }
+  ]
+ },
+ "B07": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; o trecho e o unico apoio, entre trechos sem este conflito, de termo(s) da resposta: ['hrg']"
+   },
+   {
+    "fonte": "C2",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; o trecho e o unico apoio, entre trechos sem este conflito, de termo(s) da resposta: ['hrsm']"
+   }
+  ]
+ },
+ "C01": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "respondida",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "objeto",
+    "estado": "compativel",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'objeto' (OBJETO) compativel com o atributo 'objeto'"
+   }
+  ]
+ },
+ "C02": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "ambigua",
+  "problemas": [],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "C03": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "ambigua",
+  "problemas": [],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "C04": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "evidencia_nao_corresponde_a_pergunta:nome=alfa,numero=12/2025"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "C05": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "evidencias_de_publicacoes_distintas_combinadas"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "C06": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "evidencias_de_publicacoes_distintas_combinadas"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "C07": {
+  "decisao_ideal_4d3": "indeterminado",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "evidencia_nao_corresponde_a_pergunta:numero=12/2025"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "D01": {
+  "decisao_ideal_4d3": "indeterminado",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "contratada",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'contratada' (PARTE) incompativel com o atributo 'objeto'; uso nao mensuravel (nenhum termo da resposta apoiado por trecho): fail-closed"
+   }
+  ]
+ },
+ "D02": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:planaltina"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "D03": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "evidencia_nao_corresponde_a_pergunta:nome=planaltina"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "D04": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:obras"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "D05": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "valores_nao_sustentados:90.000,00"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": []
+ },
+ "D06": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "respondida",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "objeto",
+    "estado": "compativel",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'objeto' (OBJETO) compativel com o atributo 'objeto'"
+   }
+  ]
+ },
+ "D07": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "respondida",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "objeto",
+    "estado": "compativel",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'objeto' (OBJETO) compativel com o atributo 'objeto'"
+   }
+  ]
+ },
+ "D08": {
+  "decisao_ideal_4d3": "entregar",
+  "status_baseline": "respondida",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "objeto",
+    "estado": "compativel",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": null,
+    "justificativa": "rotulo 'objeto' (OBJETO) compativel com o atributo 'objeto'"
+   }
+  ]
+ },
+ "D09": {
+  "decisao_ideal_4d3": "bloquear",
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "contratada",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'contratada' (PARTE) incompativel com o atributo 'objeto'; uso nao mensuravel (nenhum termo da resposta apoiado por trecho): fail-closed"
+   }
+  ]
+ },
+ "P1_sintetica": {
+  "decisao_ideal_4d3": null,
+  "status_baseline": "parcial",
+  "problemas": [],
+  "C_estado": "libera",
+  "C_causas": "libera",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [],
+    "necessaria": true,
+    "bloqueia": false,
+    "cue": "competencia",
+    "justificativa": "rotulo 'titular' (MEMBRO) no inicio do trecho, mas o proprio trecho contem 'competencia' (familia compativel com 'competencias'): relacao semantica nao verificada automaticamente"
+   }
+  ],
+  "descricao": "SONDA SINTÉTICA: span de membro com a palavra 'competência' incidental (nome de órgão), sem atribuir competência; resposta usa conteúdo só desse span"
+ },
+ "P2_sintetica": {
+  "decisao_ideal_4d3": null,
+  "status_baseline": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "C_estado": "ja_bloqueado",
+  "C_causas": "ja_bloqueado",
+  "citacoes": [
+   {
+    "fonte": "C1",
+    "rotulo": "titular",
+    "estado": "conflito",
+    "causas": [
+     "rotulo"
+    ],
+    "necessaria": true,
+    "bloqueia": true,
+    "cue": null,
+    "justificativa": "rotulo 'titular' (MEMBRO) incompativel com o atributo 'competencias'; o trecho e o unico apoio, entre trechos sem este conflito, de termo(s) da resposta: ['incumbe', 'diretor', 'hrg', 'deliberar']"
+   }
+  ],
+  "descricao": "SONDA SINTÉTICA: span de membro que afirma a atribuição com palavra fora da lista de rótulos ('incumbe'); resposta usa esse conteúdo"
+ },
+ "_conferencia_baseline_vs_4d3_divergencias": []
+}

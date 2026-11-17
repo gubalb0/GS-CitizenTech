@@ -1,0 +1,9 @@
+{
+ "congelado_em": "2026-11-16T21:35:03",
+ "sha256": {
+  "CASOS_SINTETICOS_4D5.json": "9a24350e98624ef41640b7082ec10bc1c308720ec6e346efc147ff3c550e4d18",
+  "ESPECIFICACAO_REAIS_4D5.json": "988a9bfbb5fb16c49251ee626332337548570945772a37fe218f994cc8f0dbca",
+  "ROTULAGEM_4D5.md": "dea66b5832807b7b5fa5ec09e2a8330c84889cf09182da8ebb171112dc4c9462"
+ },
+ "observacao": "gerado antes de escrever/executar o prot\u00f3tipo"
+}

@@ -1,0 +1,749 @@
+{
+ "res150_entregues": [
+  {
+   "id": "val-000",
+   "pergunta": "Qual empresa foi inabilitada no credenciamento para prestação de serviço de cirurgia oftalmológica no hospital?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-002",
+   "pergunta": "Qual medicamento foi adquirido para o Hospital da Criança de Brasília José Alencar no Chamamento nº 270/2025?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-003",
+   "pergunta": "Qual empresa foi ratificada para fornecimento de tintas para tecido ao Hospital São Vicente de Paulo?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-006",
+   "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "compativel"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-007",
+   "pergunta": "Quais serviços de saúde estão sendo implementados em Riacho Fundo II?",
+   "classe_4_3_ou_nd": "Incorreta",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-012",
+   "pergunta": "Quais equipamentos médicos foram adquiridos para o Hospital Regional de Ceilândia?",
+   "classe_4_3_ou_nd": "Incorreta",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-013",
+   "pergunta": "Quais são as aquisições de insumos e serviços realizadas para atender às necessidades do Hospital Regional de Taguatinga na região Sudoeste?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-017",
+   "pergunta": "Quais estabelecimentos de saúde na Asa Sul possuem brigada de incêndio própria credenciada?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-020",
+   "pergunta": "Quais estabelecimentos de saúde foram credenciados para prestar serviços de radiologia e medicina nuclear no Gama?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": "gama",
+   "C_causas_bloqueia": "gama"
+  },
+  {
+   "id": "val-021",
+   "pergunta": "Quais serviços de saúde mental estão sendo credenciados para atender os beneficiários da Polícia Militar em Sobradinho?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-024",
+   "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-031",
+   "pergunta": "Quais foram os indicadores de satisfação dos pacientes no Hospital da Criança de Brasília José Alencar durante o terceiro trimestre de 2023?",
+   "classe_4_3_ou_nd": "Abstencao indevida",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": "crianca",
+   "C_causas_bloqueia": "crianca"
+  },
+  {
+   "id": "val-032",
+   "pergunta": "Quais Unidades Básicas de Saúde no Jardim Botânico foram incluídas no contrato com a empresa Vida Diagnósticos?",
+   "classe_4_3_ou_nd": "Abstencao indevida",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-041",
+   "pergunta": "Qual instituição de saúde em Ceilândia teve seu crédito orçamentário descentralizado para pagamento de despesas de exercícios anteriores?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-044",
+   "pergunta": "Quais serviços de saúde estão sendo credenciados para atender beneficiários na Asa Sul?",
+   "classe_4_3_ou_nd": "Abstencao indevida",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-047",
+   "pergunta": "Quais programas de residência médica estão disponíveis no Hospital Regional do Gama?",
+   "classe_4_3_ou_nd": "Abstencao indevida",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-049",
+   "pergunta": "Quem foi eleito como membro efetivo da Comissão de Ética Médica da Unidade de Pronto Atendimento Riacho Fundo II?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-059",
+   "pergunta": "Quais materiais e equipamentos foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-066",
+   "pergunta": "Quais materiais médicos foram adquiridos para o Hospital da Criança de Brasília em fevereiro de 2025?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-070",
+   "pergunta": "Quais medicamentos e materiais hospitalares foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-090",
+   "pergunta": "Qual foi o motivo do cancelamento do Chamamento nº 202/2025 no Hospital da Criança de Brasília?",
+   "classe_4_3_ou_nd": "Correta",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-091",
+   "pergunta": "Quais medicamentos foram objeto de aquisição para o Hospital da Criança de Brasília?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-099",
+   "pergunta": "Quais equipamentos e materiais foram adquiridos para o Hospital Regional de Ceilândia conforme as publicações do DODF?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-100",
+   "pergunta": "Quais aquisições de equipamentos hospitalares foram realizadas para o Hospital Regional de Ceilândia?",
+   "classe_4_3_ou_nd": "Incorreta",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-102",
+   "pergunta": "Quais materiais de expediente estão sendo adquiridos para o Hospital da Criança de Brasília?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-111",
+   "pergunta": "Quais serviços de infraestrutura foram contratados para o Hospital Regional de Brazlândia?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-114",
+   "pergunta": "Quais são os serviços de saúde adquiridos para atender às necessidades da Região de Saúde Sudoeste?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-118",
+   "pergunta": "Quais itens de proteção respiratória foram adquiridos para o Hospital Regional de Brazlândia?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-131",
+   "pergunta": "Quais serviços de manutenção e equipamentos foram contratados para o Hospital Regional de Planaltina?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "compativel"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-143",
+   "pergunta": "Quais insumos hospitalares foram adquiridos para o Hospital de Apoio de Brasília em junho de 2025?",
+   "classe_4_3_ou_nd": "Correta, mas parcial",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  }
+ ],
+ "res150_C_bloqueios": [
+  "val-020",
+  "val-031"
+ ],
+ "res21_entregues": [
+  {
+   "id": "val-087-A-r1",
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "conflito",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    [
+     "rotulo"
+    ],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-087-B-r1",
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-006-C-r1",
+   "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "compativel"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-024-C-r1",
+   "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-087-B-r2",
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-024-C-r2",
+   "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-006-C-r2",
+   "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "compativel"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-087-B-r3",
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "parcial",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido",
+    "desconhecido"
+   ],
+   "causas": [
+    [],
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-006-C-r3",
+   "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "compativel"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  },
+  {
+   "id": "val-024-C-r3",
+   "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+   "classe_4_3_ou_nd": "n/d (sem gabarito humano; ver auditoria 4C)",
+   "status_baseline": "respondida",
+   "problemas": [],
+   "entregue": true,
+   "estados_citacoes": [
+    "desconhecido"
+   ],
+   "causas": [
+    []
+   ],
+   "C_estado_bloqueia": null,
+   "C_causas_bloqueia": null
+  }
+ ],
+ "B1B2_mudancas": {
+  "B1": {
+   "150": [],
+   "21": [
+    "val-087-A-r1"
+   ]
+  },
+  "B2": {
+   "150": [],
+   "21": [
+    "val-087-A-r1"
+   ]
+  }
+ },
+ "itens_titular_total": 24,
+ "itens_titular_com_cue_competencia": [
+  {
+   "doc": 174,
+   "item": "13 - Titular: Chefe do Núcleo de Ouvidoria do HRSM, da Ouvidoria do HRSM (NOVSM); Suplente: Substituto legal do cargo. Art. 3º Além do Superintendente, que o presidirá, e na sua ausência o seu Substit",
+   "cue_competencia": "competencia"
+  },
+  {
+   "doc": 180,
+   "item": "13 - Titular: Chefe do Núcleo de Ouvidoria do HRSM, da Ouvidoria do HRSM (NOVSM); Suplente: Substituto legal do cargo. Art. 3º Além do Superintendente, que o presidirá, e na sua ausência o seu Substit",
+   "cue_competencia": "competencia"
+  }
+ ],
+ "docs_com_titular": [
+  174,
+  180
+ ]
+}

@@ -1,0 +1,6509 @@
+{
+ "resumo": {
+  "s1_atual_altera": [
+   "val-011",
+   "val-074",
+   "val-080",
+   "val-087",
+   "val-125",
+   "val-133"
+  ],
+  "s1_conservadora_altera": [
+   "val-074",
+   "val-087"
+  ],
+  "inalterados_conservadora": 148,
+  "promocoes_redundantes_evitadas": [
+   "val-011",
+   "val-080",
+   "val-125",
+   "val-133"
+  ],
+  "diverge_do_prototipo": [],
+  "orcamento_max_tokens": {
+   "baseline": 2998,
+   "s1_atual": 2998,
+   "s1_conservadora": 2998
+  },
+  "entregues_4_3_afetadas": [],
+  "grupos_que_mudam": {
+   "val-074": [
+    "B",
+    "A",
+    "A"
+   ],
+   "val-080": [
+    "B",
+    "A",
+    "B"
+   ]
+  },
+  "tokens_alterados": {
+   "val-011": [
+    2886,
+    2882,
+    2886
+   ],
+   "val-074": [
+    2916,
+    2985,
+    2985
+   ],
+   "val-080": [
+    2716,
+    2712,
+    2716
+   ],
+   "val-087": [
+    2948,
+    2928,
+    2928
+   ],
+   "val-125": [
+    2790,
+    2741,
+    2790
+   ],
+   "val-133": [
+    2801,
+    2802,
+    2801
+   ]
+  },
+  "chunks_promovidos": {
+   "val-074": [
+    "dodf-28:est300o30:0000"
+   ],
+   "val-087": [
+    "dodf-174:est300o30:0002",
+    "dodf-174:est300o30:0003"
+   ]
+  }
+ },
+ "por_pergunta": {
+  "val-000": {
+   "baseline": [
+    "dodf-1647:est300o30:0000",
+    "dodf-1343:est300o30:0000",
+    "dodf-1360:est300o30:0000",
+    "dodf-1361:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1647:est300o30:0000",
+    "dodf-1343:est300o30:0000",
+    "dodf-1360:est300o30:0000",
+    "dodf-1361:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1647:est300o30:0000",
+    "dodf-1343:est300o30:0000",
+    "dodf-1360:est300o30:0000",
+    "dodf-1361:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1638:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-001": {
+   "baseline": [
+    "dodf-719:est300o30:0005",
+    "dodf-349:est300o30:0001",
+    "dodf-956:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-719:est300o30:0005",
+    "dodf-349:est300o30:0001",
+    "dodf-956:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-719:est300o30:0005",
+    "dodf-349:est300o30:0001",
+    "dodf-956:est300o30:0001"
+   ],
+   "tokens": [
+    2718,
+    2718,
+    2718
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-957:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-289:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-002": {
+   "baseline": [
+    "dodf-1600:est300o30:0001",
+    "dodf-284:est300o30:0000",
+    "dodf-166:est300o30:0006"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1600:est300o30:0001",
+    "dodf-284:est300o30:0000",
+    "dodf-166:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1600:est300o30:0001",
+    "dodf-284:est300o30:0000",
+    "dodf-166:est300o30:0006"
+   ],
+   "tokens": [
+    2616,
+    2616,
+    2616
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-228:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1512:est300o30:0012",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-003": {
+   "baseline": [
+    "dodf-1395:est300o30:0000",
+    "dodf-1231:est300o30:0000",
+    "dodf-1723:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1395:est300o30:0000",
+    "dodf-1231:est300o30:0000",
+    "dodf-1723:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1395:est300o30:0000",
+    "dodf-1231:est300o30:0000",
+    "dodf-1723:est300o30:0000"
+   ],
+   "tokens": [
+    2674,
+    2674,
+    2674
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-478:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1526:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-004": {
+   "baseline": [
+    "dodf-1142:est300o30:0001",
+    "dodf-1468:est300o30:0001",
+    "dodf-1468:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1142:est300o30:0001",
+    "dodf-1468:est300o30:0001",
+    "dodf-1468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1142:est300o30:0001",
+    "dodf-1468:est300o30:0001",
+    "dodf-1468:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-935:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1142:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-005": {
+   "baseline": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "tokens": [
+    2642,
+    2642,
+    2642
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-469:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-006": {
+   "baseline": [
+    "dodf-957:est300o30:0000",
+    "dodf-28:est300o30:0000",
+    "dodf-1014:est300o30:0104"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-957:est300o30:0000",
+    "dodf-28:est300o30:0000",
+    "dodf-1014:est300o30:0104"
+   ],
+   "s1_conservadora": [
+    "dodf-957:est300o30:0000",
+    "dodf-28:est300o30:0000",
+    "dodf-1014:est300o30:0104"
+   ],
+   "tokens": [
+    2910,
+    2910,
+    2910
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-596:est300o30:0100",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1178:est300o30:0196",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-007": {
+   "baseline": [
+    "dodf-1236:est300o30:0008",
+    "dodf-1236:est300o30:0012",
+    "dodf-1449:est300o30:0008"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1236:est300o30:0008",
+    "dodf-1236:est300o30:0012",
+    "dodf-1449:est300o30:0008"
+   ],
+   "s1_conservadora": [
+    "dodf-1236:est300o30:0008",
+    "dodf-1236:est300o30:0012",
+    "dodf-1449:est300o30:0008"
+   ],
+   "tokens": [
+    2848,
+    2848,
+    2848
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-303:est300o30:0020",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-303:est300o30:0007",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-008": {
+   "baseline": [
+    "dodf-1014:est300o30:0236",
+    "dodf-89:est300o30:0000",
+    "dodf-1510:est300o30:0005"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1014:est300o30:0236",
+    "dodf-89:est300o30:0000",
+    "dodf-1510:est300o30:0005"
+   ],
+   "s1_conservadora": [
+    "dodf-1014:est300o30:0236",
+    "dodf-89:est300o30:0000",
+    "dodf-1510:est300o30:0005"
+   ],
+   "tokens": [
+    2927,
+    2927,
+    2927
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1502:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1313:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-009": {
+   "baseline": [
+    "dodf-1473:est300o30:0006",
+    "dodf-1236:est300o30:0006",
+    "dodf-1473:est300o30:0011"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1473:est300o30:0006",
+    "dodf-1236:est300o30:0006",
+    "dodf-1473:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-1473:est300o30:0006",
+    "dodf-1236:est300o30:0006",
+    "dodf-1473:est300o30:0011"
+   ],
+   "tokens": [
+    2983,
+    2983,
+    2983
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1473:est300o30:0014",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1473:est300o30:0016",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-010": {
+   "baseline": [
+    "dodf-1143:est300o30:0000",
+    "dodf-1184:est300o30:0000",
+    "dodf-963:est300o30:0006"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1143:est300o30:0000",
+    "dodf-1184:est300o30:0000",
+    "dodf-963:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1143:est300o30:0000",
+    "dodf-1184:est300o30:0000",
+    "dodf-963:est300o30:0006"
+   ],
+   "tokens": [
+    2602,
+    2602,
+    2602
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-803:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1512:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-011": {
+   "baseline": [
+    "dodf-1611:est300o30:0002",
+    "dodf-856:est300o30:0128",
+    "dodf-859:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1438:est300o30:0000",
+    "dodf-1611:est300o30:0002",
+    "dodf-856:est300o30:0128"
+   ],
+   "s1_conservadora": [
+    "dodf-1611:est300o30:0002",
+    "dodf-856:est300o30:0128",
+    "dodf-859:est300o30:0000"
+   ],
+   "tokens": [
+    2886,
+    2882,
+    2886
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1438:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": "endereco",
+     "decisao": "descartado",
+     "motivo": "promocao redundante evitada: o contexto ja cobre o atributo (dodf-859:est300o30:0000:rotulo)"
+    },
+    {
+     "chunk_id": "dodf-162:est300o30:0140",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original"
+    }
+   ]
+  },
+  "val-012": {
+   "baseline": [
+    "dodf-238:est300o30:0003",
+    "dodf-560:est300o30:0017",
+    "dodf-807:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-238:est300o30:0003",
+    "dodf-560:est300o30:0017",
+    "dodf-807:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-238:est300o30:0003",
+    "dodf-560:est300o30:0017",
+    "dodf-807:est300o30:0000"
+   ],
+   "tokens": [
+    2592,
+    2592,
+    2592
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-956:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1455:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-013": {
+   "baseline": [
+    "dodf-1352:est300o30:0000",
+    "dodf-1182:est300o30:0000",
+    "dodf-242:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1352:est300o30:0000",
+    "dodf-1182:est300o30:0000",
+    "dodf-242:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0000",
+    "dodf-1182:est300o30:0000",
+    "dodf-242:est300o30:0000"
+   ],
+   "tokens": [
+    2997,
+    2997,
+    2997
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-619:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-960:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-014": {
+   "baseline": [
+    "dodf-633:est300o30:0001",
+    "dodf-681:est300o30:0001",
+    "dodf-1143:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-633:est300o30:0001",
+    "dodf-681:est300o30:0001",
+    "dodf-1143:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-633:est300o30:0001",
+    "dodf-681:est300o30:0001",
+    "dodf-1143:est300o30:0000"
+   ],
+   "tokens": [
+    2960,
+    2960,
+    2960
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-273:est300o30:0008",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1664:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-015": {
+   "baseline": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2606,
+    2606,
+    2606
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1245:est300o30:0031",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1246:est300o30:0032",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-016": {
+   "baseline": [
+    "dodf-482:est300o30:0000",
+    "dodf-528:est300o30:0000",
+    "dodf-1570:est300o30:0000",
+    "dodf-735:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-482:est300o30:0000",
+    "dodf-528:est300o30:0000",
+    "dodf-1570:est300o30:0000",
+    "dodf-735:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-482:est300o30:0000",
+    "dodf-528:est300o30:0000",
+    "dodf-1570:est300o30:0000",
+    "dodf-735:est300o30:0000"
+   ],
+   "tokens": [
+    2956,
+    2956,
+    2956
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-822:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-017": {
+   "baseline": [
+    "dodf-1121:est300o30:0004",
+    "dodf-418:est300o30:0011",
+    "dodf-1121:est300o30:0003"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1121:est300o30:0004",
+    "dodf-418:est300o30:0011",
+    "dodf-1121:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-1121:est300o30:0004",
+    "dodf-418:est300o30:0011",
+    "dodf-1121:est300o30:0003"
+   ],
+   "tokens": [
+    2750,
+    2750,
+    2750
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1121:est300o30:0006",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-418:est300o30:0014",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-018": {
+   "baseline": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "tokens": [
+    2642,
+    2642,
+    2642
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-469:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-019": {
+   "baseline": [
+    "dodf-1512:est300o30:0012",
+    "dodf-1234:est300o30:0002",
+    "dodf-1512:est300o30:0011"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1512:est300o30:0012",
+    "dodf-1234:est300o30:0002",
+    "dodf-1512:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-1512:est300o30:0012",
+    "dodf-1234:est300o30:0002",
+    "dodf-1512:est300o30:0011"
+   ],
+   "tokens": [
+    2760,
+    2760,
+    2760
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1447:est300o30:0003",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1035:est300o30:0023",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-020": {
+   "baseline": [
+    "dodf-361:est300o30:0001",
+    "dodf-1009:est300o30:0035",
+    "dodf-1054:est300o30:0003"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-361:est300o30:0001",
+    "dodf-1009:est300o30:0035",
+    "dodf-1054:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-361:est300o30:0001",
+    "dodf-1009:est300o30:0035",
+    "dodf-1054:est300o30:0003"
+   ],
+   "tokens": [
+    2931,
+    2931,
+    2931
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1009:est300o30:0036",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-574:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-021": {
+   "baseline": [
+    "dodf-5:est300o30:0000",
+    "dodf-1449:est300o30:0007",
+    "dodf-1611:est300o30:0018"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-5:est300o30:0000",
+    "dodf-1449:est300o30:0007",
+    "dodf-1611:est300o30:0018"
+   ],
+   "s1_conservadora": [
+    "dodf-5:est300o30:0000",
+    "dodf-1449:est300o30:0007",
+    "dodf-1611:est300o30:0018"
+   ],
+   "tokens": [
+    2966,
+    2966,
+    2966
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1599:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1244:est300o30:0007",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-022": {
+   "baseline": [
+    "dodf-1178:est300o30:0196",
+    "dodf-174:est300o30:0004",
+    "dodf-1405:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1178:est300o30:0196",
+    "dodf-174:est300o30:0004",
+    "dodf-1405:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-1178:est300o30:0196",
+    "dodf-174:est300o30:0004",
+    "dodf-1405:est300o30:0001"
+   ],
+   "tokens": [
+    2941,
+    2941,
+    2941
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1507:est300o30:0001",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1460:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-023": {
+   "baseline": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-255:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-024": {
+   "baseline": [
+    "dodf-718:est300o30:0000",
+    "dodf-1131:est300o30:0010",
+    "dodf-1131:est300o30:0011"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-718:est300o30:0000",
+    "dodf-1131:est300o30:0010",
+    "dodf-1131:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-718:est300o30:0000",
+    "dodf-1131:est300o30:0010",
+    "dodf-1131:est300o30:0011"
+   ],
+   "tokens": [
+    2969,
+    2969,
+    2969
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1131:est300o30:0008",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1131:est300o30:0009",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-025": {
+   "baseline": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2604,
+    2604,
+    2604
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1245:est300o30:0031",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1246:est300o30:0032",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-026": {
+   "baseline": [
+    "dodf-592:est300o30:0000",
+    "dodf-594:est300o30:0000",
+    "dodf-595:est300o30:0000",
+    "dodf-606:est300o30:0000",
+    "dodf-404:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-592:est300o30:0000",
+    "dodf-594:est300o30:0000",
+    "dodf-595:est300o30:0000",
+    "dodf-606:est300o30:0000",
+    "dodf-404:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-592:est300o30:0000",
+    "dodf-594:est300o30:0000",
+    "dodf-595:est300o30:0000",
+    "dodf-606:est300o30:0000",
+    "dodf-404:est300o30:0000"
+   ],
+   "tokens": [
+    2827,
+    2827,
+    2827
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": []
+  },
+  "val-027": {
+   "baseline": [
+    "dodf-1012:est300o30:0000",
+    "dodf-922:est300o30:0000",
+    "dodf-932:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1012:est300o30:0000",
+    "dodf-922:est300o30:0000",
+    "dodf-932:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1012:est300o30:0000",
+    "dodf-922:est300o30:0000",
+    "dodf-932:est300o30:0000"
+   ],
+   "tokens": [
+    2762,
+    2762,
+    2762
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-463:est300o30:0001",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-187:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-028": {
+   "baseline": [
+    "dodf-187:est300o30:0002",
+    "dodf-1702:est300o30:0006",
+    "dodf-187:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-187:est300o30:0002",
+    "dodf-1702:est300o30:0006",
+    "dodf-187:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-187:est300o30:0002",
+    "dodf-1702:est300o30:0006",
+    "dodf-187:est300o30:0000"
+   ],
+   "tokens": [
+    2848,
+    2848,
+    2848
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-681:est300o30:0001",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1240:est300o30:0011",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-029": {
+   "baseline": [
+    "dodf-1667:est300o30:0001",
+    "dodf-1321:est300o30:0150",
+    "dodf-1321:est300o30:0155",
+    "dodf-1243:est300o30:0009"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1667:est300o30:0001",
+    "dodf-1321:est300o30:0150",
+    "dodf-1321:est300o30:0155",
+    "dodf-1243:est300o30:0009"
+   ],
+   "s1_conservadora": [
+    "dodf-1667:est300o30:0001",
+    "dodf-1321:est300o30:0150",
+    "dodf-1321:est300o30:0155",
+    "dodf-1243:est300o30:0009"
+   ],
+   "tokens": [
+    2980,
+    2980,
+    2980
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1321:est300o30:0151",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-030": {
+   "baseline": [
+    "dodf-1332:est300o30:0000",
+    "dodf-1021:est300o30:0000",
+    "dodf-1702:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1332:est300o30:0000",
+    "dodf-1021:est300o30:0000",
+    "dodf-1702:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1332:est300o30:0000",
+    "dodf-1021:est300o30:0000",
+    "dodf-1702:est300o30:0004"
+   ],
+   "tokens": [
+    2670,
+    2670,
+    2670
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1508:est300o30:0001",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1367:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-031": {
+   "baseline": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1464:est300o30:0004",
+    "dodf-1463:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1464:est300o30:0004",
+    "dodf-1463:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1464:est300o30:0004",
+    "dodf-1463:est300o30:0002"
+   ],
+   "tokens": [
+    2983,
+    2983,
+    2983
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-360:est300o30:0023",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-110:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-032": {
+   "baseline": [
+    "dodf-1451:est300o30:0000",
+    "dodf-1351:est300o30:0037",
+    "dodf-1645:est300o30:0218"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1451:est300o30:0000",
+    "dodf-1351:est300o30:0037",
+    "dodf-1645:est300o30:0218"
+   ],
+   "s1_conservadora": [
+    "dodf-1451:est300o30:0000",
+    "dodf-1351:est300o30:0037",
+    "dodf-1645:est300o30:0218"
+   ],
+   "tokens": [
+    2671,
+    2671,
+    2671
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-99:est300o30:0016",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-42:est300o30:0013",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-033": {
+   "baseline": [
+    "dodf-917:est300o30:0000",
+    "dodf-440:est300o30:0007",
+    "dodf-1026:est300o30:0008"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-917:est300o30:0000",
+    "dodf-440:est300o30:0007",
+    "dodf-1026:est300o30:0008"
+   ],
+   "s1_conservadora": [
+    "dodf-917:est300o30:0000",
+    "dodf-440:est300o30:0007",
+    "dodf-1026:est300o30:0008"
+   ],
+   "tokens": [
+    2847,
+    2847,
+    2847
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-824:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-440:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-034": {
+   "baseline": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2606,
+    2606,
+    2606
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1245:est300o30:0031",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1246:est300o30:0032",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-035": {
+   "baseline": [
+    "dodf-1009:est300o30:0047",
+    "dodf-1009:est300o30:0045",
+    "dodf-968:est300o30:0039"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1009:est300o30:0047",
+    "dodf-1009:est300o30:0045",
+    "dodf-968:est300o30:0039"
+   ],
+   "s1_conservadora": [
+    "dodf-1009:est300o30:0047",
+    "dodf-1009:est300o30:0045",
+    "dodf-968:est300o30:0039"
+   ],
+   "tokens": [
+    2759,
+    2759,
+    2759
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1009:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1009:est300o30:0015",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-036": {
+   "baseline": [
+    "dodf-2:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1510:est300o30:0005",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-2:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1510:est300o30:0005",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_conservadora": [
+    "dodf-2:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1510:est300o30:0005",
+    "dodf-1242:est300o30:0034"
+   ],
+   "tokens": [
+    2973,
+    2973,
+    2973
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1243:est300o30:0037",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-037": {
+   "baseline": [
+    "dodf-951:est300o30:0004",
+    "dodf-1724:est300o30:0005",
+    "dodf-1012:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-951:est300o30:0004",
+    "dodf-1724:est300o30:0005",
+    "dodf-1012:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-951:est300o30:0004",
+    "dodf-1724:est300o30:0005",
+    "dodf-1012:est300o30:0001"
+   ],
+   "tokens": [
+    2962,
+    2962,
+    2962
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1642:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-187:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-038": {
+   "baseline": [
+    "dodf-1159:est300o30:0000",
+    "dodf-1158:est300o30:0000",
+    "dodf-1156:est300o30:0000",
+    "dodf-1157:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1159:est300o30:0000",
+    "dodf-1158:est300o30:0000",
+    "dodf-1156:est300o30:0000",
+    "dodf-1157:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1159:est300o30:0000",
+    "dodf-1158:est300o30:0000",
+    "dodf-1156:est300o30:0000",
+    "dodf-1157:est300o30:0000"
+   ],
+   "tokens": [
+    2945,
+    2945,
+    2945
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-893:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-039": {
+   "baseline": [
+    "dodf-1365:est300o30:0002",
+    "dodf-303:est300o30:0000",
+    "dodf-1075:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1365:est300o30:0002",
+    "dodf-303:est300o30:0000",
+    "dodf-1075:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0002",
+    "dodf-303:est300o30:0000",
+    "dodf-1075:est300o30:0000"
+   ],
+   "tokens": [
+    2740,
+    2740,
+    2740
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-478:est300o30:0010",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1351:est300o30:0037",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-040": {
+   "baseline": [
+    "dodf-957:est300o30:0000",
+    "dodf-1142:est300o30:0001",
+    "dodf-1142:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-957:est300o30:0000",
+    "dodf-1142:est300o30:0001",
+    "dodf-1142:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-957:est300o30:0000",
+    "dodf-1142:est300o30:0001",
+    "dodf-1142:est300o30:0002"
+   ],
+   "tokens": [
+    2893,
+    2893,
+    2893
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-935:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1178:est300o30:0058",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-041": {
+   "baseline": [
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-398:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-398:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-398:est300o30:0000"
+   ],
+   "tokens": [
+    2537,
+    2537,
+    2537
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-483:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-529:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-042": {
+   "baseline": [
+    "dodf-1095:est300o30:0118",
+    "dodf-956:est300o30:0002",
+    "dodf-93:est300o30:0014"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1095:est300o30:0118",
+    "dodf-956:est300o30:0002",
+    "dodf-93:est300o30:0014"
+   ],
+   "s1_conservadora": [
+    "dodf-1095:est300o30:0118",
+    "dodf-956:est300o30:0002",
+    "dodf-93:est300o30:0014"
+   ],
+   "tokens": [
+    2956,
+    2956,
+    2956
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1678:est300o30:0013",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1009:est300o30:0026",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-043": {
+   "baseline": [
+    "dodf-1103:est300o30:0000",
+    "dodf-1126:est300o30:0000",
+    "dodf-836:est300o30:0000",
+    "dodf-426:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1103:est300o30:0000",
+    "dodf-1126:est300o30:0000",
+    "dodf-836:est300o30:0000",
+    "dodf-426:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1103:est300o30:0000",
+    "dodf-1126:est300o30:0000",
+    "dodf-836:est300o30:0000",
+    "dodf-426:est300o30:0000"
+   ],
+   "tokens": [
+    2712,
+    2712,
+    2712
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1061:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-044": {
+   "baseline": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0003",
+    "dodf-94:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0003",
+    "dodf-94:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0003",
+    "dodf-94:est300o30:0000"
+   ],
+   "tokens": [
+    2780,
+    2780,
+    2780
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1439:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1412:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-045": {
+   "baseline": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_conservadora": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "tokens": [
+    2820,
+    2820,
+    2820
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1645:est300o30:0218",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1359:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-046": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1476:est300o30:0000",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1476:est300o30:0000",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1476:est300o30:0000",
+    "dodf-1351:est300o30:0037"
+   ],
+   "tokens": [
+    2963,
+    2963,
+    2963
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-957:est300o30:0004",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1055:est300o30:0009",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-047": {
+   "baseline": [
+    "dodf-141:est300o30:0002",
+    "dodf-141:est300o30:0025",
+    "dodf-141:est300o30:0038"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-141:est300o30:0002",
+    "dodf-141:est300o30:0025",
+    "dodf-141:est300o30:0038"
+   ],
+   "s1_conservadora": [
+    "dodf-141:est300o30:0002",
+    "dodf-141:est300o30:0025",
+    "dodf-141:est300o30:0038"
+   ],
+   "tokens": [
+    2954,
+    2954,
+    2954
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-141:est300o30:0029",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-141:est300o30:0037",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-048": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1131:est300o30:0008",
+    "dodf-162:est300o30:0031"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1131:est300o30:0008",
+    "dodf-162:est300o30:0031"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1131:est300o30:0008",
+    "dodf-162:est300o30:0031"
+   ],
+   "tokens": [
+    2931,
+    2931,
+    2931
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1131:est300o30:0009",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-434:est300o30:0021",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-049": {
+   "baseline": [
+    "dodf-698:est300o30:0002",
+    "dodf-234:est300o30:0002",
+    "dodf-1023:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-698:est300o30:0002",
+    "dodf-234:est300o30:0002",
+    "dodf-1023:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-698:est300o30:0002",
+    "dodf-234:est300o30:0002",
+    "dodf-1023:est300o30:0004"
+   ],
+   "tokens": [
+    2565,
+    2565,
+    2565
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-968:est300o30:0018",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-303:est300o30:0020",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-050": {
+   "baseline": [
+    "dodf-1307:est300o30:0000",
+    "dodf-144:est300o30:0004",
+    "dodf-196:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1307:est300o30:0000",
+    "dodf-144:est300o30:0004",
+    "dodf-196:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1307:est300o30:0000",
+    "dodf-144:est300o30:0004",
+    "dodf-196:est300o30:0004"
+   ],
+   "tokens": [
+    2948,
+    2948,
+    2948
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-146:est300o30:0001",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-956:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-051": {
+   "baseline": [
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000",
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000",
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000",
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000"
+   ],
+   "tokens": [
+    2577,
+    2577,
+    2577
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-397:est300o30:0204",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-052": {
+   "baseline": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000",
+    "dodf-1182:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000",
+    "dodf-1182:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000",
+    "dodf-1182:est300o30:0000"
+   ],
+   "tokens": [
+    2998,
+    2998,
+    2998
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-242:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1683:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-053": {
+   "baseline": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1123:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1123:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1123:est300o30:0001"
+   ],
+   "tokens": [
+    2802,
+    2802,
+    2802
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1351:est300o30:0037",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-478:est300o30:0010",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-054": {
+   "baseline": [
+    "dodf-670:est300o30:0000",
+    "dodf-665:est300o30:0000",
+    "dodf-772:est300o30:0000",
+    "dodf-598:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-670:est300o30:0000",
+    "dodf-665:est300o30:0000",
+    "dodf-772:est300o30:0000",
+    "dodf-598:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-670:est300o30:0000",
+    "dodf-665:est300o30:0000",
+    "dodf-772:est300o30:0000",
+    "dodf-598:est300o30:0000"
+   ],
+   "tokens": [
+    2649,
+    2649,
+    2649
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-657:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-055": {
+   "baseline": [
+    "dodf-957:est300o30:0004",
+    "dodf-956:est300o30:0002",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-957:est300o30:0004",
+    "dodf-956:est300o30:0002",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_conservadora": [
+    "dodf-957:est300o30:0004",
+    "dodf-956:est300o30:0002",
+    "dodf-1351:est300o30:0037"
+   ],
+   "tokens": [
+    2922,
+    2922,
+    2922
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-478:est300o30:0010",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1067:est300o30:0017",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-056": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1649:est300o30:0004",
+    "dodf-1418:est300o30:0010"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1649:est300o30:0004",
+    "dodf-1418:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1649:est300o30:0004",
+    "dodf-1418:est300o30:0010"
+   ],
+   "tokens": [
+    2962,
+    2962,
+    2962
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1649:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1649:est300o30:0006",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-057": {
+   "baseline": [
+    "dodf-706:est300o30:0000",
+    "dodf-1110:est300o30:0000",
+    "dodf-1272:est300o30:0000",
+    "dodf-681:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-706:est300o30:0000",
+    "dodf-1110:est300o30:0000",
+    "dodf-1272:est300o30:0000",
+    "dodf-681:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-706:est300o30:0000",
+    "dodf-1110:est300o30:0000",
+    "dodf-1272:est300o30:0000",
+    "dodf-681:est300o30:0000"
+   ],
+   "tokens": [
+    2828,
+    2828,
+    2828
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-397:est300o30:0204",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-058": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-160:est300o30:0025",
+    "dodf-233:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-160:est300o30:0025",
+    "dodf-233:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-160:est300o30:0025",
+    "dodf-233:est300o30:0001"
+   ],
+   "tokens": [
+    2948,
+    2948,
+    2948
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-10:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-541:est300o30:0005",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-059": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1493:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1493:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1493:est300o30:0000"
+   ],
+   "tokens": [
+    2467,
+    2467,
+    2467
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1199:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1648:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-957:est300o30:0004",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-060": {
+   "baseline": [
+    "dodf-1351:est300o30:0037",
+    "dodf-956:est300o30:0002",
+    "dodf-1365:est300o30:0000",
+    "dodf-1451:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1351:est300o30:0037",
+    "dodf-956:est300o30:0002",
+    "dodf-1365:est300o30:0000",
+    "dodf-1451:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1351:est300o30:0037",
+    "dodf-956:est300o30:0002",
+    "dodf-1365:est300o30:0000",
+    "dodf-1451:est300o30:0000"
+   ],
+   "tokens": [
+    2992,
+    2992,
+    2992
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-957:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-061": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1307:est300o30:0013",
+    "dodf-473:est300o30:0024"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1307:est300o30:0013",
+    "dodf-473:est300o30:0024"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1307:est300o30:0013",
+    "dodf-473:est300o30:0024"
+   ],
+   "tokens": [
+    2947,
+    2947,
+    2947
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1533:est300o30:0042",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-196:est300o30:0013",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-062": {
+   "baseline": [
+    "dodf-1450:est300o30:0000",
+    "dodf-1372:est300o30:0000",
+    "dodf-1213:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1450:est300o30:0000",
+    "dodf-1372:est300o30:0000",
+    "dodf-1213:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1450:est300o30:0000",
+    "dodf-1372:est300o30:0000",
+    "dodf-1213:est300o30:0000"
+   ],
+   "tokens": [
+    2722,
+    2722,
+    2722
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1187:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1317:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-063": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-144:est300o30:0004",
+    "dodf-1091:est300o30:0010"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-144:est300o30:0004",
+    "dodf-1091:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-144:est300o30:0004",
+    "dodf-1091:est300o30:0010"
+   ],
+   "tokens": [
+    2983,
+    2983,
+    2983
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1307:est300o30:0008",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-242:est300o30:0008",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-064": {
+   "baseline": [
+    "dodf-1660:est300o30:0000",
+    "dodf-1408:est300o30:0002",
+    "dodf-41:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1660:est300o30:0000",
+    "dodf-1408:est300o30:0002",
+    "dodf-41:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1660:est300o30:0000",
+    "dodf-1408:est300o30:0002",
+    "dodf-41:est300o30:0004"
+   ],
+   "tokens": [
+    2729,
+    2729,
+    2729
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-249:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1009:est300o30:0004",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-065": {
+   "baseline": [
+    "dodf-861:est300o30:0000",
+    "dodf-829:est300o30:0000",
+    "dodf-1221:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-861:est300o30:0000",
+    "dodf-829:est300o30:0000",
+    "dodf-1221:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-861:est300o30:0000",
+    "dodf-829:est300o30:0000",
+    "dodf-1221:est300o30:0000"
+   ],
+   "tokens": [
+    2752,
+    2752,
+    2752
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-860:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1611:est300o30:0054",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-066": {
+   "baseline": [
+    "dodf-1522:est300o30:0005",
+    "dodf-169:est300o30:0001",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1522:est300o30:0005",
+    "dodf-169:est300o30:0001",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_conservadora": [
+    "dodf-1522:est300o30:0005",
+    "dodf-169:est300o30:0001",
+    "dodf-208:est300o30:0021"
+   ],
+   "tokens": [
+    2647,
+    2647,
+    2647
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-208:est300o30:0013",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-818:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-067": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-684:est300o30:0004",
+    "dodf-531:est300o30:0010"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-684:est300o30:0004",
+    "dodf-531:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-684:est300o30:0004",
+    "dodf-531:est300o30:0010"
+   ],
+   "tokens": [
+    2995,
+    2995,
+    2995
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-494:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-106:est300o30:0010",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-068": {
+   "baseline": [
+    "dodf-1538:est300o30:0000",
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1538:est300o30:0000",
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1538:est300o30:0000",
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-069": {
+   "baseline": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000"
+   ],
+   "tokens": [
+    2432,
+    2432,
+    2432
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1182:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-242:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1683:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-070": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1682:est300o30:0003",
+    "dodf-1199:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1682:est300o30:0003",
+    "dodf-1199:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1682:est300o30:0003",
+    "dodf-1199:est300o30:0000"
+   ],
+   "tokens": [
+    2975,
+    2975,
+    2975
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1648:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1091:est300o30:0018",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-071": {
+   "baseline": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "tokens": [
+    2693,
+    2693,
+    2693
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-658:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-072": {
+   "baseline": [
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1538:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1538:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1538:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-073": {
+   "baseline": [
+    "dodf-393:est300o30:0004",
+    "dodf-393:est300o30:0003",
+    "dodf-709:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-393:est300o30:0004",
+    "dodf-393:est300o30:0003",
+    "dodf-709:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-393:est300o30:0004",
+    "dodf-393:est300o30:0003",
+    "dodf-709:est300o30:0000"
+   ],
+   "tokens": [
+    2739,
+    2739,
+    2739
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1221:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-997:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-074": {
+   "baseline": [
+    "dodf-338:est300o30:0016",
+    "dodf-1722:est300o30:0024",
+    "dodf-442:est300o30:0015"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-28:est300o30:0000",
+    "dodf-338:est300o30:0016",
+    "dodf-1722:est300o30:0024"
+   ],
+   "s1_conservadora": [
+    "dodf-28:est300o30:0000",
+    "dodf-338:est300o30:0016",
+    "dodf-1722:est300o30:0024"
+   ],
+   "tokens": [
+    2916,
+    2985,
+    2985
+   ],
+   "grupos": [
+    "B",
+    "A",
+    "A"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-442:est300o30:0015",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "deslocado por chunk priorizado: orcamento"
+    },
+    {
+     "chunk_id": "dodf-28:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": "objeto",
+     "decisao": "priorizado",
+     "motivo": "rotulo 'objeto' repete o atributo pedido 'objeto' e o chunk contem a entidade da pergunta"
+    },
+    {
+     "chunk_id": "dodf-1014:est300o30:0104",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "descartado pelo orcamento (como na selecao original)"
+    }
+   ]
+  },
+  "val-075": {
+   "baseline": [
+    "dodf-670:est300o30:0000",
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-670:est300o30:0000",
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-670:est300o30:0000",
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2950,
+    2950,
+    2950
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1245:est300o30:0031",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-076": {
+   "baseline": [
+    "dodf-1008:est300o30:0008",
+    "dodf-51:est300o30:0009",
+    "dodf-956:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1008:est300o30:0008",
+    "dodf-51:est300o30:0009",
+    "dodf-956:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1008:est300o30:0008",
+    "dodf-51:est300o30:0009",
+    "dodf-956:est300o30:0002"
+   ],
+   "tokens": [
+    2883,
+    2883,
+    2883
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-303:est300o30:0006",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-303:est300o30:0019",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-077": {
+   "baseline": [
+    "dodf-1564:est300o30:0000",
+    "dodf-1193:est300o30:0000",
+    "dodf-1209:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1564:est300o30:0000",
+    "dodf-1193:est300o30:0000",
+    "dodf-1209:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1564:est300o30:0000",
+    "dodf-1193:est300o30:0000",
+    "dodf-1209:est300o30:0000"
+   ],
+   "tokens": [
+    2677,
+    2677,
+    2677
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1560:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1562:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-078": {
+   "baseline": [
+    "dodf-1261:est300o30:0003",
+    "dodf-1008:est300o30:0010",
+    "dodf-1008:est300o30:0011"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1261:est300o30:0003",
+    "dodf-1008:est300o30:0010",
+    "dodf-1008:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-1261:est300o30:0003",
+    "dodf-1008:est300o30:0010",
+    "dodf-1008:est300o30:0011"
+   ],
+   "tokens": [
+    2945,
+    2945,
+    2945
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-472:est300o30:0004",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-538:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-079": {
+   "baseline": [
+    "dodf-1091:est300o30:0007",
+    "dodf-382:est300o30:0008",
+    "dodf-101:est300o30:0015"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1091:est300o30:0007",
+    "dodf-382:est300o30:0008",
+    "dodf-101:est300o30:0015"
+   ],
+   "s1_conservadora": [
+    "dodf-1091:est300o30:0007",
+    "dodf-382:est300o30:0008",
+    "dodf-101:est300o30:0015"
+   ],
+   "tokens": [
+    2784,
+    2784,
+    2784
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-348:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1352:est300o30:0006",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-080": {
+   "baseline": [
+    "dodf-479:est300o30:0000",
+    "dodf-1487:est300o30:0000",
+    "dodf-1289:est300o30:0000",
+    "dodf-1390:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-407:est300o30:0000",
+    "dodf-479:est300o30:0000",
+    "dodf-1487:est300o30:0000",
+    "dodf-1289:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-479:est300o30:0000",
+    "dodf-1487:est300o30:0000",
+    "dodf-1289:est300o30:0000",
+    "dodf-1390:est300o30:0000"
+   ],
+   "tokens": [
+    2716,
+    2712,
+    2716
+   ],
+   "grupos": [
+    "B",
+    "A",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-407:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": "valor",
+     "decisao": "descartado",
+     "motivo": "promocao redundante evitada: o contexto ja cobre o atributo (dodf-479:est300o30:0000:valor_tipado, dodf-1289:est300o30:0000:rotulo, dodf-1390:est300o30:0000:rotulo)"
+    }
+   ]
+  },
+  "val-081": {
+   "baseline": [
+    "dodf-399:est300o30:0000",
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-399:est300o30:0000",
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-399:est300o30:0000",
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000"
+   ],
+   "tokens": [
+    2717,
+    2717,
+    2717
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-675:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-082": {
+   "baseline": [
+    "dodf-101:est300o30:0005",
+    "dodf-1155:est300o30:0001",
+    "dodf-1035:est300o30:0003"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-101:est300o30:0005",
+    "dodf-1155:est300o30:0001",
+    "dodf-1035:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-101:est300o30:0005",
+    "dodf-1155:est300o30:0001",
+    "dodf-1035:est300o30:0003"
+   ],
+   "tokens": [
+    2909,
+    2909,
+    2909
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-877:est300o30:0001",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-382:est300o30:0008",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-083": {
+   "baseline": [
+    "dodf-495:est300o30:0015",
+    "dodf-1444:est300o30:0014",
+    "dodf-1639:est300o30:0020"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-495:est300o30:0015",
+    "dodf-1444:est300o30:0014",
+    "dodf-1639:est300o30:0020"
+   ],
+   "s1_conservadora": [
+    "dodf-495:est300o30:0015",
+    "dodf-1444:est300o30:0014",
+    "dodf-1639:est300o30:0020"
+   ],
+   "tokens": [
+    2903,
+    2903,
+    2903
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1639:est300o30:0017",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1639:est300o30:0008",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-084": {
+   "baseline": [
+    "dodf-2:est300o30:0000",
+    "dodf-955:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-2:est300o30:0000",
+    "dodf-955:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-2:est300o30:0000",
+    "dodf-955:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "tokens": [
+    2825,
+    2825,
+    2825
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1299:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-085": {
+   "baseline": [
+    "dodf-1014:est300o30:0236",
+    "dodf-1225:est300o30:0000",
+    "dodf-511:est300o30:0000",
+    "dodf-1327:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1014:est300o30:0236",
+    "dodf-1225:est300o30:0000",
+    "dodf-511:est300o30:0000",
+    "dodf-1327:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1014:est300o30:0236",
+    "dodf-1225:est300o30:0000",
+    "dodf-511:est300o30:0000",
+    "dodf-1327:est300o30:0004"
+   ],
+   "tokens": [
+    2972,
+    2972,
+    2972
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1510:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-086": {
+   "baseline": [
+    "dodf-1067:est300o30:0172",
+    "dodf-1351:est300o30:0037",
+    "dodf-157:est300o30:0043"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1067:est300o30:0172",
+    "dodf-1351:est300o30:0037",
+    "dodf-157:est300o30:0043"
+   ],
+   "s1_conservadora": [
+    "dodf-1067:est300o30:0172",
+    "dodf-1351:est300o30:0037",
+    "dodf-157:est300o30:0043"
+   ],
+   "tokens": [
+    2862,
+    2862,
+    2862
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1095:est300o30:0118",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1479:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-087": {
+   "baseline": [
+    "dodf-174:est300o30:0004",
+    "dodf-174:est300o30:0001",
+    "dodf-174:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-174:est300o30:0002",
+    "dodf-174:est300o30:0003",
+    "dodf-174:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-174:est300o30:0002",
+    "dodf-174:est300o30:0003",
+    "dodf-174:est300o30:0004"
+   ],
+   "tokens": [
+    2948,
+    2928,
+    2928
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-174:est300o30:0001",
+     "posicao": 2,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "deslocado por chunk priorizado: orcamento"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "deslocado por chunk priorizado: orcamento"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": "competencia",
+     "decisao": "priorizado",
+     "motivo": "rotulo 'competencia' repete o atributo pedido 'competencias' e o chunk contem a entidade da pergunta"
+    },
+    {
+     "chunk_id": "dodf-174:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": "compete",
+     "decisao": "priorizado",
+     "motivo": "rotulo 'compete' repete o atributo pedido 'competencias' e o chunk contem a entidade da pergunta"
+    }
+   ]
+  },
+  "val-088": {
+   "baseline": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0035",
+    "dodf-1055:est300o30:0009"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0035",
+    "dodf-1055:est300o30:0009"
+   ],
+   "s1_conservadora": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0035",
+    "dodf-1055:est300o30:0009"
+   ],
+   "tokens": [
+    2897,
+    2897,
+    2897
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1351:est300o30:0019",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1611:est300o30:0034",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-089": {
+   "baseline": [
+    "dodf-560:est300o30:0017",
+    "dodf-1237:est300o30:0011",
+    "dodf-619:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-560:est300o30:0017",
+    "dodf-1237:est300o30:0011",
+    "dodf-619:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-560:est300o30:0017",
+    "dodf-1237:est300o30:0011",
+    "dodf-619:est300o30:0001"
+   ],
+   "tokens": [
+    2681,
+    2681,
+    2681
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-619:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1455:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-090": {
+   "baseline": [
+    "dodf-1348:est300o30:0001",
+    "dodf-1512:est300o30:0012",
+    "dodf-1522:est300o30:0008",
+    "dodf-65:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1348:est300o30:0001",
+    "dodf-1512:est300o30:0012",
+    "dodf-1522:est300o30:0008",
+    "dodf-65:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1348:est300o30:0001",
+    "dodf-1512:est300o30:0012",
+    "dodf-1522:est300o30:0008",
+    "dodf-65:est300o30:0000"
+   ],
+   "tokens": [
+    2883,
+    2883,
+    2883
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "respondida",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-941:est300o30:0003",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-091": {
+   "baseline": [
+    "dodf-1512:est300o30:0012",
+    "dodf-374:est300o30:0004",
+    "dodf-166:est300o30:0016",
+    "dodf-1309:est300o30:0006"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1512:est300o30:0012",
+    "dodf-374:est300o30:0004",
+    "dodf-166:est300o30:0016",
+    "dodf-1309:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1512:est300o30:0012",
+    "dodf-374:est300o30:0004",
+    "dodf-166:est300o30:0016",
+    "dodf-1309:est300o30:0006"
+   ],
+   "tokens": [
+    2972,
+    2972,
+    2972
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-357:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-092": {
+   "baseline": [
+    "dodf-95:est300o30:0015",
+    "dodf-1522:est300o30:0007",
+    "dodf-1614:est300o30:0006"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-95:est300o30:0015",
+    "dodf-1522:est300o30:0007",
+    "dodf-1614:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-95:est300o30:0015",
+    "dodf-1522:est300o30:0007",
+    "dodf-1614:est300o30:0006"
+   ],
+   "tokens": [
+    2825,
+    2825,
+    2825
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1549:est300o30:0001",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-435:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-093": {
+   "baseline": [
+    "dodf-1004:est300o30:0000",
+    "dodf-818:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1004:est300o30:0000",
+    "dodf-818:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1004:est300o30:0000",
+    "dodf-818:est300o30:0004"
+   ],
+   "tokens": [
+    2423,
+    2423,
+    2423
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1292:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-208:est300o30:0021",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-147:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-094": {
+   "baseline": [
+    "dodf-1397:est300o30:0000",
+    "dodf-560:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1397:est300o30:0000",
+    "dodf-560:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1397:est300o30:0000",
+    "dodf-560:est300o30:0000"
+   ],
+   "tokens": [
+    2449,
+    2449,
+    2449
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1352:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1182:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-242:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-095": {
+   "baseline": [
+    "dodf-1365:est300o30:0015",
+    "dodf-591:est300o30:0000",
+    "dodf-1413:est300o30:0003"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1365:est300o30:0015",
+    "dodf-591:est300o30:0000",
+    "dodf-1413:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0015",
+    "dodf-591:est300o30:0000",
+    "dodf-1413:est300o30:0003"
+   ],
+   "tokens": [
+    2944,
+    2944,
+    2944
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1478:est300o30:0011",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-303:est300o30:0020",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-096": {
+   "baseline": [
+    "dodf-1082:est300o30:0000",
+    "dodf-1251:est300o30:0000",
+    "dodf-624:est300o30:0000",
+    "dodf-823:est300o30:0000",
+    "dodf-865:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1082:est300o30:0000",
+    "dodf-1251:est300o30:0000",
+    "dodf-624:est300o30:0000",
+    "dodf-823:est300o30:0000",
+    "dodf-865:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1082:est300o30:0000",
+    "dodf-1251:est300o30:0000",
+    "dodf-624:est300o30:0000",
+    "dodf-823:est300o30:0000",
+    "dodf-865:est300o30:0000"
+   ],
+   "tokens": [
+    2857,
+    2857,
+    2857
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-097": {
+   "baseline": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1365:est300o30:0002",
+    "dodf-105:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1365:est300o30:0002",
+    "dodf-105:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1365:est300o30:0002",
+    "dodf-105:est300o30:0000"
+   ],
+   "tokens": [
+    2993,
+    2993,
+    2993
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-321:est300o30:0000",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1365:est300o30:0015",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-098": {
+   "baseline": [
+    "dodf-1261:est300o30:0003",
+    "dodf-687:est300o30:0000",
+    "dodf-1008:est300o30:0010"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1261:est300o30:0003",
+    "dodf-687:est300o30:0000",
+    "dodf-1008:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-1261:est300o30:0003",
+    "dodf-687:est300o30:0000",
+    "dodf-1008:est300o30:0010"
+   ],
+   "tokens": [
+    2954,
+    2954,
+    2954
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-472:est300o30:0004",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1008:est300o30:0011",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-099": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-238:est300o30:0003",
+    "dodf-440:est300o30:0007"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-238:est300o30:0003",
+    "dodf-440:est300o30:0007"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-238:est300o30:0003",
+    "dodf-440:est300o30:0007"
+   ],
+   "tokens": [
+    2960,
+    2960,
+    2960
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-410:est300o30:0008",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-957:est300o30:0004",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-100": {
+   "baseline": [
+    "dodf-440:est300o30:0007",
+    "dodf-1035:est300o30:0003",
+    "dodf-322:est300o30:0082"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-440:est300o30:0007",
+    "dodf-1035:est300o30:0003",
+    "dodf-322:est300o30:0082"
+   ],
+   "s1_conservadora": [
+    "dodf-440:est300o30:0007",
+    "dodf-1035:est300o30:0003",
+    "dodf-322:est300o30:0082"
+   ],
+   "tokens": [
+    2878,
+    2878,
+    2878
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-434:est300o30:0018",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-238:est300o30:0003",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-101": {
+   "baseline": [
+    "dodf-948:est300o30:0000",
+    "dodf-1296:est300o30:0000",
+    "dodf-1443:est300o30:0000",
+    "dodf-524:est300o30:0000",
+    "dodf-703:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-948:est300o30:0000",
+    "dodf-1296:est300o30:0000",
+    "dodf-1443:est300o30:0000",
+    "dodf-524:est300o30:0000",
+    "dodf-703:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-948:est300o30:0000",
+    "dodf-1296:est300o30:0000",
+    "dodf-1443:est300o30:0000",
+    "dodf-524:est300o30:0000",
+    "dodf-703:est300o30:0000"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-102": {
+   "baseline": [
+    "dodf-1528:est300o30:0003",
+    "dodf-1512:est300o30:0010",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1528:est300o30:0003",
+    "dodf-1512:est300o30:0010",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_conservadora": [
+    "dodf-1528:est300o30:0003",
+    "dodf-1512:est300o30:0010",
+    "dodf-208:est300o30:0021"
+   ],
+   "tokens": [
+    2704,
+    2704,
+    2704
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1476:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1119:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-103": {
+   "baseline": [
+    "dodf-1300:est300o30:0000",
+    "dodf-1227:est300o30:0000",
+    "dodf-1274:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1300:est300o30:0000",
+    "dodf-1227:est300o30:0000",
+    "dodf-1274:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1300:est300o30:0000",
+    "dodf-1227:est300o30:0000",
+    "dodf-1274:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "tokens": [
+    2689,
+    2689,
+    2689
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1299:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-104": {
+   "baseline": [
+    "dodf-1234:est300o30:0002",
+    "dodf-228:est300o30:0002",
+    "dodf-1632:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1234:est300o30:0002",
+    "dodf-228:est300o30:0002",
+    "dodf-1632:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1234:est300o30:0002",
+    "dodf-228:est300o30:0002",
+    "dodf-1632:est300o30:0004"
+   ],
+   "tokens": [
+    2812,
+    2812,
+    2812
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-43:est300o30:0008",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-63:est300o30:0014",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-105": {
+   "baseline": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1512:est300o30:0012",
+    "dodf-1222:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1512:est300o30:0012",
+    "dodf-1222:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1512:est300o30:0012",
+    "dodf-1222:est300o30:0004"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-443:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-284:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-106": {
+   "baseline": [
+    "dodf-994:est300o30:0000",
+    "dodf-968:est300o30:0043",
+    "dodf-968:est300o30:0023",
+    "dodf-1009:est300o30:0028"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-994:est300o30:0000",
+    "dodf-968:est300o30:0043",
+    "dodf-968:est300o30:0023",
+    "dodf-1009:est300o30:0028"
+   ],
+   "s1_conservadora": [
+    "dodf-994:est300o30:0000",
+    "dodf-968:est300o30:0043",
+    "dodf-968:est300o30:0023",
+    "dodf-1009:est300o30:0028"
+   ],
+   "tokens": [
+    2782,
+    2782,
+    2782
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1009:est300o30:0047",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-107": {
+   "baseline": [
+    "dodf-1660:est300o30:0000",
+    "dodf-157:est300o30:0038",
+    "dodf-500:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1660:est300o30:0000",
+    "dodf-157:est300o30:0038",
+    "dodf-500:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1660:est300o30:0000",
+    "dodf-157:est300o30:0038",
+    "dodf-500:est300o30:0000"
+   ],
+   "tokens": [
+    2737,
+    2737,
+    2737
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-968:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1038:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-108": {
+   "baseline": [
+    "dodf-1683:est300o30:0036",
+    "dodf-1052:est300o30:0002",
+    "dodf-1533:est300o30:0041"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1683:est300o30:0036",
+    "dodf-1052:est300o30:0002",
+    "dodf-1533:est300o30:0041"
+   ],
+   "s1_conservadora": [
+    "dodf-1683:est300o30:0036",
+    "dodf-1052:est300o30:0002",
+    "dodf-1533:est300o30:0041"
+   ],
+   "tokens": [
+    2623,
+    2623,
+    2623
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-196:est300o30:0013",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1155:est300o30:0024",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-109": {
+   "baseline": [
+    "dodf-1352:est300o30:0003",
+    "dodf-560:est300o30:0014",
+    "dodf-1722:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1352:est300o30:0003",
+    "dodf-560:est300o30:0014",
+    "dodf-1722:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0003",
+    "dodf-560:est300o30:0014",
+    "dodf-1722:est300o30:0001"
+   ],
+   "tokens": [
+    2876,
+    2876,
+    2876
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-619:est300o30:0004",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-956:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-110": {
+   "baseline": [
+    "dodf-1595:est300o30:0002",
+    "dodf-1410:est300o30:0002",
+    "dodf-1719:est300o30:0003"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1595:est300o30:0002",
+    "dodf-1410:est300o30:0002",
+    "dodf-1719:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-1595:est300o30:0002",
+    "dodf-1410:est300o30:0002",
+    "dodf-1719:est300o30:0003"
+   ],
+   "tokens": [
+    2884,
+    2884,
+    2884
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-907:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-854:est300o30:0006",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-111": {
+   "baseline": [
+    "dodf-1645:est300o30:0021",
+    "dodf-441:est300o30:0001",
+    "dodf-1345:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1645:est300o30:0021",
+    "dodf-441:est300o30:0001",
+    "dodf-1345:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1645:est300o30:0021",
+    "dodf-441:est300o30:0001",
+    "dodf-1345:est300o30:0002"
+   ],
+   "tokens": [
+    2772,
+    2772,
+    2772
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1153:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1345:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-112": {
+   "baseline": [
+    "dodf-685:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-586:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-685:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-586:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-685:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-586:est300o30:0000"
+   ],
+   "tokens": [
+    2790,
+    2790,
+    2790
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-696:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-586:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-113": {
+   "baseline": [
+    "dodf-382:est300o30:0002",
+    "dodf-382:est300o30:0003",
+    "dodf-195:est300o30:0005"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-382:est300o30:0002",
+    "dodf-382:est300o30:0003",
+    "dodf-195:est300o30:0005"
+   ],
+   "s1_conservadora": [
+    "dodf-382:est300o30:0002",
+    "dodf-382:est300o30:0003",
+    "dodf-195:est300o30:0005"
+   ],
+   "tokens": [
+    2901,
+    2901,
+    2901
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-144:est300o30:0003",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-101:est300o30:0009",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-114": {
+   "baseline": [
+    "dodf-338:est300o30:0017",
+    "dodf-338:est300o30:0018",
+    "dodf-1625:est300o30:0033"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-338:est300o30:0017",
+    "dodf-338:est300o30:0018",
+    "dodf-1625:est300o30:0033"
+   ],
+   "s1_conservadora": [
+    "dodf-338:est300o30:0017",
+    "dodf-338:est300o30:0018",
+    "dodf-1625:est300o30:0033"
+   ],
+   "tokens": [
+    2887,
+    2887,
+    2887
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-956:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1533:est300o30:0041",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-115": {
+   "baseline": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "tokens": [
+    2642,
+    2642,
+    2642
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-469:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-116": {
+   "baseline": [
+    "dodf-954:est300o30:0001",
+    "dodf-954:est300o30:0004",
+    "dodf-954:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-954:est300o30:0001",
+    "dodf-954:est300o30:0004",
+    "dodf-954:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-954:est300o30:0001",
+    "dodf-954:est300o30:0004",
+    "dodf-954:est300o30:0000"
+   ],
+   "tokens": [
+    2978,
+    2978,
+    2978
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-157:est300o30:0055",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-954:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-117": {
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1240:est300o30:0011",
+    "dodf-439:est300o30:0030"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-956:est300o30:0002",
+    "dodf-1240:est300o30:0011",
+    "dodf-439:est300o30:0030"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1240:est300o30:0011",
+    "dodf-439:est300o30:0030"
+   ],
+   "tokens": [
+    2898,
+    2898,
+    2898
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1724:est300o30:0006",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-144:est300o30:0004",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-118": {
+   "baseline": [
+    "dodf-441:est300o30:0000",
+    "dodf-1091:est300o30:0013",
+    "dodf-970:est300o30:0001"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-441:est300o30:0000",
+    "dodf-1091:est300o30:0013",
+    "dodf-970:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-441:est300o30:0000",
+    "dodf-1091:est300o30:0013",
+    "dodf-970:est300o30:0001"
+   ],
+   "tokens": [
+    2798,
+    2798,
+    2798
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1625:est300o30:0025",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-160:est300o30:0081",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-119": {
+   "baseline": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1242:est300o30:0120"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1242:est300o30:0120"
+   ],
+   "s1_conservadora": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1242:est300o30:0120"
+   ],
+   "tokens": [
+    2787,
+    2787,
+    2787
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1243:est300o30:0113",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1244:est300o30:0108",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-120": {
+   "baseline": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-255:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-121": {
+   "baseline": [
+    "dodf-51:est300o30:0004",
+    "dodf-51:est300o30:0003",
+    "dodf-348:est300o30:0037"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-51:est300o30:0004",
+    "dodf-51:est300o30:0003",
+    "dodf-348:est300o30:0037"
+   ],
+   "s1_conservadora": [
+    "dodf-51:est300o30:0004",
+    "dodf-51:est300o30:0003",
+    "dodf-348:est300o30:0037"
+   ],
+   "tokens": [
+    2972,
+    2972,
+    2972
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-418:est300o30:0003",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1678:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-122": {
+   "baseline": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "tokens": [
+    2875,
+    2875,
+    2875
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-123": {
+   "baseline": [
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000",
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000",
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000",
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000"
+   ],
+   "tokens": [
+    2579,
+    2579,
+    2579
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1193:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-124": {
+   "baseline": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-1081:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-1081:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-1081:est300o30:0000"
+   ],
+   "tokens": [
+    2901,
+    2901,
+    2901
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-125": {
+   "baseline": [
+    "dodf-1203:est300o30:0000",
+    "dodf-655:est300o30:0000",
+    "dodf-812:est300o30:0000",
+    "dodf-938:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-945:est300o30:0000",
+    "dodf-1203:est300o30:0000",
+    "dodf-655:est300o30:0000",
+    "dodf-812:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1203:est300o30:0000",
+    "dodf-655:est300o30:0000",
+    "dodf-812:est300o30:0000",
+    "dodf-938:est300o30:0000"
+   ],
+   "tokens": [
+    2790,
+    2741,
+    2790
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-945:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": "valor",
+     "decisao": "descartado",
+     "motivo": "promocao redundante evitada: o contexto ja cobre o atributo (dodf-1203:est300o30:0000:valor_tipado, dodf-655:est300o30:0000:valor_tipado, dodf-812:est300o30:0000:valor_tipado, dodf-938:est300o30:0000:valor_tipado)"
+    }
+   ]
+  },
+  "val-126": {
+   "baseline": [
+    "dodf-1014:est300o30:0083",
+    "dodf-1014:est300o30:0085",
+    "dodf-1067:est300o30:0048"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1014:est300o30:0083",
+    "dodf-1014:est300o30:0085",
+    "dodf-1067:est300o30:0048"
+   ],
+   "s1_conservadora": [
+    "dodf-1014:est300o30:0083",
+    "dodf-1014:est300o30:0085",
+    "dodf-1067:est300o30:0048"
+   ],
+   "tokens": [
+    2957,
+    2957,
+    2957
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-901:est300o30:0011",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1409:est300o30:0117",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-127": {
+   "baseline": [
+    "dodf-271:est300o30:0001",
+    "dodf-1321:est300o30:0264",
+    "dodf-1155:est300o30:0023"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-271:est300o30:0001",
+    "dodf-1321:est300o30:0264",
+    "dodf-1155:est300o30:0023"
+   ],
+   "s1_conservadora": [
+    "dodf-271:est300o30:0001",
+    "dodf-1321:est300o30:0264",
+    "dodf-1155:est300o30:0023"
+   ],
+   "tokens": [
+    2589,
+    2589,
+    2589
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-441:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-162:est300o30:0161",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-128": {
+   "baseline": [
+    "dodf-1222:est300o30:0001",
+    "dodf-435:est300o30:0004",
+    "dodf-579:est300o30:0012"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1222:est300o30:0001",
+    "dodf-435:est300o30:0004",
+    "dodf-579:est300o30:0012"
+   ],
+   "s1_conservadora": [
+    "dodf-1222:est300o30:0001",
+    "dodf-435:est300o30:0004",
+    "dodf-579:est300o30:0012"
+   ],
+   "tokens": [
+    2832,
+    2832,
+    2832
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1127:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-208:est300o30:0013",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-129": {
+   "baseline": [
+    "dodf-925:est300o30:0000",
+    "dodf-360:est300o30:0031",
+    "dodf-2:est300o30:0000",
+    "dodf-1699:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-925:est300o30:0000",
+    "dodf-360:est300o30:0031",
+    "dodf-2:est300o30:0000",
+    "dodf-1699:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-925:est300o30:0000",
+    "dodf-360:est300o30:0031",
+    "dodf-2:est300o30:0000",
+    "dodf-1699:est300o30:0000"
+   ],
+   "tokens": [
+    2774,
+    2774,
+    2774
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-26:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-130": {
+   "baseline": [
+    "dodf-1645:est300o30:0021",
+    "dodf-6:est300o30:0001",
+    "dodf-920:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1645:est300o30:0021",
+    "dodf-6:est300o30:0001",
+    "dodf-920:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1645:est300o30:0021",
+    "dodf-6:est300o30:0001",
+    "dodf-920:est300o30:0000"
+   ],
+   "tokens": [
+    2625,
+    2625,
+    2625
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1354:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-72:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-131": {
+   "baseline": [
+    "dodf-461:est300o30:0000",
+    "dodf-1565:est300o30:0000",
+    "dodf-877:est300o30:0006"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-461:est300o30:0000",
+    "dodf-1565:est300o30:0000",
+    "dodf-877:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-461:est300o30:0000",
+    "dodf-1565:est300o30:0000",
+    "dodf-877:est300o30:0006"
+   ],
+   "tokens": [
+    2750,
+    2750,
+    2750
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1076:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1455:est300o30:0017",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-132": {
+   "baseline": [
+    "dodf-208:est300o30:0009",
+    "dodf-1009:est300o30:0039",
+    "dodf-1009:est300o30:0038"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-208:est300o30:0009",
+    "dodf-1009:est300o30:0039",
+    "dodf-1009:est300o30:0038"
+   ],
+   "s1_conservadora": [
+    "dodf-208:est300o30:0009",
+    "dodf-1009:est300o30:0039",
+    "dodf-1009:est300o30:0038"
+   ],
+   "tokens": [
+    2825,
+    2825,
+    2825
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1240:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1160:est300o30:0001",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-133": {
+   "baseline": [
+    "dodf-944:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-734:est300o30:0000",
+    "dodf-1109:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1516:est300o30:0000",
+    "dodf-944:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-734:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-944:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-734:est300o30:0000",
+    "dodf-1109:est300o30:0000"
+   ],
+   "tokens": [
+    2801,
+    2802,
+    2801
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1516:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": "valor",
+     "decisao": "descartado",
+     "motivo": "promocao redundante evitada: o contexto ja cobre o atributo (dodf-944:est300o30:0000:rotulo, dodf-734:est300o30:0000:rotulo, dodf-1109:est300o30:0000:rotulo)"
+    }
+   ]
+  },
+  "val-134": {
+   "baseline": [
+    "dodf-1154:est300o30:0000",
+    "dodf-1028:est300o30:0000",
+    "dodf-969:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1154:est300o30:0000",
+    "dodf-1028:est300o30:0000",
+    "dodf-969:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1154:est300o30:0000",
+    "dodf-1028:est300o30:0000",
+    "dodf-969:est300o30:0002"
+   ],
+   "tokens": [
+    2850,
+    2850,
+    2850
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1008:est300o30:0010",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1630:est300o30:0005",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-135": {
+   "baseline": [
+    "dodf-417:est300o30:0000",
+    "dodf-702:est300o30:0000",
+    "dodf-875:est300o30:0000",
+    "dodf-509:est300o30:0000",
+    "dodf-693:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-417:est300o30:0000",
+    "dodf-702:est300o30:0000",
+    "dodf-875:est300o30:0000",
+    "dodf-509:est300o30:0000",
+    "dodf-693:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-417:est300o30:0000",
+    "dodf-702:est300o30:0000",
+    "dodf-875:est300o30:0000",
+    "dodf-509:est300o30:0000",
+    "dodf-693:est300o30:0000"
+   ],
+   "tokens": [
+    2731,
+    2731,
+    2731
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-136": {
+   "baseline": [
+    "dodf-1598:est300o30:0000",
+    "dodf-94:est300o30:0000",
+    "dodf-1698:est300o30:0000",
+    "dodf-1700:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1598:est300o30:0000",
+    "dodf-94:est300o30:0000",
+    "dodf-1698:est300o30:0000",
+    "dodf-1700:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1598:est300o30:0000",
+    "dodf-94:est300o30:0000",
+    "dodf-1698:est300o30:0000",
+    "dodf-1700:est300o30:0000"
+   ],
+   "tokens": [
+    2988,
+    2988,
+    2988
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1383:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-137": {
+   "baseline": [
+    "dodf-339:est300o30:0000",
+    "dodf-1705:est300o30:0000",
+    "dodf-25:est300o30:0000",
+    "dodf-340:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-339:est300o30:0000",
+    "dodf-1705:est300o30:0000",
+    "dodf-25:est300o30:0000",
+    "dodf-340:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-339:est300o30:0000",
+    "dodf-1705:est300o30:0000",
+    "dodf-25:est300o30:0000",
+    "dodf-340:est300o30:0000"
+   ],
+   "tokens": [
+    2747,
+    2747,
+    2747
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1481:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-138": {
+   "baseline": [
+    "dodf-1722:est300o30:0023",
+    "dodf-1155:est300o30:0021",
+    "dodf-1091:est300o30:0015"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1722:est300o30:0023",
+    "dodf-1155:est300o30:0021",
+    "dodf-1091:est300o30:0015"
+   ],
+   "s1_conservadora": [
+    "dodf-1722:est300o30:0023",
+    "dodf-1155:est300o30:0021",
+    "dodf-1091:est300o30:0015"
+   ],
+   "tokens": [
+    2815,
+    2815,
+    2815
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1029:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1091:est300o30:0014",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-139": {
+   "baseline": [
+    "dodf-146:est300o30:0001",
+    "dodf-145:est300o30:0000",
+    "dodf-338:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-146:est300o30:0001",
+    "dodf-145:est300o30:0000",
+    "dodf-338:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-146:est300o30:0001",
+    "dodf-145:est300o30:0000",
+    "dodf-338:est300o30:0002"
+   ],
+   "tokens": [
+    2755,
+    2755,
+    2755
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1409:est300o30:0052",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-434:est300o30:0058",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-140": {
+   "baseline": [
+    "dodf-161:est300o30:0000",
+    "dodf-853:est300o30:0013",
+    "dodf-1465:est300o30:0009"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-161:est300o30:0000",
+    "dodf-853:est300o30:0013",
+    "dodf-1465:est300o30:0009"
+   ],
+   "s1_conservadora": [
+    "dodf-161:est300o30:0000",
+    "dodf-853:est300o30:0013",
+    "dodf-1465:est300o30:0009"
+   ],
+   "tokens": [
+    2636,
+    2636,
+    2636
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-461:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1432:est300o30:0008",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-141": {
+   "baseline": [
+    "dodf-1035:est300o30:0004",
+    "dodf-1035:est300o30:0018",
+    "dodf-1035:est300o30:0006"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1035:est300o30:0004",
+    "dodf-1035:est300o30:0018",
+    "dodf-1035:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1035:est300o30:0004",
+    "dodf-1035:est300o30:0018",
+    "dodf-1035:est300o30:0006"
+   ],
+   "tokens": [
+    2982,
+    2982,
+    2982
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1035:est300o30:0005",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1035:est300o30:0026",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-142": {
+   "baseline": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "tokens": [
+    2695,
+    2695,
+    2695
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-658:est300o30:0000",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-143": {
+   "baseline": [
+    "dodf-1142:est300o30:0005",
+    "dodf-842:est300o30:0005"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1142:est300o30:0005",
+    "dodf-842:est300o30:0005"
+   ],
+   "s1_conservadora": [
+    "dodf-1142:est300o30:0005",
+    "dodf-842:est300o30:0005"
+   ],
+   "tokens": [
+    2425,
+    2425,
+    2425
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-935:est300o30:0001",
+     "posicao": 3,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-842:est300o30:0002",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-956:est300o30:0002",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-144": {
+   "baseline": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_conservadora": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "tokens": [
+    2823,
+    2823,
+    2823
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "status_4_3": "insuficiente",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-348:est300o30:0026",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-99:est300o30:0043",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-145": {
+   "baseline": [
+    "dodf-655:est300o30:0000",
+    "dodf-755:est300o30:0000",
+    "dodf-759:est300o30:0000",
+    "dodf-660:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-655:est300o30:0000",
+    "dodf-755:est300o30:0000",
+    "dodf-759:est300o30:0000",
+    "dodf-660:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-655:est300o30:0000",
+    "dodf-755:est300o30:0000",
+    "dodf-759:est300o30:0000",
+    "dodf-660:est300o30:0000"
+   ],
+   "tokens": [
+    2703,
+    2703,
+    2703
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1242:est300o30:0034",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-146": {
+   "baseline": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "tokens": [
+    2875,
+    2875,
+    2875
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": []
+  },
+  "val-147": {
+   "baseline": [
+    "dodf-831:est300o30:0000",
+    "dodf-680:est300o30:0000",
+    "dodf-684:est300o30:0004"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-831:est300o30:0000",
+    "dodf-680:est300o30:0000",
+    "dodf-684:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-831:est300o30:0000",
+    "dodf-680:est300o30:0000",
+    "dodf-684:est300o30:0004"
+   ],
+   "tokens": [
+    2878,
+    2878,
+    2878
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "fora_do_escopo",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-624:est300o30:0000",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1611:est300o30:0032",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-148": {
+   "baseline": [
+    "dodf-399:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-399:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_conservadora": [
+    "dodf-399:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-1242:est300o30:0034"
+   ],
+   "tokens": [
+    2912,
+    2912,
+    2912
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "ambigua",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1243:est300o30:0037",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  },
+  "val-149": {
+   "baseline": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1611:est300o30:0020",
+    "dodf-1052:est300o30:0002"
+   ],
+   "s1_atual_4b_prep": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1611:est300o30:0020",
+    "dodf-1052:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1611:est300o30:0020",
+    "dodf-1052:est300o30:0002"
+   ],
+   "tokens": [
+    2724,
+    2724,
+    2724
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "status_4_3": "parcial",
+   "decisoes": [
+    {
+     "chunk_id": "dodf-1365:est300o30:0015",
+     "posicao": 4,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    },
+    {
+     "chunk_id": "dodf-1008:est300o30:0010",
+     "posicao": 5,
+     "rotulo_forte": null,
+     "decisao": "descartado",
+     "motivo": "selecao original (nenhum chunk com rotulo forte foi descartado)"
+    }
+   ]
+  }
+ }
+}

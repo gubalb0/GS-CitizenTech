@@ -1,0 +1,12 @@
+{
+ "concluidas_nesta_retomada": 0,
+ "parada": {
+  "motivo": "RAM livre < 3 GB apos carregar o modelo",
+  "bloco": 1,
+  "mem": {
+   "ram_livre_mb": 3026,
+   "commit_pct": 59.1,
+   "swap_usado_mb": 1113
+  }
+ }
+}

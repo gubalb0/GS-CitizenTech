@@ -1,0 +1,1999 @@
+{
+ "val-000": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1647:est300o30:0000",
+   "dodf-1343:est300o30:0000",
+   "dodf-1360:est300o30:0000",
+   "dodf-1361:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-001": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-719:est300o30:0005",
+   "dodf-349:est300o30:0001",
+   "dodf-956:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-002": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1600:est300o30:0001",
+   "dodf-284:est300o30:0000",
+   "dodf-166:est300o30:0006"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-003": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1395:est300o30:0000",
+   "dodf-1231:est300o30:0000",
+   "dodf-1723:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-004": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1142:est300o30:0001",
+   "dodf-1468:est300o30:0001",
+   "dodf-1468:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-005": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-704:est300o30:0000",
+   "dodf-255:est300o30:0000",
+   "dodf-408:est300o30:0000",
+   "dodf-468:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-006": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-957:est300o30:0000",
+   "dodf-28:est300o30:0000",
+   "dodf-1014:est300o30:0104"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-007": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1236:est300o30:0008",
+   "dodf-1236:est300o30:0012",
+   "dodf-1449:est300o30:0008"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-008": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1014:est300o30:0236",
+   "dodf-89:est300o30:0000",
+   "dodf-1510:est300o30:0005"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-009": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1473:est300o30:0006",
+   "dodf-1236:est300o30:0006",
+   "dodf-1473:est300o30:0011"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-010": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1143:est300o30:0000",
+   "dodf-1184:est300o30:0000",
+   "dodf-963:est300o30:0006"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-011": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1611:est300o30:0002",
+   "dodf-856:est300o30:0128",
+   "dodf-859:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-012": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-238:est300o30:0003",
+   "dodf-560:est300o30:0017",
+   "dodf-807:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-013": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1352:est300o30:0000",
+   "dodf-1182:est300o30:0000",
+   "dodf-242:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-014": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-633:est300o30:0001",
+   "dodf-681:est300o30:0001",
+   "dodf-1143:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-015": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1242:est300o30:0034",
+   "dodf-1243:est300o30:0037",
+   "dodf-1244:est300o30:0032"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-016": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-482:est300o30:0000",
+   "dodf-528:est300o30:0000",
+   "dodf-1570:est300o30:0000",
+   "dodf-735:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-017": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1121:est300o30:0004",
+   "dodf-418:est300o30:0011",
+   "dodf-1121:est300o30:0003"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-018": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-704:est300o30:0000",
+   "dodf-255:est300o30:0000",
+   "dodf-408:est300o30:0000",
+   "dodf-468:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-019": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1512:est300o30:0012",
+   "dodf-1234:est300o30:0002",
+   "dodf-1512:est300o30:0011"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-020": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-361:est300o30:0001",
+   "dodf-1009:est300o30:0035",
+   "dodf-1054:est300o30:0003"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-021": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-5:est300o30:0000",
+   "dodf-1449:est300o30:0007",
+   "dodf-1611:est300o30:0018"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-022": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1178:est300o30:0196",
+   "dodf-174:est300o30:0004",
+   "dodf-1405:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-023": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-408:est300o30:0000",
+   "dodf-468:est300o30:0000",
+   "dodf-469:est300o30:0000",
+   "dodf-704:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-024": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-718:est300o30:0000",
+   "dodf-1131:est300o30:0010",
+   "dodf-1131:est300o30:0011"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-025": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1242:est300o30:0034",
+   "dodf-1243:est300o30:0037",
+   "dodf-1244:est300o30:0032"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-026": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-592:est300o30:0000",
+   "dodf-594:est300o30:0000",
+   "dodf-595:est300o30:0000",
+   "dodf-606:est300o30:0000",
+   "dodf-404:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-027": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1012:est300o30:0000",
+   "dodf-922:est300o30:0000",
+   "dodf-932:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-028": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-187:est300o30:0002",
+   "dodf-1702:est300o30:0006",
+   "dodf-187:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-029": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1667:est300o30:0001",
+   "dodf-1321:est300o30:0150",
+   "dodf-1321:est300o30:0155",
+   "dodf-1243:est300o30:0009"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-030": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1332:est300o30:0000",
+   "dodf-1021:est300o30:0000",
+   "dodf-1702:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-031": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1464:est300o30:0000",
+   "dodf-1464:est300o30:0004",
+   "dodf-1463:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-032": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1451:est300o30:0000",
+   "dodf-1351:est300o30:0037",
+   "dodf-1645:est300o30:0218"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-033": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-917:est300o30:0000",
+   "dodf-440:est300o30:0007",
+   "dodf-1026:est300o30:0008"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-034": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1242:est300o30:0034",
+   "dodf-1243:est300o30:0037",
+   "dodf-1244:est300o30:0032"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-035": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1009:est300o30:0047",
+   "dodf-1009:est300o30:0045",
+   "dodf-968:est300o30:0039"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-036": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-2:est300o30:0000",
+   "dodf-887:est300o30:0000",
+   "dodf-1510:est300o30:0005",
+   "dodf-1242:est300o30:0034"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-037": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-951:est300o30:0004",
+   "dodf-1724:est300o30:0005",
+   "dodf-1012:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-038": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1159:est300o30:0000",
+   "dodf-1158:est300o30:0000",
+   "dodf-1156:est300o30:0000",
+   "dodf-1157:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-039": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1365:est300o30:0002",
+   "dodf-303:est300o30:0000",
+   "dodf-1075:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-040": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-957:est300o30:0000",
+   "dodf-1142:est300o30:0001",
+   "dodf-1142:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-041": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-468:est300o30:0000",
+   "dodf-469:est300o30:0000",
+   "dodf-398:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-042": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1095:est300o30:0118",
+   "dodf-956:est300o30:0002",
+   "dodf-93:est300o30:0014"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-043": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1103:est300o30:0000",
+   "dodf-1126:est300o30:0000",
+   "dodf-836:est300o30:0000",
+   "dodf-426:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-044": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1611:est300o30:0006",
+   "dodf-1611:est300o30:0003",
+   "dodf-94:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-045": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1451:est300o30:0000",
+   "dodf-303:est300o30:0004",
+   "dodf-303:est300o30:0017"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-046": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1476:est300o30:0000",
+   "dodf-1351:est300o30:0037"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-047": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-141:est300o30:0002",
+   "dodf-141:est300o30:0025",
+   "dodf-141:est300o30:0038"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-048": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1131:est300o30:0008",
+   "dodf-162:est300o30:0031"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-049": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-698:est300o30:0002",
+   "dodf-234:est300o30:0002",
+   "dodf-1023:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-050": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1307:est300o30:0000",
+   "dodf-144:est300o30:0004",
+   "dodf-196:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-051": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1250:est300o30:0000",
+   "dodf-1048:est300o30:0000",
+   "dodf-368:est300o30:0000",
+   "dodf-214:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-052": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1352:est300o30:0000",
+   "dodf-960:est300o30:0000",
+   "dodf-1182:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-053": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-51:est300o30:0005",
+   "dodf-1123:est300o30:0000",
+   "dodf-1123:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-054": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-670:est300o30:0000",
+   "dodf-665:est300o30:0000",
+   "dodf-772:est300o30:0000",
+   "dodf-598:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-055": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-957:est300o30:0004",
+   "dodf-956:est300o30:0002",
+   "dodf-1351:est300o30:0037"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-056": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1649:est300o30:0004",
+   "dodf-1418:est300o30:0010"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-057": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-706:est300o30:0000",
+   "dodf-1110:est300o30:0000",
+   "dodf-1272:est300o30:0000",
+   "dodf-681:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-058": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-160:est300o30:0025",
+   "dodf-233:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-059": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 2,
+  "n_enviados_run": 2,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1493:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-060": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1351:est300o30:0037",
+   "dodf-956:est300o30:0002",
+   "dodf-1365:est300o30:0000",
+   "dodf-1451:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-061": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1307:est300o30:0013",
+   "dodf-473:est300o30:0024"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-062": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1450:est300o30:0000",
+   "dodf-1372:est300o30:0000",
+   "dodf-1213:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-063": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-144:est300o30:0004",
+   "dodf-1091:est300o30:0010"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-064": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1660:est300o30:0000",
+   "dodf-1408:est300o30:0002",
+   "dodf-41:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-065": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-861:est300o30:0000",
+   "dodf-829:est300o30:0000",
+   "dodf-1221:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-066": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1522:est300o30:0005",
+   "dodf-169:est300o30:0001",
+   "dodf-208:est300o30:0021"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-067": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-684:est300o30:0004",
+   "dodf-531:est300o30:0010"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-068": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-1538:est300o30:0000",
+   "dodf-480:est300o30:0000",
+   "dodf-536:est300o30:0000",
+   "dodf-798:est300o30:0000",
+   "dodf-1045:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-069": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 2,
+  "n_enviados_run": 2,
+  "enviados_replay": [
+   "dodf-1352:est300o30:0000",
+   "dodf-960:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-070": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1682:est300o30:0003",
+   "dodf-1199:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-071": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-671:est300o30:0000",
+   "dodf-939:est300o30:0000",
+   "dodf-668:est300o30:0000",
+   "dodf-675:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-072": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-480:est300o30:0000",
+   "dodf-536:est300o30:0000",
+   "dodf-798:est300o30:0000",
+   "dodf-1538:est300o30:0000",
+   "dodf-1045:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-073": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-393:est300o30:0004",
+   "dodf-393:est300o30:0003",
+   "dodf-709:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-074": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-338:est300o30:0016",
+   "dodf-1722:est300o30:0024",
+   "dodf-442:est300o30:0015"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-075": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-670:est300o30:0000",
+   "dodf-1242:est300o30:0034",
+   "dodf-1243:est300o30:0037",
+   "dodf-1244:est300o30:0032"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-076": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1008:est300o30:0008",
+   "dodf-51:est300o30:0009",
+   "dodf-956:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-077": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1564:est300o30:0000",
+   "dodf-1193:est300o30:0000",
+   "dodf-1209:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-078": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1261:est300o30:0003",
+   "dodf-1008:est300o30:0010",
+   "dodf-1008:est300o30:0011"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-079": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1091:est300o30:0007",
+   "dodf-382:est300o30:0008",
+   "dodf-101:est300o30:0015"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-080": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-479:est300o30:0000",
+   "dodf-1487:est300o30:0000",
+   "dodf-1289:est300o30:0000",
+   "dodf-1390:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-081": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-399:est300o30:0000",
+   "dodf-671:est300o30:0000",
+   "dodf-939:est300o30:0000",
+   "dodf-668:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-082": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-101:est300o30:0005",
+   "dodf-1155:est300o30:0001",
+   "dodf-1035:est300o30:0003"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-083": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-495:est300o30:0015",
+   "dodf-1444:est300o30:0014",
+   "dodf-1639:est300o30:0020"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-084": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-2:est300o30:0000",
+   "dodf-955:est300o30:0000",
+   "dodf-887:est300o30:0000",
+   "dodf-1372:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-085": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1014:est300o30:0236",
+   "dodf-1225:est300o30:0000",
+   "dodf-511:est300o30:0000",
+   "dodf-1327:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-086": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1067:est300o30:0172",
+   "dodf-1351:est300o30:0037",
+   "dodf-157:est300o30:0043"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-087": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-174:est300o30:0004",
+   "dodf-174:est300o30:0001",
+   "dodf-174:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-088": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1611:est300o30:0006",
+   "dodf-1611:est300o30:0035",
+   "dodf-1055:est300o30:0009"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-089": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-560:est300o30:0017",
+   "dodf-1237:est300o30:0011",
+   "dodf-619:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-090": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1348:est300o30:0001",
+   "dodf-1512:est300o30:0012",
+   "dodf-1522:est300o30:0008",
+   "dodf-65:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-091": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1512:est300o30:0012",
+   "dodf-374:est300o30:0004",
+   "dodf-166:est300o30:0016",
+   "dodf-1309:est300o30:0006"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-092": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-95:est300o30:0015",
+   "dodf-1522:est300o30:0007",
+   "dodf-1614:est300o30:0006"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-093": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 2,
+  "n_enviados_run": 2,
+  "enviados_replay": [
+   "dodf-1004:est300o30:0000",
+   "dodf-818:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-094": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 2,
+  "n_enviados_run": 2,
+  "enviados_replay": [
+   "dodf-1397:est300o30:0000",
+   "dodf-560:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-095": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1365:est300o30:0015",
+   "dodf-591:est300o30:0000",
+   "dodf-1413:est300o30:0003"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-096": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-1082:est300o30:0000",
+   "dodf-1251:est300o30:0000",
+   "dodf-624:est300o30:0000",
+   "dodf-823:est300o30:0000",
+   "dodf-865:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-097": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1365:est300o30:0001",
+   "dodf-1365:est300o30:0002",
+   "dodf-105:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "B",
+  "grupo_real": "A"
+ },
+ "val-098": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1261:est300o30:0003",
+   "dodf-687:est300o30:0000",
+   "dodf-1008:est300o30:0010"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-099": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-238:est300o30:0003",
+   "dodf-440:est300o30:0007"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-100": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-440:est300o30:0007",
+   "dodf-1035:est300o30:0003",
+   "dodf-322:est300o30:0082"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-101": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-948:est300o30:0000",
+   "dodf-1296:est300o30:0000",
+   "dodf-1443:est300o30:0000",
+   "dodf-524:est300o30:0000",
+   "dodf-703:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-102": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1528:est300o30:0003",
+   "dodf-1512:est300o30:0010",
+   "dodf-208:est300o30:0021"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-103": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1300:est300o30:0000",
+   "dodf-1227:est300o30:0000",
+   "dodf-1274:est300o30:0000",
+   "dodf-1372:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-104": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1234:est300o30:0002",
+   "dodf-228:est300o30:0002",
+   "dodf-1632:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-105": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1464:est300o30:0000",
+   "dodf-1512:est300o30:0012",
+   "dodf-1222:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-106": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-994:est300o30:0000",
+   "dodf-968:est300o30:0043",
+   "dodf-968:est300o30:0023",
+   "dodf-1009:est300o30:0028"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-107": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1660:est300o30:0000",
+   "dodf-157:est300o30:0038",
+   "dodf-500:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-108": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1683:est300o30:0036",
+   "dodf-1052:est300o30:0002",
+   "dodf-1533:est300o30:0041"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-109": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1352:est300o30:0003",
+   "dodf-560:est300o30:0014",
+   "dodf-1722:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-110": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1595:est300o30:0002",
+   "dodf-1410:est300o30:0002",
+   "dodf-1719:est300o30:0003"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-111": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1645:est300o30:0021",
+   "dodf-441:est300o30:0001",
+   "dodf-1345:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-112": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-685:est300o30:0000",
+   "dodf-1067:est300o30:0087",
+   "dodf-586:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-113": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-382:est300o30:0002",
+   "dodf-382:est300o30:0003",
+   "dodf-195:est300o30:0005"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-114": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-338:est300o30:0017",
+   "dodf-338:est300o30:0018",
+   "dodf-1625:est300o30:0033"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-115": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-704:est300o30:0000",
+   "dodf-255:est300o30:0000",
+   "dodf-408:est300o30:0000",
+   "dodf-468:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-116": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-954:est300o30:0001",
+   "dodf-954:est300o30:0004",
+   "dodf-954:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-117": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-956:est300o30:0002",
+   "dodf-1240:est300o30:0011",
+   "dodf-439:est300o30:0030"
+  ],
+  "enviados_eh_prefixo": false,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-118": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-441:est300o30:0000",
+   "dodf-1091:est300o30:0013",
+   "dodf-970:est300o30:0001"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-119": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-51:est300o30:0005",
+   "dodf-1123:est300o30:0000",
+   "dodf-1242:est300o30:0120"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-120": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-408:est300o30:0000",
+   "dodf-468:est300o30:0000",
+   "dodf-469:est300o30:0000",
+   "dodf-704:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-121": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-51:est300o30:0004",
+   "dodf-51:est300o30:0003",
+   "dodf-348:est300o30:0037"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-122": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-1436:est300o30:0000",
+   "dodf-1517:est300o30:0000",
+   "dodf-735:est300o30:0000",
+   "dodf-822:est300o30:0000",
+   "dodf-897:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-123": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-368:est300o30:0000",
+   "dodf-214:est300o30:0000",
+   "dodf-1250:est300o30:0000",
+   "dodf-1048:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-124": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-1436:est300o30:0000",
+   "dodf-1517:est300o30:0000",
+   "dodf-735:est300o30:0000",
+   "dodf-822:est300o30:0000",
+   "dodf-1081:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-125": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1203:est300o30:0000",
+   "dodf-655:est300o30:0000",
+   "dodf-812:est300o30:0000",
+   "dodf-938:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-126": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1014:est300o30:0083",
+   "dodf-1014:est300o30:0085",
+   "dodf-1067:est300o30:0048"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-127": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-271:est300o30:0001",
+   "dodf-1321:est300o30:0264",
+   "dodf-1155:est300o30:0023"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-128": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1222:est300o30:0001",
+   "dodf-435:est300o30:0004",
+   "dodf-579:est300o30:0012"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-129": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-925:est300o30:0000",
+   "dodf-360:est300o30:0031",
+   "dodf-2:est300o30:0000",
+   "dodf-1699:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-130": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1645:est300o30:0021",
+   "dodf-6:est300o30:0001",
+   "dodf-920:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-131": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-461:est300o30:0000",
+   "dodf-1565:est300o30:0000",
+   "dodf-877:est300o30:0006"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-132": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-208:est300o30:0009",
+   "dodf-1009:est300o30:0039",
+   "dodf-1009:est300o30:0038"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-133": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-944:est300o30:0000",
+   "dodf-1067:est300o30:0087",
+   "dodf-734:est300o30:0000",
+   "dodf-1109:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-134": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1154:est300o30:0000",
+   "dodf-1028:est300o30:0000",
+   "dodf-969:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-135": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-417:est300o30:0000",
+   "dodf-702:est300o30:0000",
+   "dodf-875:est300o30:0000",
+   "dodf-509:est300o30:0000",
+   "dodf-693:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-136": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-1598:est300o30:0000",
+   "dodf-94:est300o30:0000",
+   "dodf-1698:est300o30:0000",
+   "dodf-1700:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-137": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-339:est300o30:0000",
+   "dodf-1705:est300o30:0000",
+   "dodf-25:est300o30:0000",
+   "dodf-340:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-138": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1722:est300o30:0023",
+   "dodf-1155:est300o30:0021",
+   "dodf-1091:est300o30:0015"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-139": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-146:est300o30:0001",
+   "dodf-145:est300o30:0000",
+   "dodf-338:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-140": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-161:est300o30:0000",
+   "dodf-853:est300o30:0013",
+   "dodf-1465:est300o30:0009"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-141": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1035:est300o30:0004",
+   "dodf-1035:est300o30:0018",
+   "dodf-1035:est300o30:0006"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-142": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-671:est300o30:0000",
+   "dodf-939:est300o30:0000",
+   "dodf-668:est300o30:0000",
+   "dodf-675:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-143": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 2,
+  "n_enviados_run": 2,
+  "enviados_replay": [
+   "dodf-1142:est300o30:0005",
+   "dodf-842:est300o30:0005"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-144": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1451:est300o30:0000",
+   "dodf-303:est300o30:0004",
+   "dodf-303:est300o30:0017"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "A",
+  "grupo_real": "A"
+ },
+ "val-145": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-655:est300o30:0000",
+   "dodf-755:est300o30:0000",
+   "dodf-759:est300o30:0000",
+   "dodf-660:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-146": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 5,
+  "n_enviados_run": 5,
+  "enviados_replay": [
+   "dodf-1436:est300o30:0000",
+   "dodf-1517:est300o30:0000",
+   "dodf-735:est300o30:0000",
+   "dodf-822:est300o30:0000",
+   "dodf-897:est300o30:0000"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-147": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-831:est300o30:0000",
+   "dodf-680:est300o30:0000",
+   "dodf-684:est300o30:0004"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-148": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 4,
+  "n_enviados_run": 4,
+  "enviados_replay": [
+   "dodf-399:est300o30:0000",
+   "dodf-468:est300o30:0000",
+   "dodf-469:est300o30:0000",
+   "dodf-1242:est300o30:0034"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ },
+ "val-149": {
+  "mesma_recuperacao": true,
+  "n_enviados_replay": 3,
+  "n_enviados_run": 3,
+  "enviados_replay": [
+   "dodf-1365:est300o30:0001",
+   "dodf-1611:est300o30:0020",
+   "dodf-1052:est300o30:0002"
+  ],
+  "enviados_eh_prefixo": true,
+  "grupo_run": "B",
+  "grupo_real": "B"
+ }
+}

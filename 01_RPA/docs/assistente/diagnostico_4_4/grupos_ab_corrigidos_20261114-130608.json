@@ -1,0 +1,1052 @@
+{
+ "val-000": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-001": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-002": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-003": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-004": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-005": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-006": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-007": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-008": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-009": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-010": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-011": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-012": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-013": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-014": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-015": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-016": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-017": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-018": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-019": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-020": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": false
+ },
+ "val-021": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": false
+ },
+ "val-022": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-023": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-024": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": false
+ },
+ "val-025": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-026": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-027": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-028": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-029": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-030": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-031": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-032": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-033": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-034": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-035": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-036": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-037": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-038": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-039": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-040": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-041": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-042": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-043": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-044": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-045": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-046": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": false
+ },
+ "val-047": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-048": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-049": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-050": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": false
+ },
+ "val-051": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-052": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-053": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-054": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-055": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-056": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-057": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-058": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-059": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-060": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-061": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": false
+ },
+ "val-062": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-063": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-064": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-065": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-066": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-067": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-068": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-069": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-070": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-071": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-072": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-073": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-074": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-075": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-076": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-077": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-078": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": false
+ },
+ "val-079": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-080": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-081": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-082": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-083": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-084": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-085": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": false
+ },
+ "val-086": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-087": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-088": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-089": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-090": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": false
+ },
+ "val-091": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-092": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-093": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-094": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-095": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-096": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-097": {
+  "grupo_original": "B",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": false
+ },
+ "val-098": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-099": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-100": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-101": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-102": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-103": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-104": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-105": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-106": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-107": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-108": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-109": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-110": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-111": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-112": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-113": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-114": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-115": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-116": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-117": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": false
+ },
+ "val-118": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-119": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-120": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-121": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-122": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-123": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-124": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-125": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-126": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-127": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-128": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-129": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-130": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-131": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-132": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-133": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-134": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-135": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-136": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-137": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-138": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-139": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-140": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-141": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-142": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-143": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-144": {
+  "grupo_original": "A",
+  "grupo_corrigido": "A",
+  "n_esperadas_enviadas_corrigido": 1,
+  "n_esperadas_enviadas_original": 1,
+  "enviados_eh_prefixo": true
+ },
+ "val-145": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-146": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-147": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-148": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ },
+ "val-149": {
+  "grupo_original": "B",
+  "grupo_corrigido": "B",
+  "n_esperadas_enviadas_corrigido": 0,
+  "n_esperadas_enviadas_original": 0,
+  "enviados_eh_prefixo": true
+ }
+}

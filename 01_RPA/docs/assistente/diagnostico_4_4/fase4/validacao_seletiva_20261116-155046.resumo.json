@@ -1,0 +1,11 @@
+{
+ "concluidas": 7,
+ "parada": {
+  "apos": "val-025-C-r1",
+  "motivo": "erro tecnico/memoria durante a geracao",
+  "erro": null,
+  "ram_min": 1137,
+  "commit_max": 64.4
+ },
+ "arquivo": "D:\\Downloads\\GS\\RPA\\docs\\assistente\\diagnostico_4_4\\fase4\\validacao_seletiva_20261116-155046.jsonl"
+}

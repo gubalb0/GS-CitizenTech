@@ -130,7 +130,7 @@ def test_valor_nao_sustentado_rebaixa():
 
 def test_data_da_edicao_do_cabecalho_conta_como_sustentada():
     c, _ = cli(ok(saida(resposta="Publicado em 11/01/2025.", fontes=["C1"], evid=[{"fonte": "C1", "trecho": "das 8h às 16h"}])))
-    assert gerar_resposta("quando?", [res(1, T1)], c).status in ("respondida", "parcial")
+    assert gerar_resposta("Quando foi publicada a informação em 2025?", [res(1, T1)], c).status == "respondida"
 
 
 def test_respondida_sem_evidencia_ou_sem_fonte_e_rebaixada():
@@ -183,16 +183,16 @@ def test_conflito_ignora_candidatas_da_mesma_publicacao_e_respostas_iguais_ou_na
     o = saida(resposta="R$ 69.281,56.", fontes=["C1"], evid=[{"fonte": "C1", "trecho": "R$ 69.281,56"}],
               cand=[cand("C1", "R$ 69.281,56"), cand("C2", "R$ 11,11")])
     c, _ = cli(ok(o))
-    assert gerar_resposta("Qual o valor?", [res(1, T2, doc=5), res(2, "outro trecho com R$ 11,11 da mesma publicacao", doc=5)], c).status in ("respondida", "parcial")
+    assert gerar_resposta("Qual o valor?", [res(1, T2, doc=5), res(2, "outro trecho com R$ 11,11 da mesma publicacao", doc=5)], c).telemetria["divergencia"] in ("duplicadas", "sem_divergencia")
     # respostas equivalentes em publicacoes diferentes
     o2 = saida(resposta="R$ 69.281,56.", fontes=["C1"], evid=[{"fonte": "C1", "trecho": "R$ 69.281,56"}], cand=[cand("C1", "R$ 69.281,56"), cand("C2", "R$ 69.281,56")])
     c2, _ = cli(ok(o2))
-    assert gerar_resposta("Qual o valor?", [res(1, T2), res(2, T2 + " (republicado)")], c2).status in ("respondida", "parcial")
+    assert gerar_resposta("Qual o valor?", [res(1, T2), res(2, T2 + " (republicado)")], c2).telemetria["divergencia"] == "respostas_equivalentes"
     # candidata inventada (nao literal) nao gera conflito
     o3 = saida(resposta="R$ 69.281,56.", fontes=["C1"], evid=[{"fonte": "C1", "trecho": "R$ 69.281,56"}], cand=[cand("C1", "R$ 69.281,56"), cand("C2", "R$ 999,99")])
     c3, _ = cli(ok(o3))
     r3 = gerar_resposta("Qual o valor?", [res(1, T2), res(2, T1)], c3)
-    assert r3.status in ("respondida", "parcial") and r3.telemetria["divergencia"] == "sem_divergencia"
+    assert r3.telemetria["divergencia"] == "sem_divergencia"
 
 
 def test_candidatas_invalidas_sao_estruturais():

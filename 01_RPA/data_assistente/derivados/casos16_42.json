@@ -1,0 +1,146 @@
+[
+ {
+  "qid": "val-000",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 1)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-003",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 0)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-006",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 0)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-008",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 12 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-009",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 1 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "sim (perda potencial)"
+ },
+ {
+  "qid": "val-011",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 8 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-024",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 0)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-041",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 46)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-049",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 0)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-054",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 136)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "nao"
+ },
+ {
+  "qid": "val-057",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 11 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-073",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 2 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-075",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 46 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-082",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "respondida",
+  "abstencao": false,
+  "justificativa": "mantida: publicacao identificavel (concorrentes divergentes no corpus: 0; concordantes: 0)",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-107",
+  "grupo": "B",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 206 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "n/a (resposta anterior era de outra publicacao)"
+ },
+ {
+  "qid": "val-128",
+  "grupo": "A",
+  "status_anterior": "parcial",
+  "status_novo": "ambigua",
+  "abstencao": true,
+  "justificativa": "abstencao por identificabilidade: 1 publicacao(oes) do corpus cobrem os termos da pergunta sem sustentar o mesmo fato",
+  "resposta_correta_deixou_de_ser_entregue(A,abstida)": "sim (perda potencial)"
+ }
+]

@@ -1,0 +1,6186 @@
+{
+ "resumo": {
+  "s1_atual_altera": [
+   "val-011",
+   "val-074",
+   "val-080",
+   "val-087",
+   "val-125",
+   "val-133"
+  ],
+  "s1_conservadora_altera": [
+   "val-074",
+   "val-087"
+  ],
+  "promocoes_redundantes_evitadas": [
+   "val-011",
+   "val-080",
+   "val-125",
+   "val-133"
+  ],
+  "orcamento_max": {
+   "baseline": 2998,
+   "s1_atual": 2998,
+   "s1_conservadora": 2998
+  },
+  "entregues_4_3_afetadas": [],
+  "conservadora_difere_do_atual_fora_dos_6": []
+ },
+ "por_pergunta": {
+  "val-000": {
+   "pergunta": "Qual empresa foi inabilitada no credenciamento para prestação de serviço de cirurgia oftalmológica no hospital?",
+   "baseline": [
+    "dodf-1647:est300o30:0000",
+    "dodf-1343:est300o30:0000",
+    "dodf-1360:est300o30:0000",
+    "dodf-1361:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1647:est300o30:0000",
+    "dodf-1343:est300o30:0000",
+    "dodf-1360:est300o30:0000",
+    "dodf-1361:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1647:est300o30:0000",
+    "dodf-1343:est300o30:0000",
+    "dodf-1360:est300o30:0000",
+    "dodf-1361:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1647:est300o30:0000": null,
+     "dodf-1343:est300o30:0000": null,
+     "dodf-1360:est300o30:0000": null,
+     "dodf-1361:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-001": {
+   "pergunta": "Qual serviço de manutenção foi contratado para a Policlínica do Núcleo Bandeirante?",
+   "baseline": [
+    "dodf-719:est300o30:0005",
+    "dodf-349:est300o30:0001",
+    "dodf-956:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-719:est300o30:0005",
+    "dodf-349:est300o30:0001",
+    "dodf-956:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-719:est300o30:0005",
+    "dodf-349:est300o30:0001",
+    "dodf-956:est300o30:0001"
+   ],
+   "tokens": [
+    2718,
+    2718,
+    2718
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-719:est300o30:0005": null,
+     "dodf-349:est300o30:0001": null,
+     "dodf-956:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-002": {
+   "pergunta": "Qual medicamento foi adquirido para o Hospital da Criança de Brasília José Alencar no Chamamento nº 270/2025?",
+   "baseline": [
+    "dodf-1600:est300o30:0001",
+    "dodf-284:est300o30:0000",
+    "dodf-166:est300o30:0006"
+   ],
+   "s1_atual": [
+    "dodf-1600:est300o30:0001",
+    "dodf-284:est300o30:0000",
+    "dodf-166:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1600:est300o30:0001",
+    "dodf-284:est300o30:0000",
+    "dodf-166:est300o30:0006"
+   ],
+   "tokens": [
+    2616,
+    2616,
+    2616
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1600:est300o30:0001": null,
+     "dodf-284:est300o30:0000": null,
+     "dodf-166:est300o30:0006": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-003": {
+   "pergunta": "Qual empresa foi ratificada para fornecimento de tintas para tecido ao Hospital São Vicente de Paulo?",
+   "baseline": [
+    "dodf-1395:est300o30:0000",
+    "dodf-1231:est300o30:0000",
+    "dodf-1723:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1395:est300o30:0000",
+    "dodf-1231:est300o30:0000",
+    "dodf-1723:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1395:est300o30:0000",
+    "dodf-1231:est300o30:0000",
+    "dodf-1723:est300o30:0000"
+   ],
+   "tokens": [
+    2674,
+    2674,
+    2674
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1395:est300o30:0000": null,
+     "dodf-1231:est300o30:0000": null,
+     "dodf-1723:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-004": {
+   "pergunta": "Quais produtos foram adquiridos para manutenção da piscina do Hospital de Apoio de Brasília?",
+   "baseline": [
+    "dodf-1142:est300o30:0001",
+    "dodf-1468:est300o30:0001",
+    "dodf-1468:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1142:est300o30:0001",
+    "dodf-1468:est300o30:0001",
+    "dodf-1468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1142:est300o30:0001",
+    "dodf-1468:est300o30:0001",
+    "dodf-1468:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1142:est300o30:0001": null,
+     "dodf-1468:est300o30:0001": null,
+     "dodf-1468:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-005": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+   "baseline": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "tokens": [
+    2642,
+    2642,
+    2642
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-704:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-255:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-408:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-468:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-006": {
+   "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+   "baseline": [
+    "dodf-957:est300o30:0000",
+    "dodf-28:est300o30:0000",
+    "dodf-1014:est300o30:0104"
+   ],
+   "s1_atual": [
+    "dodf-957:est300o30:0000",
+    "dodf-28:est300o30:0000",
+    "dodf-1014:est300o30:0104"
+   ],
+   "s1_conservadora": [
+    "dodf-957:est300o30:0000",
+    "dodf-28:est300o30:0000",
+    "dodf-1014:est300o30:0104"
+   ],
+   "tokens": [
+    2910,
+    2910,
+    2910
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-957:est300o30:0000": null,
+     "dodf-28:est300o30:0000": null,
+     "dodf-1014:est300o30:0104": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-007": {
+   "pergunta": "Quais serviços de saúde estão sendo implementados em Riacho Fundo II?",
+   "baseline": [
+    "dodf-1236:est300o30:0008",
+    "dodf-1236:est300o30:0012",
+    "dodf-1449:est300o30:0008"
+   ],
+   "s1_atual": [
+    "dodf-1236:est300o30:0008",
+    "dodf-1236:est300o30:0012",
+    "dodf-1449:est300o30:0008"
+   ],
+   "s1_conservadora": [
+    "dodf-1236:est300o30:0008",
+    "dodf-1236:est300o30:0012",
+    "dodf-1449:est300o30:0008"
+   ],
+   "tokens": [
+    2848,
+    2848,
+    2848
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1236:est300o30:0008": null,
+     "dodf-1236:est300o30:0012": null,
+     "dodf-1449:est300o30:0008": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-008": {
+   "pergunta": "Quem foi responsável pela autorização de pagamento ao Hospital Prontonorte?",
+   "baseline": [
+    "dodf-1014:est300o30:0236",
+    "dodf-89:est300o30:0000",
+    "dodf-1510:est300o30:0005"
+   ],
+   "s1_atual": [
+    "dodf-1014:est300o30:0236",
+    "dodf-89:est300o30:0000",
+    "dodf-1510:est300o30:0005"
+   ],
+   "s1_conservadora": [
+    "dodf-1014:est300o30:0236",
+    "dodf-89:est300o30:0000",
+    "dodf-1510:est300o30:0005"
+   ],
+   "tokens": [
+    2927,
+    2927,
+    2927
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1014:est300o30:0236": null,
+     "dodf-89:est300o30:0000": null,
+     "dodf-1510:est300o30:0005": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-009": {
+   "pergunta": "Qual é o prazo máximo para a Comissão Eleitoral da Candangolândia concluir o processo eleitoral?",
+   "baseline": [
+    "dodf-1473:est300o30:0006",
+    "dodf-1236:est300o30:0006",
+    "dodf-1473:est300o30:0011"
+   ],
+   "s1_atual": [
+    "dodf-1473:est300o30:0006",
+    "dodf-1236:est300o30:0006",
+    "dodf-1473:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-1473:est300o30:0006",
+    "dodf-1236:est300o30:0006",
+    "dodf-1473:est300o30:0011"
+   ],
+   "tokens": [
+    2983,
+    2983,
+    2983
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1473:est300o30:0006": null,
+     "dodf-1236:est300o30:0006": null,
+     "dodf-1473:est300o30:0011": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-010": {
+   "pergunta": "Até quando estão sendo recebidas propostas para a aquisição de materiais especiais no Hospital da Criança de Brasília José Alencar?",
+   "baseline": [
+    "dodf-1143:est300o30:0000",
+    "dodf-1184:est300o30:0000",
+    "dodf-963:est300o30:0006"
+   ],
+   "s1_atual": [
+    "dodf-1143:est300o30:0000",
+    "dodf-1184:est300o30:0000",
+    "dodf-963:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1143:est300o30:0000",
+    "dodf-1184:est300o30:0000",
+    "dodf-963:est300o30:0006"
+   ],
+   "tokens": [
+    2602,
+    2602,
+    2602
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1143:est300o30:0000": null,
+     "dodf-1184:est300o30:0000": null,
+     "dodf-963:est300o30:0006": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-011": {
+   "pergunta": "Qual é o endereço do hospital credenciado no Gama que teve alterações em seus procedimentos?",
+   "baseline": [
+    "dodf-1611:est300o30:0002",
+    "dodf-856:est300o30:0128",
+    "dodf-859:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1438:est300o30:0000",
+    "dodf-1611:est300o30:0002",
+    "dodf-856:est300o30:0128"
+   ],
+   "s1_conservadora": [
+    "dodf-1611:est300o30:0002",
+    "dodf-856:est300o30:0128",
+    "dodf-859:est300o30:0000"
+   ],
+   "tokens": [
+    2886,
+    2882,
+    2886
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1611:est300o30:0002": null,
+     "dodf-856:est300o30:0128": null,
+     "dodf-859:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "endereco"
+     }
+    },
+    "s1_atual_mudaria": true,
+    "decisao": "promocao_redundante_evitada"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-012": {
+   "pergunta": "Quais equipamentos médicos foram adquiridos para o Hospital Regional de Ceilândia?",
+   "baseline": [
+    "dodf-238:est300o30:0003",
+    "dodf-560:est300o30:0017",
+    "dodf-807:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-238:est300o30:0003",
+    "dodf-560:est300o30:0017",
+    "dodf-807:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-238:est300o30:0003",
+    "dodf-560:est300o30:0017",
+    "dodf-807:est300o30:0000"
+   ],
+   "tokens": [
+    2592,
+    2592,
+    2592
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-238:est300o30:0003": null,
+     "dodf-560:est300o30:0017": null,
+     "dodf-807:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-013": {
+   "pergunta": "Quais são as aquisições de insumos e serviços realizadas para atender às necessidades do Hospital Regional de Taguatinga na região Sudoeste?",
+   "baseline": [
+    "dodf-1352:est300o30:0000",
+    "dodf-1182:est300o30:0000",
+    "dodf-242:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1352:est300o30:0000",
+    "dodf-1182:est300o30:0000",
+    "dodf-242:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0000",
+    "dodf-1182:est300o30:0000",
+    "dodf-242:est300o30:0000"
+   ],
+   "tokens": [
+    2997,
+    2997,
+    2997
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1352:est300o30:0000": null,
+     "dodf-1182:est300o30:0000": null,
+     "dodf-242:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-014": {
+   "pergunta": "Até quando será possível enviar propostas para o chamamento no Hospital da Criança de Brasília José Alencar?",
+   "baseline": [
+    "dodf-633:est300o30:0001",
+    "dodf-681:est300o30:0001",
+    "dodf-1143:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-633:est300o30:0001",
+    "dodf-681:est300o30:0001",
+    "dodf-1143:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-633:est300o30:0001",
+    "dodf-681:est300o30:0001",
+    "dodf-1143:est300o30:0000"
+   ],
+   "tokens": [
+    2960,
+    2960,
+    2960
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-633:est300o30:0001": null,
+     "dodf-681:est300o30:0001": null,
+     "dodf-1143:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-015": {
+   "pergunta": "Qual instituição hospitalar em Brasília foi autorizada a receber pagamento de dívida reconhecida?",
+   "baseline": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2606,
+    2606,
+    2606
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1242:est300o30:0034": null,
+     "dodf-1243:est300o30:0037": null,
+     "dodf-1244:est300o30:0032": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-016": {
+   "pergunta": "Por qual motivo foi reconhecida a dívida do Hospital Santa Lúcia?",
+   "baseline": [
+    "dodf-482:est300o30:0000",
+    "dodf-528:est300o30:0000",
+    "dodf-1570:est300o30:0000",
+    "dodf-735:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-482:est300o30:0000",
+    "dodf-528:est300o30:0000",
+    "dodf-1570:est300o30:0000",
+    "dodf-735:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-482:est300o30:0000",
+    "dodf-528:est300o30:0000",
+    "dodf-1570:est300o30:0000",
+    "dodf-735:est300o30:0000"
+   ],
+   "tokens": [
+    2956,
+    2956,
+    2956
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-482:est300o30:0000": null,
+     "dodf-528:est300o30:0000": null,
+     "dodf-1570:est300o30:0000": null,
+     "dodf-735:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-017": {
+   "pergunta": "Quais estabelecimentos de saúde na Asa Sul possuem brigada de incêndio própria credenciada?",
+   "baseline": [
+    "dodf-1121:est300o30:0004",
+    "dodf-418:est300o30:0011",
+    "dodf-1121:est300o30:0003"
+   ],
+   "s1_atual": [
+    "dodf-1121:est300o30:0004",
+    "dodf-418:est300o30:0011",
+    "dodf-1121:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-1121:est300o30:0004",
+    "dodf-418:est300o30:0011",
+    "dodf-1121:est300o30:0003"
+   ],
+   "tokens": [
+    2750,
+    2750,
+    2750
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1121:est300o30:0004": null,
+     "dodf-418:est300o30:0011": null,
+     "dodf-1121:est300o30:0003": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-018": {
+   "pergunta": "Qual foi o valor autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+   "baseline": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "tokens": [
+    2642,
+    2642,
+    2642
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-704:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-255:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-408:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-468:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-019": {
+   "pergunta": "Qual tipo de análise de água foi solicitado para o Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1512:est300o30:0012",
+    "dodf-1234:est300o30:0002",
+    "dodf-1512:est300o30:0011"
+   ],
+   "s1_atual": [
+    "dodf-1512:est300o30:0012",
+    "dodf-1234:est300o30:0002",
+    "dodf-1512:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-1512:est300o30:0012",
+    "dodf-1234:est300o30:0002",
+    "dodf-1512:est300o30:0011"
+   ],
+   "tokens": [
+    2760,
+    2760,
+    2760
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1512:est300o30:0012": null,
+     "dodf-1234:est300o30:0002": null,
+     "dodf-1512:est300o30:0011": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-020": {
+   "pergunta": "Quais estabelecimentos de saúde foram credenciados para prestar serviços de radiologia e medicina nuclear no Gama?",
+   "baseline": [
+    "dodf-361:est300o30:0001",
+    "dodf-1009:est300o30:0035",
+    "dodf-1054:est300o30:0003"
+   ],
+   "s1_atual": [
+    "dodf-361:est300o30:0001",
+    "dodf-1009:est300o30:0035",
+    "dodf-1054:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-361:est300o30:0001",
+    "dodf-1009:est300o30:0035",
+    "dodf-1054:est300o30:0003"
+   ],
+   "tokens": [
+    2931,
+    2931,
+    2931
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-361:est300o30:0001": null,
+     "dodf-1009:est300o30:0035": null,
+     "dodf-1054:est300o30:0003": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-021": {
+   "pergunta": "Quais serviços de saúde mental estão sendo credenciados para atender os beneficiários da Polícia Militar em Sobradinho?",
+   "baseline": [
+    "dodf-5:est300o30:0000",
+    "dodf-1449:est300o30:0007",
+    "dodf-1611:est300o30:0018"
+   ],
+   "s1_atual": [
+    "dodf-5:est300o30:0000",
+    "dodf-1449:est300o30:0007",
+    "dodf-1611:est300o30:0018"
+   ],
+   "s1_conservadora": [
+    "dodf-5:est300o30:0000",
+    "dodf-1449:est300o30:0007",
+    "dodf-1611:est300o30:0018"
+   ],
+   "tokens": [
+    2966,
+    2966,
+    2966
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-5:est300o30:0000": null,
+     "dodf-1449:est300o30:0007": null,
+     "dodf-1611:est300o30:0018": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-022": {
+   "pergunta": "Quais serviços de alimentação hospitalar foram contratados para as unidades de saúde que atendem Santa Maria?",
+   "baseline": [
+    "dodf-1178:est300o30:0196",
+    "dodf-174:est300o30:0004",
+    "dodf-1405:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-1178:est300o30:0196",
+    "dodf-174:est300o30:0004",
+    "dodf-1405:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-1178:est300o30:0196",
+    "dodf-174:est300o30:0004",
+    "dodf-1405:est300o30:0001"
+   ],
+   "tokens": [
+    2941,
+    2941,
+    2941
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1178:est300o30:0196": null,
+     "dodf-174:est300o30:0004": null,
+     "dodf-1405:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-023": {
+   "pergunta": "Qual é o valor da dívida reconhecida para o Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia?",
+   "baseline": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-408:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-468:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-469:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-704:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-024": {
+   "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+   "baseline": [
+    "dodf-718:est300o30:0000",
+    "dodf-1131:est300o30:0010",
+    "dodf-1131:est300o30:0011"
+   ],
+   "s1_atual": [
+    "dodf-718:est300o30:0000",
+    "dodf-1131:est300o30:0010",
+    "dodf-1131:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-718:est300o30:0000",
+    "dodf-1131:est300o30:0010",
+    "dodf-1131:est300o30:0011"
+   ],
+   "tokens": [
+    2969,
+    2969,
+    2969
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-718:est300o30:0000": null,
+     "dodf-1131:est300o30:0010": null,
+     "dodf-1131:est300o30:0011": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-025": {
+   "pergunta": "Qual instituição foi autorizada a receber pagamento referente ao credenciamento no hospital?",
+   "baseline": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2604,
+    2604,
+    2604
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1242:est300o30:0034": null,
+     "dodf-1243:est300o30:0037": null,
+     "dodf-1244:est300o30:0032": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-026": {
+   "pergunta": "A partir de quando o novo procedimento passou a ser oferecido no Hospital Sírio-Libanês?",
+   "baseline": [
+    "dodf-592:est300o30:0000",
+    "dodf-594:est300o30:0000",
+    "dodf-595:est300o30:0000",
+    "dodf-606:est300o30:0000",
+    "dodf-404:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-592:est300o30:0000",
+    "dodf-594:est300o30:0000",
+    "dodf-595:est300o30:0000",
+    "dodf-606:est300o30:0000",
+    "dodf-404:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-592:est300o30:0000",
+    "dodf-594:est300o30:0000",
+    "dodf-595:est300o30:0000",
+    "dodf-606:est300o30:0000",
+    "dodf-404:est300o30:0000"
+   ],
+   "tokens": [
+    2827,
+    2827,
+    2827
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-592:est300o30:0000": null,
+     "dodf-594:est300o30:0000": null,
+     "dodf-595:est300o30:0000": null,
+     "dodf-606:est300o30:0000": null,
+     "dodf-404:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-027": {
+   "pergunta": "Qual é o prazo para recebimento de propostas do Chamamento nº 170/2025 no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1012:est300o30:0000",
+    "dodf-922:est300o30:0000",
+    "dodf-932:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1012:est300o30:0000",
+    "dodf-922:est300o30:0000",
+    "dodf-932:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1012:est300o30:0000",
+    "dodf-922:est300o30:0000",
+    "dodf-932:est300o30:0000"
+   ],
+   "tokens": [
+    2762,
+    2762,
+    2762
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1012:est300o30:0000": null,
+     "dodf-922:est300o30:0000": null,
+     "dodf-932:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-028": {
+   "pergunta": "Qual é o objeto da aquisição em processo no Hospital da Criança de Brasília José Alencar conforme o chamamento nº 036/2025?",
+   "baseline": [
+    "dodf-187:est300o30:0002",
+    "dodf-1702:est300o30:0006",
+    "dodf-187:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-187:est300o30:0002",
+    "dodf-1702:est300o30:0006",
+    "dodf-187:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-187:est300o30:0002",
+    "dodf-1702:est300o30:0006",
+    "dodf-187:est300o30:0000"
+   ],
+   "tokens": [
+    2848,
+    2848,
+    2848
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-187:est300o30:0002": null,
+     "dodf-1702:est300o30:0006": null,
+     "dodf-187:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-029": {
+   "pergunta": "Qual instituição hospitalar em Ceilândia teve sua dívida de exercício anterior reconhecida nesta publicação?",
+   "baseline": [
+    "dodf-1667:est300o30:0001",
+    "dodf-1321:est300o30:0150",
+    "dodf-1321:est300o30:0155",
+    "dodf-1243:est300o30:0009"
+   ],
+   "s1_atual": [
+    "dodf-1667:est300o30:0001",
+    "dodf-1321:est300o30:0150",
+    "dodf-1321:est300o30:0155",
+    "dodf-1243:est300o30:0009"
+   ],
+   "s1_conservadora": [
+    "dodf-1667:est300o30:0001",
+    "dodf-1321:est300o30:0150",
+    "dodf-1321:est300o30:0155",
+    "dodf-1243:est300o30:0009"
+   ],
+   "tokens": [
+    2980,
+    2980,
+    2980
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1667:est300o30:0001": null,
+     "dodf-1321:est300o30:0150": null,
+     "dodf-1321:est300o30:0155": null,
+     "dodf-1243:est300o30:0009": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-030": {
+   "pergunta": "Qual foi o valor total pago à empresa Fresenius Kabi Brasil Ltda pela aquisição de medicamentos no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1332:est300o30:0000",
+    "dodf-1021:est300o30:0000",
+    "dodf-1702:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1332:est300o30:0000",
+    "dodf-1021:est300o30:0000",
+    "dodf-1702:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1332:est300o30:0000",
+    "dodf-1021:est300o30:0000",
+    "dodf-1702:est300o30:0004"
+   ],
+   "tokens": [
+    2670,
+    2670,
+    2670
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1332:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1021:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1702:est300o30:0004": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-031": {
+   "pergunta": "Quais foram os indicadores de satisfação dos pacientes no Hospital da Criança de Brasília José Alencar durante o terceiro trimestre de 2023?",
+   "baseline": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1464:est300o30:0004",
+    "dodf-1463:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1464:est300o30:0004",
+    "dodf-1463:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1464:est300o30:0004",
+    "dodf-1463:est300o30:0002"
+   ],
+   "tokens": [
+    2983,
+    2983,
+    2983
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1464:est300o30:0000": null,
+     "dodf-1464:est300o30:0004": null,
+     "dodf-1463:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-032": {
+   "pergunta": "Quais Unidades Básicas de Saúde no Jardim Botânico foram incluídas no contrato com a empresa Vida Diagnósticos?",
+   "baseline": [
+    "dodf-1451:est300o30:0000",
+    "dodf-1351:est300o30:0037",
+    "dodf-1645:est300o30:0218"
+   ],
+   "s1_atual": [
+    "dodf-1451:est300o30:0000",
+    "dodf-1351:est300o30:0037",
+    "dodf-1645:est300o30:0218"
+   ],
+   "s1_conservadora": [
+    "dodf-1451:est300o30:0000",
+    "dodf-1351:est300o30:0037",
+    "dodf-1645:est300o30:0218"
+   ],
+   "tokens": [
+    2671,
+    2671,
+    2671
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1451:est300o30:0000": null,
+     "dodf-1351:est300o30:0037": null,
+     "dodf-1645:est300o30:0218": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-033": {
+   "pergunta": "Quais serviços de manutenção foram contratados para o Hospital Regional de Ceilândia?",
+   "baseline": [
+    "dodf-917:est300o30:0000",
+    "dodf-440:est300o30:0007",
+    "dodf-1026:est300o30:0008"
+   ],
+   "s1_atual": [
+    "dodf-917:est300o30:0000",
+    "dodf-440:est300o30:0007",
+    "dodf-1026:est300o30:0008"
+   ],
+   "s1_conservadora": [
+    "dodf-917:est300o30:0000",
+    "dodf-440:est300o30:0007",
+    "dodf-1026:est300o30:0008"
+   ],
+   "tokens": [
+    2847,
+    2847,
+    2847
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-917:est300o30:0000": null,
+     "dodf-440:est300o30:0007": null,
+     "dodf-1026:est300o30:0008": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-034": {
+   "pergunta": "Qual instituição hospitalar foi autorizada a receber pagamento de dívida reconhecida pelo INAS?",
+   "baseline": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2606,
+    2606,
+    2606
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1242:est300o30:0034": null,
+     "dodf-1243:est300o30:0037": null,
+     "dodf-1244:est300o30:0032": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-035": {
+   "pergunta": "Qual é a unidade de saúde no Recanto das Emas que está participando do processo seletivo para preceptores de ensino técnico?",
+   "baseline": [
+    "dodf-1009:est300o30:0047",
+    "dodf-1009:est300o30:0045",
+    "dodf-968:est300o30:0039"
+   ],
+   "s1_atual": [
+    "dodf-1009:est300o30:0047",
+    "dodf-1009:est300o30:0045",
+    "dodf-968:est300o30:0039"
+   ],
+   "s1_conservadora": [
+    "dodf-1009:est300o30:0047",
+    "dodf-1009:est300o30:0045",
+    "dodf-968:est300o30:0039"
+   ],
+   "tokens": [
+    2759,
+    2759,
+    2759
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1009:est300o30:0047": null,
+     "dodf-1009:est300o30:0045": null,
+     "dodf-968:est300o30:0039": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-036": {
+   "pergunta": "Qual instituição foi credenciante para os serviços prestados no Hospital São Mateus?",
+   "baseline": [
+    "dodf-2:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1510:est300o30:0005",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_atual": [
+    "dodf-2:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1510:est300o30:0005",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_conservadora": [
+    "dodf-2:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1510:est300o30:0005",
+    "dodf-1242:est300o30:0034"
+   ],
+   "tokens": [
+    2973,
+    2973,
+    2973
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-2:est300o30:0000": null,
+     "dodf-887:est300o30:0000": null,
+     "dodf-1510:est300o30:0005": null,
+     "dodf-1242:est300o30:0034": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-037": {
+   "pergunta": "Quantas empresas foram vencedoras na aquisição de dietas enterais e orais no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-951:est300o30:0004",
+    "dodf-1724:est300o30:0005",
+    "dodf-1012:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-951:est300o30:0004",
+    "dodf-1724:est300o30:0005",
+    "dodf-1012:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-951:est300o30:0004",
+    "dodf-1724:est300o30:0005",
+    "dodf-1012:est300o30:0001"
+   ],
+   "tokens": [
+    2962,
+    2962,
+    2962
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-951:est300o30:0004": null,
+     "dodf-1724:est300o30:0005": null,
+     "dodf-1012:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-038": {
+   "pergunta": "Qual empresa foi adjudicada para fornecer medicamentos às UBS das Unidades Prisionais?",
+   "baseline": [
+    "dodf-1159:est300o30:0000",
+    "dodf-1158:est300o30:0000",
+    "dodf-1156:est300o30:0000",
+    "dodf-1157:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1159:est300o30:0000",
+    "dodf-1158:est300o30:0000",
+    "dodf-1156:est300o30:0000",
+    "dodf-1157:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1159:est300o30:0000",
+    "dodf-1158:est300o30:0000",
+    "dodf-1156:est300o30:0000",
+    "dodf-1157:est300o30:0000"
+   ],
+   "tokens": [
+    2945,
+    2945,
+    2945
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1159:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "empresa"
+     },
+     "dodf-1158:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "empresa"
+     },
+     "dodf-1156:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "empresa"
+     },
+     "dodf-1157:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "empresa"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-039": {
+   "pergunta": "Quais unidades de saúde em São Sebastião receberão equipamentos odontológicos conforme o contrato de distribuição?",
+   "baseline": [
+    "dodf-1365:est300o30:0002",
+    "dodf-303:est300o30:0000",
+    "dodf-1075:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1365:est300o30:0002",
+    "dodf-303:est300o30:0000",
+    "dodf-1075:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0002",
+    "dodf-303:est300o30:0000",
+    "dodf-1075:est300o30:0000"
+   ],
+   "tokens": [
+    2740,
+    2740,
+    2740
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1365:est300o30:0002": null,
+     "dodf-303:est300o30:0000": null,
+     "dodf-1075:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-040": {
+   "pergunta": "Qual serviço de manutenção foi contratado para o Hospital de Apoio de Brasília?",
+   "baseline": [
+    "dodf-957:est300o30:0000",
+    "dodf-1142:est300o30:0001",
+    "dodf-1142:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-957:est300o30:0000",
+    "dodf-1142:est300o30:0001",
+    "dodf-1142:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-957:est300o30:0000",
+    "dodf-1142:est300o30:0001",
+    "dodf-1142:est300o30:0002"
+   ],
+   "tokens": [
+    2893,
+    2893,
+    2893
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-957:est300o30:0000": null,
+     "dodf-1142:est300o30:0001": null,
+     "dodf-1142:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-041": {
+   "pergunta": "Qual instituição de saúde em Ceilândia teve seu crédito orçamentário descentralizado para pagamento de despesas de exercícios anteriores?",
+   "baseline": [
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-398:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-398:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-398:est300o30:0000"
+   ],
+   "tokens": [
+    2537,
+    2537,
+    2537
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-468:est300o30:0000": null,
+     "dodf-469:est300o30:0000": null,
+     "dodf-398:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-042": {
+   "pergunta": "Quais são os prazos disponíveis para a empresa inabilitada no hospital apresentar recursos contra a decisão?",
+   "baseline": [
+    "dodf-1095:est300o30:0118",
+    "dodf-956:est300o30:0002",
+    "dodf-93:est300o30:0014"
+   ],
+   "s1_atual": [
+    "dodf-1095:est300o30:0118",
+    "dodf-956:est300o30:0002",
+    "dodf-93:est300o30:0014"
+   ],
+   "s1_conservadora": [
+    "dodf-1095:est300o30:0118",
+    "dodf-956:est300o30:0002",
+    "dodf-93:est300o30:0014"
+   ],
+   "tokens": [
+    2956,
+    2956,
+    2956
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1095:est300o30:0118": null,
+     "dodf-956:est300o30:0002": null,
+     "dodf-93:est300o30:0014": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-043": {
+   "pergunta": "Qual empresa prestadora de serviços de saúde teve sua dívida reconhecida no hospital?",
+   "baseline": [
+    "dodf-1103:est300o30:0000",
+    "dodf-1126:est300o30:0000",
+    "dodf-836:est300o30:0000",
+    "dodf-426:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1103:est300o30:0000",
+    "dodf-1126:est300o30:0000",
+    "dodf-836:est300o30:0000",
+    "dodf-426:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1103:est300o30:0000",
+    "dodf-1126:est300o30:0000",
+    "dodf-836:est300o30:0000",
+    "dodf-426:est300o30:0000"
+   ],
+   "tokens": [
+    2712,
+    2712,
+    2712
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1103:est300o30:0000": null,
+     "dodf-1126:est300o30:0000": null,
+     "dodf-836:est300o30:0000": null,
+     "dodf-426:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-044": {
+   "pergunta": "Quais serviços de saúde estão sendo credenciados para atender beneficiários na Asa Sul?",
+   "baseline": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0003",
+    "dodf-94:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0003",
+    "dodf-94:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0003",
+    "dodf-94:est300o30:0000"
+   ],
+   "tokens": [
+    2780,
+    2780,
+    2780
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1611:est300o30:0006": null,
+     "dodf-1611:est300o30:0003": null,
+     "dodf-94:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-045": {
+   "pergunta": "Qual UBS foi adicionada ao contrato no Jardim Botânico?",
+   "baseline": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_atual": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_conservadora": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "tokens": [
+    2820,
+    2820,
+    2820
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1451:est300o30:0000": null,
+     "dodf-303:est300o30:0004": null,
+     "dodf-303:est300o30:0017": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-046": {
+   "pergunta": "Quais materiais de saúde foram adquiridos para o Hospital de Sobradinho?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1476:est300o30:0000",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1476:est300o30:0000",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1476:est300o30:0000",
+    "dodf-1351:est300o30:0037"
+   ],
+   "tokens": [
+    2963,
+    2963,
+    2963
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1476:est300o30:0000": null,
+     "dodf-1351:est300o30:0037": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-047": {
+   "pergunta": "Quais programas de residência médica estão disponíveis no Hospital Regional do Gama?",
+   "baseline": [
+    "dodf-141:est300o30:0002",
+    "dodf-141:est300o30:0025",
+    "dodf-141:est300o30:0038"
+   ],
+   "s1_atual": [
+    "dodf-141:est300o30:0002",
+    "dodf-141:est300o30:0025",
+    "dodf-141:est300o30:0038"
+   ],
+   "s1_conservadora": [
+    "dodf-141:est300o30:0002",
+    "dodf-141:est300o30:0025",
+    "dodf-141:est300o30:0038"
+   ],
+   "tokens": [
+    2954,
+    2954,
+    2954
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-141:est300o30:0002": null,
+     "dodf-141:est300o30:0025": null,
+     "dodf-141:est300o30:0038": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-048": {
+   "pergunta": "Quais itens foram adquiridos para o Hospital de Sobradinho conforme as publicações do DODF?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1131:est300o30:0008",
+    "dodf-162:est300o30:0031"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1131:est300o30:0008",
+    "dodf-162:est300o30:0031"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1131:est300o30:0008",
+    "dodf-162:est300o30:0031"
+   ],
+   "tokens": [
+    2931,
+    2931,
+    2931
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1131:est300o30:0008": null,
+     "dodf-162:est300o30:0031": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-049": {
+   "pergunta": "Quem foi eleito como membro efetivo da Comissão de Ética Médica da Unidade de Pronto Atendimento Riacho Fundo II?",
+   "baseline": [
+    "dodf-698:est300o30:0002",
+    "dodf-234:est300o30:0002",
+    "dodf-1023:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-698:est300o30:0002",
+    "dodf-234:est300o30:0002",
+    "dodf-1023:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-698:est300o30:0002",
+    "dodf-234:est300o30:0002",
+    "dodf-1023:est300o30:0004"
+   ],
+   "tokens": [
+    2565,
+    2565,
+    2565
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-698:est300o30:0002": null,
+     "dodf-234:est300o30:0002": null,
+     "dodf-1023:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-050": {
+   "pergunta": "Quais insumos farmacêuticos foram adquiridos para o Hospital Regional de Taguatinga no período de 31 de julho a 22 de agosto de 2025?",
+   "baseline": [
+    "dodf-1307:est300o30:0000",
+    "dodf-144:est300o30:0004",
+    "dodf-196:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1307:est300o30:0000",
+    "dodf-144:est300o30:0004",
+    "dodf-196:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1307:est300o30:0000",
+    "dodf-144:est300o30:0004",
+    "dodf-196:est300o30:0004"
+   ],
+   "tokens": [
+    2948,
+    2948,
+    2948
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1307:est300o30:0000": null,
+     "dodf-144:est300o30:0004": null,
+     "dodf-196:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-051": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital São Mateus?",
+   "baseline": [
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000",
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000",
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000",
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000"
+   ],
+   "tokens": [
+    2577,
+    2577,
+    2577
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1250:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1048:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-368:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-214:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-052": {
+   "pergunta": "Quais insumos e serviços foram adquiridos para o Hospital Regional de Taguatinga conforme as dispensas de licitação publicadas?",
+   "baseline": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000",
+    "dodf-1182:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000",
+    "dodf-1182:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000",
+    "dodf-1182:est300o30:0000"
+   ],
+   "tokens": [
+    2998,
+    2998,
+    2998
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1352:est300o30:0000": null,
+     "dodf-960:est300o30:0000": null,
+     "dodf-1182:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-053": {
+   "pergunta": "Quais unidades de saúde em Samambaia receberam compressores de ar odontológico conforme as publicações do DODF?",
+   "baseline": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1123:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1123:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1123:est300o30:0001"
+   ],
+   "tokens": [
+    2802,
+    2802,
+    2802
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-51:est300o30:0005": null,
+     "dodf-1123:est300o30:0000": null,
+     "dodf-1123:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-054": {
+   "pergunta": "Qual foi a natureza dos serviços prestados pelo Hospital Prontonorte aos beneficiários da PMDF?",
+   "baseline": [
+    "dodf-670:est300o30:0000",
+    "dodf-665:est300o30:0000",
+    "dodf-772:est300o30:0000",
+    "dodf-598:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-670:est300o30:0000",
+    "dodf-665:est300o30:0000",
+    "dodf-772:est300o30:0000",
+    "dodf-598:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-670:est300o30:0000",
+    "dodf-665:est300o30:0000",
+    "dodf-772:est300o30:0000",
+    "dodf-598:est300o30:0000"
+   ],
+   "tokens": [
+    2649,
+    2649,
+    2649
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-670:est300o30:0000": null,
+     "dodf-665:est300o30:0000": null,
+     "dodf-772:est300o30:0000": null,
+     "dodf-598:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-055": {
+   "pergunta": "Quais produtos e equipamentos foram adquiridos para as unidades de saúde em Lago Norte?",
+   "baseline": [
+    "dodf-957:est300o30:0004",
+    "dodf-956:est300o30:0002",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_atual": [
+    "dodf-957:est300o30:0004",
+    "dodf-956:est300o30:0002",
+    "dodf-1351:est300o30:0037"
+   ],
+   "s1_conservadora": [
+    "dodf-957:est300o30:0004",
+    "dodf-956:est300o30:0002",
+    "dodf-1351:est300o30:0037"
+   ],
+   "tokens": [
+    2922,
+    2922,
+    2922
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-957:est300o30:0004": null,
+     "dodf-956:est300o30:0002": null,
+     "dodf-1351:est300o30:0037": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-056": {
+   "pergunta": "Quais medicamentos foram adquiridos para o Hospital Regional de Ceilândia em maio de 2025?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1649:est300o30:0004",
+    "dodf-1418:est300o30:0010"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1649:est300o30:0004",
+    "dodf-1418:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1649:est300o30:0004",
+    "dodf-1418:est300o30:0010"
+   ],
+   "tokens": [
+    2962,
+    2962,
+    2962
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1649:est300o30:0004": null,
+     "dodf-1418:est300o30:0010": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-057": {
+   "pergunta": "Qual foi o valor autorizado para pagamento referente aos serviços de hospital domiciliar?",
+   "baseline": [
+    "dodf-706:est300o30:0000",
+    "dodf-1110:est300o30:0000",
+    "dodf-1272:est300o30:0000",
+    "dodf-681:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-706:est300o30:0000",
+    "dodf-1110:est300o30:0000",
+    "dodf-1272:est300o30:0000",
+    "dodf-681:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-706:est300o30:0000",
+    "dodf-1110:est300o30:0000",
+    "dodf-1272:est300o30:0000",
+    "dodf-681:est300o30:0000"
+   ],
+   "tokens": [
+    2828,
+    2828,
+    2828
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-706:est300o30:0000": null,
+     "dodf-1110:est300o30:0000": null,
+     "dodf-1272:est300o30:0000": null,
+     "dodf-681:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-058": {
+   "pergunta": "Quais são os itens e medicamentos adquiridos para o Hospital Regional de Planaltina?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-160:est300o30:0025",
+    "dodf-233:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-160:est300o30:0025",
+    "dodf-233:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-160:est300o30:0025",
+    "dodf-233:est300o30:0001"
+   ],
+   "tokens": [
+    2948,
+    2948,
+    2948
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-160:est300o30:0025": null,
+     "dodf-233:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-059": {
+   "pergunta": "Quais materiais e equipamentos foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1493:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1493:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1493:est300o30:0000"
+   ],
+   "tokens": [
+    2467,
+    2467,
+    2467
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1493:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-060": {
+   "pergunta": "Quais equipamentos foram distribuídos para as unidades básicas de saúde no SIA conforme o contrato com a HOFFMANNLAB?",
+   "baseline": [
+    "dodf-1351:est300o30:0037",
+    "dodf-956:est300o30:0002",
+    "dodf-1365:est300o30:0000",
+    "dodf-1451:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1351:est300o30:0037",
+    "dodf-956:est300o30:0002",
+    "dodf-1365:est300o30:0000",
+    "dodf-1451:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1351:est300o30:0037",
+    "dodf-956:est300o30:0002",
+    "dodf-1365:est300o30:0000",
+    "dodf-1451:est300o30:0000"
+   ],
+   "tokens": [
+    2992,
+    2992,
+    2992
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1351:est300o30:0037": null,
+     "dodf-956:est300o30:0002": null,
+     "dodf-1365:est300o30:0000": null,
+     "dodf-1451:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-061": {
+   "pergunta": "Quais insumos e medicamentos foram adquiridos para atender às necessidades de atenção primária em Taguatinga?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1307:est300o30:0013",
+    "dodf-473:est300o30:0024"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1307:est300o30:0013",
+    "dodf-473:est300o30:0024"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1307:est300o30:0013",
+    "dodf-473:est300o30:0024"
+   ],
+   "tokens": [
+    2947,
+    2947,
+    2947
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1307:est300o30:0013": null,
+     "dodf-473:est300o30:0024": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-062": {
+   "pergunta": "Qual é o valor total empenhado para os serviços de cirurgia de cabeça e pescoço no Hospital São Mateus?",
+   "baseline": [
+    "dodf-1450:est300o30:0000",
+    "dodf-1372:est300o30:0000",
+    "dodf-1213:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1450:est300o30:0000",
+    "dodf-1372:est300o30:0000",
+    "dodf-1213:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1450:est300o30:0000",
+    "dodf-1372:est300o30:0000",
+    "dodf-1213:est300o30:0000"
+   ],
+   "tokens": [
+    2722,
+    2722,
+    2722
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1450:est300o30:0000": null,
+     "dodf-1372:est300o30:0000": null,
+     "dodf-1213:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-063": {
+   "pergunta": "Quais insumos foram adquiridos para atender às necessidades de saúde em Taguatinga?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-144:est300o30:0004",
+    "dodf-1091:est300o30:0010"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-144:est300o30:0004",
+    "dodf-1091:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-144:est300o30:0004",
+    "dodf-1091:est300o30:0010"
+   ],
+   "tokens": [
+    2983,
+    2983,
+    2983
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-144:est300o30:0004": null,
+     "dodf-1091:est300o30:0010": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-064": {
+   "pergunta": "Qual serviço de saúde será construído em Ceilândia conforme a licitação publicada?",
+   "baseline": [
+    "dodf-1660:est300o30:0000",
+    "dodf-1408:est300o30:0002",
+    "dodf-41:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1660:est300o30:0000",
+    "dodf-1408:est300o30:0002",
+    "dodf-41:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1660:est300o30:0000",
+    "dodf-1408:est300o30:0002",
+    "dodf-41:est300o30:0004"
+   ],
+   "tokens": [
+    2729,
+    2729,
+    2729
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1660:est300o30:0000": null,
+     "dodf-1408:est300o30:0002": null,
+     "dodf-41:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-065": {
+   "pergunta": "Qual é o endereço do hospital credenciado em Brasília para atendimento em radioterapia?",
+   "baseline": [
+    "dodf-861:est300o30:0000",
+    "dodf-829:est300o30:0000",
+    "dodf-1221:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-861:est300o30:0000",
+    "dodf-829:est300o30:0000",
+    "dodf-1221:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-861:est300o30:0000",
+    "dodf-829:est300o30:0000",
+    "dodf-1221:est300o30:0000"
+   ],
+   "tokens": [
+    2752,
+    2752,
+    2752
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-861:est300o30:0000": null,
+     "dodf-829:est300o30:0000": null,
+     "dodf-1221:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-066": {
+   "pergunta": "Quais materiais médicos foram adquiridos para o Hospital da Criança de Brasília em fevereiro de 2025?",
+   "baseline": [
+    "dodf-1522:est300o30:0005",
+    "dodf-169:est300o30:0001",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_atual": [
+    "dodf-1522:est300o30:0005",
+    "dodf-169:est300o30:0001",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_conservadora": [
+    "dodf-1522:est300o30:0005",
+    "dodf-169:est300o30:0001",
+    "dodf-208:est300o30:0021"
+   ],
+   "tokens": [
+    2647,
+    2647,
+    2647
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1522:est300o30:0005": null,
+     "dodf-169:est300o30:0001": null,
+     "dodf-208:est300o30:0021": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-067": {
+   "pergunta": "Quais insumos de laboratório foram adquiridos para uso na Asa Norte?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-684:est300o30:0004",
+    "dodf-531:est300o30:0010"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-684:est300o30:0004",
+    "dodf-531:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-684:est300o30:0004",
+    "dodf-531:est300o30:0010"
+   ],
+   "tokens": [
+    2995,
+    2995,
+    2995
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-684:est300o30:0004": null,
+     "dodf-531:est300o30:0010": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-068": {
+   "pergunta": "Quem foi responsável pela autorização de pagamento ao Hospital Urológico de Brasília?",
+   "baseline": [
+    "dodf-1538:est300o30:0000",
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1538:est300o30:0000",
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1538:est300o30:0000",
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1538:est300o30:0000": null,
+     "dodf-480:est300o30:0000": null,
+     "dodf-536:est300o30:0000": null,
+     "dodf-798:est300o30:0000": null,
+     "dodf-1045:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-069": {
+   "pergunta": "Quais insumos e serviços foram adquiridos para o Hospital Regional de Samambaia através das dispensas de licitação publicadas no DODF?",
+   "baseline": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0000",
+    "dodf-960:est300o30:0000"
+   ],
+   "tokens": [
+    2432,
+    2432,
+    2432
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1352:est300o30:0000": null,
+     "dodf-960:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-070": {
+   "pergunta": "Quais medicamentos e materiais hospitalares foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1682:est300o30:0003",
+    "dodf-1199:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1682:est300o30:0003",
+    "dodf-1199:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1682:est300o30:0003",
+    "dodf-1199:est300o30:0000"
+   ],
+   "tokens": [
+    2975,
+    2975,
+    2975
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1682:est300o30:0003": null,
+     "dodf-1199:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-071": {
+   "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Maria Auxiliadora referente aos serviços médicos prestados?",
+   "baseline": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "tokens": [
+    2693,
+    2693,
+    2693
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-671:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-939:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-668:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-675:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-072": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Urológico de Brasília?",
+   "baseline": [
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1538:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1538:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-480:est300o30:0000",
+    "dodf-536:est300o30:0000",
+    "dodf-798:est300o30:0000",
+    "dodf-1538:est300o30:0000",
+    "dodf-1045:est300o30:0000"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-480:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-536:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-798:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1538:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1045:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-073": {
+   "pergunta": "Qual é o endereço do hospital credenciado na Asa Sul para prestação de serviços ao CBMDF?",
+   "baseline": [
+    "dodf-393:est300o30:0004",
+    "dodf-393:est300o30:0003",
+    "dodf-709:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-393:est300o30:0004",
+    "dodf-393:est300o30:0003",
+    "dodf-709:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-393:est300o30:0004",
+    "dodf-393:est300o30:0003",
+    "dodf-709:est300o30:0000"
+   ],
+   "tokens": [
+    2739,
+    2739,
+    2739
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-393:est300o30:0004": null,
+     "dodf-393:est300o30:0003": null,
+     "dodf-709:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-074": {
+   "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+   "baseline": [
+    "dodf-338:est300o30:0016",
+    "dodf-1722:est300o30:0024",
+    "dodf-442:est300o30:0015"
+   ],
+   "s1_atual": [
+    "dodf-28:est300o30:0000",
+    "dodf-338:est300o30:0016",
+    "dodf-1722:est300o30:0024"
+   ],
+   "s1_conservadora": [
+    "dodf-28:est300o30:0000",
+    "dodf-338:est300o30:0016",
+    "dodf-1722:est300o30:0024"
+   ],
+   "tokens": [
+    2916,
+    2985,
+    2985
+   ],
+   "grupos": [
+    "B",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-338:est300o30:0016": null,
+     "dodf-1722:est300o30:0024": null,
+     "dodf-442:est300o30:0015": null
+    },
+    "s1_atual_mudaria": true,
+    "decisao": "promovido"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-075": {
+   "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Prontonorte?",
+   "baseline": [
+    "dodf-670:est300o30:0000",
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_atual": [
+    "dodf-670:est300o30:0000",
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "s1_conservadora": [
+    "dodf-670:est300o30:0000",
+    "dodf-1242:est300o30:0034",
+    "dodf-1243:est300o30:0037",
+    "dodf-1244:est300o30:0032"
+   ],
+   "tokens": [
+    2950,
+    2950,
+    2950
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-670:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1242:est300o30:0034": null,
+     "dodf-1243:est300o30:0037": null,
+     "dodf-1244:est300o30:0032": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-076": {
+   "pergunta": "Quais insumos foram adquiridos para a Atenção Primária no Guará?",
+   "baseline": [
+    "dodf-1008:est300o30:0008",
+    "dodf-51:est300o30:0009",
+    "dodf-956:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-1008:est300o30:0008",
+    "dodf-51:est300o30:0009",
+    "dodf-956:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1008:est300o30:0008",
+    "dodf-51:est300o30:0009",
+    "dodf-956:est300o30:0002"
+   ],
+   "tokens": [
+    2883,
+    2883,
+    2883
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1008:est300o30:0008": null,
+     "dodf-51:est300o30:0009": null,
+     "dodf-956:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-077": {
+   "pergunta": "Qual é o valor da despesa de exercício anterior reconhecida para o Hospital São Mateus no Gama?",
+   "baseline": [
+    "dodf-1564:est300o30:0000",
+    "dodf-1193:est300o30:0000",
+    "dodf-1209:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1564:est300o30:0000",
+    "dodf-1193:est300o30:0000",
+    "dodf-1209:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1564:est300o30:0000",
+    "dodf-1193:est300o30:0000",
+    "dodf-1209:est300o30:0000"
+   ],
+   "tokens": [
+    2677,
+    2677,
+    2677
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1564:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1193:est300o30:0000": null,
+     "dodf-1209:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-078": {
+   "pergunta": "Quais equipamentos foram adquiridos para a Atenção Primária à Saúde na Região Oeste?",
+   "baseline": [
+    "dodf-1261:est300o30:0003",
+    "dodf-1008:est300o30:0010",
+    "dodf-1008:est300o30:0011"
+   ],
+   "s1_atual": [
+    "dodf-1261:est300o30:0003",
+    "dodf-1008:est300o30:0010",
+    "dodf-1008:est300o30:0011"
+   ],
+   "s1_conservadora": [
+    "dodf-1261:est300o30:0003",
+    "dodf-1008:est300o30:0010",
+    "dodf-1008:est300o30:0011"
+   ],
+   "tokens": [
+    2945,
+    2945,
+    2945
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1261:est300o30:0003": null,
+     "dodf-1008:est300o30:0010": null,
+     "dodf-1008:est300o30:0011": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-079": {
+   "pergunta": "Qual empresa foi credenciada para prestar serviços hospitalares em Taguatinga?",
+   "baseline": [
+    "dodf-1091:est300o30:0007",
+    "dodf-382:est300o30:0008",
+    "dodf-101:est300o30:0015"
+   ],
+   "s1_atual": [
+    "dodf-1091:est300o30:0007",
+    "dodf-382:est300o30:0008",
+    "dodf-101:est300o30:0015"
+   ],
+   "s1_conservadora": [
+    "dodf-1091:est300o30:0007",
+    "dodf-382:est300o30:0008",
+    "dodf-101:est300o30:0015"
+   ],
+   "tokens": [
+    2784,
+    2784,
+    2784
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1091:est300o30:0007": null,
+     "dodf-382:est300o30:0008": null,
+     "dodf-101:est300o30:0015": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-080": {
+   "pergunta": "Qual é o valor autorizado para pagamento à Clínica do Sono e Hospital Otorrino Odonto-Médico Otoface de Brasília?",
+   "baseline": [
+    "dodf-479:est300o30:0000",
+    "dodf-1487:est300o30:0000",
+    "dodf-1289:est300o30:0000",
+    "dodf-1390:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-407:est300o30:0000",
+    "dodf-479:est300o30:0000",
+    "dodf-1487:est300o30:0000",
+    "dodf-1289:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-479:est300o30:0000",
+    "dodf-1487:est300o30:0000",
+    "dodf-1289:est300o30:0000",
+    "dodf-1390:est300o30:0000"
+   ],
+   "tokens": [
+    2716,
+    2712,
+    2716
+   ],
+   "grupos": [
+    "B",
+    "A",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-479:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1487:est300o30:0000": null,
+     "dodf-1289:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1390:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": true,
+    "decisao": "promocao_redundante_evitada"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-081": {
+   "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Maria Auxiliadora?",
+   "baseline": [
+    "dodf-399:est300o30:0000",
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-399:est300o30:0000",
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-399:est300o30:0000",
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000"
+   ],
+   "tokens": [
+    2717,
+    2717,
+    2717
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-399:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-671:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-939:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-668:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-082": {
+   "pergunta": "Qual foi o motivo do cancelamento das aquisições realizadas para o Hospital Regional de Taguatinga?",
+   "baseline": [
+    "dodf-101:est300o30:0005",
+    "dodf-1155:est300o30:0001",
+    "dodf-1035:est300o30:0003"
+   ],
+   "s1_atual": [
+    "dodf-101:est300o30:0005",
+    "dodf-1155:est300o30:0001",
+    "dodf-1035:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-101:est300o30:0005",
+    "dodf-1155:est300o30:0001",
+    "dodf-1035:est300o30:0003"
+   ],
+   "tokens": [
+    2909,
+    2909,
+    2909
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-101:est300o30:0005": null,
+     "dodf-1155:est300o30:0001": null,
+     "dodf-1035:est300o30:0003": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-083": {
+   "pergunta": "Quais itens foram adquiridos para atender as necessidades da Atenção Primária no Guará?",
+   "baseline": [
+    "dodf-495:est300o30:0015",
+    "dodf-1444:est300o30:0014",
+    "dodf-1639:est300o30:0020"
+   ],
+   "s1_atual": [
+    "dodf-495:est300o30:0015",
+    "dodf-1444:est300o30:0014",
+    "dodf-1639:est300o30:0020"
+   ],
+   "s1_conservadora": [
+    "dodf-495:est300o30:0015",
+    "dodf-1444:est300o30:0014",
+    "dodf-1639:est300o30:0020"
+   ],
+   "tokens": [
+    2903,
+    2903,
+    2903
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-495:est300o30:0015": null,
+     "dodf-1444:est300o30:0014": null,
+     "dodf-1639:est300o30:0020": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-084": {
+   "pergunta": "Qual é o período de vigência do credenciamento do Hospital São Mateus?",
+   "baseline": [
+    "dodf-2:est300o30:0000",
+    "dodf-955:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-2:est300o30:0000",
+    "dodf-955:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-2:est300o30:0000",
+    "dodf-955:est300o30:0000",
+    "dodf-887:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "tokens": [
+    2825,
+    2825,
+    2825
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-2:est300o30:0000": null,
+     "dodf-955:est300o30:0000": null,
+     "dodf-887:est300o30:0000": null,
+     "dodf-1372:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-085": {
+   "pergunta": "Quem foi o responsável pela autorização de pagamento ao Hospital da Plástica DF?",
+   "baseline": [
+    "dodf-1014:est300o30:0236",
+    "dodf-1225:est300o30:0000",
+    "dodf-511:est300o30:0000",
+    "dodf-1327:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1014:est300o30:0236",
+    "dodf-1225:est300o30:0000",
+    "dodf-511:est300o30:0000",
+    "dodf-1327:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1014:est300o30:0236",
+    "dodf-1225:est300o30:0000",
+    "dodf-511:est300o30:0000",
+    "dodf-1327:est300o30:0004"
+   ],
+   "tokens": [
+    2972,
+    2972,
+    2972
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1014:est300o30:0236": null,
+     "dodf-1225:est300o30:0000": null,
+     "dodf-511:est300o30:0000": null,
+     "dodf-1327:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-086": {
+   "pergunta": "Quais são as novas obrigações registradas para o Hospital Anchieta?",
+   "baseline": [
+    "dodf-1067:est300o30:0172",
+    "dodf-1351:est300o30:0037",
+    "dodf-157:est300o30:0043"
+   ],
+   "s1_atual": [
+    "dodf-1067:est300o30:0172",
+    "dodf-1351:est300o30:0037",
+    "dodf-157:est300o30:0043"
+   ],
+   "s1_conservadora": [
+    "dodf-1067:est300o30:0172",
+    "dodf-1351:est300o30:0037",
+    "dodf-157:est300o30:0043"
+   ],
+   "tokens": [
+    2862,
+    2862,
+    2862
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1067:est300o30:0172": null,
+     "dodf-1351:est300o30:0037": null,
+     "dodf-157:est300o30:0043": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-087": {
+   "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+   "baseline": [
+    "dodf-174:est300o30:0004",
+    "dodf-174:est300o30:0001",
+    "dodf-174:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-174:est300o30:0002",
+    "dodf-174:est300o30:0003",
+    "dodf-174:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-174:est300o30:0002",
+    "dodf-174:est300o30:0003",
+    "dodf-174:est300o30:0004"
+   ],
+   "tokens": [
+    2948,
+    2928,
+    2928
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-174:est300o30:0004": null,
+     "dodf-174:est300o30:0001": null,
+     "dodf-174:est300o30:0000": null
+    },
+    "s1_atual_mudaria": true,
+    "decisao": "promovido"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-088": {
+   "pergunta": "Quais serviços de saúde foram credenciados para atender em Sobradinho?",
+   "baseline": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0035",
+    "dodf-1055:est300o30:0009"
+   ],
+   "s1_atual": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0035",
+    "dodf-1055:est300o30:0009"
+   ],
+   "s1_conservadora": [
+    "dodf-1611:est300o30:0006",
+    "dodf-1611:est300o30:0035",
+    "dodf-1055:est300o30:0009"
+   ],
+   "tokens": [
+    2897,
+    2897,
+    2897
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1611:est300o30:0006": null,
+     "dodf-1611:est300o30:0035": null,
+     "dodf-1055:est300o30:0009": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-089": {
+   "pergunta": "Quais serviços de reparo foram contratados para o Hospital Regional de Taguatinga?",
+   "baseline": [
+    "dodf-560:est300o30:0017",
+    "dodf-1237:est300o30:0011",
+    "dodf-619:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-560:est300o30:0017",
+    "dodf-1237:est300o30:0011",
+    "dodf-619:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-560:est300o30:0017",
+    "dodf-1237:est300o30:0011",
+    "dodf-619:est300o30:0001"
+   ],
+   "tokens": [
+    2681,
+    2681,
+    2681
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-560:est300o30:0017": null,
+     "dodf-1237:est300o30:0011": null,
+     "dodf-619:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-090": {
+   "pergunta": "Qual foi o motivo do cancelamento do Chamamento nº 202/2025 no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1348:est300o30:0001",
+    "dodf-1512:est300o30:0012",
+    "dodf-1522:est300o30:0008",
+    "dodf-65:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1348:est300o30:0001",
+    "dodf-1512:est300o30:0012",
+    "dodf-1522:est300o30:0008",
+    "dodf-65:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1348:est300o30:0001",
+    "dodf-1512:est300o30:0012",
+    "dodf-1522:est300o30:0008",
+    "dodf-65:est300o30:0000"
+   ],
+   "tokens": [
+    2883,
+    2883,
+    2883
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1348:est300o30:0001": null,
+     "dodf-1512:est300o30:0012": null,
+     "dodf-1522:est300o30:0008": null,
+     "dodf-65:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "respondida"
+  },
+  "val-091": {
+   "pergunta": "Quais medicamentos foram objeto de aquisição para o Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1512:est300o30:0012",
+    "dodf-374:est300o30:0004",
+    "dodf-166:est300o30:0016",
+    "dodf-1309:est300o30:0006"
+   ],
+   "s1_atual": [
+    "dodf-1512:est300o30:0012",
+    "dodf-374:est300o30:0004",
+    "dodf-166:est300o30:0016",
+    "dodf-1309:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1512:est300o30:0012",
+    "dodf-374:est300o30:0004",
+    "dodf-166:est300o30:0016",
+    "dodf-1309:est300o30:0006"
+   ],
+   "tokens": [
+    2972,
+    2972,
+    2972
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1512:est300o30:0012": null,
+     "dodf-374:est300o30:0004": null,
+     "dodf-166:est300o30:0016": null,
+     "dodf-1309:est300o30:0006": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-092": {
+   "pergunta": "Qual foi o valor total estimado para a aquisição de material médico no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-95:est300o30:0015",
+    "dodf-1522:est300o30:0007",
+    "dodf-1614:est300o30:0006"
+   ],
+   "s1_atual": [
+    "dodf-95:est300o30:0015",
+    "dodf-1522:est300o30:0007",
+    "dodf-1614:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-95:est300o30:0015",
+    "dodf-1522:est300o30:0007",
+    "dodf-1614:est300o30:0006"
+   ],
+   "tokens": [
+    2825,
+    2825,
+    2825
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-95:est300o30:0015": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1522:est300o30:0007": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1614:est300o30:0006": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-093": {
+   "pergunta": "Qual é o objeto da aquisição em Sistema de Registro de Preços para o Hospital da Criança de Brasília José Alencar?",
+   "baseline": [
+    "dodf-1004:est300o30:0000",
+    "dodf-818:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1004:est300o30:0000",
+    "dodf-818:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1004:est300o30:0000",
+    "dodf-818:est300o30:0004"
+   ],
+   "tokens": [
+    2423,
+    2423,
+    2423
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1004:est300o30:0000": null,
+     "dodf-818:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-094": {
+   "pergunta": "Quais são os serviços de reparo e aquisições de insumos realizados no Hospital Regional de Samambaia?",
+   "baseline": [
+    "dodf-1397:est300o30:0000",
+    "dodf-560:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1397:est300o30:0000",
+    "dodf-560:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1397:est300o30:0000",
+    "dodf-560:est300o30:0000"
+   ],
+   "tokens": [
+    2449,
+    2449,
+    2449
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1397:est300o30:0000": null,
+     "dodf-560:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-095": {
+   "pergunta": "Qual é o objetivo da construção da Unidade Básica de Saúde (UBS Tipo II) em Riacho Fundo II?",
+   "baseline": [
+    "dodf-1365:est300o30:0015",
+    "dodf-591:est300o30:0000",
+    "dodf-1413:est300o30:0003"
+   ],
+   "s1_atual": [
+    "dodf-1365:est300o30:0015",
+    "dodf-591:est300o30:0000",
+    "dodf-1413:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0015",
+    "dodf-591:est300o30:0000",
+    "dodf-1413:est300o30:0003"
+   ],
+   "tokens": [
+    2944,
+    2944,
+    2944
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1365:est300o30:0015": null,
+     "dodf-591:est300o30:0000": null,
+     "dodf-1413:est300o30:0003": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-096": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Pacini?",
+   "baseline": [
+    "dodf-1082:est300o30:0000",
+    "dodf-1251:est300o30:0000",
+    "dodf-624:est300o30:0000",
+    "dodf-823:est300o30:0000",
+    "dodf-865:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1082:est300o30:0000",
+    "dodf-1251:est300o30:0000",
+    "dodf-624:est300o30:0000",
+    "dodf-823:est300o30:0000",
+    "dodf-865:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1082:est300o30:0000",
+    "dodf-1251:est300o30:0000",
+    "dodf-624:est300o30:0000",
+    "dodf-823:est300o30:0000",
+    "dodf-865:est300o30:0000"
+   ],
+   "tokens": [
+    2857,
+    2857,
+    2857
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1082:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1251:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-624:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-823:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-865:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-097": {
+   "pergunta": "Qual é o valor descentralizado para a construção da unidade básica de saúde no Gama?",
+   "baseline": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1365:est300o30:0002",
+    "dodf-105:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1365:est300o30:0002",
+    "dodf-105:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1365:est300o30:0002",
+    "dodf-105:est300o30:0000"
+   ],
+   "tokens": [
+    2993,
+    2993,
+    2993
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1365:est300o30:0001": null,
+     "dodf-1365:est300o30:0002": null,
+     "dodf-105:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-098": {
+   "pergunta": "Qual medicamento foi adquirido para a Atenção Primária à Saúde na Região Oeste?",
+   "baseline": [
+    "dodf-1261:est300o30:0003",
+    "dodf-687:est300o30:0000",
+    "dodf-1008:est300o30:0010"
+   ],
+   "s1_atual": [
+    "dodf-1261:est300o30:0003",
+    "dodf-687:est300o30:0000",
+    "dodf-1008:est300o30:0010"
+   ],
+   "s1_conservadora": [
+    "dodf-1261:est300o30:0003",
+    "dodf-687:est300o30:0000",
+    "dodf-1008:est300o30:0010"
+   ],
+   "tokens": [
+    2954,
+    2954,
+    2954
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1261:est300o30:0003": null,
+     "dodf-687:est300o30:0000": null,
+     "dodf-1008:est300o30:0010": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-099": {
+   "pergunta": "Quais equipamentos e materiais foram adquiridos para o Hospital Regional de Ceilândia conforme as publicações do DODF?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-238:est300o30:0003",
+    "dodf-440:est300o30:0007"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-238:est300o30:0003",
+    "dodf-440:est300o30:0007"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-238:est300o30:0003",
+    "dodf-440:est300o30:0007"
+   ],
+   "tokens": [
+    2960,
+    2960,
+    2960
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-238:est300o30:0003": null,
+     "dodf-440:est300o30:0007": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-100": {
+   "pergunta": "Quais aquisições de equipamentos hospitalares foram realizadas para o Hospital Regional de Ceilândia?",
+   "baseline": [
+    "dodf-440:est300o30:0007",
+    "dodf-1035:est300o30:0003",
+    "dodf-322:est300o30:0082"
+   ],
+   "s1_atual": [
+    "dodf-440:est300o30:0007",
+    "dodf-1035:est300o30:0003",
+    "dodf-322:est300o30:0082"
+   ],
+   "s1_conservadora": [
+    "dodf-440:est300o30:0007",
+    "dodf-1035:est300o30:0003",
+    "dodf-322:est300o30:0082"
+   ],
+   "tokens": [
+    2878,
+    2878,
+    2878
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-440:est300o30:0007": null,
+     "dodf-1035:est300o30:0003": null,
+     "dodf-322:est300o30:0082": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-101": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Anchieta?",
+   "baseline": [
+    "dodf-948:est300o30:0000",
+    "dodf-1296:est300o30:0000",
+    "dodf-1443:est300o30:0000",
+    "dodf-524:est300o30:0000",
+    "dodf-703:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-948:est300o30:0000",
+    "dodf-1296:est300o30:0000",
+    "dodf-1443:est300o30:0000",
+    "dodf-524:est300o30:0000",
+    "dodf-703:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-948:est300o30:0000",
+    "dodf-1296:est300o30:0000",
+    "dodf-1443:est300o30:0000",
+    "dodf-524:est300o30:0000",
+    "dodf-703:est300o30:0000"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-948:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1296:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1443:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-524:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-703:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-102": {
+   "pergunta": "Quais materiais de expediente estão sendo adquiridos para o Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1528:est300o30:0003",
+    "dodf-1512:est300o30:0010",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_atual": [
+    "dodf-1528:est300o30:0003",
+    "dodf-1512:est300o30:0010",
+    "dodf-208:est300o30:0021"
+   ],
+   "s1_conservadora": [
+    "dodf-1528:est300o30:0003",
+    "dodf-1512:est300o30:0010",
+    "dodf-208:est300o30:0021"
+   ],
+   "tokens": [
+    2704,
+    2704,
+    2704
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1528:est300o30:0003": null,
+     "dodf-1512:est300o30:0010": null,
+     "dodf-208:est300o30:0021": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-103": {
+   "pergunta": "Qual serviço foi habilitado para prestação em Ceilândia pela Secretaria de Estado de Saúde do Distrito Federal?",
+   "baseline": [
+    "dodf-1300:est300o30:0000",
+    "dodf-1227:est300o30:0000",
+    "dodf-1274:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1300:est300o30:0000",
+    "dodf-1227:est300o30:0000",
+    "dodf-1274:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1300:est300o30:0000",
+    "dodf-1227:est300o30:0000",
+    "dodf-1274:est300o30:0000",
+    "dodf-1372:est300o30:0000"
+   ],
+   "tokens": [
+    2689,
+    2689,
+    2689
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1300:est300o30:0000": null,
+     "dodf-1227:est300o30:0000": null,
+     "dodf-1274:est300o30:0000": null,
+     "dodf-1372:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-104": {
+   "pergunta": "Qual é o objeto da contratação realizada para o Hospital da Criança de Brasília José Alencar?",
+   "baseline": [
+    "dodf-1234:est300o30:0002",
+    "dodf-228:est300o30:0002",
+    "dodf-1632:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1234:est300o30:0002",
+    "dodf-228:est300o30:0002",
+    "dodf-1632:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1234:est300o30:0002",
+    "dodf-228:est300o30:0002",
+    "dodf-1632:est300o30:0004"
+   ],
+   "tokens": [
+    2812,
+    2812,
+    2812
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1234:est300o30:0002": null,
+     "dodf-228:est300o30:0002": null,
+     "dodf-1632:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-105": {
+   "pergunta": "Qual foi o desempenho do Hospital da Criança de Brasília José Alencar em relação às consultas médicas durante o terceiro trimestre de 2023?",
+   "baseline": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1512:est300o30:0012",
+    "dodf-1222:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1512:est300o30:0012",
+    "dodf-1222:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-1464:est300o30:0000",
+    "dodf-1512:est300o30:0012",
+    "dodf-1222:est300o30:0004"
+   ],
+   "tokens": [
+    2891,
+    2891,
+    2891
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1464:est300o30:0000": null,
+     "dodf-1512:est300o30:0012": null,
+     "dodf-1222:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-106": {
+   "pergunta": "Qual instituição hospitalar em Lago Sul foi parte de um Termo de Compromisso assinado em junho de 2025?",
+   "baseline": [
+    "dodf-994:est300o30:0000",
+    "dodf-968:est300o30:0043",
+    "dodf-968:est300o30:0023",
+    "dodf-1009:est300o30:0028"
+   ],
+   "s1_atual": [
+    "dodf-994:est300o30:0000",
+    "dodf-968:est300o30:0043",
+    "dodf-968:est300o30:0023",
+    "dodf-1009:est300o30:0028"
+   ],
+   "s1_conservadora": [
+    "dodf-994:est300o30:0000",
+    "dodf-968:est300o30:0043",
+    "dodf-968:est300o30:0023",
+    "dodf-1009:est300o30:0028"
+   ],
+   "tokens": [
+    2782,
+    2782,
+    2782
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-994:est300o30:0000": null,
+     "dodf-968:est300o30:0043": null,
+     "dodf-968:est300o30:0023": null,
+     "dodf-1009:est300o30:0028": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-107": {
+   "pergunta": "Qual é a vigência do serviço de saúde prestado pelo hospital no Distrito Federal?",
+   "baseline": [
+    "dodf-1660:est300o30:0000",
+    "dodf-157:est300o30:0038",
+    "dodf-500:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1660:est300o30:0000",
+    "dodf-157:est300o30:0038",
+    "dodf-500:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1660:est300o30:0000",
+    "dodf-157:est300o30:0038",
+    "dodf-500:est300o30:0000"
+   ],
+   "tokens": [
+    2737,
+    2737,
+    2737
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1660:est300o30:0000": null,
+     "dodf-157:est300o30:0038": null,
+     "dodf-500:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-108": {
+   "pergunta": "Quais unidades de atenção primária em Ceilândia receberam equipamentos conforme as publicações do DODF?",
+   "baseline": [
+    "dodf-1683:est300o30:0036",
+    "dodf-1052:est300o30:0002",
+    "dodf-1533:est300o30:0041"
+   ],
+   "s1_atual": [
+    "dodf-1683:est300o30:0036",
+    "dodf-1052:est300o30:0002",
+    "dodf-1533:est300o30:0041"
+   ],
+   "s1_conservadora": [
+    "dodf-1683:est300o30:0036",
+    "dodf-1052:est300o30:0002",
+    "dodf-1533:est300o30:0041"
+   ],
+   "tokens": [
+    2623,
+    2623,
+    2623
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1683:est300o30:0036": null,
+     "dodf-1052:est300o30:0002": null,
+     "dodf-1533:est300o30:0041": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-109": {
+   "pergunta": "Quais itens de enxoval hospitalar foram adquiridos para o Hospital Regional de Ceilândia?",
+   "baseline": [
+    "dodf-1352:est300o30:0003",
+    "dodf-560:est300o30:0014",
+    "dodf-1722:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-1352:est300o30:0003",
+    "dodf-560:est300o30:0014",
+    "dodf-1722:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-1352:est300o30:0003",
+    "dodf-560:est300o30:0014",
+    "dodf-1722:est300o30:0001"
+   ],
+   "tokens": [
+    2876,
+    2876,
+    2876
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1352:est300o30:0003": null,
+     "dodf-560:est300o30:0014": null,
+     "dodf-1722:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-110": {
+   "pergunta": "Quais empresas foram vencedoras na aquisição de materiais médicos hospitalares para o hospital em Brasília?",
+   "baseline": [
+    "dodf-1595:est300o30:0002",
+    "dodf-1410:est300o30:0002",
+    "dodf-1719:est300o30:0003"
+   ],
+   "s1_atual": [
+    "dodf-1595:est300o30:0002",
+    "dodf-1410:est300o30:0002",
+    "dodf-1719:est300o30:0003"
+   ],
+   "s1_conservadora": [
+    "dodf-1595:est300o30:0002",
+    "dodf-1410:est300o30:0002",
+    "dodf-1719:est300o30:0003"
+   ],
+   "tokens": [
+    2884,
+    2884,
+    2884
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1595:est300o30:0002": null,
+     "dodf-1410:est300o30:0002": null,
+     "dodf-1719:est300o30:0003": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-111": {
+   "pergunta": "Quais serviços de infraestrutura foram contratados para o Hospital Regional de Brazlândia?",
+   "baseline": [
+    "dodf-1645:est300o30:0021",
+    "dodf-441:est300o30:0001",
+    "dodf-1345:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-1645:est300o30:0021",
+    "dodf-441:est300o30:0001",
+    "dodf-1345:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1645:est300o30:0021",
+    "dodf-441:est300o30:0001",
+    "dodf-1345:est300o30:0002"
+   ],
+   "tokens": [
+    2772,
+    2772,
+    2772
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1645:est300o30:0021": null,
+     "dodf-441:est300o30:0001": null,
+     "dodf-1345:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-112": {
+   "pergunta": "Quais serviços hospitalares o Hospital Lago Sul está prestando no Distrito Federal?",
+   "baseline": [
+    "dodf-685:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-586:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-685:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-586:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-685:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-586:est300o30:0000"
+   ],
+   "tokens": [
+    2790,
+    2790,
+    2790
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-685:est300o30:0000": null,
+     "dodf-1067:est300o30:0087": null,
+     "dodf-586:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-113": {
+   "pergunta": "Qual foi o valor total da aquisição de Fita Reagente Glicemia Capilar para o Hospital Regional de Taguatinga?",
+   "baseline": [
+    "dodf-382:est300o30:0002",
+    "dodf-382:est300o30:0003",
+    "dodf-195:est300o30:0005"
+   ],
+   "s1_atual": [
+    "dodf-382:est300o30:0002",
+    "dodf-382:est300o30:0003",
+    "dodf-195:est300o30:0005"
+   ],
+   "s1_conservadora": [
+    "dodf-382:est300o30:0002",
+    "dodf-382:est300o30:0003",
+    "dodf-195:est300o30:0005"
+   ],
+   "tokens": [
+    2901,
+    2901,
+    2901
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-382:est300o30:0002": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-382:est300o30:0003": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-195:est300o30:0005": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-114": {
+   "pergunta": "Quais são os serviços de saúde adquiridos para atender às necessidades da Região de Saúde Sudoeste?",
+   "baseline": [
+    "dodf-338:est300o30:0017",
+    "dodf-338:est300o30:0018",
+    "dodf-1625:est300o30:0033"
+   ],
+   "s1_atual": [
+    "dodf-338:est300o30:0017",
+    "dodf-338:est300o30:0018",
+    "dodf-1625:est300o30:0033"
+   ],
+   "s1_conservadora": [
+    "dodf-338:est300o30:0017",
+    "dodf-338:est300o30:0018",
+    "dodf-1625:est300o30:0033"
+   ],
+   "tokens": [
+    2887,
+    2887,
+    2887
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-338:est300o30:0017": null,
+     "dodf-338:est300o30:0018": null,
+     "dodf-1625:est300o30:0033": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-115": {
+   "pergunta": "Quem foi responsável pela autorização do pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+   "baseline": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-704:est300o30:0000",
+    "dodf-255:est300o30:0000",
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000"
+   ],
+   "tokens": [
+    2642,
+    2642,
+    2642
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-704:est300o30:0000": null,
+     "dodf-255:est300o30:0000": null,
+     "dodf-408:est300o30:0000": null,
+     "dodf-468:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-116": {
+   "pergunta": "Quais medidas de prevenção e controle de dengue serão implementadas em Ceilândia em 2025?",
+   "baseline": [
+    "dodf-954:est300o30:0001",
+    "dodf-954:est300o30:0004",
+    "dodf-954:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-954:est300o30:0001",
+    "dodf-954:est300o30:0004",
+    "dodf-954:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-954:est300o30:0001",
+    "dodf-954:est300o30:0004",
+    "dodf-954:est300o30:0000"
+   ],
+   "tokens": [
+    2978,
+    2978,
+    2978
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-954:est300o30:0001": null,
+     "dodf-954:est300o30:0004": null,
+     "dodf-954:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-117": {
+   "pergunta": "Quais insumos foram adquiridos para atender às necessidades do Hospital de Planaltina?",
+   "baseline": [
+    "dodf-956:est300o30:0002",
+    "dodf-1240:est300o30:0011",
+    "dodf-439:est300o30:0030"
+   ],
+   "s1_atual": [
+    "dodf-956:est300o30:0002",
+    "dodf-1240:est300o30:0011",
+    "dodf-439:est300o30:0030"
+   ],
+   "s1_conservadora": [
+    "dodf-956:est300o30:0002",
+    "dodf-1240:est300o30:0011",
+    "dodf-439:est300o30:0030"
+   ],
+   "tokens": [
+    2898,
+    2898,
+    2898
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-956:est300o30:0002": null,
+     "dodf-1240:est300o30:0011": null,
+     "dodf-439:est300o30:0030": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-118": {
+   "pergunta": "Quais itens de proteção respiratória foram adquiridos para o Hospital Regional de Brazlândia?",
+   "baseline": [
+    "dodf-441:est300o30:0000",
+    "dodf-1091:est300o30:0013",
+    "dodf-970:est300o30:0001"
+   ],
+   "s1_atual": [
+    "dodf-441:est300o30:0000",
+    "dodf-1091:est300o30:0013",
+    "dodf-970:est300o30:0001"
+   ],
+   "s1_conservadora": [
+    "dodf-441:est300o30:0000",
+    "dodf-1091:est300o30:0013",
+    "dodf-970:est300o30:0001"
+   ],
+   "tokens": [
+    2798,
+    2798,
+    2798
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-441:est300o30:0000": null,
+     "dodf-1091:est300o30:0013": null,
+     "dodf-970:est300o30:0001": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-119": {
+   "pergunta": "Quais unidades de saúde em Santa Maria receberam compressores de ar odontológico conforme os contratos publicados?",
+   "baseline": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1242:est300o30:0120"
+   ],
+   "s1_atual": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1242:est300o30:0120"
+   ],
+   "s1_conservadora": [
+    "dodf-51:est300o30:0005",
+    "dodf-1123:est300o30:0000",
+    "dodf-1242:est300o30:0120"
+   ],
+   "tokens": [
+    2787,
+    2787,
+    2787
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-51:est300o30:0005": null,
+     "dodf-1123:est300o30:0000": null,
+     "dodf-1242:est300o30:0120": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-120": {
+   "pergunta": "Qual é o valor da dívida reconhecida para o Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia?",
+   "baseline": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-408:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-704:est300o30:0000"
+   ],
+   "tokens": [
+    2730,
+    2730,
+    2730
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-408:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-468:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-469:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-704:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-121": {
+   "pergunta": "Qual é o prazo estabelecido para instalação dos equipamentos adquiridos nas unidades de saúde de Sobradinho?",
+   "baseline": [
+    "dodf-51:est300o30:0004",
+    "dodf-51:est300o30:0003",
+    "dodf-348:est300o30:0037"
+   ],
+   "s1_atual": [
+    "dodf-51:est300o30:0004",
+    "dodf-51:est300o30:0003",
+    "dodf-348:est300o30:0037"
+   ],
+   "s1_conservadora": [
+    "dodf-51:est300o30:0004",
+    "dodf-51:est300o30:0003",
+    "dodf-348:est300o30:0037"
+   ],
+   "tokens": [
+    2972,
+    2972,
+    2972
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-51:est300o30:0004": null,
+     "dodf-51:est300o30:0003": null,
+     "dodf-348:est300o30:0037": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-122": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Santa Lúcia?",
+   "baseline": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "tokens": [
+    2875,
+    2875,
+    2875
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1436:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1517:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-735:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-822:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-897:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-123": {
+   "pergunta": "Qual é o valor da dívida reconhecida para o Hospital São Mateus?",
+   "baseline": [
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000",
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000",
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-368:est300o30:0000",
+    "dodf-214:est300o30:0000",
+    "dodf-1250:est300o30:0000",
+    "dodf-1048:est300o30:0000"
+   ],
+   "tokens": [
+    2579,
+    2579,
+    2579
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-368:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-214:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1250:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1048:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-124": {
+   "pergunta": "Quem foi o responsável pela autorização de pagamento ao Hospital Santa Lúcia?",
+   "baseline": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-1081:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-1081:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-1081:est300o30:0000"
+   ],
+   "tokens": [
+    2901,
+    2901,
+    2901
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1436:est300o30:0000": null,
+     "dodf-1517:est300o30:0000": null,
+     "dodf-735:est300o30:0000": null,
+     "dodf-822:est300o30:0000": null,
+     "dodf-1081:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-125": {
+   "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Santa Marta?",
+   "baseline": [
+    "dodf-1203:est300o30:0000",
+    "dodf-655:est300o30:0000",
+    "dodf-812:est300o30:0000",
+    "dodf-938:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-945:est300o30:0000",
+    "dodf-1203:est300o30:0000",
+    "dodf-655:est300o30:0000",
+    "dodf-812:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1203:est300o30:0000",
+    "dodf-655:est300o30:0000",
+    "dodf-812:est300o30:0000",
+    "dodf-938:est300o30:0000"
+   ],
+   "tokens": [
+    2790,
+    2741,
+    2790
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1203:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-655:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-812:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-938:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": true,
+    "decisao": "promocao_redundante_evitada"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-126": {
+   "pergunta": "Qual foi o objeto do Convênio nº 026202/2024-SES/DF celebrado para São Sebastião?",
+   "baseline": [
+    "dodf-1014:est300o30:0083",
+    "dodf-1014:est300o30:0085",
+    "dodf-1067:est300o30:0048"
+   ],
+   "s1_atual": [
+    "dodf-1014:est300o30:0083",
+    "dodf-1014:est300o30:0085",
+    "dodf-1067:est300o30:0048"
+   ],
+   "s1_conservadora": [
+    "dodf-1014:est300o30:0083",
+    "dodf-1014:est300o30:0085",
+    "dodf-1067:est300o30:0048"
+   ],
+   "tokens": [
+    2957,
+    2957,
+    2957
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1014:est300o30:0083": null,
+     "dodf-1014:est300o30:0085": null,
+     "dodf-1067:est300o30:0048": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-127": {
+   "pergunta": "Quantas empresas foram adjudicadas para fornecer produtos ao Hospital Regional de Brazlândia?",
+   "baseline": [
+    "dodf-271:est300o30:0001",
+    "dodf-1321:est300o30:0264",
+    "dodf-1155:est300o30:0023"
+   ],
+   "s1_atual": [
+    "dodf-271:est300o30:0001",
+    "dodf-1321:est300o30:0264",
+    "dodf-1155:est300o30:0023"
+   ],
+   "s1_conservadora": [
+    "dodf-271:est300o30:0001",
+    "dodf-1321:est300o30:0264",
+    "dodf-1155:est300o30:0023"
+   ],
+   "tokens": [
+    2589,
+    2589,
+    2589
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-271:est300o30:0001": null,
+     "dodf-1321:est300o30:0264": null,
+     "dodf-1155:est300o30:0023": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-128": {
+   "pergunta": "Qual foi o valor total estimado para a aquisição de prótese testicular no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-1222:est300o30:0001",
+    "dodf-435:est300o30:0004",
+    "dodf-579:est300o30:0012"
+   ],
+   "s1_atual": [
+    "dodf-1222:est300o30:0001",
+    "dodf-435:est300o30:0004",
+    "dodf-579:est300o30:0012"
+   ],
+   "s1_conservadora": [
+    "dodf-1222:est300o30:0001",
+    "dodf-435:est300o30:0004",
+    "dodf-579:est300o30:0012"
+   ],
+   "tokens": [
+    2832,
+    2832,
+    2832
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1222:est300o30:0001": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-435:est300o30:0004": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-579:est300o30:0012": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-129": {
+   "pergunta": "Quem representa a instituição credenciada no hospital em relação ao processo de credenciamento?",
+   "baseline": [
+    "dodf-925:est300o30:0000",
+    "dodf-360:est300o30:0031",
+    "dodf-2:est300o30:0000",
+    "dodf-1699:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-925:est300o30:0000",
+    "dodf-360:est300o30:0031",
+    "dodf-2:est300o30:0000",
+    "dodf-1699:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-925:est300o30:0000",
+    "dodf-360:est300o30:0031",
+    "dodf-2:est300o30:0000",
+    "dodf-1699:est300o30:0000"
+   ],
+   "tokens": [
+    2774,
+    2774,
+    2774
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-925:est300o30:0000": null,
+     "dodf-360:est300o30:0031": null,
+     "dodf-2:est300o30:0000": null,
+     "dodf-1699:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-130": {
+   "pergunta": "Quais empresas foram credenciadas para prestar serviços assistenciais clínicos e cirúrgicos na Asa Sul?",
+   "baseline": [
+    "dodf-1645:est300o30:0021",
+    "dodf-6:est300o30:0001",
+    "dodf-920:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1645:est300o30:0021",
+    "dodf-6:est300o30:0001",
+    "dodf-920:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1645:est300o30:0021",
+    "dodf-6:est300o30:0001",
+    "dodf-920:est300o30:0000"
+   ],
+   "tokens": [
+    2625,
+    2625,
+    2625
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1645:est300o30:0021": null,
+     "dodf-6:est300o30:0001": null,
+     "dodf-920:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-131": {
+   "pergunta": "Quais serviços de manutenção e equipamentos foram contratados para o Hospital Regional de Planaltina?",
+   "baseline": [
+    "dodf-461:est300o30:0000",
+    "dodf-1565:est300o30:0000",
+    "dodf-877:est300o30:0006"
+   ],
+   "s1_atual": [
+    "dodf-461:est300o30:0000",
+    "dodf-1565:est300o30:0000",
+    "dodf-877:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-461:est300o30:0000",
+    "dodf-1565:est300o30:0000",
+    "dodf-877:est300o30:0006"
+   ],
+   "tokens": [
+    2750,
+    2750,
+    2750
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-461:est300o30:0000": null,
+     "dodf-1565:est300o30:0000": null,
+     "dodf-877:est300o30:0006": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-132": {
+   "pergunta": "Qual empresa foi contratada para prestação de serviços de Anatomia Patológica no Hospital da Criança de Brasília?",
+   "baseline": [
+    "dodf-208:est300o30:0009",
+    "dodf-1009:est300o30:0039",
+    "dodf-1009:est300o30:0038"
+   ],
+   "s1_atual": [
+    "dodf-208:est300o30:0009",
+    "dodf-1009:est300o30:0039",
+    "dodf-1009:est300o30:0038"
+   ],
+   "s1_conservadora": [
+    "dodf-208:est300o30:0009",
+    "dodf-1009:est300o30:0039",
+    "dodf-1009:est300o30:0038"
+   ],
+   "tokens": [
+    2825,
+    2825,
+    2825
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-208:est300o30:0009": null,
+     "dodf-1009:est300o30:0039": null,
+     "dodf-1009:est300o30:0038": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-133": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Lago Sul?",
+   "baseline": [
+    "dodf-944:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-734:est300o30:0000",
+    "dodf-1109:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1516:est300o30:0000",
+    "dodf-944:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-734:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-944:est300o30:0000",
+    "dodf-1067:est300o30:0087",
+    "dodf-734:est300o30:0000",
+    "dodf-1109:est300o30:0000"
+   ],
+   "tokens": [
+    2801,
+    2802,
+    2801
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-944:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1067:est300o30:0087": null,
+     "dodf-734:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1109:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": true,
+    "decisao": "promocao_redundante_evitada"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-134": {
+   "pergunta": "Quais serviços de manutenção corretiva foram ratificados para as UBS na Região Oeste?",
+   "baseline": [
+    "dodf-1154:est300o30:0000",
+    "dodf-1028:est300o30:0000",
+    "dodf-969:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-1154:est300o30:0000",
+    "dodf-1028:est300o30:0000",
+    "dodf-969:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1154:est300o30:0000",
+    "dodf-1028:est300o30:0000",
+    "dodf-969:est300o30:0002"
+   ],
+   "tokens": [
+    2850,
+    2850,
+    2850
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1154:est300o30:0000": null,
+     "dodf-1028:est300o30:0000": null,
+     "dodf-969:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-135": {
+   "pergunta": "Qual foi a correção no valor de reconhecimento de dívida da Sociedade Beneficente de Senhoras Hospital Sírio Libanês?",
+   "baseline": [
+    "dodf-417:est300o30:0000",
+    "dodf-702:est300o30:0000",
+    "dodf-875:est300o30:0000",
+    "dodf-509:est300o30:0000",
+    "dodf-693:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-417:est300o30:0000",
+    "dodf-702:est300o30:0000",
+    "dodf-875:est300o30:0000",
+    "dodf-509:est300o30:0000",
+    "dodf-693:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-417:est300o30:0000",
+    "dodf-702:est300o30:0000",
+    "dodf-875:est300o30:0000",
+    "dodf-509:est300o30:0000",
+    "dodf-693:est300o30:0000"
+   ],
+   "tokens": [
+    2731,
+    2731,
+    2731
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-417:est300o30:0000": null,
+     "dodf-702:est300o30:0000": null,
+     "dodf-875:est300o30:0000": null,
+     "dodf-509:est300o30:0000": null,
+     "dodf-693:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-136": {
+   "pergunta": "Quais especialidades médicas foram propostas pela empresa credenciada no Hospital Home em Brasília?",
+   "baseline": [
+    "dodf-1598:est300o30:0000",
+    "dodf-94:est300o30:0000",
+    "dodf-1698:est300o30:0000",
+    "dodf-1700:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1598:est300o30:0000",
+    "dodf-94:est300o30:0000",
+    "dodf-1698:est300o30:0000",
+    "dodf-1700:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1598:est300o30:0000",
+    "dodf-94:est300o30:0000",
+    "dodf-1698:est300o30:0000",
+    "dodf-1700:est300o30:0000"
+   ],
+   "tokens": [
+    2988,
+    2988,
+    2988
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1598:est300o30:0000": null,
+     "dodf-94:est300o30:0000": null,
+     "dodf-1698:est300o30:0000": null,
+     "dodf-1700:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-137": {
+   "pergunta": "Qual é o período de vigência do credenciamento do Hospital Santa Marta?",
+   "baseline": [
+    "dodf-339:est300o30:0000",
+    "dodf-1705:est300o30:0000",
+    "dodf-25:est300o30:0000",
+    "dodf-340:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-339:est300o30:0000",
+    "dodf-1705:est300o30:0000",
+    "dodf-25:est300o30:0000",
+    "dodf-340:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-339:est300o30:0000",
+    "dodf-1705:est300o30:0000",
+    "dodf-25:est300o30:0000",
+    "dodf-340:est300o30:0000"
+   ],
+   "tokens": [
+    2747,
+    2747,
+    2747
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-339:est300o30:0000": null,
+     "dodf-1705:est300o30:0000": null,
+     "dodf-25:est300o30:0000": null,
+     "dodf-340:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-138": {
+   "pergunta": "Qual foi o valor total da aquisição de ataduras de crepom para o Hospital Regional de Samambaia?",
+   "baseline": [
+    "dodf-1722:est300o30:0023",
+    "dodf-1155:est300o30:0021",
+    "dodf-1091:est300o30:0015"
+   ],
+   "s1_atual": [
+    "dodf-1722:est300o30:0023",
+    "dodf-1155:est300o30:0021",
+    "dodf-1091:est300o30:0015"
+   ],
+   "s1_conservadora": [
+    "dodf-1722:est300o30:0023",
+    "dodf-1155:est300o30:0021",
+    "dodf-1091:est300o30:0015"
+   ],
+   "tokens": [
+    2815,
+    2815,
+    2815
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1722:est300o30:0023": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1155:est300o30:0021": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1091:est300o30:0015": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-139": {
+   "pergunta": "Qual é a situação dos elevadores no Hospital Regional de Taguatinga conforme publicações da NOVACAP?",
+   "baseline": [
+    "dodf-146:est300o30:0001",
+    "dodf-145:est300o30:0000",
+    "dodf-338:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-146:est300o30:0001",
+    "dodf-145:est300o30:0000",
+    "dodf-338:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-146:est300o30:0001",
+    "dodf-145:est300o30:0000",
+    "dodf-338:est300o30:0002"
+   ],
+   "tokens": [
+    2755,
+    2755,
+    2755
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-146:est300o30:0001": null,
+     "dodf-145:est300o30:0000": null,
+     "dodf-338:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-140": {
+   "pergunta": "Qual foi o valor total gasto com a aquisição de pano multiuso para o Hospital de Planaltina?",
+   "baseline": [
+    "dodf-161:est300o30:0000",
+    "dodf-853:est300o30:0013",
+    "dodf-1465:est300o30:0009"
+   ],
+   "s1_atual": [
+    "dodf-161:est300o30:0000",
+    "dodf-853:est300o30:0013",
+    "dodf-1465:est300o30:0009"
+   ],
+   "s1_conservadora": [
+    "dodf-161:est300o30:0000",
+    "dodf-853:est300o30:0013",
+    "dodf-1465:est300o30:0009"
+   ],
+   "tokens": [
+    2636,
+    2636,
+    2636
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-161:est300o30:0000": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-853:est300o30:0013": {
+      "tipo": "valor_tipado",
+      "detalhe": "R$"
+     },
+     "dodf-1465:est300o30:0009": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-141": {
+   "pergunta": "Qual é a proposta do Programa Nacional de Integração de Dados Periciais sobre Drogas em relação à epidemiologia forense na Região Norte?",
+   "baseline": [
+    "dodf-1035:est300o30:0004",
+    "dodf-1035:est300o30:0018",
+    "dodf-1035:est300o30:0006"
+   ],
+   "s1_atual": [
+    "dodf-1035:est300o30:0004",
+    "dodf-1035:est300o30:0018",
+    "dodf-1035:est300o30:0006"
+   ],
+   "s1_conservadora": [
+    "dodf-1035:est300o30:0004",
+    "dodf-1035:est300o30:0018",
+    "dodf-1035:est300o30:0006"
+   ],
+   "tokens": [
+    2982,
+    2982,
+    2982
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1035:est300o30:0004": null,
+     "dodf-1035:est300o30:0018": null,
+     "dodf-1035:est300o30:0006": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-142": {
+   "pergunta": "Em que ano o Hospital Maria Auxiliadora prestou os serviços médicos que geraram o reconhecimento de dívida?",
+   "baseline": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-671:est300o30:0000",
+    "dodf-939:est300o30:0000",
+    "dodf-668:est300o30:0000",
+    "dodf-675:est300o30:0000"
+   ],
+   "tokens": [
+    2695,
+    2695,
+    2695
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-671:est300o30:0000": null,
+     "dodf-939:est300o30:0000": null,
+     "dodf-668:est300o30:0000": null,
+     "dodf-675:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-143": {
+   "pergunta": "Quais insumos hospitalares foram adquiridos para o Hospital de Apoio de Brasília em junho de 2025?",
+   "baseline": [
+    "dodf-1142:est300o30:0005",
+    "dodf-842:est300o30:0005"
+   ],
+   "s1_atual": [
+    "dodf-1142:est300o30:0005",
+    "dodf-842:est300o30:0005"
+   ],
+   "s1_conservadora": [
+    "dodf-1142:est300o30:0005",
+    "dodf-842:est300o30:0005"
+   ],
+   "tokens": [
+    2425,
+    2425,
+    2425
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1142:est300o30:0005": null,
+     "dodf-842:est300o30:0005": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  },
+  "val-144": {
+   "pergunta": "Quais equipamentos odontológicos foram distribuídos para a UBS do Jardim Botânico?",
+   "baseline": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_atual": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "s1_conservadora": [
+    "dodf-1451:est300o30:0000",
+    "dodf-303:est300o30:0004",
+    "dodf-303:est300o30:0017"
+   ],
+   "tokens": [
+    2823,
+    2823,
+    2823
+   ],
+   "grupos": [
+    "A",
+    "A",
+    "A"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1451:est300o30:0000": null,
+     "dodf-303:est300o30:0004": null,
+     "dodf-303:est300o30:0017": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "insuficiente"
+  },
+  "val-145": {
+   "pergunta": "Qual foi o valor da dívida reconhecida referente aos serviços prestados no hospital em 2021?",
+   "baseline": [
+    "dodf-655:est300o30:0000",
+    "dodf-755:est300o30:0000",
+    "dodf-759:est300o30:0000",
+    "dodf-660:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-655:est300o30:0000",
+    "dodf-755:est300o30:0000",
+    "dodf-759:est300o30:0000",
+    "dodf-660:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-655:est300o30:0000",
+    "dodf-755:est300o30:0000",
+    "dodf-759:est300o30:0000",
+    "dodf-660:est300o30:0000"
+   ],
+   "tokens": [
+    2703,
+    2703,
+    2703
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-655:est300o30:0000": null,
+     "dodf-755:est300o30:0000": null,
+     "dodf-759:est300o30:0000": null,
+     "dodf-660:est300o30:0000": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-146": {
+   "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Santa Lúcia?",
+   "baseline": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_atual": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "s1_conservadora": [
+    "dodf-1436:est300o30:0000",
+    "dodf-1517:est300o30:0000",
+    "dodf-735:est300o30:0000",
+    "dodf-822:est300o30:0000",
+    "dodf-897:est300o30:0000"
+   ],
+   "tokens": [
+    2875,
+    2875,
+    2875
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1436:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-1517:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-735:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-822:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     },
+     "dodf-897:est300o30:0000": {
+      "tipo": "rotulo",
+      "detalhe": "valor"
+     }
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-147": {
+   "pergunta": "Quais procedimentos foram autorizados para o Hospital Pacini em 13/05/2025?",
+   "baseline": [
+    "dodf-831:est300o30:0000",
+    "dodf-680:est300o30:0000",
+    "dodf-684:est300o30:0004"
+   ],
+   "s1_atual": [
+    "dodf-831:est300o30:0000",
+    "dodf-680:est300o30:0000",
+    "dodf-684:est300o30:0004"
+   ],
+   "s1_conservadora": [
+    "dodf-831:est300o30:0000",
+    "dodf-680:est300o30:0000",
+    "dodf-684:est300o30:0004"
+   ],
+   "tokens": [
+    2878,
+    2878,
+    2878
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-831:est300o30:0000": null,
+     "dodf-680:est300o30:0000": null,
+     "dodf-684:est300o30:0004": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "fora_do_escopo"
+  },
+  "val-148": {
+   "pergunta": "Qual instituição hospitalar foi autorizada a receber pagamento de dívida no hospital?",
+   "baseline": [
+    "dodf-399:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_atual": [
+    "dodf-399:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-1242:est300o30:0034"
+   ],
+   "s1_conservadora": [
+    "dodf-399:est300o30:0000",
+    "dodf-468:est300o30:0000",
+    "dodf-469:est300o30:0000",
+    "dodf-1242:est300o30:0034"
+   ],
+   "tokens": [
+    2912,
+    2912,
+    2912
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-399:est300o30:0000": null,
+     "dodf-468:est300o30:0000": null,
+     "dodf-469:est300o30:0000": null,
+     "dodf-1242:est300o30:0034": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "ambigua"
+  },
+  "val-149": {
+   "pergunta": "Quais ações de atenção básica e primária em saúde serão executadas em Ceilândia durante 2025?",
+   "baseline": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1611:est300o30:0020",
+    "dodf-1052:est300o30:0002"
+   ],
+   "s1_atual": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1611:est300o30:0020",
+    "dodf-1052:est300o30:0002"
+   ],
+   "s1_conservadora": [
+    "dodf-1365:est300o30:0001",
+    "dodf-1611:est300o30:0020",
+    "dodf-1052:est300o30:0002"
+   ],
+   "tokens": [
+    2724,
+    2724,
+    2724
+   ],
+   "grupos": [
+    "B",
+    "B",
+    "B"
+   ],
+   "info": {
+    "cobertura_selecionados": {
+     "dodf-1365:est300o30:0001": null,
+     "dodf-1611:est300o30:0020": null,
+     "dodf-1052:est300o30:0002": null
+    },
+    "s1_atual_mudaria": false,
+    "decisao": "sem_candidato"
+   },
+   "status_4_3": "parcial"
+  }
+ }
+}

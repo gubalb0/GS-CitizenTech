@@ -1,0 +1,57 @@
+﻿qid;status;causa_primaria;causas_secundarias;doc_no_contexto;grupo_rodada;confianca_auditor
+val-004;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);pergunta aberta/lista;enviado;B;media
+val-009;ambigua;2. Filtro/politica de identificabilidade excessivo (respostas equivalentes);;enviado;A;alta
+val-019;fora_do_escopo;1. Recuperacao inadequada (doc da resposta nao recuperado);4. fora_do_escopo indevido;nao_recuperado;B;media
+val-022;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;alta
+val-027;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;A;media
+val-028;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;A;alta
+val-029;fora_do_escopo;1. Recuperacao inadequada (doc da resposta nao recuperado);4. fora_do_escopo indevido;nao_recuperado;B;media
+val-031;insuficiente;3. Verificador rejeitando evidencia valida;pergunta aberta/lista;enviado;A;alta
+val-032;insuficiente;3. Verificador rejeitando evidencia valida;pergunta aberta/lista;enviado;A;alta
+val-033;insuficiente;"5. Geracao incapaz (afirmacoes sem apoio; bloqueio legitimo)";pergunta aberta/lista;enviado;B;baixa
+val-035;insuficiente;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;A;media
+val-036;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;A;media
+val-044;insuficiente;"5. Geracao incapaz (afirmacoes sem apoio; bloqueio legitimo)";pergunta aberta/lista;enviado;B;baixa
+val-045;insuficiente;3. Verificador rejeitando evidencia valida;;enviado;A;alta
+val-046;fora_do_escopo;7. Pergunta aberta sem documento unico (resposta parcial exigida);"4. fora_do_escopo indevido; pergunta aberta/lista";sem_doc_identificado;B;media
+val-047;insuficiente;3. Verificador rejeitando evidencia valida;pergunta aberta/lista;enviado;A;media
+val-048;fora_do_escopo;1. Recuperacao inadequada (doc da resposta nao recuperado);"4. fora_do_escopo indevido; pergunta aberta/lista";nao_recuperado;B;media
+val-052;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);pergunta aberta/lista;enviado;B;baixa
+val-053;insuficiente;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);pergunta aberta/lista;enviado;A;alta
+val-054;ambigua;2. Filtro/politica de identificabilidade excessivo (respostas equivalentes);;nao_recuperado;A;media
+val-055;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;media
+val-056;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;media
+val-058;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;A;baixa
+val-060;fora_do_escopo;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);"4. fora_do_escopo indevido; pergunta aberta/lista";enviado;A;media
+val-061;insuficiente;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);pergunta aberta/lista;enviado;B;baixa
+val-062;insuficiente;"5. Geracao incapaz (citacao fabricada/ilegivel/emendada; bloqueio legitimo)";;enviado;A;alta
+val-063;insuficiente;6. Falta de contexto (recuperado, nao enviado);pergunta aberta/lista;recuperado_nao_enviado;B;baixa
+val-064;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);;nao_recuperado;B;media
+val-067;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;baixa
+val-069;ambigua;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;media
+val-074;fora_do_escopo;6. Falta de contexto (recuperado, nao enviado);4. fora_do_escopo indevido;recuperado_nao_enviado;B;alta
+val-076;insuficiente;7. Pergunta aberta sem documento unico (resposta parcial exigida);pergunta aberta/lista;sem_doc_identificado;B;baixa
+val-078;insuficiente;7. Pergunta aberta sem documento unico (resposta parcial exigida);pergunta aberta/lista;sem_doc_identificado;B;baixa
+val-080;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;B;baixa
+val-083;insuficiente;7. Pergunta aberta sem documento unico (resposta parcial exigida);pergunta aberta/lista;sem_doc_identificado;B;baixa
+val-086;fora_do_escopo;6. Falta de contexto (recuperado, nao enviado);"4. fora_do_escopo indevido; pergunta aberta/lista";recuperado_nao_enviado;B;media
+val-087;insuficiente;3. Verificador rejeitando evidencia valida;pergunta aberta/lista;enviado;A;alta
+val-088;insuficiente;7. Pergunta aberta sem documento unico (resposta parcial exigida);pergunta aberta/lista;sem_doc_identificado;B;baixa
+val-089;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;baixa
+val-094;ambigua;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;A;media
+val-095;ambigua;2. Filtro/politica de identificabilidade excessivo (respostas equivalentes);;enviado;A;baixa
+val-097;insuficiente;3. Verificador rejeitando evidencia valida;;enviado;B;alta
+val-105;insuficiente;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;A;media
+val-106;insuficiente;3. Verificador rejeitando evidencia valida;;enviado;A;alta
+val-108;insuficiente;"5. Geracao incapaz (citacao fabricada/ilegivel/emendada; bloqueio legitimo)";pergunta aberta/lista;nao_recuperado;B;baixa
+val-109;fora_do_escopo;7. Pergunta aberta sem documento unico (resposta parcial exigida);"4. fora_do_escopo indevido; pergunta aberta/lista";sem_doc_identificado;B;media
+val-112;insuficiente;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;A;baixa
+val-117;ambigua;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;B;baixa
+val-119;fora_do_escopo;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);"4. fora_do_escopo indevido; pergunta aberta/lista";enviado;A;alta
+val-121;ambigua;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);;enviado;A;baixa
+val-126;insuficiente;"5. Geracao incapaz (citacao fabricada/ilegivel/emendada; bloqueio legitimo)";;enviado;A;alta
+val-134;ambigua;1. Recuperacao inadequada (doc da resposta nao recuperado);pergunta aberta/lista;nao_recuperado;A;media
+val-135;ambigua;2. Filtro/politica de identificabilidade excessivo (respostas equivalentes);;enviado;A;media
+val-141;insuficiente;3. Verificador rejeitando evidencia valida;;enviado;A;media
+val-144;insuficiente;5. Geracao/modelo se absteve (doc no contexto, sem reprovacao);pergunta aberta/lista;enviado;A;baixa
+val-147;fora_do_escopo;6. Falta de contexto (recuperado, nao enviado);"4. fora_do_escopo indevido; pergunta aberta/lista";recuperado_nao_enviado;B;media

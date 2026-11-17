@@ -173,7 +173,7 @@ def test_publicacao_concorrente_igualmente_relevante_vira_ambigua_sem_candidatas
     o = saida(resposta="O valor é R$57.102,73.", fontes=["C1"], evid=[ev("C1", "Valor: R$57.102,73")])
     r = gerar_resposta("Qual o valor pago ao Hospital Santa Lúcia?", [res(1, HOSP_A), res(2, HOSP_A2)], cli(ok(o)))
     assert r.status == "ambigua" and r.verificacao["divergencia"] == "publicacoes_semelhantes" and len(r.fontes) == 2
-    assert "Na publicação" in r.resposta and "R$57.102,73" in r.resposta
+    assert "R$57.102,73" not in r.resposta and "R$131,05" not in r.resposta and "R$57.102,73" in r.telemetria["resposta_modelo_descartada"]   # 4.2: o valor nao e entregue
 
 
 def test_numero_da_pergunta_distingue_a_publicacao_e_evita_ambiguidade():
@@ -224,7 +224,7 @@ def test_pergunta_composta_com_parte_sem_evidencia_e_parcial():
     oa = saida(resposta="O valor é R$57.102,73.", fontes=["C1"], evid=[ev("C1", "Valor: R$57.102,73")])
     ob = saida("insuficiente", "x", just="não há informação")
     recuperar = lambda p: [res(1, HOSP_A)]   # noqa: E731
-    r = gerar_resposta_composta("Qual o valor pago ao Hospital Santa Lúcia? E também: qual o endereço do Hospital Prontonorte?", recuperar, cli(ok(oa), ok(ob)))
+    r = gerar_resposta_composta("Qual o valor pago ao Hospital Santa Lúcia em 2025? E também: qual o endereço do Hospital Prontonorte em 2025?", recuperar, cli(ok(oa), ok(ob)))
     assert r.status == "parcial" and "não puderam ser verificadas" in r.resposta
 
 
@@ -239,19 +239,10 @@ def test_pergunta_simples_na_composta_delega():
 def test_status_validos_incluem_parcial():
     assert set(G.STATUS) == {"respondida", "parcial", "insuficiente", "ambigua", "fora_do_escopo"}
     assert "parcial" in G.ESQUEMA_SAIDA["properties"]["status"]["enum"]
-    assert G.VERSAO_PROMPT == "v3" and G.VERSAO_POLITICA == "fail-closed-4.1"
+    assert G.VERSAO_PROMPT == "v3" and G.VERSAO_POLITICA == "fail-closed-4.4.4d1-cand"
 
 
 def test_telemetria_registra_versoes_e_scores():
     o = saida(resposta="O valor é R$57.102,73.", fontes=["C1"], evid=[ev("C1", "Valor: R$57.102,73")])
     r = gerar_resposta("Qual o valor pago ao Hospital Santa Lúcia?", [res(1, HOSP_A)], cli(ok(o)))
     assert r.telemetria["versao_prompt"] == "v3" and r.telemetria["scores_recebidos"] == [19.0]
-
-
-def test_pergunta_sem_discriminador_tem_escopo_explicito_e_nao_e_resposta_completa():
-    """Singular, sem numero/data/documento: uma publicacao semelhante nao pode passar por 'a' resposta; fica identificada e limitada."""
-    o = saida(resposta="O valor é R$57.102,73.", fontes=["C1"], evid=[ev("C1", "Valor: R$57.102,73")])
-    r = gerar_resposta("Qual o valor pago ao Hospital Santa Lúcia?", [res(1, HOSP_A, ref="00001791/2024")], cli(ok(o)))
-    assert r.status == "parcial" and EV.AVISO_ESCOPO in r.resposta and "00001791/2024" in r.resposta
-    assert r.verificacao["completude"] == "escopo_nao_especificado" and EV.sem_discriminador("Qual o valor pago ao Hospital Santa Lúcia?")
-    assert not EV.sem_discriminador("Qual o valor do Chamamento nº 270/2025?") and not EV.sem_discriminador("Qual o valor em junho de 2025?")

@@ -1,0 +1,1495 @@
+{
+ "val-000": {
+  "pergunta": "Qual empresa foi inabilitada no credenciamento para prestação de serviço de cirurgia oftalmológica no hospital?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-001": {
+  "pergunta": "Qual serviço de manutenção foi contratado para a Policlínica do Núcleo Bandeirante?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-002": {
+  "pergunta": "Qual medicamento foi adquirido para o Hospital da Criança de Brasília José Alencar no Chamamento nº 270/2025?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-003": {
+  "pergunta": "Qual empresa foi ratificada para fornecimento de tintas para tecido ao Hospital São Vicente de Paulo?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 1,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-004": {
+  "pergunta": "Quais produtos foram adquiridos para manutenção da piscina do Hospital de Apoio de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-005": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-006": {
+  "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 2,
+  "estados": {
+   "compativel": 1
+  },
+  "conf": []
+ },
+ "val-007": {
+  "pergunta": "Quais serviços de saúde estão sendo implementados em Riacho Fundo II?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Incorreta",
+  "n_rel": 6,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-008": {
+  "pergunta": "Quem foi responsável pela autorização de pagamento ao Hospital Prontonorte?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-009": {
+  "pergunta": "Qual é o prazo máximo para a Comissão Eleitoral da Candangolândia concluir o processo eleitoral?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-010": {
+  "pergunta": "Até quando estão sendo recebidas propostas para a aquisição de materiais especiais no Hospital da Criança de Brasília José Alencar?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-011": {
+  "pergunta": "Qual é o endereço do hospital credenciado no Gama que teve alterações em seus procedimentos?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-012": {
+  "pergunta": "Quais equipamentos médicos foram adquiridos para o Hospital Regional de Ceilândia?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Incorreta",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 2
+  },
+  "conf": []
+ },
+ "val-013": {
+  "pergunta": "Quais são as aquisições de insumos e serviços realizadas para atender às necessidades do Hospital Regional de Taguatinga na região Sudoeste?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 6,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-014": {
+  "pergunta": "Até quando será possível enviar propostas para o chamamento no Hospital da Criança de Brasília José Alencar?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-015": {
+  "pergunta": "Qual instituição hospitalar em Brasília foi autorizada a receber pagamento de dívida reconhecida?",
+  "status": "fora_do_escopo",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-016": {
+  "pergunta": "Por qual motivo foi reconhecida a dívida do Hospital Santa Lúcia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-017": {
+  "pergunta": "Quais estabelecimentos de saúde na Asa Sul possuem brigada de incêndio própria credenciada?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-018": {
+  "pergunta": "Qual foi o valor autorizado para pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-019": {
+  "pergunta": "Qual tipo de análise de água foi solicitado para o Hospital da Criança de Brasília?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-020": {
+  "pergunta": "Quais estabelecimentos de saúde foram credenciados para prestar serviços de radiologia e medicina nuclear no Gama?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-021": {
+  "pergunta": "Quais serviços de saúde mental estão sendo credenciados para atender os beneficiários da Polícia Militar em Sobradinho?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-022": {
+  "pergunta": "Quais serviços de alimentação hospitalar foram contratados para as unidades de saúde que atendem Santa Maria?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-023": {
+  "pergunta": "Qual é o valor da dívida reconhecida para o Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-024": {
+  "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 1,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-025": {
+  "pergunta": "Qual instituição foi autorizada a receber pagamento referente ao credenciamento no hospital?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-026": {
+  "pergunta": "A partir de quando o novo procedimento passou a ser oferecido no Hospital Sírio-Libanês?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-027": {
+  "pergunta": "Qual é o prazo para recebimento de propostas do Chamamento nº 170/2025 no Hospital da Criança de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-028": {
+  "pergunta": "Qual é o objeto da aquisição em processo no Hospital da Criança de Brasília José Alencar conforme o chamamento nº 036/2025?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-029": {
+  "pergunta": "Qual instituição hospitalar em Ceilândia teve sua dívida de exercício anterior reconhecida nesta publicação?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-030": {
+  "pergunta": "Qual foi o valor total pago à empresa Fresenius Kabi Brasil Ltda pela aquisição de medicamentos no Hospital da Criança de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-031": {
+  "pergunta": "Quais foram os indicadores de satisfação dos pacientes no Hospital da Criança de Brasília José Alencar durante o terceiro trimestre de 2023?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-032": {
+  "pergunta": "Quais Unidades Básicas de Saúde no Jardim Botânico foram incluídas no contrato com a empresa Vida Diagnósticos?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-033": {
+  "pergunta": "Quais serviços de manutenção foram contratados para o Hospital Regional de Ceilândia?",
+  "status": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:aparelho,anestesia,monitor,sinais,vitais"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-034": {
+  "pergunta": "Qual instituição hospitalar foi autorizada a receber pagamento de dívida reconhecida pelo INAS?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-035": {
+  "pergunta": "Qual é a unidade de saúde no Recanto das Emas que está participando do processo seletivo para preceptores de ensino técnico?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-036": {
+  "pergunta": "Qual instituição foi credenciante para os serviços prestados no Hospital São Mateus?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-037": {
+  "pergunta": "Quantas empresas foram vencedoras na aquisição de dietas enterais e orais no Hospital da Criança de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-038": {
+  "pergunta": "Qual empresa foi adjudicada para fornecer medicamentos às UBS das Unidades Prisionais?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-039": {
+  "pergunta": "Quais unidades de saúde em São Sebastião receberão equipamentos odontológicos conforme o contrato de distribuição?",
+  "status": "insuficiente",
+  "problemas": [
+   "ausencia_nao_encontrada_contexto_parcial"
+  ],
+  "classe43": "Incorreta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-040": {
+  "pergunta": "Qual serviço de manutenção foi contratado para o Hospital de Apoio de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-041": {
+  "pergunta": "Qual instituição de saúde em Ceilândia teve seu crédito orçamentário descentralizado para pagamento de despesas de exercícios anteriores?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 6,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-042": {
+  "pergunta": "Quais são os prazos disponíveis para a empresa inabilitada no hospital apresentar recursos contra a decisão?",
+  "status": "fora_do_escopo",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-043": {
+  "pergunta": "Qual empresa prestadora de serviços de saúde teve sua dívida reconhecida no hospital?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-044": {
+  "pergunta": "Quais serviços de saúde estão sendo credenciados para atender beneficiários na Asa Sul?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-045": {
+  "pergunta": "Qual UBS foi adicionada ao contrato no Jardim Botânico?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-046": {
+  "pergunta": "Quais materiais de saúde foram adquiridos para o Hospital de Sobradinho?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-047": {
+  "pergunta": "Quais programas de residência médica estão disponíveis no Hospital Regional do Gama?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-048": {
+  "pergunta": "Quais itens foram adquiridos para o Hospital de Sobradinho conforme as publicações do DODF?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-049": {
+  "pergunta": "Quem foi eleito como membro efetivo da Comissão de Ética Médica da Unidade de Pronto Atendimento Riacho Fundo II?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 1,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-050": {
+  "pergunta": "Quais insumos farmacêuticos foram adquiridos para o Hospital Regional de Taguatinga no período de 31 de julho a 22 de agosto de 2025?",
+  "status": "insuficiente",
+  "problemas": [
+   "periodo_incompativel"
+  ],
+  "classe43": "Incorreta",
+  "n_rel": 6,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-051": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital São Mateus?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-052": {
+  "pergunta": "Quais insumos e serviços foram adquiridos para o Hospital Regional de Taguatinga conforme as dispensas de licitação publicadas?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-053": {
+  "pergunta": "Quais unidades de saúde em Samambaia receberam compressores de ar odontológico conforme as publicações do DODF?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-054": {
+  "pergunta": "Qual foi a natureza dos serviços prestados pelo Hospital Prontonorte aos beneficiários da PMDF?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-055": {
+  "pergunta": "Quais produtos e equipamentos foram adquiridos para as unidades de saúde em Lago Norte?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-056": {
+  "pergunta": "Quais medicamentos foram adquiridos para o Hospital Regional de Ceilândia em maio de 2025?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-057": {
+  "pergunta": "Qual foi o valor autorizado para pagamento referente aos serviços de hospital domiciliar?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-058": {
+  "pergunta": "Quais são os itens e medicamentos adquiridos para o Hospital Regional de Planaltina?",
+  "status": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:0,9,100,12,1000,cloreto,sodio"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-059": {
+  "pergunta": "Quais materiais e equipamentos foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 2
+  },
+  "conf": []
+ },
+ "val-060": {
+  "pergunta": "Quais equipamentos foram distribuídos para as unidades básicas de saúde no SIA conforme o contrato com a HOFFMANNLAB?",
+  "status": "fora_do_escopo",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-061": {
+  "pergunta": "Quais insumos e medicamentos foram adquiridos para atender às necessidades de atenção primária em Taguatinga?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-062": {
+  "pergunta": "Qual é o valor total empenhado para os serviços de cirurgia de cabeça e pescoço no Hospital São Mateus?",
+  "status": "insuficiente",
+  "problemas": [
+   "trecho_nao_literal:C1",
+   "citacao_fabricada:C1:1.105.500,00"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-063": {
+  "pergunta": "Quais insumos foram adquiridos para atender às necessidades de saúde em Taguatinga?",
+  "status": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:500,125,pulseira,identificacao,adulto,branca"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-064": {
+  "pergunta": "Qual serviço de saúde será construído em Ceilândia conforme a licitação publicada?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-065": {
+  "pergunta": "Qual é o endereço do hospital credenciado em Brasília para atendimento em radioterapia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-066": {
+  "pergunta": "Quais materiais médicos foram adquiridos para o Hospital da Criança de Brasília em fevereiro de 2025?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 5,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-067": {
+  "pergunta": "Quais insumos de laboratório foram adquiridos para uso na Asa Norte?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-068": {
+  "pergunta": "Quem foi responsável pela autorização de pagamento ao Hospital Urológico de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-069": {
+  "pergunta": "Quais insumos e serviços foram adquiridos para o Hospital Regional de Samambaia através das dispensas de licitação publicadas no DODF?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-070": {
+  "pergunta": "Quais medicamentos e materiais hospitalares foram adquiridos para o Hospital Regional de Brazlândia conforme as publicações do DODF?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 8,
+  "estados": {
+   "desconhecido": 4
+  },
+  "conf": []
+ },
+ "val-071": {
+  "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Maria Auxiliadora referente aos serviços médicos prestados?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-072": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Urológico de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-073": {
+  "pergunta": "Qual é o endereço do hospital credenciado na Asa Sul para prestação de serviços ao CBMDF?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-074": {
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-075": {
+  "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Prontonorte?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-076": {
+  "pergunta": "Quais insumos foram adquiridos para a Atenção Primária no Guará?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-077": {
+  "pergunta": "Qual é o valor da despesa de exercício anterior reconhecida para o Hospital São Mateus no Gama?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-078": {
+  "pergunta": "Quais equipamentos foram adquiridos para a Atenção Primária à Saúde na Região Oeste?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-079": {
+  "pergunta": "Qual empresa foi credenciada para prestar serviços hospitalares em Taguatinga?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-080": {
+  "pergunta": "Qual é o valor autorizado para pagamento à Clínica do Sono e Hospital Otorrino Odonto-Médico Otoface de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-081": {
+  "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Maria Auxiliadora?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-082": {
+  "pergunta": "Qual foi o motivo do cancelamento das aquisições realizadas para o Hospital Regional de Taguatinga?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-083": {
+  "pergunta": "Quais itens foram adquiridos para atender as necessidades da Atenção Primária no Guará?",
+  "status": "insuficiente",
+  "problemas": [
+   "destinatario_conflitante"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 10,
+  "estados": {
+   "desconhecido": 4
+  },
+  "conf": []
+ },
+ "val-084": {
+  "pergunta": "Qual é o período de vigência do credenciamento do Hospital São Mateus?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-085": {
+  "pergunta": "Quem foi o responsável pela autorização de pagamento ao Hospital da Plástica DF?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-086": {
+  "pergunta": "Quais são as novas obrigações registradas para o Hospital Anchieta?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-087": {
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "status": "insuficiente",
+  "problemas": [
+   "rotulo_incompativel_com_atributo"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 1,
+   "conflito": 1
+  },
+  "conf": [
+   [
+    "C2",
+    "titular",
+    [
+     "rotulo"
+    ]
+   ],
+   [
+    "C2",
+    "titular",
+    [
+     "rotulo"
+    ]
+   ]
+  ]
+ },
+ "val-088": {
+  "pergunta": "Quais serviços de saúde foram credenciados para atender em Sobradinho?",
+  "status": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:planeta,sorriso,vital,medici"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-089": {
+  "pergunta": "Quais serviços de reparo foram contratados para o Hospital Regional de Taguatinga?",
+  "status": "insuficiente",
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:500,0110-542,video,cirurgia,karl,storz"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-090": {
+  "pergunta": "Qual foi o motivo do cancelamento do Chamamento nº 202/2025 no Hospital da Criança de Brasília?",
+  "status": "respondida",
+  "problemas": [],
+  "classe43": "Correta",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-091": {
+  "pergunta": "Quais medicamentos foram objeto de aquisição para o Hospital da Criança de Brasília?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 8,
+  "estados": {
+   "desconhecido": 4
+  },
+  "conf": []
+ },
+ "val-092": {
+  "pergunta": "Qual foi o valor total estimado para a aquisição de material médico no Hospital da Criança de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-093": {
+  "pergunta": "Qual é o objeto da aquisição em Sistema de Registro de Preços para o Hospital da Criança de Brasília José Alencar?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-094": {
+  "pergunta": "Quais são os serviços de reparo e aquisições de insumos realizados no Hospital Regional de Samambaia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-095": {
+  "pergunta": "Qual é o objetivo da construção da Unidade Básica de Saúde (UBS Tipo II) em Riacho Fundo II?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-096": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Pacini?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-097": {
+  "pergunta": "Qual é o valor descentralizado para a construção da unidade básica de saúde no Gama?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-098": {
+  "pergunta": "Qual medicamento foi adquirido para a Atenção Primária à Saúde na Região Oeste?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-099": {
+  "pergunta": "Quais equipamentos e materiais foram adquiridos para o Hospital Regional de Ceilândia conforme as publicações do DODF?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 8,
+  "estados": {
+   "desconhecido": 4
+  },
+  "conf": []
+ },
+ "val-100": {
+  "pergunta": "Quais aquisições de equipamentos hospitalares foram realizadas para o Hospital Regional de Ceilândia?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Incorreta",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 2
+  },
+  "conf": []
+ },
+ "val-101": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Anchieta?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-102": {
+  "pergunta": "Quais materiais de expediente estão sendo adquiridos para o Hospital da Criança de Brasília?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 6,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-103": {
+  "pergunta": "Qual serviço foi habilitado para prestação em Ceilândia pela Secretaria de Estado de Saúde do Distrito Federal?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-104": {
+  "pergunta": "Qual é o objeto da contratação realizada para o Hospital da Criança de Brasília José Alencar?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-105": {
+  "pergunta": "Qual foi o desempenho do Hospital da Criança de Brasília José Alencar em relação às consultas médicas durante o terceiro trimestre de 2023?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-106": {
+  "pergunta": "Qual instituição hospitalar em Lago Sul foi parte de um Termo de Compromisso assinado em junho de 2025?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-107": {
+  "pergunta": "Qual é a vigência do serviço de saúde prestado pelo hospital no Distrito Federal?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-108": {
+  "pergunta": "Quais unidades de atenção primária em Ceilândia receberam equipamentos conforme as publicações do DODF?",
+  "status": "insuficiente",
+  "problemas": [
+   "caracteres_fora_do_alfabeto"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-109": {
+  "pergunta": "Quais itens de enxoval hospitalar foram adquiridos para o Hospital Regional de Ceilândia?",
+  "status": "fora_do_escopo",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-110": {
+  "pergunta": "Quais empresas foram vencedoras na aquisição de materiais médicos hospitalares para o hospital em Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-111": {
+  "pergunta": "Quais serviços de infraestrutura foram contratados para o Hospital Regional de Brazlândia?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 2
+  },
+  "conf": []
+ },
+ "val-112": {
+  "pergunta": "Quais serviços hospitalares o Hospital Lago Sul está prestando no Distrito Federal?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-113": {
+  "pergunta": "Qual foi o valor total da aquisição de Fita Reagente Glicemia Capilar para o Hospital Regional de Taguatinga?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-114": {
+  "pergunta": "Quais são os serviços de saúde adquiridos para atender às necessidades da Região de Saúde Sudoeste?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 9,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-115": {
+  "pergunta": "Quem foi responsável pela autorização do pagamento ao Hospital das Clínicas e Pronto Socorro de Fraturas?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-116": {
+  "pergunta": "Quais medidas de prevenção e controle de dengue serão implementadas em Ceilândia em 2025?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-117": {
+  "pergunta": "Quais insumos foram adquiridos para atender às necessidades do Hospital de Planaltina?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-118": {
+  "pergunta": "Quais itens de proteção respiratória foram adquiridos para o Hospital Regional de Brazlândia?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1
+  },
+  "conf": []
+ },
+ "val-119": {
+  "pergunta": "Quais unidades de saúde em Santa Maria receberam compressores de ar odontológico conforme os contratos publicados?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-120": {
+  "pergunta": "Qual é o valor da dívida reconhecida para o Hospital das Clínicas e Pronto Socorro de Fraturas de Ceilândia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-121": {
+  "pergunta": "Qual é o prazo estabelecido para instalação dos equipamentos adquiridos nas unidades de saúde de Sobradinho?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-122": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Santa Lúcia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-123": {
+  "pergunta": "Qual é o valor da dívida reconhecida para o Hospital São Mateus?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-124": {
+  "pergunta": "Quem foi o responsável pela autorização de pagamento ao Hospital Santa Lúcia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-125": {
+  "pergunta": "Qual foi o valor da dívida reconhecida pelo Hospital Santa Marta?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-126": {
+  "pergunta": "Qual foi o objeto do Convênio nº 026202/2024-SES/DF celebrado para São Sebastião?",
+  "status": "insuficiente",
+  "problemas": [
+   "trecho_nao_literal:C2",
+   "citacao_em_outro_chunk:C2->C1"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-127": {
+  "pergunta": "Quantas empresas foram adjudicadas para fornecer produtos ao Hospital Regional de Brazlândia?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-128": {
+  "pergunta": "Qual foi o valor total estimado para a aquisição de prótese testicular no Hospital da Criança de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-129": {
+  "pergunta": "Quem representa a instituição credenciada no hospital em relação ao processo de credenciamento?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-130": {
+  "pergunta": "Quais empresas foram credenciadas para prestar serviços assistenciais clínicos e cirúrgicos na Asa Sul?",
+  "status": "insuficiente",
+  "problemas": [
+   "localidade_conflitante_no_registro"
+  ],
+  "classe43": "Incorreta",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 2
+  },
+  "conf": []
+ },
+ "val-131": {
+  "pergunta": "Quais serviços de manutenção e equipamentos foram contratados para o Hospital Regional de Planaltina?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 2,
+  "estados": {
+   "desconhecido": 1,
+   "compativel": 1
+  },
+  "conf": []
+ },
+ "val-132": {
+  "pergunta": "Qual empresa foi contratada para prestação de serviços de Anatomia Patológica no Hospital da Criança de Brasília?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-133": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Lago Sul?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-134": {
+  "pergunta": "Quais serviços de manutenção corretiva foram ratificados para as UBS na Região Oeste?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-135": {
+  "pergunta": "Qual foi a correção no valor de reconhecimento de dívida da Sociedade Beneficente de Senhoras Hospital Sírio Libanês?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-136": {
+  "pergunta": "Quais especialidades médicas foram propostas pela empresa credenciada no Hospital Home em Brasília?",
+  "status": "insuficiente",
+  "problemas": [
+   "remissao_a_documento_nao_publicado"
+  ],
+  "classe43": "Incorreta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-137": {
+  "pergunta": "Qual é o período de vigência do credenciamento do Hospital Santa Marta?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-138": {
+  "pergunta": "Qual foi o valor total da aquisição de ataduras de crepom para o Hospital Regional de Samambaia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-139": {
+  "pergunta": "Qual é a situação dos elevadores no Hospital Regional de Taguatinga conforme publicações da NOVACAP?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-140": {
+  "pergunta": "Qual foi o valor total gasto com a aquisição de pano multiuso para o Hospital de Planaltina?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-141": {
+  "pergunta": "Qual é a proposta do Programa Nacional de Integração de Dados Periciais sobre Drogas em relação à epidemiologia forense na Região Norte?",
+  "status": "insuficiente",
+  "problemas": [
+   "ausencia_nao_encontrada_contexto_parcial"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-142": {
+  "pergunta": "Em que ano o Hospital Maria Auxiliadora prestou os serviços médicos que geraram o reconhecimento de dívida?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-143": {
+  "pergunta": "Quais insumos hospitalares foram adquiridos para o Hospital de Apoio de Brasília em junho de 2025?",
+  "status": "parcial",
+  "problemas": [],
+  "classe43": "Correta, mas parcial",
+  "n_rel": 6,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ },
+ "val-144": {
+  "pergunta": "Quais equipamentos odontológicos foram distribuídos para a UBS do Jardim Botânico?",
+  "status": "insuficiente",
+  "problemas": [],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-145": {
+  "pergunta": "Qual foi o valor da dívida reconhecida referente aos serviços prestados no hospital em 2021?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Abstencao correta",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-146": {
+  "pergunta": "Qual é o valor autorizado para pagamento ao Hospital Santa Lúcia?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-147": {
+  "pergunta": "Quais procedimentos foram autorizados para o Hospital Pacini em 13/05/2025?",
+  "status": "fora_do_escopo",
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "classe43": "Abstencao indevida",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-148": {
+  "pergunta": "Qual instituição hospitalar foi autorizada a receber pagamento de dívida no hospital?",
+  "status": "ambigua",
+  "problemas": [],
+  "classe43": "Ambigua de fato",
+  "n_rel": 0,
+  "estados": {},
+  "conf": []
+ },
+ "val-149": {
+  "pergunta": "Quais ações de atenção básica e primária em saúde serão executadas em Ceilândia durante 2025?",
+  "status": "insuficiente",
+  "problemas": [
+   "publicacao_sem_vinculo_com_a_localidade"
+  ],
+  "classe43": "Incorreta",
+  "n_rel": 4,
+  "estados": {
+   "desconhecido": 3
+  },
+  "conf": []
+ }
+}

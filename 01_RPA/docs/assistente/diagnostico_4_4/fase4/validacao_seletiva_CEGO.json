@@ -1,0 +1,610 @@
+[
+ {
+  "codigo": "S01",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "O objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia foi o FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "Objeto: FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF – HOSPITAL DE BASE, HOSPITAL REGIONAL DE SANTA MARIA, HOSPITAL CIDADE DO SOL E 13 (TREZE) UN"
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "ambigua",
+   "resposta_final": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S02",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C2",
+     "resposta_possivel": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, bem como acerca dosflux"
+    },
+    {
+     "fonte": "C3",
+     "resposta_possivel": "IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (G"
+    }
+   ],
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região, bem como a implementação das normas e protocolos de regulação.",
+   "fontes": [
+    "C2",
+    "C3"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C2",
+     "trecho": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, bem como acerca dos fluxos existentes..."
+    },
+    {
+     "fonte": "C3",
+     "trecho": "IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da"
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências gerais da Coordenação de Regulação da Região de Saúde Sul, mas não especificam detalhes exclusivos ao Gama."
+  },
+  "pipeline": {
+   "status": "parcial",
+   "resposta_final": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região, bem como a implementação das normas e protocolos de regulação.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S03",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e/"
+    }
+   ],
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação das normas e protocolos de regulação de internação hospitalar no Gama.",
+   "fontes": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da Região"
+    },
+    {
+     "fonte": "C2",
+     "trecho": "4 - Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG);"
+    },
+    {
+     "fonte": "C3",
+     "trecho": "Art. 1º Instituir a Coordenação de Regulação da Região de Saúde Sul (CRSSU), na forma de uma comissão, de caráter permanente, vinculada à Superintendência da Região de Saúde Sul (SRSSU)."
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama, mas não especificam detalhes adicionais."
+  },
+  "pipeline": {
+   "status": "parcial",
+   "resposta_final": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação das normas e protocolos de regulação de internação hospitalar no Gama.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S04",
+  "pergunta": "Qual instituição foi autorizada a receber pagamento referente ao credenciamento no hospital?",
+  "saida_bruta_modelo": {
+   "candidatas": [],
+   "status": "fora_do_escopo",
+   "resposta": "A pergunta não está relacionada às publicações fornecidas.",
+   "fontes": [],
+   "evidencias": [],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "fora_do_escopo",
+   "resposta_final": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ {
+  "codigo": "S05",
+  "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipamentos de Raio X Panorâmico, localizado no HRAN, CRT, CEO UBS 11 - CEILÂNDIA, HRS, HRL, equivalente a 5,883740% dovalor"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando na redução do valor contratual.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipamentos de Raio X Panorâmico, localizado no HRAN, CRT, CEO UBS 11 - CEILÂNDIA, HRS, HRL, equivalente a 5,883740% do valor inicial atualizado do contrato, no valor de R$ 1.147.963,68..."
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "respondida",
+   "resposta_final": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando na redução do valor contratual.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S06",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "O objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia foi o FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "Objeto: FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF – HOSPITAL DE BASE, HOSPITAL REGIONAL DE SANTA MARIA, HOSPITAL CIDADE DO SOL E 13 (TREZE) UN"
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "ambigua",
+   "resposta_final": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S07",
+  "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C2",
+     "resposta_possivel": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.",
+   "fontes": [
+    "C2"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C2",
+     "trecho": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF – HOSPITAL DE BASE, HOSPITAL REGIONAL DE SANTA MARIA, HOSPITAL CIDADE DO SOL E 13 (TREZE) UNIDADES"
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "respondida",
+   "resposta_final": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S08",
+  "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipamentos de Raio X Panorâmico, localizado no HRAN, CRT, CEO UBS 11 - CEILÂNDIA, HRS, HRL, equivalente a 5,883740% dovalor"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipamentos de Raio X Panorâmico, localizado no HRAN, CRT, CEO UBS 11 - CEILÂNDIA, HRS, HRL, equivalente a 5,883740% do valor inicial atualizado do contrato, no valor de R$ 1.147.963,68..."
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "respondida",
+   "resposta_final": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S09",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "saida_bruta_modelo": {
+   "candidatas": [],
+   "status": "fora_do_escopo",
+   "resposta": "A pergunta não está relacionada às publicações oficiais fornecidas.",
+   "fontes": [],
+   "evidencias": [],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "fora_do_escopo",
+   "resposta_final": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ {
+  "codigo": "S10",
+  "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C2",
+     "resposta_possivel": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.",
+   "fontes": [
+    "C2"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C2",
+     "trecho": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF – HOSPITAL DE BASE, HOSPITAL REGIONAL DE SANTA MARIA, HOSPITAL CIDADE DO SOL E 13 (TREZE) UNIDADES"
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "respondida",
+   "resposta_final": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S11",
+  "pergunta": "Qual é o serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C2",
+     "resposta_possivel": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.",
+   "fontes": [
+    "C2"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C2",
+     "trecho": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF – HOSPITAL DE BASE, HOSPITAL REGIONAL DE SANTA MARIA, HOSPITAL CIDADE DO SOL E 13 (TREZE) UNIDADES"
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "respondida",
+   "resposta_final": "O serviço de alimentação hospitalar contratado para as unidades de saúde em Ceilândia é o fornecimento ininterrupto de alimentação hospitalar especialmente preparada.\n\nFonte: Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S12",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C2",
+     "resposta_possivel": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, bem como acerca dosflux"
+    },
+    {
+     "fonte": "C3",
+     "resposta_possivel": "IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (G"
+    }
+   ],
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, norteará as gerências de regulação no cumprimento das atribuições regimentais.",
+   "fontes": [
+    "C2",
+    "C3"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C2",
+     "trecho": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, bem como acerca dos fluxos existentes..."
+    },
+    {
+     "fonte": "C3",
+     "trecho": "IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da"
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências gerais da Coordenação de Regulação da Região de Saúde Sul, mas não especificam detalhes exclusivos ao Gama."
+  },
+  "pipeline": {
+   "status": "parcial",
+   "resposta_final": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, norteará as gerências de regulação no cumprimento das atribuições regimentais.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S13",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e/"
+    },
+    {
+     "fonte": "C2",
+     "resposta_possivel": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria,"
+    }
+   ],
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação de normas e protocolos de internação hospitalar no Hospital Regional do Gama (HRG).",
+   "fontes": [
+    "C1",
+    "C2"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da Região"
+    },
+    {
+     "fonte": "C2",
+     "trecho": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria,"
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências da Coordenação de Regulação da Região de Saúde Sul, incluindo a norteadora das gerências de regulação e a relação com o Hospital Regional do Gama (HRG)."
+  },
+  "pipeline": {
+   "status": "insuficiente",
+   "resposta_final": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  }
+ },
+ {
+  "codigo": "S14",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "saida_bruta_modelo": {
+   "candidatas": [],
+   "status": "fora_do_escopo",
+   "resposta": "A pergunta não está relacionada às publicações oficiais fornecidas.",
+   "fontes": [],
+   "evidencias": [],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "fora_do_escopo",
+   "resposta_final": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ {
+  "codigo": "S15",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "O objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia foi o FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "Objeto: FORNECIMENTO ININTERRUPTO DE ALIMENTAÇÃO HOSPITALAR ESPECIALMENTE PREPARADA PARA PACIENTES, RESPECTIVOS ACOMPANHANTES LEGALMENTE INSTITUÍDOS E COLABORADORES AUTORIZADOS DAS UNIDADE DE SAÚDE DO IGESDF – HOSPITAL DE BASE, HOSPITAL REGIONAL DE SANTA MARIA, HOSPITAL CIDADE DO SOL E 13 (TREZE) UN"
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "ambigua",
+   "resposta_final": "Não foi possível identificar qual publicação responde a esta pergunta: existem outras publicações semelhantes no Diário Oficial (Extrato CONTRATO nº 1025/2024 (DODF edição 5, 2025-01-08, Seção III); Extrato 03/2025 (DODF edição 69, 2025-04-10, Seção III); Extrato 00078353/2025 (DODF edição 84, 2025-05-08, Seção III); Extrato 06/2025 (DODF edição 108, 2025-06-11, Seção III)). Informe a data, o número ou o documento desejado para que eu responda com precisão.",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S16",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C2",
+     "resposta_possivel": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, bem como acerca dosflux"
+    },
+    {
+     "fonte": "C3",
+     "resposta_possivel": "IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (G"
+    }
+   ],
+   "status": "parcial",
+   "resposta": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, as Deliberações nortearão as gerências de regulação no cumprimento das atribuições regimentais.",
+   "fontes": [
+    "C2",
+    "C3"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C2",
+     "trecho": "IV - Compete à CRSSU discutir e deliberar sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na Região de Saúde Sul, bem como acerca dos fluxos existentes..."
+    },
+    {
+     "fonte": "C3",
+     "trecho": "IX - As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da"
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências gerais da Coordenação de Regulação da Região de Saúde Sul, mas não especificam detalhes exclusivos relacionados aos serviços do Gama."
+  },
+  "pipeline": {
+   "status": "parcial",
+   "resposta_final": "As competências da Coordenação de Regulação da Região de Saúde Sul incluem a discussão e deliberação sobre a direção, avaliação, monitoramento, organização, funcionamento e aperfeiçoamento dos serviços regulados na região. Além disso, as Deliberações nortearão as gerências de regulação no cumprimento das atribuições regimentais.\n\nAVISO: resposta parcial, baseada apenas nas 1 publicação(ões) recuperada(s); pode haver outras publicações com informações adicionais que não foram verificadas.\n\nFonte: Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S17",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e/"
+    },
+    {
+     "fonte": "C2",
+     "resposta_possivel": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria,"
+    }
+   ],
+   "status": "parcial",
+   "resposta": "A Coordenação de Regulação da Região de Saúde Sul tem competência para nortear as gerências de regulação, incluindo a implementação de normas e protocolos de internação hospitalar no Hospital Regional do Gama (HRG).",
+   "fontes": [
+    "C1",
+    "C2"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "As Deliberações deverão nortear as respectivas gerências de regulação, no cumprimento das atribuições regimentais de implementar as normas e os protocolos de regulação de internação hospitalar (GIR e GEREG), de regulação ambulatorial (GERSU), de consultas, exames e procedimentos, no âmbito da Região"
+    },
+    {
+     "fonte": "C2",
+     "trecho": "Titular: Diretor do Hospital Regional do Gama, da Diretoria do Hospital Regional do Gama (HRG); Suplente: Substituto legal do cargo; 5 - Titular: Superintendente do Hospital Regional de Santa Maria, da Superintendência do Hospital Regional de Santa Maria (SUPSM);"
+    }
+   ],
+   "justificativa": "Os trechos fornecem informações sobre as competências da Coordenação de Regulação da Região de Saúde Sul em relação aos serviços do Gama, mas não detalham todas as competências específicas."
+  },
+  "pipeline": {
+   "status": "insuficiente",
+   "resposta_final": "A evidência encontrada em Ordem de serviço 396/2022 (DODF edição 26, 2025-02-06, Seção I) trata de outro atributo ('titular') e não de competencias, que é o que foi perguntado; por isso não é possível responder com segurança.",
+   "problemas": [
+    "rotulo_incompativel_com_atributo"
+   ]
+  }
+ },
+ {
+  "codigo": "S18",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que atendem Samambaia?",
+  "saida_bruta_modelo": {
+   "candidatas": [],
+   "status": "fora_do_escopo",
+   "resposta": "A pergunta não aborda informações relacionadas às publicações oficiais fornecidas.",
+   "fontes": [],
+   "evidencias": [],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "fora_do_escopo",
+   "resposta_final": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ {
+  "codigo": "S19",
+  "pergunta": "Qual foi a modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia?",
+  "saida_bruta_modelo": {
+   "candidatas": [
+    {
+     "fonte": "C1",
+     "resposta_possivel": "a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipamentos de Raio X Panorâmico, localizado no HRAN, CRT, CEO UBS 11 - CEILÂNDIA, HRS, HRL, equivalente a 5,883740% dovalor"
+    }
+   ],
+   "status": "respondida",
+   "resposta": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.",
+   "fontes": [
+    "C1"
+   ],
+   "evidencias": [
+    {
+     "fonte": "C1",
+     "trecho": "a modificação do valor contratual em decorrência da supressão de 5 (cinco) equipamentos de Raio X Panorâmico, localizado no HRAN, CRT, CEO UBS 11 - CEILÂNDIA, HRS, HRL, equivalente a 5,883740% do valor inicial atualizado do contrato, no valor de R$ 1.147.963,68..."
+    }
+   ],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "respondida",
+   "resposta_final": "A modificação contratual realizada para equipamentos de radiologia no Hospital Regional de Ceilândia foi a supressão de 5 (cinco) equipamentos de Raio X Panorâmico, resultando em redução do valor total do contrato.\n\nFonte: Extrato Contrato nº 051462/2024 (DODF edição 97, 2025-05-27, Seção III).",
+   "problemas": []
+  }
+ },
+ {
+  "codigo": "S20",
+  "pergunta": "Qual instituição foi autorizada a receber pagamento referente ao credenciamento no hospital?",
+  "saida_bruta_modelo": {
+   "candidatas": [],
+   "status": "fora_do_escopo",
+   "resposta": "A pergunta não está relacionada às publicações fornecidas.",
+   "fontes": [],
+   "evidencias": [],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "fora_do_escopo",
+   "resposta_final": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ },
+ {
+  "codigo": "S21",
+  "pergunta": "Qual instituição foi autorizada a receber pagamento referente ao credenciamento no hospital?",
+  "saida_bruta_modelo": {
+   "candidatas": [],
+   "status": "fora_do_escopo",
+   "resposta": "A pergunta não está relacionada às publicações fornecidas.",
+   "fontes": [],
+   "evidencias": [],
+   "justificativa": ""
+  },
+  "pipeline": {
+   "status": "fora_do_escopo",
+   "resposta_final": "Esta pergunta está fora do que as publicações oficiais consultadas permitem responder.",
+   "problemas": [
+    "abstencao_sem_justificativa"
+   ]
+  }
+ }
+]

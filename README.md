@@ -38,7 +38,7 @@ Repositório da entrega de **Governança em IA e Business Analytics**, que reún
 | RPA | **Integrado por dados** com o Cluster | A carga simulada no Cluster representa a classificação das solicitações do robô |
 | Cluster Computing | **Integrado por dados** com o RPA | Mede quanto o tempo de esvaziar a fila cai de 2 para 4 workers (speedup simulado de 1,9992×) |
 | Visão Computacional | **Integrado por tema** com o Zelo | Mesmo domínio (manutenção urbana); a foto do problema poderia ser classificada no relato do Zelo |
-| Generative AI | **Não integrado** | Em andamento; a própria avaliação recomenda auditoria humana antes de integrar |
+| Generative AI | **Integrado (técnico)** com o Zelo | Aba "Publicações oficiais" do Zelo → serviço isolado `integracao_citizentech` → RAG do DODF. Só na demonstração local (LM Studio); protótipo ainda não validado |
 | PLN | **Não integrado** | Outro problema (direitos do consumidor); a voz poderia virar um canal de entrada do Zelo |
 | IoT (OuviAí) | **Não integrado** | Outro problema (acessibilidade doméstica); roda no celular, sem servidor |
 | Computação Quântica | **Conceitual** | Trabalho sem implementação; o roadmap de criptografia pós-quântica se aplica à proteção dos dados de todos os módulos |
@@ -53,8 +53,8 @@ Cada pasta tem o próprio README com instalação, execução e testes. Resumo:
 |---|---|---|
 | RPA | `python main.py --reset` | `python -m pytest -q` (21 testes) |
 | Cluster | `scripts/executar.ps1` (JDK 17 + iSPD 3.1) | resultados em `resultados/comparacao.md` |
-| Zelo | `docker compose up --build`, ou ver o README da pasta | `cd backend && pytest -q` (28 testes) |
-| Generative AI | ver `05_Generative_AI/README.md` (LM Studio + Qwen3-8B) | `python -m pytest citizentech/assistente/tests -q` (163 testes) |
+| Zelo | `docker compose up --build`, ou ver o README da pasta | `cd backend && pytest -q` (37 testes) |
+| Generative AI (+ integração) | `uvicorn integracao_citizentech.api:app --port 8100` em `01_RPA`, com o LM Studio aberto | `python -m pytest citizentech/assistente/tests integracao_citizentech/tests -q` (348 testes) |
 | PLN | `python app.py` (Ollama + Qwen2.5-3B) | scripts em `tests/` |
 | Visão Computacional | `python app.py` (Gradio) | `scripts/03_avaliar.py` |
 | IoT | Edge Impulse → Deployment → Run this model | relatório em PDF |
@@ -62,5 +62,5 @@ Cada pasta tem o próprio README com instalação, execução e testes. Resumo:
 ## O que ficou fora do repositório
 
 - Arquivos `.env` e chaves de API (só os `.env.example` estão aqui).
-- Artefatos gerados que cada projeto recria sozinho: índices de busca do Gen AI (147 MB), logs, saídas de execução e caches.
+- Artefatos gerados que cada projeto recria sozinho: índices de busca de teste do Gen AI (o índice usado nas consultas está incluído), logs, saídas de execução e caches.
 - A amostra de 2.000 imagens da Visão Computacional **está incluída** (`09_Visao_Computacional/data/`, 16 MB), para que a avaliação possa ser repetida.

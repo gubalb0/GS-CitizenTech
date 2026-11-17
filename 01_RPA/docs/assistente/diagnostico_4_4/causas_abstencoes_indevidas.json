@@ -1,0 +1,1143 @@
+[
+ {
+  "qid": "val-004",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   935,
+   1468
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais produtos foram adquiridos para manutenção da piscina do Hospital de Apoio de Brasíli"
+ },
+ {
+  "qid": "val-009",
+  "status": "ambigua",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1473
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": "ambigua",
+  "motivo": "catalogo",
+  "diverg": "respostas_equivalentes",
+  "confianca": "alta",
+  "pergunta": "Qual é o prazo máximo para a Comissão Eleitoral da Candangolândia concluir o processo elei"
+ },
+ {
+  "qid": "val-019",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   52,
+   60,
+   63,
+   569
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual tipo de análise de água foi solicitado para o Hospital da Criança de Brasília?"
+ },
+ {
+  "qid": "val-022",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   28
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Quais serviços de alimentação hospitalar foram contratados para as unidades de saúde que a"
+ },
+ {
+  "qid": "val-027",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   932,
+   1012
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual é o prazo para recebimento de propostas do Chamamento nº 170/2025 no Hospital da Cria"
+ },
+ {
+  "qid": "val-028",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   187,
+   191
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual é o objeto da aquisição em processo no Hospital da Criança de Brasília José Alencar c"
+ },
+ {
+  "qid": "val-029",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   398,
+   468,
+   469,
+   483,
+   527
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual instituição hospitalar em Ceilândia teve sua dívida de exercício anterior reconhecida"
+ },
+ {
+  "qid": "val-031",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1464
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "valores_nao_sustentados:2023"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Quais foram os indicadores de satisfação dos pacientes no Hospital da Criança de Brasília "
+ },
+ {
+  "qid": "val-032",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1451
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C1"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Quais Unidades Básicas de Saúde no Jardim Botânico foram incluídas no contrato com a empre"
+ },
+ {
+  "qid": "val-033",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   238,
+   440
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:aparelho,anestesia,monitor,sinais,vitais"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais serviços de manutenção foram contratados para o Hospital Regional de Ceilândia?"
+ },
+ {
+  "qid": "val-035",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1009,
+   1054
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual é a unidade de saúde no Recanto das Emas que está participando do processo seletivo p"
+ },
+ {
+  "qid": "val-036",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   2
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual instituição foi credenciante para os serviços prestados no Hospital São Mateus?"
+ },
+ {
+  "qid": "val-044",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   94
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:clinicos,cirurgicos,eletivos,urgencia,emergencia"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais serviços de saúde estão sendo credenciados para atender beneficiários na Asa Sul?"
+ },
+ {
+  "qid": "val-045",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1451
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C1"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual UBS foi adicionada ao contrato no Jardim Botânico?"
+ },
+ {
+  "qid": "val-046",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [],
+  "doc_resposta_no_contexto": "sem_doc_identificado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais materiais de saúde foram adquiridos para o Hospital de Sobradinho?"
+ },
+ {
+  "qid": "val-047",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   141,
+   149
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C1"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais programas de residência médica estão disponíveis no Hospital Regional do Gama?"
+ },
+ {
+  "qid": "val-048",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   596,
+   611,
+   635
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais itens foram adquiridos para o Hospital de Sobradinho conforme as publicações do DODF"
+ },
+ {
+  "qid": "val-052",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   62,
+   196,
+   242,
+   1182,
+   1352
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais insumos e serviços foram adquiridos para o Hospital Regional de Taguatinga conforme "
+ },
+ {
+  "qid": "val-053",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   51,
+   59
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Quais unidades de saúde em Samambaia receberam compressores de ar odontológico conforme as"
+ },
+ {
+  "qid": "val-054",
+  "status": "ambigua",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   545,
+   549,
+   550
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": "ambigua",
+  "motivo": "catalogo",
+  "diverg": "respostas_equivalentes",
+  "confianca": "media",
+  "pergunta": "Qual foi a natureza dos serviços prestados pelo Hospital Prontonorte aos beneficiários da "
+ },
+ {
+  "qid": "val-055",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1056
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais produtos e equipamentos foram adquiridos para as unidades de saúde em Lago Norte?"
+ },
+ {
+  "qid": "val-056",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   688
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais medicamentos foram adquiridos para o Hospital Regional de Ceilândia em maio de 2025?"
+ },
+ {
+  "qid": "val-058",
+  "status": "insuficiente",
+  "orig": "parcial",
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   461
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:0,9,100,12,1000,cloreto,sodio"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais são os itens e medicamentos adquiridos para o Hospital Regional de Planaltina?"
+ },
+ {
+  "qid": "val-060",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1365
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais equipamentos foram distribuídos para as unidades básicas de saúde no SIA conforme o "
+ },
+ {
+  "qid": "val-061",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1307,
+   1352
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais insumos e medicamentos foram adquiridos para atender às necessidades de atenção prim"
+ },
+ {
+  "qid": "val-062",
+  "status": "insuficiente",
+  "orig": "parcial",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1450
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C1"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual é o valor total empenhado para os serviços de cirurgia de cabeça e pescoço no Hospita"
+ },
+ {
+  "qid": "val-063",
+  "status": "insuficiente",
+  "orig": "parcial",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   62,
+   242,
+   1352
+  ],
+  "doc_resposta_no_contexto": "recuperado_nao_enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:500,125,pulseira,identificacao,adulto,branca"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais insumos foram adquiridos para atender às necessidades de saúde em Taguatinga?"
+ },
+ {
+  "qid": "val-064",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   894
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual serviço de saúde será construído em Ceilândia conforme a licitação publicada?"
+ },
+ {
+  "qid": "val-067",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   36
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais insumos de laboratório foram adquiridos para uso na Asa Norte?"
+ },
+ {
+  "qid": "val-069",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   62,
+   338
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais insumos e serviços foram adquiridos para o Hospital Regional de Samambaia através da"
+ },
+ {
+  "qid": "val-074",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   28
+  ],
+  "doc_resposta_no_contexto": "recuperado_nao_enviado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual foi o objeto do fornecimento de alimentação hospitalar para as unidades de saúde que "
+ },
+ {
+  "qid": "val-076",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [],
+  "doc_resposta_no_contexto": "sem_doc_identificado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais insumos foram adquiridos para a Atenção Primária no Guará?"
+ },
+ {
+  "qid": "val-078",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [],
+  "doc_resposta_no_contexto": "sem_doc_identificado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais equipamentos foram adquiridos para a Atenção Primária à Saúde na Região Oeste?"
+ },
+ {
+  "qid": "val-080",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "B",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   407,
+   479
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Qual é o valor autorizado para pagamento à Clínica do Sono e Hospital Otorrino Odonto-Médi"
+ },
+ {
+  "qid": "val-083",
+  "status": "insuficiente",
+  "orig": "parcial",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [],
+  "doc_resposta_no_contexto": "sem_doc_identificado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:estadiometro,infantil,portatil"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais itens foram adquiridos para atender as necessidades da Atenção Primária no Guará?"
+ },
+ {
+  "qid": "val-086",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1479
+  ],
+  "doc_resposta_no_contexto": "recuperado_nao_enviado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais são as novas obrigações registradas para o Hospital Anchieta?"
+ },
+ {
+  "qid": "val-087",
+  "status": "insuficiente",
+  "orig": "parcial",
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   174,
+   180
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "evidencia_nao_corresponde_a_pergunta:nome=coordenacao"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Quais são as competências da Coordenação de Regulação da Região de Saúde Sul em relação ao"
+ },
+ {
+  "qid": "val-088",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [],
+  "doc_resposta_no_contexto": "sem_doc_identificado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:planeta,sorriso,vital,medici"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais serviços de saúde foram credenciados para atender em Sobradinho?"
+ },
+ {
+  "qid": "val-089",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   382,
+   877
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:500,0110-542,video,cirurgia,karl,storz"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais serviços de reparo foram contratados para o Hospital Regional de Taguatinga?"
+ },
+ {
+  "qid": "val-094",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   62,
+   196,
+   338
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C2"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais são os serviços de reparo e aquisições de insumos realizados no Hospital Regional de"
+ },
+ {
+  "qid": "val-095",
+  "status": "ambigua",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   591,
+   1413
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": "sem_divergencia",
+  "confianca": "baixa",
+  "pergunta": "Qual é o objetivo da construção da Unidade Básica de Saúde (UBS Tipo II) em Riacho Fundo I"
+ },
+ {
+  "qid": "val-097",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "B",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   105
+  ],
+  "doc_resposta_no_contexto": "recuperado_nao_enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:5.250.814,42"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual é o valor descentralizado para a construção da unidade básica de saúde no Gama?"
+ },
+ {
+  "qid": "val-105",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1464
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual foi o desempenho do Hospital da Criança de Brasília José Alencar em relação às consul"
+ },
+ {
+  "qid": "val-106",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   994
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "afirmacoes_nao_sustentadas_pela_evidencia:s/a,daher",
+   "evidencia_nao_corresponde_a_pergunta:mes=junho"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual instituição hospitalar em Lago Sul foi parte de um Termo de Compromisso assinado em j"
+ },
+ {
+  "qid": "val-108",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1123,
+   1365
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C2"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais unidades de atenção primária em Ceilândia receberam equipamentos conforme as publica"
+ },
+ {
+  "qid": "val-109",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [],
+  "doc_resposta_no_contexto": "sem_doc_identificado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais itens de enxoval hospitalar foram adquiridos para o Hospital Regional de Ceilândia?"
+ },
+ {
+  "qid": "val-112",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1213
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais serviços hospitalares o Hospital Lago Sul está prestando no Distrito Federal?"
+ },
+ {
+  "qid": "val-117",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   461
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais insumos foram adquiridos para atender às necessidades do Hospital de Planaltina?"
+ },
+ {
+  "qid": "val-119",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   51,
+   59
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Quais unidades de saúde em Santa Maria receberam compressores de ar odontológico conforme "
+ },
+ {
+  "qid": "val-121",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   51
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Qual é o prazo estabelecido para instalação dos equipamentos adquiridos nas unidades de sa"
+ },
+ {
+  "qid": "val-126",
+  "status": "insuficiente",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1014
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "trecho_nao_literal:C2"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "alta",
+  "pergunta": "Qual foi o objeto do Convênio nº 026202/2024-SES/DF celebrado para São Sebastião?"
+ },
+ {
+  "qid": "val-134",
+  "status": "ambigua",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   1026
+  ],
+  "doc_resposta_no_contexto": "nao_recuperado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais serviços de manutenção corretiva foram ratificados para as UBS na Região Oeste?"
+ },
+ {
+  "qid": "val-135",
+  "status": "ambigua",
+  "orig": "respondida",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   417
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": "duplicadas",
+  "confianca": "media",
+  "pergunta": "Qual foi a correção no valor de reconhecimento de dívida da Sociedade Beneficente de Senho"
+ },
+ {
+  "qid": "val-141",
+  "status": "insuficiente",
+  "orig": "parcial",
+  "grupo": "A",
+  "lista": false,
+  "singular": true,
+  "docs_resposta(auditor)": [
+   1035
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": true,
+  "problemas": [
+   "evidencia_nao_corresponde_a_pergunta:nome=programa,nome=dados,nome=periciais"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Qual é a proposta do Programa Nacional de Integração de Dados Periciais sobre Drogas em re"
+ },
+ {
+  "qid": "val-144",
+  "status": "insuficiente",
+  "orig": null,
+  "grupo": "A",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   303
+  ],
+  "doc_resposta_no_contexto": "enviado",
+  "verificador_reprovou": false,
+  "problemas": [],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "baixa",
+  "pergunta": "Quais equipamentos odontológicos foram distribuídos para a UBS do Jardim Botânico?"
+ },
+ {
+  "qid": "val-147",
+  "status": "fora_do_escopo",
+  "orig": null,
+  "grupo": "B",
+  "lista": true,
+  "singular": false,
+  "docs_resposta(auditor)": [
+   624
+  ],
+  "doc_resposta_no_contexto": "recuperado_nao_enviado",
+  "verificador_reprovou": false,
+  "problemas": [
+   "abstencao_sem_justificativa"
+  ],
+  "ident": null,
+  "motivo": null,
+  "diverg": null,
+  "confianca": "media",
+  "pergunta": "Quais procedimentos foram autorizados para o Hospital Pacini em 13/05/2025?"
+ }
+]
