@@ -11,7 +11,8 @@ Repositório da entrega de **Governança em IA e Business Analytics**, que reún
 | Vinicius Araujo | 564504 |
 
 **Links**
-- 🎬 Vídeo da GBA: ✏️ _https://youtu.be/..._
+- 🎬 Vídeo da GBA: https://youtu.be/P9pz_P921nc
+- 🎬 Vídeo do Zelo (Front-end): https://youtu.be/KR_rhEB3jUE
 - 🌐 Zelo publicado: https://zelo-web.onrender.com
 - 📦 Repositório original do Zelo: https://github.com/gubalb0/GS-FRONT
 - 📄 Relatório da GBA: [`06_Governanca_GBA/`](06_Governanca_GBA/)

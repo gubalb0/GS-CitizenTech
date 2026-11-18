@@ -387,7 +387,8 @@ const conclusao = [
 
 const links = [
   H1("4", "Links", 480),
-  P("**Vídeo de demonstração da integração (YouTube, não listado):** [inserir link]"),
+  P("**Vídeo de demonstração da integração (YouTube, não listado):** https://youtu.be/P9pz_P921nc"),
+  P("**Vídeo do Zelo (Front-end):** https://youtu.be/KR_rhEB3jUE"),
   P("**Repositório GitHub com todos os módulos:** https://github.com/gubalb0/GS-CitizenTech"),
   P("**Repositório do Zelo:** https://github.com/gubalb0/GS-FRONT"),
   P("**Zelo publicado:** https://zelo-web.onrender.com"),
